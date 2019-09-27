@@ -1,10 +1,20 @@
 # Digitale Samlinger Solr
 Solr configuration files and setup instructions for the Digitale Samlinger project
 
-## Premise
+## Basics
 Solr is used for handling search as well as record metadata lookup.
 This repository holds Solr configurations for the different collections
 represented in Digitale Samlinger.
+
+## Installation
+In production, Solr installation, updating, backup etc. is handled by Operations.
+
+For testing, Solr should be installed locally. The local installation runs in SolrCloud mode
+and uses the same setup files as production. 
+
+**TODO**: Add installation guide.
+
+## Fields
 
 Field names are lowercase and `_` is the separation character.
 
@@ -28,8 +38,9 @@ Note: This is handled automatically by Solr.
 ### Shared fields
 
 * **title**: The title of the material.
+* **description**: Description of the material.
 * **author (multi value)**: Authors of the material. 
-* **organization (multi value)**: the institution or organization associated with the material. 
+* **organization (multi value)**: the institution or organization behind the material. 
 * **subject (multi value)**: Uncontrolled subjects related to the material.
 Subjects should be descriptive: `Christian 9 (1818-1906) konge af Danmark 1863-1906`.
 * **keyword (multi value)**: Uncontrolled keywords related to the material.
@@ -41,7 +52,7 @@ Note: There can be more than one path.
 publication date. For a photography it would be the time the photo was taken. For a painting it
 would be the time it was painted.
 Note: This is a [DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting)
-that supports non-precise dates such as `2000-11` as well as date rages such as `[2000-11-01 TO 2014-12-01]`.  
+that supports non-precise dates such as `2000-11` as well as date rages such as `[2000-11-01 TO 2014-12-01]`.
 * **created_date (datetime)**: The creation date of the material or metadata about the material
 in the backing system.   
 * **modified_date (datetime)**: When the material or metadata about the material was last changed.
@@ -55,8 +66,22 @@ in any other fields are added to this.
 * **width_cm** / **height_cm** / **depth_cm** (floating point): Physical material dimensions in centimeters.
 Note: For images this is not related to scanning resolution. The dimensions is for the original
 physical object.  
-* **width_pixels** / **height_pixels** / **depth_pixels**: Image dimensions in pixels. The depth
-dimension is for 3D bitmaps, such as  [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging).
+* **width_pixels** / **height_pixels** / **depth_pixels**: Image or moving image dimensions in 
+pixels. The depth dimension is for 3D bitmaps, such as 
+[MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging).
 * **pixels**: total number of pixels in an image.
+* **license**: The license for the material. **TODO**: This should be specified further.
+* **language (multi value)**: [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes): 
+`da` for Danish, `en` for English, `de`for German. 
+* **location (multi value)**: Non-controlled location information: `Denmark`, `Aarhus`, 
+`Victor Albecks Vej 1, 8000 Aarhus C`.
+* **location_coordinates ([LatLonPointSpatialField](https://lucene.apache.org/solr/guide/8_1/spatial-search.html#latlonpointspatialfield))**:
+Geographical coordinates for the material.
 
-### Collection-specific fields
+### Collection specific fields
+Ensure that fields really are collection specific before creating them. If it makes sense, expand
+the shared fields instead.
+
+## Principles
+Be generous with indexing: Solr is the primary metadata delivery mechanism, so it should be possible
+to get all relevant metadata for a given material from a Solr document lookup. 
