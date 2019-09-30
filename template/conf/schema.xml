@@ -1,0 +1,185 @@
+<?xml version="1.0" ?>
+<!-- TODO: Expand these notes
+Default: docValues, not stored
+Alias english & american spelling (organisation/organization)
+Add copyFields
+-->
+<schema name="template" version="1.6">
+  <!--
+       * All fields are prefixed with a comment describing the field
+       * The content of the comment is markdown, in expectation of automated documentation generation
+       * Where it makes sense, sample queries or suggestions for use are included
+  -->
+  <fields>
+
+    <!-- *************************************************************************************
+         Mandatory fields below (all documents must have these)
+         ************************************************************************************* -->
+
+    <!-- An identifier unique within the Royal Danish Library organization.
+         Prefix with `ds_` and append collection-name and a collection-specific identifier for at total such as
+         `ds_danskvestindien_324f243ed528`. No spaces allowed (replace with underscore `_`). -->
+    <field name="id"          type="string" stored="true" required="true" />
+    <!-- The original material type. One of
+         * `image`
+         * `moving_image`
+         * `sound`
+         * `text`
+         * `other`
+         The list of acceptable types will probably be extended. -->
+    <field name="type"        type="string" required="true" />
+    <!-- The name of the overall collection from which the material originated, such as _Dansk Vestindien_. -->
+    <field name="collection"  type="string" required="true" />
+    <!-- A timestamp for when the material was added or updated in Solr.
+        Note: This is handled automatically by Solr. -->
+    <field name="indexed"     type="date" default="NOW" />
+
+
+    <!-- *************************************************************************************
+         Common fields below (should be used over `specific` fields when possible)
+         ************************************************************************************* -->
+
+    <!-- Title for the material. -->
+    <field name="title"            type="text_da"/>
+    <!-- Title for the material, used for sorting.
+         Populated automatically from `title`. -->
+    <field name="title_sort"       type="sort_da"/>
+
+    <!-- Description of the material. -->
+    <field name="description"      type="text_da"/>
+
+    <!-- Authors of the material. -->
+    <field name="author"           type="text_da" multiValued="true"/>
+    <!-- Authors of the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `author` using copyField. -->
+    <field name="author_verbatim"  type="string" multiValued="true"/>
+    <!-- Authors for the material, used for sorting.
+         Populated automatically from `author`.
+         Note: This is multi valued.-->
+    <field name="title_sort"       type="sort_da" multiValues="true"/>
+
+    <!-- The institution or organization behind the material. -->
+    <field name="organization"     type="text_da" multiValued="true"/>
+    <!-- The institution or organization behind the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `organization` using copyField. -->
+    <field name="author_verbatim"  type="string" multiValued="true"/>
+
+    <!-- Uncontrolled subjects related to the material.
+         Subjects should be descriptive: `Christian 9 (1818-1906) konge af Danmark 1863-1906`. -->
+    <field name="subject"          type="text_da" multiValued="true"/>
+
+    <!-- Uncontrolled keywords related to the material.
+         Keywords should be short and generic: `konge`, `kongerække`, `danmark`. -->
+    <field name="keyword"          type="text_da" multiValued="true"/>
+    <!-- Uncontrolled keywords related to the material.
+         Populated automatically from `keyword` using copyField. -->
+    <field name="keyword_verbatim" type="string" multiValued="true"/>
+
+    <!-- The logical hierarchical position of the material, if available.
+         Separate values with `/`. Example: `Billeder/Samlinger/Avis- og bladarkiver/`.
+         Note: There can be more than one path. -->
+    <field name="logical_path"     type="path" multiValued="true"/>
+
+    <!-- The date that the material is about. For a newspaper this would be the
+         publication date. For a photography it would be the time the photo was taken. For a painting it
+         would be the time it was painted.
+         Note: This is a [DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting)
+         that supports non-precise dates such as `2000-11` as well as ranges such as `[2000-11-01 TO 2014-12-01]`. -->
+    <field name="datetime"         type="date_range" />
+    <!-- The creation date of the material or metadata about the material in the backing system. -->
+    <field name="created_date"     type="date" />
+    <!-- When the material or metadata about the material was last changed.
+         If the material or metadata about the material was not changed after creation, this
+         timestamp is the same as `created_date`. -->
+    <field name="modified_date"    type="date" />
+
+    <!-- The major text content of the material, if available.
+         * For a word file, this would be the textual content.
+         * For an image, there would be no value. -->
+    <field name="text"             type="text_da" multiValued="true"/>
+    <!-- Fallback field for search.
+         Misc. content that is not indexed in any other fields are added to this. -->
+    <field name="freetext"         type="text_da" multiValued="true"/>
+
+    <!-- The page that the material is about, e.g. a page number from a book or a newspaper. -->
+    <field name="page"             type="int"/>
+
+    <!-- Physical material dimensions in centimeters.
+         Note: For images this is not related to scanning resolution. The dimensions is for the original
+         physical object. -->
+    <field name="width_cm"         type="double"/>
+    <field name="height_cm"        type="double"/>
+    <field name="depth_cm"         type="double"/>
+
+    <!-- Image or moving image dimensions in pixels. The depth dimension is for 3D bitmaps, such as
+         [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). -->
+    <field name="width_pixels"     type="long"/>
+    <field name="height_pixels"    type="long"/>
+    <field name="depth_pixels"     type="long"/>
+    <!-- Total number of pixels in a still image or a single frame for moving image. -->
+    <field name="pixels"           type="long"/>
+
+    <!-- Short and controlled form of the licence for the material. Valid entries are
+         * [Creative commons hort form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0`
+         * `Apache License 2.0`
+         * `GPL 3.0`
+         TODO: Expand on this. -->
+    <field name="license"          type="string"/>
+
+    <!-- Language for the material. [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
+         `da` for Danish, `en` for English, `de`for German. -->
+    <field name="language"         type="string" multiValued="true"/>
+
+    <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
+    <field name="location"         type="text_da"/>
+
+    <!-- Geographical coordinates for the material. -->
+    <field name="location_coordinates" type="geo"/>
+
+
+    <!-- *************************************************************************************
+         Specific fields below (fields that only makes sense for a specific collection)
+         ************************************************************************************* -->
+
+  </fields>
+  <types>
+    <!-- Guiding principles:
+
+         Atomic types are single-valued, indexed & docValues, but not stored. This allows for low-cost faceting,
+         grouping and sorting. The downside is a performance penalty on document retrieval where a full document
+         takes longer to retrieve. Enabling stored speeds up retrieval at the cost of increased index size.
+
+         Text types are single-valued indexed & stored, but not docValued (DV is not currently possible for Text).
+
+         Deviations are normally handled by overriding for the specific fields. -->
+    <fieldType name="string"   class="solr.StrField"         indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="boolean"  class="solr.BoolField"        indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="int"      class="solr.IntPointField"    indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="long"     class="solr.LongPointField"   indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="float"    class="solr.FloatPointField"  indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="double"   class="solr.DoublePointField" indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="date"     class="solr.DatePointField"   indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="binary"   class="solr.BinaryField"      indexed="false" docValues="false" stored="true" multiValued="false" />
+    <fieldType name="random"   class="solr.RandomSortField" />
+    <fieldType name="sort_da"  class="solr.ICUCollationField" locale="da" strength="secondary" indexed="true" docValues="true" stored="false" termVectors="false" sortMissingLast="true"/>
+    <fieldType name="geo"      class="solr.LatLonPointSpatialField" subFieldSuffix="_coordinates"/>
+
+    <!-- Used for parsing file paths, so that ["MOO BOO/FooBar_zoo.baz"] becomes ["moo", "boo", "foo", "bar", "zoo", "baz"] -->
+    <fieldType name="file_path" class="solr.TextField" positionIncrementGap="100" indexed="true" stored="true" multiValued="false">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory" />
+        <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="0" />
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords_path.txt" />
+        <filter class="solr.LowerCaseFilterFactory" />
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory" />
+        <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="0" />
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords_path.txt" />
+        <filter class="solr.LowerCaseFilterFactory" />
+      </analyzer>
+    </fieldType>
+
+
+  </types>
+</schema>
