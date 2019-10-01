@@ -161,8 +161,11 @@ Add copyFields
     <fieldType name="date"     class="solr.DatePointField"   indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
     <fieldType name="binary"   class="solr.BinaryField"      indexed="false" docValues="false" stored="true" multiValued="false" />
     <fieldType name="random"   class="solr.RandomSortField" />
-    <fieldType name="sort_da"  class="solr.ICUCollationField" locale="da" strength="secondary" indexed="true" docValues="true" stored="false" termVectors="false" sortMissingLast="true"/>
-    <fieldType name="geo"      class="solr.LatLonPointSpatialField" subFieldSuffix="_coordinates"/>
+    <!-- TODO: there is a path problem with loading the ICU libraries (see solrconfig.xml), which needs to be fixed -->
+    <fieldType name="sort_da"   class="solr.StrField"         indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <!--<fieldType name="sort_da"  class="solr.ICUCollationField" locale="da" strength="secondary" indexed="true" docValues="true" stored="false" termVectors="false" sortMissingLast="true"/>-->
+    <!-- https://lucene.apache.org/solr/guide/8_1/spatial-search.html#latlonpointspatialfield -->
+    <fieldType name="geo"      class="solr.LatLonPointSpatialField" docValues="true"/>
 
     <!-- Used for parsing file paths, so that ["MOO BOO/FooBar_zoo.baz"] becomes ["moo", "boo", "foo", "bar", "zoo", "baz"] -->
     <fieldType name="file_path" class="solr.TextField" positionIncrementGap="100" indexed="true" stored="true" multiValued="false">
@@ -180,6 +183,25 @@ Add copyFields
       </analyzer>
     </fieldType>
 
+    <fieldType name="freetext" class="solr.TextField" indexed="true" stored="false" termVectors="true">
+      <analyzer>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.TrimFilterFactory"/>
+        <filter class="solr.LengthFilterFactory" min="1" max="9999999" />
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="text_da" class="solr.TextField" positionIncrementGap="100">
+      <analyzer>
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords_da.txt" format="snowball"/>
+        <filter class="solr.SnowballPorterFilterFactory" language="Danish"/>
+        <filter class="solr.TrimFilterFactory"/>
+        <filter class="solr.LengthFilterFactory" min="1" max="9999999" />
+      </analyzer>
+    </fieldType>
 
   </types>
 </schema>
