@@ -26,6 +26,7 @@ these limits should be raised.
 `solr-8.2.0/bin/solr zk upconfig -z localhost:9983 -d template/ -n ds-conf`
 1. Create a collection in SolrCloud  
 `solr-8.2.0/bin/solr create_collection -c ds -n ds-conf`
+1. Check that the collection was created by visiting [http://localhost:8983/solr/#/~cloud?view=graph](http://localhost:8983/solr/#/~cloud?view=graph)
 1. Stop Solr with  
 `solr-8.2.0/bin/solr stop` 
 
