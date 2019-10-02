@@ -12,6 +12,7 @@ In production, Solr installation, updating, backup etc. is handled by Operations
 For testing, Solr should be installed locally. The local installation runs in SolrCloud mode
 and uses the same setup files as production. 
 
+1. Ensure that the current folder for the term is the `ds-solr`-checkout.
 1. Download Solr 8.2 binary release from https://lucene.apache.org/solr/downloads.html  
 `wget 'http://mirrors.dotsrc.org/apache/lucene/solr/8.2.0/solr-8.2.0.tgz'`
 1. Unpack it  
@@ -29,6 +30,8 @@ these limits should be raised.
 1. Check that the collection was created by visiting [http://localhost:8983/solr/#/~cloud?view=graph](http://localhost:8983/solr/#/~cloud?view=graph)
 1. Stop Solr with  
 `solr-8.2.0/bin/solr stop` 
+
+
 
 
 **TODO**: Add installation guide.
