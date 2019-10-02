@@ -1,0 +1,43 @@
+<add>
+<doc>
+  <field name="id">sample_generic_1</field>
+  <field name="type">text</field>
+  <field name="collection">sample collection</field>
+
+  <field name="title">Sample Title 1</field>
+  <field name="description">A sample document, with values in all fields defined in the template.</field>
+
+  <field name="author">Toke Eskildsen</field>
+  <field name="organization">Royal Danish Library</field>
+
+  <field name="subject">Testing Solr schema for Digitale Samlinger.</field>
+  <field name="keyword">meta</field>
+  <field name="keyword">test</field>
+  <field name="keyword">schema</field>
+  <field name="keyword">Royal Danish Library</field>
+  <field name="logical_path">template/test/samples</field>
+
+  <field name="datetime">2020-01-01</field>
+  <field name="created_date">2019-10-02T16:28:00Z</field>
+  <field name="modified_date">2019-10-02T16:28:00Z</field>
+
+  <field name="text">Lorem ipsum or similar text would probably be fitting here. As is, it is a rather short sample text.</field>
+  <field name="text">The purpose of the text is to test indexing as well as querying, so it makes sense to have something to perform a phrase query on.</field>
+  <field name="text">Also, for the purpose of testing, it makes sense to have values in ALL common fields, although one would normally never see this in the wild.</field>
+  <field name="freetext">Mxyzptlk random semi-garbage</field>
+
+  <field name="width_cm">12</field>
+  <field name="height_cm">13</field>
+  <field name="depth_cm">16.9982</field>
+  <field name="width_pixels">1200</field>
+  <field name="height_pixels">1300</field>
+  <field name="depth_pixels">1700</field>
+  <field name="pixels">2652000000</field>
+
+  <field name="license">cc0</field>
+  <field name="language">en</field>
+  <field name="location">Aarhus, Denmark</field>
+  <!-- TODO: Get proper coordinates for Aarhus -->
+  <field name="location_coordinates">54,48</field>
+</doc>
+</add>
