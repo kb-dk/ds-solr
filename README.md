@@ -27,14 +27,23 @@ these limits should be raised.
 `solr-8.2.0/bin/solr zk upconfig -z localhost:9983 -d template/ -n ds-conf`
 1. Create a collection in SolrCloud  
 `solr-8.2.0/bin/solr create_collection -c ds -n ds-conf`
-1. Check that the collection was created by visiting [http://localhost:8983/solr/#/~cloud?view=graph](http://localhost:8983/solr/#/~cloud?view=graph)
+1. Check that the collection was created by visiting 
+[http://localhost:8983/solr/#/~cloud?view=graph](http://localhost:8983/solr/#/~cloud?view=graph)
+1. Index a sample document  
+`solr-8.2.0/bin/post -c ds test/sample_document_1.xml`
+1. Check that the document was indexed by performing a manual search through the 
+[Solr admin web interface](http://localhost:8983/solr/#/ds/query) or with curl  
+`curl 'http://localhost:8983/solr/ds/select?wt=json&q=*:*`
 1. Stop Solr with  
 `solr-8.2.0/bin/solr stop` 
 
+After this, Solr can be started and stopped with  
+`solr-8.2.0/bin/solr -c -m 1g`  
+and
+`solr-8.2.0/bin/solr stop`  
+without losing any documents.
 
 
-
-**TODO**: Add installation guide.
 
 ## Fields
 Field names are lowercase and `_` is the separation character.
