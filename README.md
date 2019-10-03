@@ -35,7 +35,7 @@ these limits should be raised.
 `solr-8.2.0/bin/post -p 10007 -c ds test/sample_document_1.xml`
 1. Check that the document was indexed by performing a manual search through the 
 [Solr admin web interface](http://localhost:10007/solr/#/ds/query) or with curl  
-`curl 'http://localhost:10007/solr/ds/select?wt=json&q=*:*`
+`curl 'http://localhost:10007/solr/ds/select?wt=json&q=*:*'`
 1. Stop Solr with  
 `solr-8.2.0/bin/solr stop` 
 
@@ -45,6 +45,9 @@ and
 `solr-8.2.0/bin/solr stop`  
 without losing any documents.
 
+## Search tips
+1. Search for all material geographically with [geo rectangle](https://lucene.apache.org/solr/guide/8_1/spatial-search.html#filtering-by-an-arbitrary-rectangle)  
+`curl 'http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[55.10,9.21+TO+58.10,11.21\]'`
 
 
 ## Fields
