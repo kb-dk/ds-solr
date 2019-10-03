@@ -26,7 +26,7 @@ That should not be a problem for small-scale testing, but medium- to large-scale
 these limits should be raised.
 1. Check that the local SolrCloud is running by visiting http://localhost:10007/solr/#/
 1. Upload a collection configuration to SolrCloud    
-`solr-8.2.0/bin/solr zk upconfig -z localhost:9983 -d template/ -n ds-conf`
+`solr-8.2.0/bin/solr zk upconfig -z localhost:11007 -d template/ -n ds-conf`
 1. Create a collection in SolrCloud  
 `solr-8.2.0/bin/solr create_collection -c ds -n ds-conf`
 1. Check that the collection was created by visiting 
