@@ -17,6 +17,8 @@ and uses the same setup files as production.
 `wget 'http://mirrors.dotsrc.org/apache/lucene/solr/8.2.0/solr-8.2.0.tgz'`
 1. Unpack it  
 `tar xzovf solr-8.2.0.tgz`
+1. Compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
+`echo 'SOLR_OPTS="$SOLR_OPTS -Djava.locale.providers=JRE,SPI"' >> solr-8.2.0/bin/solr.in.sh`
 1. Start Solr in cloud mode  
 `solr-8.2.0/bin/solr -c -m 1g -p 10007`    
 It will probably complain about `open file` and `max processes` limits. 
@@ -30,7 +32,7 @@ these limits should be raised.
 1. Check that the collection was created by visiting 
 [http://localhost:10007/solr/#/~cloud?view=graph](http://localhost:10007/solr/#/~cloud?view=graph)
 1. Index a sample document  
-`solr-8.2.0/bin/post -c ds test/sample_document_1.xml`
+`solr-8.2.0/bin/post -p 10007 -c ds test/sample_document_1.xml`
 1. Check that the document was indexed by performing a manual search through the 
 [Solr admin web interface](http://localhost:10007/solr/#/ds/query) or with curl  
 `curl 'http://localhost:10007/solr/ds/select?wt=json&q=*:*`
