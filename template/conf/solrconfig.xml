@@ -41,8 +41,8 @@
     -->
   <!-- ICU libraries -->
   <!-- TODO: Make this work for test installations -->
-  <lib dir="contrib/analysis-extras/lib" regex=".*\.jar" />
-  <lib dir="contrib/analysis-extras/lucene-libs" regex=".*\.jar" />
+  <lib dir="../../../contrib/analysis-extras/lib" regex=".*\.jar" />
+  <lib dir="../../../contrib/analysis-extras/lucene-libs" regex=".*\.jar" />
   
   <!--<lib dir="../../../contrib/extraction/lib" regex=".*\.jar" />
   <lib dir="../../../dist/" regex="solr-cell-\d.*\.jar" />
