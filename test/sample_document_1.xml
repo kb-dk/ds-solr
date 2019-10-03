@@ -38,6 +38,6 @@
   <field name="language">en</field>
   <field name="location">Aarhus, Denmark</field>
   <!-- TODO: Get proper coordinates for Aarhus -->
-  <field name="location_coordinates">54,48</field>
+  <field name="location_coordinates">56.15,10.216667</field>
 </doc>
 </add>
