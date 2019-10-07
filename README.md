@@ -19,6 +19,25 @@ and uses the same setup files as production.
 `tar xzovf solr-8.2.0.tgz`
 1. Compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
 `echo 'SOLR_OPTS="$SOLR_OPTS -Djava.locale.providers=JRE,SPI"' >> solr-8.2.0/bin/solr.in.sh`
+1. Enable [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) by adding the
+following lines immedoately before `</web-app>` (at the very bottom) in `solr-8.2.0/server/solr-webapp/webapp/WEB-INF/web.xml`:  
+```
+   <filter>
+    <filter-name>cross-origin</filter-name>
+    <filter-class>org.eclipse.jetty.servlets.CrossOriginFilter</filter-class>
+    <init-param>
+      <param-name>allowedOrigins</param-name>
+      <param-value>*</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>cross-origin</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping> 
+```  
+Note: CORS is only used for development and testing purposes. When the API is in place, this
+Solr configuration will not be needed anymore.
 1. Start Solr in cloud mode  
 `solr-8.2.0/bin/solr -c -m 1g -p 10007`    
 It will probably complain about `open file` and `max processes` limits. 
