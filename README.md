@@ -20,7 +20,7 @@ and uses the same setup files as production.
 1. Compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
 `echo 'SOLR_OPTS="$SOLR_OPTS -Djava.locale.providers=JRE,SPI"' >> solr-8.2.0/bin/solr.in.sh`
 1. Enable [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) by adding the
-following lines immedoately before `</web-app>` (at the very bottom) in `solr-8.2.0/server/solr-webapp/webapp/WEB-INF/web.xml`:  
+following lines immediately before `</web-app>` (at the very bottom) in `solr-8.2.0/server/solr-webapp/webapp/WEB-INF/web.xml`:  
 ```
    <filter>
     <filter-name>cross-origin</filter-name>
