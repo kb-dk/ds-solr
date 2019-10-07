@@ -44,21 +44,8 @@
   <lib dir="../../../contrib/analysis-extras/lib" regex=".*\.jar" />
   <lib dir="../../../contrib/analysis-extras/lucene-libs" regex=".*\.jar" />
   <lib dir="../../../dist" regex=".*\.jar" />
-  <!--
-  <lib dir="../../../contrib/extraction/lib" regex=".*\.jar" />
-  <lib dir="../../../dist/" regex="solr-cell-\d.*\.jar" />
-
-
-  <lib dir="../../../contrib/clustering/lib/" regex=".*\.jar" />
-  <lib dir="../../../dist/" regex="solr-clustering-\d.*\.jar" />
-
-  <lib dir="../../../contrib/langid/lib/" regex=".*\.jar" />
-  <lib dir="../../../dist/" regex="solr-langid-\d.*\.jar" />
-
-  <lib dir="../../../contrib/velocity/lib" regex=".*\.jar" />
-  <lib dir="../../../dist/" regex="solr-velocity-\d.*\.jar" />
-	  --> 
-  <!-- Data Directory
+	  
+<!-- Data Directory
 
        Used to specify an alternate directory to hold all index data
        other than the default ./data under the Solr home.  If
