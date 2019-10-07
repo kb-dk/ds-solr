@@ -175,8 +175,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <fieldType name="binary"     class="solr.BinaryField"      indexed="false" docValues="false" stored="true" multiValued="false" />
     <fieldType name="random"     class="solr.RandomSortField" />
     <!-- TODO: there is a path problem with loading the ICU libraries (see solrconfig.xml), which needs to be fixed -->
-	    <fieldType name="sort_da"    class="solr.StrField"         indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
-	<!--fieldType name="sort_da"  class="solr.ICUCollationField" locale="da" strength="secondary" indexed="true" docValues="true" stored="false" termVectors="false" sortMissingLast="true"/-->
+	    <!-- fieldType name="sort_da"    class="solr.StrField"         indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" /--> 
+	<fieldType name="sort_da"  class="solr.ICUCollationField" locale="da" strength="secondary" indexed="true" docValues="true" stored="false" termVectors="false" sortMissingLast="true"/>
     <!-- https://lucene.apache.org/solr/guide/8_1/spatial-search.html#latlonpointspatialfield -->
     <fieldType name="geo"        class="solr.LatLonPointSpatialField" docValues="true"/>
 
