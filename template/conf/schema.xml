@@ -96,10 +96,16 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="datetime"         type="date_range" />
     <!-- The creation date of the material or metadata about the material in the backing system. -->
     <field name="created_date"     type="date" />
+    <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
+         Copied verbatim from the source. -->
+    <field name="created_date_verbatim" type="string" />
     <!-- When the material or metadata about the material was last changed.
          If the material or metadata about the material was not changed after creation, this
          timestamp is the same as `created_date`. -->
     <field name="modified_date"    type="date" />
+    <!-- Fallback representation for modified_date, when the source datetime cannot be parsed.
+         Copied verbatim from the source. -->
+    <field name="modified_date_verbatim" type="string" />
 
     <!-- The major text content of the material, if available.
          * For a word file, this would be the textual content.
