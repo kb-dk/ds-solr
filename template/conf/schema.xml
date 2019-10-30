@@ -94,6 +94,9 @@ daterange does not handle docValues - we might need two versions of datetime
          Note: This is a [DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting)
          that supports non-precise dates such as `2000-11` as well as ranges such as `[2000-11-01 TO 2014-12-01]`. -->
     <field name="datetime"         type="date_range" />
+    <!-- Fallback representation for datetime, when the source datetime cannot be parsed.
+         Copied verbatim from the source. -->
+    <field name="datetime_verbatim" type="string" />
     <!-- The creation date of the material or metadata about the material in the backing system. -->
     <field name="created_date"     type="date" />
     <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
