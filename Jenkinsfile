@@ -33,7 +33,7 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                         }
 
                         stage("Test deployed index") {
-                            def route = openshift.selector("route", "ds-solr-test")
+                            def route = openshift.selector("route", "ds-solr")
                             route.describe()
                             sh "./test-index.sh ${route}"
                         }
