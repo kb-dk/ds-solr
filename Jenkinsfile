@@ -28,6 +28,7 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                             openshift.startBuild("ds-solr-test", "--from-dir=.", "--follow")
                             def solr = openshift.newApp("ds-solr-test:latest")
                             solr.describe()
+                            solr.narrow("dc").rollout().status()
                             solr.narrow("dc").logs("-f")
                             openshift.create("route", "edge", "ds-solr", "--port 10007", "--service ds-solr-test")
                             //openshift.raw("expose", "svc/ds-solr-test")
