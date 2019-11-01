@@ -31,7 +31,7 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                             openshift.create("route", "edge", "ds-solr", "--port 10007", "--service ds-solr-test")
                             //openshift.raw("expose", "svc/ds-solr-test")
                             timeout(1) {
-                                solr.watch {
+                                solr.narrow("dc").watch {
                                     eturn openshift.verifyService("ds-solr-test")
                                }
                             }
