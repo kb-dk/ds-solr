@@ -32,7 +32,7 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                             //openshift.raw("expose", "svc/ds-solr-test")
                             timeout(1) {
                                 solr.narrow("dc").watch {
-                                    eturn openshift.verifyService("ds-solr-test")
+                                    return openshift.verifyService("ds-solr-test")
                                }
                             }
                         }
