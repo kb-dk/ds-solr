@@ -33,7 +33,9 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                         }
 
                         stage("Test deployed index") {
-                            sh "./test-index.sh"
+                            def route = openshift.raw("get", "route")
+                            route.describe()
+                            sh "./test-index.sh ${route}"
                         }
 
                     }
