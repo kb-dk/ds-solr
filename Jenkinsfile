@@ -31,6 +31,9 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                             //openshift.raw("expose", "svc/ds-solr-test")
                         }
 
+                        stage("Test deployed index") {
+                            sh "./test-index.sh"
+                        }
 
                     }
                 }
