@@ -45,6 +45,9 @@ and
 `solr-8.2.0/bin/solr stop`  
 without losing any documents.
 
+All documents in the collection can be deleted with
+`curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: text/xml" --data-binary '<delete><query>*:*</query></delete>'`
+
 ## Search tips
 1. Search for all material geographically with [geo rectangle](https://lucene.apache.org/solr/guide/8_1/spatial-search.html#filtering-by-an-arbitrary-rectangle)  
 `curl 'http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[55.10,9.21+TO+58.10,11.21\]'`
