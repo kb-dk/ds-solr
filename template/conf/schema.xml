@@ -44,7 +44,7 @@ daterange does not handle docValues - we might need two versions of datetime
          ************************************************************************************* -->
 
     <!-- Title for the material. -->
-    <field name="title"            type="text_da"/>
+    <field name="title"            type="text_da"  termVectors="true"/>
     <!-- Title for the material, used for sorting.
          Populated automatically from `title`. -->
     <field name="title_sort"       type="sort_da"/>
@@ -77,7 +77,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <!-- Uncontrolled keywords related to the material.
          Keywords should be short and generic: `konge`, `kongerække`, `danmark`. -->
-    <field name="keyword"          type="text_da" multiValued="true"/>
+    <field name="keyword"          type="text_da" multiValued="true" termVectors="true"/>
     <!-- Uncontrolled keywords related to the material.
          Populated automatically from `keyword` using copyField. -->
     <field name="keyword_verbatim" type="string" multiValued="true"/>
