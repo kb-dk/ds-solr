@@ -81,3 +81,8 @@ above the field definition), do state the source field, e.g. _"Corresponds to
 ## Principles
 Be generous with indexing: Solr is the primary metadata delivery mechanism, so it should be
 possible to get all relevant metadata for a given material from a Solr document lookup. 
+
+## MoreLikeThis
+To get results from solr for content similar to search word, send a query to solr with mlt=true. For example, to search for entries that have “Gamle testamente” in their “keyword” field, we use the following:
+ curl "http://localhost:10007/solr/ds/select?q=keyword:Gamle%20testamente&mlt=true&mlt.fl=text"
+In this example, solr returns all entries that have "Gamle testamente" in their "keyword" field
