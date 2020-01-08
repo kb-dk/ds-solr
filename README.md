@@ -45,7 +45,7 @@ and
 `solr-8.2.0/bin/solr stop`  
 without losing any documents.
 
-Documents, such at the `XML`-file produced by (ds-cumulus-export)[https://github.com/Det-Kongelige-Bibliotek/ds-cumulus-export], are indexed in Solr with  
+Documents, such at the `XML`-file produced by [ds-cumulus-export](https://github.com/Det-Kongelige-Bibliotek/ds-cumulus-export), are indexed in Solr with  
 `solr-8.2.0/bin/post -p 10007 -c ds indexThisInSolr.xml`
 
 
