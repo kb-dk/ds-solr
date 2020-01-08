@@ -40,7 +40,7 @@ these limits should be raised.
 `solr-8.2.0/bin/solr stop` 
 
 After this, Solr can be started and stopped with  
-`solr-8.2.0/bin/solr -c -m 1g`  
+`solr-8.2.0/bin/solr -c -m 1g -p 10007`  
 and
 `solr-8.2.0/bin/solr stop`  
 without losing any documents.
