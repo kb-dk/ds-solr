@@ -45,6 +45,10 @@ and
 `solr-8.2.0/bin/solr stop`  
 without losing any documents.
 
+Documents, such at the `XML`-file produced by (ds-cumulus-export)[https://github.com/Det-Kongelige-Bibliotek/ds-cumulus-export], are indexed in Solr with  
+`solr-8.2.0/bin/post -p 10007 -c ds indexThisInSolr.xml`
+
+
 ## Search tips
 1. Search for all material geographically with [geo rectangle](https://lucene.apache.org/solr/guide/8_1/spatial-search.html#filtering-by-an-arbitrary-rectangle)  
 `curl 'http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[55.10,9.21+TO+58.10,11.21\]'`
