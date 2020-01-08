@@ -13,8 +13,8 @@ For testing, Solr should be installed locally. The local installation runs in So
 and uses the same setup files as production. 
 
 1. Ensure that the current folder for the term is the `ds-solr`-checkout.
-1. Download Solr 8.2 binary release from https://lucene.apache.org/solr/downloads.html  
-`wget 'http://mirrors.dotsrc.org/apache/lucene/solr/8.2.0/solr-8.2.0.tgz'`
+1. Download Solr 8.2 binary release from https://archive.apache.org/dist/lucene/solr/  
+`wget 'https://archive.apache.org/dist/lucene/solr/8.2.0/solr-8.2.0.tgz'`
 1. Unpack it  
 `tar xzovf solr-8.2.0.tgz`
 1. Compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
