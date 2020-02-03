@@ -172,6 +172,10 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Geographical coordinates for the material. -->
     <field name="location_coordinates" type="geo"/>
 
+    <!-- Image similarity DHash in the form of <Complexity><bitcount>_<value> e.g. "Simple30_890940".
+         Note that the field is multi-valued and will eventually contain mutiple DHashes of varying
+         complexity and bitcount. -->
+    <field name="dhash"                type="string" multiValued="true" />
 
     <!-- *************************************************************************************
          Specific fields below (fields that only makes sense for a specific collection)
