@@ -26,13 +26,17 @@ That should not be a problem for small-scale testing, but medium- to large-scale
 these limits should be raised.
 1. Check that the local SolrCloud is running by visiting http://localhost:10007/solr/#/
 1. Upload a collection configuration to SolrCloud    
-`solr-8.2.0/bin/solr zk upconfig -z localhost:11007 -d template/ -n ds-conf`
+`solr-8.2.0/bin/solr zk upconfig -z localhost:11007 -d template/ -n ds-conf` 
+alternatively use `curl`
+`cd template/conf/ ; zip -q -r t.zip * ; curl -X POST --header "Content-Type:application/octet-stream" --data-binary @t.zip "http://localhost:10007/solr/admin/configs?action=UPLOAD&name=ds-conf" ; rm t.zip ; cd -`
 1. Create a collection in SolrCloud  
-`solr-8.2.0/bin/solr create_collection -c ds -n ds-conf`
+`solr-8.2.0/bin/solr create_collection -c ds -n ds-conf` 
+alternatively use `curl`
+`curl 'http://localhost:10007/solr/admin/collections?action=CREATE&name=ds&collection.configName=ds-conf&numShards=1&replicationFactor=1&wt=xml'`
 1. Check that the collection was created by visiting 
 [http://localhost:10007/solr/#/~cloud?view=graph](http://localhost:10007/solr/#/~cloud?view=graph)
 1. Index a sample document  
-`solr-8.2.0/bin/post -p 10007 -c ds test/sample_document_1.xml`
+`curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: text/xml" --data-binary @test/sample_document_1.xml`
 1. Check that the document was indexed by performing a manual search through the 
 [Solr admin web interface](http://localhost:10007/solr/#/ds/query) or with curl  
 `curl 'http://localhost:10007/solr/ds/select?wt=json&q=*:*'`
@@ -48,6 +52,8 @@ without losing any documents.
 Documents, such at the `XML`-file produced by [ds-cumulus-export](https://github.com/Det-Kongelige-Bibliotek/ds-cumulus-export), are indexed in Solr with  
 `solr-8.2.0/bin/post -p 10007 -c ds indexThisInSolr.xml`
 
+All documents in the collection can be deleted with
+`curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: text/xml" --data-binary '<delete><query>*:*</query></delete>'`
 
 ## Search tips
 1. Search for all material geographically with [geo rectangle](https://lucene.apache.org/solr/guide/8_1/spatial-search.html#filtering-by-an-arbitrary-rectangle)  
