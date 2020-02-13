@@ -13,8 +13,8 @@ For testing, Solr should be installed locally. The local installation runs in So
 and uses the same setup files as production. 
 
 1. Ensure that the current folder for the term is the `ds-solr`-checkout.
-1. Download Solr 8.2 binary release from https://lucene.apache.org/solr/downloads.html  
-`wget 'http://mirrors.dotsrc.org/apache/lucene/solr/8.2.0/solr-8.2.0.tgz'`
+1. Download Solr 8.2 binary release from https://archive.apache.org/dist/lucene/solr/  
+`wget 'https://archive.apache.org/dist/lucene/solr/8.2.0/solr-8.2.0.tgz'`
 1. Unpack it  
 `tar xzovf solr-8.2.0.tgz`
 1. Compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
@@ -44,10 +44,13 @@ alternatively use `curl`
 `solr-8.2.0/bin/solr stop` 
 
 After this, Solr can be started and stopped with  
-`solr-8.2.0/bin/solr -c -m 1g`  
+`solr-8.2.0/bin/solr -c -m 1g -p 10007`  
 and
 `solr-8.2.0/bin/solr stop`  
 without losing any documents.
+
+Documents, such at the `XML`-file produced by [ds-cumulus-export](https://github.com/Det-Kongelige-Bibliotek/ds-cumulus-export), are indexed in Solr with  
+`solr-8.2.0/bin/post -p 10007 -c ds indexThisInSolr.xml`
 
 All documents in the collection can be deleted with
 `curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: text/xml" --data-binary '<delete><query>*:*</query></delete>'`
