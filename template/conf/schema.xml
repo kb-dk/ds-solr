@@ -50,8 +50,14 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="title_sort"       type="sort_da"/>
     <copyField source="title"      dest="title_sort"/>
 
+    <!-- Alternative ID. -->
+    <field name="record_name"      type="string"/>
+
     <!-- Description of the material. -->
     <field name="description"      type="text_da"/>
+
+    <!-- Free-form notes for the material. -->
+    <field name="note"             type="text_da" multiValued="true"/>
 
     <!-- Authors of the material. -->
     <field name="author"           type="text_da" multiValued="true"/>
@@ -64,6 +70,18 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="author_sort"       type="sort_da" multiValued="true"/>
     <copyField source="author"      dest="author_sort"/>
     <copyField source="author"      dest="author_verbatim"/>
+
+    <!-- The person or persons that is the subject of the material, e.g. the person shown on a painting. -->
+    <field name="subject_person"    type="text_da" multiValued="true"/>
+    <!-- Subject_Persons of the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `subject_person` using copyField. -->
+    <field name="subject_person_verbatim"  type="string" multiValued="true"/>
+    <!-- Subject_Persons for the material, used for sorting.
+         Populated automatically from `subject_person`.
+         Note: This is multi valued.-->
+    <field name="subject_person_sort" type="sort_da" multiValued="true"/>
+    <copyField source="subject_person" dest="subject_person_sort"/>
+    <copyField source="subject_person" dest="subject_person_verbatim"/>
 
     <!-- The institution or organization behind the material. -->
     <field name="organization"     type="text_da" multiValued="true"/>
@@ -82,6 +100,14 @@ daterange does not handle docValues - we might need two versions of datetime
          Populated automatically from `keyword` using copyField. -->
     <field name="keyword_verbatim" type="string" multiValued="true"/>
     <copyField source="keyword"    dest="keyword_verbatim"/>
+
+    <!-- Uncontrolled topics related to the material.
+         Topics should be longer than keywords, but not elaborate descriptions.-->
+    <field name="topic"            type="text_da" multiValued="true" termVectors="true"/>
+    <!-- Uncontrolled topics related to the material.
+         Populated automatically from `topic` using copyField. -->
+    <field name="topic_verbatim"   type="string" multiValued="true"/>
+    <copyField source="topic"      dest="topic_verbatim"/>
 
     <!-- The logical hierarchical position of the material, if available.
          Separate values with `/`. Example: `Billeder/Samlinger/Avis- og bladarkiver/`.
@@ -162,6 +188,9 @@ daterange does not handle docValues - we might need two versions of datetime
          TODO: Expand on this. -->
     <field name="license"          type="string"/>
 
+    <!-- Uncontrolled copyright oriented text -->
+    <field name="license_notice"   type="text_da" multiValued="true"/>
+
     <!-- Language for the material. [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
          `da` for Danish, `en` for English, `de`for German. -->
     <field name="language"         type="string" multiValued="true"/>
@@ -172,6 +201,28 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Geographical coordinates for the material. -->
     <field name="location_coordinates" type="geo"/>
 
+    <!-- Primary and secondary type description of the physical material. -->
+    <field name="physical_source_1"    type="string"/>
+    <field name="physical_source_2"    type="string"/>
+
+    <!-- Institution-internal location, e.g. room, shelf, box. -->
+    <field name="archive_location"     type="string"/>
+
+    <!-- Institution-internal reference number for the physical material. -->
+    <field name="accession_number"     type="string"/>
+
+    <!-- Source location or reference to the material for the document.
+         Primarily used for debugging/backtracing. -->
+    <field name="source_material_reference" type="string"/>
+    
+    <!-- Free-form external reference to related material.
+         TODO: At some point this should be tightly coupled to related_url_text below. -->
+    <field name="related_url"          type="string"/>
+
+    <!-- Free-form external reference text to related material.
+         TODO: At some point this should be tightly coupled to related_url above. -->
+    <field name="related_url_text"     type="text_da"/>
+    
     <!-- Image similarity DHash in the form of <Complexity><bitcount>_<value> e.g. "Simple30_890940".
          Note that the field is multi-valued and will eventually contain mutiple DHashes of varying
          complexity and bitcount. -->
