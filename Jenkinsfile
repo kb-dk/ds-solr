@@ -10,7 +10,7 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
         
 
         try {
-            node('kb-jenkins-agent-java-11') {
+            node('maven') {
                 //Do not use concurrent builds
                 properties([disableConcurrentBuilds()])
 
