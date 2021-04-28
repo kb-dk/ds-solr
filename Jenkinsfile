@@ -35,8 +35,6 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                                     return it.object().status.containerStatuses[0].ready
                                 }
                             }
-                            def deployment = solr.narrow("deployment").object()
-                            echo "Deployment: ${deployment}"
                             solr.narrow("dc").rollout().status()
                             openshift.create("route", "edge", "ds-solr", "--port 10007", "--service ds-solr-test")
                         }
