@@ -27,6 +27,13 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                             openshift.newBuild("--strategy source", "--binary", "-i kb-infra/kb-s2i-solr:latest", "--name ds-solr-test")
                             openshift.startBuild("ds-solr-test", "--from-dir=.", "--follow")
                             def solr = openshift.newApp("ds-solr-test:latest")
+                            def pod = openshift.selector("pod", [deployment : "ds-solr-test"])
+                            timeout(1) {
+                                pod.untilEach(1) { 
+                                    echo "pod: ${it.name()}"
+                                    return it.object().status.containerStatuses[0].ready
+                                }
+                            }
                             def deployment = solr.narrow("deployment").object()
                             echo "Deployment: ${deployment}"
                             solr.narrow("dc").rollout().status()
