@@ -42,24 +42,25 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                     }
                 }
 
-                //stage('Cleanup') {
-                   //Disable this, if you want to keep the running instances
-                //   echo "Doing the cleanup"
-                //   openshift.selector("project/${projectName}").delete()
-                //}
-
-
+                stage('Cleanup') {
+                    if (env.BRANCH_NAME == 'master') {
+                        echo "On master branch, letting template app run"
+                    } else {
+//                      echo "Not on master branch, tearing down"
+//                    openshift.selector("project/${projectName}").delete()
+                    }
+                }
             }
         } catch (e) {
             currentBuild.result = 'FAILURE'
             throw e
         } finally {
             configFileProvider([configFile(fileId: "notifier", variable: 'notifier')]) {  
-            def notifier = load notifier             
-            notifier.notifyInCaseOfFailureOrImprovement(true, "#playground")
-        } 
+                def notifier = load notifier             
+                notifier.notifyInCaseOfFailureOrImprovement(true, "#playground")
+            } 
+        }
     }
-}
 
 
 private void recreateProject(String projectName) {
@@ -89,7 +90,26 @@ private void recreateProject(String projectName) {
  * @return the jobname as a valid openshift project name
  */
 private static String encodeName(groovy.lang.GString jobName) {
-    def name = jobName
+    def jobTokens = jobName.tokenize("/")
+    def org = jobTokens[0]
+    if(org.contains('-')) {
+        org = org.tokenize("-").collect{it.take(1)}.join("")
+    } else {
+        org = org.take(3)
+    }
+
+    // Repository have a very long name, lets shorten it further
+    def repo = jobTokens[1]
+    if(repo.contains('-')) {
+        repo = repo.tokenize("-").collect{it.take(1)}.join("")
+    } else if(repo.contains('_')) {
+        repo = repo.tokenize("_").collect{it.take(1)}.join("")
+    } else {
+        repo = repo.take(3)
+    }
+
+
+    def name = ([org, repo] + jobTokens.drop(2)).join("-")
             .replaceAll("\\s", "-")
             .replaceAll("_", "-")
             .replace("/", '-')
