@@ -34,8 +34,8 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
 			stage("Wait for deployed application to be available") {
                             timeout(5) {
                                 def numPods = 1
-                                def dcSelector = openshift.selector('dc', 'ds-solr-test').object()
-                                def podSelector = openshift.selector('pod', [deployment: "ds-solr-test-${dcObj.status.latestVersion}"])
+                                def deploymentObj = openshift.selector('deploy', 'ds-solr-test').object()
+                                def podSelector = openshift.selector('pod', [deployment: "ds-solr-test-${deploymentObj.status.latestVersion}"])
                                 podSelector.untilEach {
                                     echo "pod: ${it.name()}"
                                     return it.object().status.containerStatuses[0].ready
