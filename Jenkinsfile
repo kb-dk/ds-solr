@@ -72,7 +72,7 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
         }
     }
 
-private void waitForPod(Selector pod) {
+private void waitForPod(pod) {
     timeout(1) {
         try {
             pod.untilEach(1) {
