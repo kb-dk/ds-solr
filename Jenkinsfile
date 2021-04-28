@@ -27,21 +27,22 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                             openshift.newBuild("--strategy source", "--binary", "-i kb-infra/kb-s2i-solr:latest", "--name ds-solr-test")
                             openshift.startBuild("ds-solr-test", "--from-dir=.", "--follow")
                             def solr = openshift.newApp("ds-solr-test:latest")
+                            def deployment = solr.narrow("deployment").object()
+                            echo "Deployment: ${deployment}"
                             solr.narrow("dc").rollout().status()
                             openshift.create("route", "edge", "ds-solr", "--port 10007", "--service ds-solr-test")
                         }
 			
-			stage("Wait for deployed application to be available") {
-                            timeout(60) {
-                                def numPods = 1
-                                def deploymentObj = openshift.selector('deploy', 'ds-solr-test').object()
-                                def podSelector = openshift.selector('pod', [deployment: "ds-solr-test-${deploymentObj.status.latestVersion}"])
-                                podSelector.untilEach {
-                                    echo "pod: ${it.name()}"
-                                    return it.object().status.containerStatuses[0].ready
-                                }
-                            }
-                        }
+//	stage("Wait for deployed application to be available") {
+//                            timeout(5) {
+  //                              def deploymentObj = openshift.selector('deploy', 'ds-solr-test').object()
+    //                            def podSelector = openshift.selector('pod', [deployment: "ds-solr-test-${deploymentObj.status.latestVersion}"])
+      //                          podSelector.untilEach {
+        //                            echo "pod: ${it.name()}"
+          //                          return it.object().status.containerStatuses[0].ready
+            //                    }
+              //              }
+                //        }
 
                         stage("Test deployed index") {
                             def route = openshift.selector("route", "ds-solr")
