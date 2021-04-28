@@ -29,12 +29,14 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                             def solr = openshift.newApp("ds-solr-test:latest")
                             openshift.set("probe", "deployment/ds-solr-test", "--readiness", "--get-url=http://:10007/solr/")
                             def pod = openshift.selector("pod", [deployment : "ds-solr-test"])
-                            timeout(1) {
-                                pod.untilEach(1) { 
-                                    echo "pod: ${it.name()}"
-                                    return it.object().status.containerStatuses[0].ready
-                                }
-                            }
+                            waitForPod(pod)
+
+//                            timeout(1) {
+  //                              pod.untilEach(1) { 
+    //                                echo "pod: ${it.name()}"
+      //                              return it.object().status.containerStatuses[0].ready
+        //                        }
+          //                  }
                             solr.narrow("dc").rollout().status()
                             openshift.create("route", "edge", "ds-solr", "--port 10007", "--service ds-solr-test")
                         }
@@ -70,6 +72,18 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
         }
     }
 
+private void waitForPod(Selector pod) {
+    timeout(1) {
+        try {
+            pod.untilEach(1) {
+                echo "pod: ${it.name()}"
+                return it.object().status.containerStatuses[0].ready
+            }
+        } catch (e) {
+            echo "Got execption while waiting" + e
+        }
+    }
+}
 
 private void recreateProject(String projectName) {
     echo "Delete the project ${projectName}, ignore errors if the project does not exist"
