@@ -52,13 +52,19 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                     }
                 }
 
-                stage('Cleanup') {
+                stage('Promote image') {
                     if (env.BRANCH_NAME == 'master') {
-                        echo "On master branch, letting template app run"
+                        configFileProvider([configFile(fileId: "imagePromoter", variable: 'promoter')]) {
+                            def promoter = load promoter
+                            promoter.promoteImage("ds-solr", "${projectName}",  "digitalesamlinger", "latest")
+                        }
                     } else {
-//                      echo "Not on master branch, tearing down"
-//                    openshift.selector("project/${projectName}").delete()
+                        echo "Branch ${env.BRANCH_NAME} is not develop, so no promotion"
                     }
+                }
+
+                stage('Cleanup') {
+                    openshift.selector("project/${projectName}").delete()
                 }
             }
         } catch (e) {
