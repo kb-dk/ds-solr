@@ -7,7 +7,7 @@ digital library objects.
 
 | File | Source | Format | Search for  |
 |:-----|:-------|:-------|:----------------|
-|[henrik-hertz.xml](henrik-hertz.xml) | [letter-corpus](https://github.com/kb-dk/letter-corpus/letter_books/001990301/001990301_000.xml) | TEI | Berlin, Hertz, Brandes |
-|[oersted.xml](oersted.xml) | https://github.com/kb-dk/letter-corpus/letter_books/002053861/002053861_X00.xml | TEI | Ørsted, Berlin, Sorø |
+|[henrik-hertz.xml](henrik-hertz.xml) | [letter-corpus](https://github.com/kb-dk/letter-corpus/tree/master/letter_books/001990301/001990301_000.xml) | TEI | Berlin, Hertz, Brandes |
+|[oersted.xml](oersted.xml) | https://github.com/kb-dk/letter-corpus/tree/master/letter_books/002053861/002053861_X00.xml | TEI | Ørsted, Berlin, Sorø |
 |[simonsen-brandes.xml](simonsen-brandes.xml) |Simonsen's Arkiv via [cop syndication](http://www5.kb.dk/cop/syndication/letters/judsam/2011/mar/dsa/subject1952/en/) | mods & RSS2 | Simonsen, Brandes, København/Copenhagen |
 |[tystrup-soroe.xml](tystrup-soroe.xml)| Danmark set fra luften via [cop syndication](http://www5.kb.dk/cop/syndication/images/luftfo/2011/maj/luftfoto/object322504/da/) | mods & RSS2 | Sorø |
