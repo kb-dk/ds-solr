@@ -26,10 +26,11 @@
         <md:titleInfo xmlns:java="http://xml.apache.org/xalan/java" xmlns:mix="http://www.loc.gov/mix/v10" xml:lang="da">
           <md:title>Hvidovre Teater</md:title>
         </md:titleInfo>
-        <md:name xmlns:java="http://xml.apache.org/xalan/java" xmlns:mix="http://www.loc.gov/mix/v10" type="personal" xml:lang="da">
-          <md:namePart>Seidel, Claus (24.5.1946-) bladtegner</md:namePart>
+        <md:name xml:lang="da" authorityURI="http://viaf.org/viaf/25276097">
+          <md:namePart>Seidel, Claus<!-- bladtegner--></md:namePart>
+          <md:namePart type="date">1946-05-24</md:namePart>
           <md:role>
-            <md:roleTerm type="text">creator</md:roleTerm>
+            <md:roleTerm authority="marcrelator" type="text">art</md:roleTerm>
           </md:role>
         </md:name>
         <md:name xmlns:java="http://xml.apache.org/xalan/java" xmlns:mix="http://www.loc.gov/mix/v10" type="cumulus" xml:lang="da">
@@ -45,7 +46,7 @@
           </md:titleInfo>
         </md:relatedItem>
         <md:originInfo xmlns:java="http://xml.apache.org/xalan/java" xmlns:mix="http://www.loc.gov/mix/v10">
-          <md:dateCreated encoding="w3cdtf">1987.1.31</md:dateCreated>
+          <md:dateCreated t:notBefore="1987-01-31" t:notAfter="1987-01-31" encoding="w3cdtf">1987-01-31</md:dateCreated>
         </md:originInfo>
         <!--event $Id: event_formulator.xsl 1855 2012-04-16 15:27:32Z abwe $ -->
         <md:relatedItem xmlns:java="http://xml.apache.org/xalan/java" xmlns:mix="http://www.loc.gov/mix/v10" type="event">
@@ -77,9 +78,22 @@
 	node=4277-->
           <h:div xmlns:h="http://www.w3.org/1999/xhtml" xlink:href="#4277"><h:a href="/editions/any/2009/jul/editions/en/" xml:lang="en">Home</h:a><h:a href="/editions/any/2009/jul/editions/da/" xml:lang="da">Hjem</h:a>/<h:a href="../../subject2108/en/" xml:lang="en">Billeder</h:a><h:a href="../../subject2108/da/" xml:lang="da">Billeder</h:a>/<h:a href="../../subject2135/en/" xml:lang="en">Særudgivelser</h:a><h:a href="../../subject2135/da/" xml:lang="da">Særudgivelser</h:a>/<h:a href="../../subject6229/en/" xml:lang="en">Bladtegninger</h:a><h:a href="../../subject6229/da/" xml:lang="da">Bladtegninger</h:a>/<h:a href="../../subject4277/en/" xml:lang="en">Seidel, Claus</h:a><h:a href="../../subject4277/da/" xml:lang="da">Seidel, Claus</h:a></h:div>
         </md:extension>
-        <md:subject xmlns:java="http://xml.apache.org/xalan/java" xmlns:mix="http://www.loc.gov/mix/v10" xml:lang="da">
-          <md:name>
-            <md:namePart>Lind, Lane (f. 1945) skuespiller Sandø, Waage (f. 1943) skuespiller</md:namePart>
+        <md:subject xml:lang="da">
+          <md:name  authorityURI="http://viaf.org/viaf/312847028">
+            <md:namePart type="given">Lind, Lane</md:namePart>
+            <md:namePart type="date">1945-</md:namePart>            
+            <md:role>
+              <md:roleTerm authority="marcrelator">act</md:roleTerm>
+            </md:role>
+          </md:name>
+        </md:subject>
+        <md:subject xml:lang="da">
+          <md:name authorityURI="http://viaf.org/viaf/316745351">
+            <md:namePart type="given">Sandø, Waageskuespiller</md:namePart>
+            <md:namePart type="date">1943-</md:namePart>
+            <md:role>
+              <md:roleTerm authority="marcrelator">act</md:roleTerm>
+            </md:role>
           </md:name>
         </md:subject>
         <md:note xmlns:java="http://xml.apache.org/xalan/java" xmlns:mix="http://www.loc.gov/mix/v10" xml:lang="da">Sprittusch og raster</md:note>
