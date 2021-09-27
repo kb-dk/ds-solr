@@ -46,12 +46,14 @@
 
             <xsl:for-each select="distinct-values(m:name/m:role/m:roleTerm)">
               <xsl:variable name="term" select="."/>
-              <f:array>
-                <xsl:attribute name="key"><xsl:value-of select="."/></xsl:attribute>
-                <xsl:for-each select="$dom//m:name[m:role/m:roleTerm = $term]">
-                  <xsl:call-template name="get-names"/>
-                </xsl:for-each>
-              </f:array>
+              <xsl:if test="not(contains($term,'last-modified-by'))">
+                <f:array>
+                  <xsl:attribute name="key"><xsl:value-of select="."/></xsl:attribute>
+                  <xsl:for-each select="$dom//m:name[m:role/m:roleTerm = $term]">
+                    <xsl:call-template name="get-names"/>
+                  </xsl:for-each>
+                </f:array>
+              </xsl:if>
             </xsl:for-each>
             
 

@@ -25,7 +25,7 @@
           <md:recordCreationDate encoding="w3cdtf">2007-10-09</md:recordCreationDate>
           <md:recordChangeDate encoding="w3cdtf">2016-07-28</md:recordChangeDate>
         </md:recordInfo>
-        <md:name>
+        <md:name authorityURI="http://viaf.org/viaf/307245669">
           <md:namePart>Sylvest Jensen Luftfoto</md:namePart>
           <md:role>
             <md:roleTerm type="text">creator</md:roleTerm>
