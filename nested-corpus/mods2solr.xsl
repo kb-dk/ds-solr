@@ -58,7 +58,7 @@
             <xsl:for-each select="distinct-values(m:subject/m:name/m:role/m:roleTerm)">
               <xsl:variable name="term" select="."/>
               <f:array>
-                <xsl:attribute name="key"><xsl:value-of select="."/></xsl:attribute>
+                <xsl:attribute name="key">subject</xsl:attribute>
                 <xsl:for-each select="$dom//m:subject/m:name[m:role/m:roleTerm = $term]">
                   <xsl:call-template name="get-names"/>
                 </xsl:for-each>
