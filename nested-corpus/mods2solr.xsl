@@ -26,8 +26,8 @@
             <f:string key="title">
               <xsl:value-of select="m:titleInfo/m:title"/>
             </f:string>
-
-             <xsl:for-each select="distinct-values(m:name/m:role/m:roleTerm)">
+            
+            <xsl:for-each select="distinct-values(m:name/m:role/m:roleTerm)">
               <xsl:variable name="term" select="."/>
               <xsl:if test="not(contains($term,'last-modified-by'))">
                 <f:array>
