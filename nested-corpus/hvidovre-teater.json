@@ -1,0 +1,25 @@
+[
+  {
+    "id": "/images/billed/2010/okt/billeder/object356751",
+    "title": "Hvidovre Teater",
+    "art": [
+      {
+        "id": "http://viaf.org/viaf/25276097",
+        "name": "Seidel, Claus (1946-05-24)"
+      }
+    ],
+    "subject": [
+      {
+        "id": "http://viaf.org/viaf/312847028",
+        "name": "Lind, Lane (1945-)"
+      },
+      {
+        "id": "http://viaf.org/viaf/316745351",
+        "name": "Sandø, Waageskuespiller (1943-)"
+      }
+    ],
+    "not_after_date": "1987-01-31",
+    "not_before_date": "1987-01-31",
+    "date": "1987-01-31"
+  }
+]

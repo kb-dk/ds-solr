@@ -1,0 +1,21 @@
+[
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object7871",
+    "title": "Letter from Einstein, Albert to Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/75121530",
+        "name": "Einstein, Albert"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "not_after_date": "1920-06-27",
+    "not_before_date": "1920-06-27",
+    "date": "1920-06-27"
+  }
+]

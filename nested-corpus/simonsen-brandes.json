@@ -1,0 +1,173 @@
+[
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2678",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1916-04-12",
+    "not_before_date": "1916-04-12",
+    "date": "1916-04-12"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2671",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1915-05-18",
+    "not_before_date": "1915-05-18",
+    "date": "1915-05-18"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2681",
+    "title": "Letter from Brandes, Georg to Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "not_after_date": "1927-02-19",
+    "not_before_date": "1892-01-01",
+    "date": "3. juni"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2674",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1915-06-23",
+    "not_before_date": "1915-06-23",
+    "date": "1915-06-23"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2680",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1920-03-25",
+    "not_before_date": "1920-03-25",
+    "date": "1920-03-25"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2676",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1916-04-14",
+    "not_before_date": "1916-04-14",
+    "date": "1916-04-14"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2670",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1914-10-29",
+    "not_before_date": "1914-10-29",
+    "date": "1914-10-29"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2679",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1920-03-19",
+    "not_before_date": "1920-03-19",
+    "date": "1920-03-19"
+  },
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object2673",
+    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "aut": [
+      {
+        "id": "http://viaf.org/viaf/54951228",
+        "name": "Simonsen, David"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "http://viaf.org/viaf/4938982",
+        "name": "Brandes, Georg"
+      }
+    ],
+    "not_after_date": "1915-05-23",
+    "not_before_date": "1915-05-23",
+    "date": "1915-05-23"
+  }
+]
