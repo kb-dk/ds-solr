@@ -77,7 +77,7 @@
 
               <xsl:for-each select="distinct-values($categories)" >
                 <xsl:variable name="subject"
-                              select="replace(.,'(.*/sub)([^/]+)','sub$2')"/>
+                              select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'/')"/>
                 <f:map>
                   <f:string key="id"><xsl:value-of select="."/></f:string>
                   <f:string key="da">
