@@ -95,9 +95,11 @@
                 
 
             </f:array>
-            
+
             <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
-              <f:string key="dcterms_spatial"><xsl:value-of select="."/></f:string>
+              <xsl:if test="not(contains(.,'0.0,0.0'))">
+                <f:string key="dcterms_spatial"><xsl:value-of select="."/></f:string>
+              </xsl:if>
             </xsl:for-each>
 
             <xsl:for-each select="m:originInfo/m:dateCreated/@t:notAfter">
