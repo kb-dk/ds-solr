@@ -14,7 +14,7 @@
           <xsl:variable name="dom" select="."/>
           <f:map>
             <f:string key="id">
-              <xsl:choose>
+                <xsl:choose>
                 <xsl:when test="processing-instruction('cobject_id')">
                   <xsl:value-of select="processing-instruction('cobject_id')"/>
                 </xsl:when>
@@ -69,7 +69,7 @@
             
           </f:map>
         </xsl:for-each>
-      </f:array>
+        </f:array>
     </xsl:variable>
     <xsl:value-of select="f:xml-to-json($json)"/>
   </xsl:template>
