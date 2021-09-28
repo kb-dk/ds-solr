@@ -18,6 +18,28 @@
         "name": "Sandø, Waageskuespiller (1943-)"
       }
     ],
+    "categories": [
+      {
+        "id": "/images/billed/2010/okt/billeder/subject2108",
+        "da": "Billeder",
+        "en": "Billeder"
+      },
+      {
+        "id": "/images/billed/2010/okt/billeder/subject2135",
+        "da": "Særudgivelser",
+        "en": "Særudgivelser"
+      },
+      {
+        "id": "/images/billed/2010/okt/billeder/subject4277",
+        "da": "Seidel, Claus",
+        "en": "Seidel, Claus"
+      },
+      {
+        "id": "/images/billed/2010/okt/billeder/subject6229",
+        "da": "Bladtegninger",
+        "en": "Bladtegninger"
+      }
+    ],
     "not_after_date": "1987-01-31",
     "not_before_date": "1987-01-31",
     "date": "1987-01-31"
