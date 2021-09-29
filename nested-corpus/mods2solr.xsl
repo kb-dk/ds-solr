@@ -66,6 +66,12 @@
                 <xsl:value-of select="."/>
               </f:string>
             </xsl:for-each>
+
+            <xsl:for-each select="m:identifier[@displayLabel='iiif' and  @type='uri'][1]">
+              <f:string key="identifier">
+                <xsl:value-of select="."/>
+              </f:string>
+            </xsl:for-each>
             
           </f:map>
         </xsl:for-each>
