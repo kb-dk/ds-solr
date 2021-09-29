@@ -14,6 +14,43 @@
         "name": "Simonsen, David"
       }
     ],
+    "categories": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/subject4",
+        "da": "David Simonsen Archives",
+        "en": "David Simonsen Archives"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/subject4795",
+        "da": "E",
+        "en": "E"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/subject4796",
+        "da": "Ei",
+        "en": "Ei"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/subject5",
+        "da": "Letters to/from David Simonsen",
+        "en": "Letters to/from David Simonsen"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/subject5384",
+        "da": "Einstein, Albert",
+        "en": "Einstein, Albert"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/subject5385",
+        "da": "0001",
+        "en": "0001"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/subject6",
+        "da": "Correspondents",
+        "en": "Correspondents"
+      }
+    ],
     "not_after_date": "1920-06-27",
     "not_before_date": "1920-06-27",
     "date": "1920-06-27"

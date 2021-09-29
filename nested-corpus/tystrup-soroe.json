@@ -8,6 +8,29 @@
         "name": "Sylvest Jensen Luftfoto"
       }
     ],
+    "categories": [
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/subject203",
+        "da": "Luftfoto",
+        "en": "Luftfoto"
+      },
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/subject204",
+        "da": "Sylvest Jensen",
+        "en": "Sylvest Jensen"
+      },
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/subject251",
+        "da": "NK-Serie",
+        "en": "NK-Serie"
+      },
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/subject843",
+        "da": "Hovedstaden",
+        "en": "Hovedstaden"
+      }
+    ],
+    "dcterms_spatial": "55.35492968597365,11.532704574783565",
     "date": "1936-1939"
   }
 ]
