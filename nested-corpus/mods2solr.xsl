@@ -61,6 +61,15 @@
               </f:array>
             </xsl:for-each>
 
+            <xsl:if test="m:subject/m:topic">
+              <f:array>
+                <xsl:attribute name="key">keywords</xsl:attribute>
+                <xsl:for-each select="distinct-values(m:subject/m:topic)">
+                  <f:string><xsl:value-of select="."/></f:string>
+                </xsl:for-each>
+              </f:array>
+            </xsl:if>
+            
             <f:array key="categories">
 
               <xsl:variable name="categories" as="xs:string *">
@@ -102,18 +111,40 @@
               </xsl:if>
             </xsl:for-each>
 
-            <xsl:for-each select="m:originInfo/m:dateCreated/@t:notAfter">
-              <f:string key="not_after_date">
-                <xsl:value-of select="."/>
-              </f:string>
-            </xsl:for-each>
-            
-            <xsl:for-each select="m:originInfo/m:dateCreated/@t:notBefore">
-              <f:string key="not_before_date">
-                <xsl:value-of select="."/>
-              </f:string>
-            </xsl:for-each>
+            <xsl:choose>
+              <xsl:when test="m:originInfo/m:dateCreated/@t:notAfter">
+                <xsl:for-each select="m:originInfo/m:dateCreated/@t:notAfter">
+                  <f:string key="not_after_date">
+                    <xsl:value-of select="."/>
+                  </f:string>
+                </xsl:for-each>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:if test="processing-instruction('cobject_not_after')">
+                  <f:string key="not_after_date">
+                    <xsl:value-of select="processing-instruction('cobject_not_after')"/>
+                  </f:string>
+                </xsl:if>
+              </xsl:otherwise>
+            </xsl:choose>
 
+            <xsl:choose>
+              <xsl:when test="m:originInfo/m:dateCreated/@t:notBefore">
+                <xsl:for-each select="m:originInfo/m:dateCreated/@t:notBefore">
+                  <f:string key="not_before_date">
+                    <xsl:value-of select="."/>
+                  </f:string>
+                </xsl:for-each>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:if test="processing-instruction('cobject_not_before')">
+                  <f:string key="not_before_date">
+                    <xsl:value-of select="processing-instruction('cobject_not_before')"/>
+                  </f:string>
+                </xsl:if>
+              </xsl:otherwise>
+            </xsl:choose>
+            
             <xsl:for-each select="m:originInfo/m:dateCreated">
               <f:string key="date">
                 <xsl:value-of select="."/>
