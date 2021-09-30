@@ -105,6 +105,28 @@
 
             </f:array>
 
+            <xsl:if test="m:subject/m:hierarchicalGeographic">
+              <f:map key="coverage-spatial">
+                <xsl:for-each select="m:subject/m:hierarchicalGeographic">
+                  <xsl:for-each select="m:area">
+                    <xsl:element name="f:string">
+                      <xsl:attribute name="key"><xsl:value-of select="@areaType"/></xsl:attribute>
+                      <xsl:value-of select="."/>
+                    </xsl:element>
+                  </xsl:for-each>
+                  <xsl:for-each select="m:citySection">
+                    <xsl:element name="f:string">
+                      <xsl:attribute name="key"><xsl:value-of select="@citySectionType"/></xsl:attribute>
+                      <xsl:value-of select="."/>
+                    </xsl:element>
+                  </xsl:for-each>
+                  <xsl:if test="m:city">
+                    <f:string key="city"><xsl:value-of select="m:city"/></f:string>
+                  </xsl:if>
+                </xsl:for-each>
+              </f:map>
+            </xsl:if>
+            
             <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
               <xsl:if test="not(contains(.,'0.0,0.0'))">
                 <f:string key="dcterms_spatial"><xsl:value-of select="."/></f:string>
