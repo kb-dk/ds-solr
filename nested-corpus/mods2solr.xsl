@@ -69,6 +69,15 @@
                 </xsl:for-each>
               </f:array>
             </xsl:if>
+
+            <xsl:if test="m:subject/m:geographic">
+              <f:array>
+                <xsl:attribute name="key">keywords-geographic</xsl:attribute>
+                <xsl:for-each select="distinct-values(m:subject/m:geographic)">
+                  <f:string><xsl:value-of select="."/></f:string>
+                </xsl:for-each>
+              </f:array>
+            </xsl:if>
             
             <f:array key="categories">
 
@@ -106,7 +115,7 @@
             </f:array>
 
             <xsl:if test="m:subject/m:hierarchicalGeographic">
-              <f:map key="coverage-spatial">
+              <f:map key="coverage-geo-names">
                 <xsl:for-each select="m:subject/m:hierarchicalGeographic">
                   <xsl:for-each select="m:area">
                     <xsl:element name="f:string">

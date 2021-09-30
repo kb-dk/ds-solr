@@ -13,6 +13,9 @@
       "hestekøretøj",
       "præsteskov"
     ],
+    "keywords-geographic": [
+      "Danmark, Sjælland, Sorø, Tystrup"
+    ],
     "categories": [
       {
         "id": "/images/luftfo/2011/maj/luftfoto/subject203",
@@ -35,7 +38,7 @@
         "en": "Hovedstaden"
       }
     ],
-    "coverage-spatial": {
+    "coverage-geo-names": {
       "area": "Præsteskov",
       "cadastre": "17b",
       "parish": "Tystrup",
