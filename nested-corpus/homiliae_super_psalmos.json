@@ -8,6 +8,10 @@
         "name": "Magnus, Basilius"
       }
     ],
+    "keywords": [
+      "Græsk",
+      "GKS 0018 folio"
+    ],
     "categories": [
       {
         "id": "/manus/vmanus/2011/dec/ha/subject1513",
@@ -40,6 +44,8 @@
         "en": "Samlinger"
       }
     ],
+    "not_after_date": "1199-01-01",
+    "not_before_date": "1100-01-01",
     "date": "1100-1199",
     "pages": [
       "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_11/non-archival/Manus/VMANUS/2010/dec/gks-2_18/gks-2_18_0001/info.json",
