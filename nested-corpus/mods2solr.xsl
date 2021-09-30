@@ -92,7 +92,7 @@
                   </f:string>
                 </f:map>
               </xsl:for-each>
-                
+              
 
             </f:array>
 
@@ -108,7 +108,7 @@
               </f:string>
             </xsl:for-each>
             
-           <xsl:for-each select="m:originInfo/m:dateCreated/@t:notBefore">
+            <xsl:for-each select="m:originInfo/m:dateCreated/@t:notBefore">
               <f:string key="not_before_date">
                 <xsl:value-of select="."/>
               </f:string>
@@ -120,11 +120,20 @@
               </f:string>
             </xsl:for-each>
 
-            <xsl:for-each select="m:identifier[@displayLabel='iiif' and  @type='uri'][1]">
+            <xsl:element name="f:array">
+              <xsl:attribute name="key">pages</xsl:attribute>
+              <xsl:for-each select="m:relatedItem[m:identifier]">
+                <xsl:call-template name="make_page_field"/>
+              </xsl:for-each>
+            </xsl:element>
+            
+            <!-- xsl:for-each select="m:identifier[@displayLabel='iiif' and  @type='uri'][1]">
               <f:string key="identifier">
                 <xsl:value-of select="."/>
               </f:string>
-            </xsl:for-each>
+            </xsl:for-each -->
+
+            <!--            http://kb-images.kb.dk/online_master_arkiv_3/non-archival/Letters/judsam/2010/jan/dsa/kaa-ker/dsa_kaa-ker_0907/info.json -->
             
           </f:map>
         </xsl:for-each>
@@ -132,10 +141,68 @@
     </xsl:variable>
     <xsl:value-of select="f:xml-to-json($json)"/>
   </xsl:template>
+  
+  <xsl:template name="make_page_field">
 
+    <xsl:choose>
+      <xsl:when test="m:identifier[@displayLabel='iiif']">
+        <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]">
+          <xsl:call-template name="find-pages"/>
+        </xsl:for-each>
+
+        <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif']]">
+          <xsl:call-template name="make_page_field"/>
+        </xsl:for-each>
+      </xsl:when>
+      <xsl:otherwise>
+          <xsl:for-each select="m:identifier[contains(.,'.tif')]">
+          <xsl:call-template name="find-pages"/>
+        </xsl:for-each>
+
+        <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
+          <xsl:call-template name="make_page_field"/>
+        </xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
+      
+  </xsl:template>
+  
+  <xsl:template name="find-pages">
+    <xsl:variable name="img">
+      <xsl:choose>	 
+	<xsl:when test="./@displayLabel='iiif'">
+	  <xsl:value-of select="."/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:choose>
+	    <xsl:when test="contains(.,'.tif')">
+	      <xsl:value-of select="substring-before(.,'.tif')"/>
+	    </xsl:when>
+	    <xsl:when test="contains(.,'.TIF')">
+	      <xsl:value-of select="substring-before(.,'.TIF')"/>
+	    </xsl:when>
+	    <xsl:when test="contains(.,'.jp2')">
+	      <xsl:value-of select="substring-before(.,'.jp2')"/>
+	    </xsl:when>
+	  </xsl:choose>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="string-length($img) &gt; 0">
+      <f:string>
+	<xsl:choose>
+	  <xsl:when test="contains($img,'.json')">
+	    <xsl:value-of select="$img"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat('https://kb-images.kb.dk/',$img,'/info.json')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </f:string>
+    </xsl:if>
+  </xsl:template>
 
   <xsl:template name="get-names">
-    
     <f:map>
       <f:string key="id"><xsl:value-of select="@authorityURI"/></f:string>
       <f:string key="name">
@@ -147,7 +214,6 @@
         </xsl:for-each>
       </f:string>
     </f:map>
-    
   </xsl:template>
 
 
