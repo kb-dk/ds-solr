@@ -256,14 +256,6 @@
               </xsl:for-each>
             </xsl:element>
             
-            <!-- xsl:for-each select="m:identifier[@displayLabel='iiif' and  @type='uri'][1]">
-              <f:string key="identifier">
-                <xsl:value-of select="."/>
-              </f:string>
-            </xsl:for-each -->
-
-            <!--            http://kb-images.kb.dk/online_master_arkiv_3/non-archival/Letters/judsam/2010/jan/dsa/kaa-ker/dsa_kaa-ker_0907/info.json -->
-            
           </f:map>
         </xsl:for-each>
       </f:array>
