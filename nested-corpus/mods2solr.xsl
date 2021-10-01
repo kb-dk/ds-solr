@@ -16,6 +16,8 @@
           <xsl:variable name="dom" select="."/>
           <f:map>
 
+            <!-- Identification etc  -->
+            
             <xsl:variable name="record-id">
               <xsl:choose>
                 <xsl:when test="processing-instruction('cobject_id')">
@@ -34,6 +36,8 @@
             <f:string key="id">
               <xsl:value-of select="$record-id"/>
             </f:string>
+
+            <!-- basic bibliographic metadata -->
             
             <f:string key="title">
               <xsl:value-of select="m:titleInfo/m:title"/>
@@ -50,6 +54,38 @@
                 </f:array>
               </xsl:if>
             </xsl:for-each>
+
+            <!-- *********************** misc notes               ******************** -->
+
+            <xsl:if test="m:note[not(@type) or not(@displayLabel)]">
+              <f:array key="note">
+                <xsl:for-each select="m:note">
+                  <f:string><xsl:value-of select="."/></f:string>
+                </xsl:for-each>
+              </f:array>
+            </xsl:if>
+
+            <xsl:if test="m:note[@type or @displayLabel]">
+              <f:map key="specific-notes">
+                <xsl:for-each select="m:note[@type or @displayLabel]">
+                  <f:string>
+                    <xsl:attribute name="key">
+                      <xsl:choose>
+                        <xsl:when test="@type">
+                          <xsl:value-of select="@type"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="@displayLabel"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:value-of select="."/>
+                  </f:string>
+                </xsl:for-each>
+              </f:map>
+            </xsl:if>
+
+            <!-- *********************** Subjects, Categories etc ******************** -->
 
             <xsl:for-each select="distinct-values(m:subject/m:name/m:role/m:roleTerm)">
               <xsl:variable name="term" select="."/>
@@ -110,9 +146,9 @@
                   </f:string>
                 </f:map>
               </xsl:for-each>
-              
-
             </f:array>
+
+            
 
             <xsl:if test="m:subject/m:hierarchicalGeographic">
               <f:map key="coverage-geo-names">
@@ -142,6 +178,8 @@
               </xsl:if>
             </xsl:for-each>
 
+            <!-- dating and origin -->
+            
             <xsl:choose>
               <xsl:when test="m:originInfo/m:dateCreated/@t:notAfter">
                 <xsl:for-each select="m:originInfo/m:dateCreated/@t:notAfter">
@@ -182,6 +220,10 @@
               </f:string>
             </xsl:for-each>
 
+            <!-- physical description and the like -->
+
+            
+            
             <!--
                 This is perhaps not obvious: Normally text is stored
                 in the order it is to be read. However, from the point
@@ -204,7 +246,6 @@
                 software.
             -->                          
             <xsl:for-each select="m:physicalDescription/m:note[@type='pageOrientation'][1]">
-              <xsl:message> <xsl:value-of select="."/> </xsl:message>
               <f:string key="read-direction"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
