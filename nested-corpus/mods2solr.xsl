@@ -182,6 +182,31 @@
               </f:string>
             </xsl:for-each>
 
+            <!--
+                This is perhaps not obvious: Normally text is stored
+                in the order it is to be read. However, from the point
+                of view of people used to read western languages (LTR
+                scripts) it might seem odd click on a left-arrow to
+                get next page, but that is the way people reading
+                Chinese, Arabic and Hebrew thinks (RTL scripts). And
+                that is true for languages using those scripts, like
+                Persian (using Arabic script) and Yiddish and Ladino
+                using Hebrew script. Judeo-Arabic is a dialect of
+                Arabic written using Hebrew script. We have all these
+                in our collections.
+
+                We have all these in our digital collections. However,
+                around 2005-2010 someone decided that the staff doing
+                the digitization cannot learn to recognize RTL or LTR
+                objects, so a lot of texts has been digitized in what
+                was claimed to be the "logical" direction, namely LTR.
+                Instead of correcting the data we have done this in
+                software.
+            -->                          
+            <xsl:for-each select="//m:note[@type='pageOrientation']">
+              <f:string key="read-direction"><xsl:value-of select="."/></f:string>
+            </xsl:for-each>
+
             <xsl:element name="f:array">
               <xsl:attribute name="key">pages</xsl:attribute>
               <xsl:for-each select="m:relatedItem[m:identifier]">
