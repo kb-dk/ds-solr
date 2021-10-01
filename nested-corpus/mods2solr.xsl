@@ -203,7 +203,8 @@
                 Instead of correcting the data we have done this in
                 software.
             -->                          
-            <xsl:for-each select="//m:note[@type='pageOrientation']">
+            <xsl:for-each select="m:physicalDescription/m:note[@type='pageOrientation'][1]">
+              <xsl:message> <xsl:value-of select="."/> </xsl:message>
               <f:string key="read-direction"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
