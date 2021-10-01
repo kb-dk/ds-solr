@@ -89,7 +89,7 @@
         </md:subject>
         <md:subject xml:lang="da">
           <md:name authorityURI="http://viaf.org/viaf/316745351">
-            <md:namePart type="given">Sandø, Waageskuespiller</md:namePart>
+            <md:namePart type="given">Sandø, Waage</md:namePart>
             <md:namePart type="date">1943-</md:namePart>
             <md:role>
               <md:roleTerm authority="marcrelator">act</md:roleTerm>
