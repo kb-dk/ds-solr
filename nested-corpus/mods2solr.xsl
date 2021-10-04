@@ -388,7 +388,7 @@
     </f:map>
   </xsl:template>
   
-  <xsl:template match="*|@*|processing-instruction()|comment()">
+  <xsl:template match="*|@*">
     <xsl:param name="record_identifier"/>
     <xsl:copy>
       <xsl:apply-templates select="*|@*|text()">
