@@ -14,21 +14,23 @@
       <f:array>
         <xsl:for-each select="//m:mods">
           <xsl:variable name="dom" select="."/>
-          <f:map>
 
-            <xsl:variable name="output_data">
+          <xsl:variable name="record-id">
+            <xsl:choose>
+              <xsl:when test="processing-instruction('cobject_id')">
+                <xsl:value-of select="processing-instruction('cobject_id')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="m:recordInfo/m:recordIdentifier"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          
+          <xsl:variable name="output_data">
+            <f:map>
             <!-- Identification etc  -->
             
-            <xsl:variable name="record-id">
-              <xsl:choose>
-                <xsl:when test="processing-instruction('cobject_id')">
-                  <xsl:value-of select="processing-instruction('cobject_id')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="m:recordInfo/m:recordIdentifier"/>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
+          
 
             <xsl:variable name="edition">
               <xsl:value-of select="substring-before($record-id,'/object')"/>
@@ -276,9 +278,13 @@
                 <xsl:call-template name="make_page_field"/>
               </xsl:for-each>
             </xsl:element>
+            </f:map>
           </xsl:variable>
-          <xsl:copy-of select="$output_data"/>
-          </f:map>
+        
+          <xsl:apply-templates select="$output_data/f:map">
+            <xsl:with-param name="record_identifier" select="$record-id"/>
+          </xsl:apply-templates>
+
         </xsl:for-each>
       </f:array>
     </xsl:variable>
@@ -359,6 +365,37 @@
     </f:map>
   </xsl:template>
 
-
+  <xsl:template match="f:map">
+    <xsl:param name="record_identifier"/>
+    <f:map>
+      <xsl:apply-templates select="@*"/>
+      <xsl:choose>
+        <xsl:when test="not(f:string[@key='id'])">
+          <f:string key="id">
+            <xsl:value-of select="concat($record_identifier,'-disposable-subrecord-',generate-id())"/>
+          </f:string>
+          <xsl:apply-templates select="*">
+            <xsl:with-param name="record_identifier" select="$record_identifier"/>
+          </xsl:apply-templates>
+        </xsl:when>
+        <xsl:otherwise>
+          <!-- xsl:apply-templates select="*[not(@key='id')]"/ -->
+          <xsl:apply-templates select="*">
+            <xsl:with-param name="record_identifier" select="$record_identifier"/>
+          </xsl:apply-templates>
+        </xsl:otherwise>
+      </xsl:choose>
+    </f:map>
+  </xsl:template>
+  
+  <xsl:template match="*|@*|processing-instruction()|comment()">
+    <xsl:param name="record_identifier"/>
+    <xsl:copy>
+      <xsl:apply-templates select="*|@*|text()">
+        <xsl:with-param name="record_identifier" select="$record_identifier"/>
+      </xsl:apply-templates>
+    </xsl:copy>
+  </xsl:template>
+  
   
 </xsl:transform>
