@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SAXON="java -jar /home/slu/saxon/saxon9he.jar "
+SAXON="java -jar /home/slu/saxon/saxon9he.jar --suppressXsltNamespaceCheck:on  "
 
 mods_files=("albert-einstein.xml"
 	    "hvidovre-teater.xml"
