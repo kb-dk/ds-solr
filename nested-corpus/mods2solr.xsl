@@ -16,6 +16,7 @@
           <xsl:variable name="dom" select="."/>
           <f:map>
 
+            <xsl:variable name="output_data">
             <!-- Identification etc  -->
             
             <xsl:variable name="record-id">
@@ -222,7 +223,27 @@
 
             <!-- physical description and the like -->
 
-            
+            <xsl:if test="m:physicalDescription[m:form
+                                    | m:reformattingQuality
+                                    | m:internetMediaType
+                                    | m:extent
+                                    | m:digitalOrigin
+                                    | m:note[not(@type='pageOrientation')]]">
+              <f:array key="physical-description">
+              <xsl:for-each select="m:physicalDescription">
+                <xsl:for-each select="m:form
+                                      | m:reformattingQuality
+                                      | m:internetMediaType
+                                      | m:extent
+                                      | m:digitalOrigin
+                                      | m:note[not(@type='pageOrientation')]">
+
+                  <f:string><xsl:value-of select="."/></f:string>
+
+                </xsl:for-each>
+              </xsl:for-each>
+              </f:array>
+            </xsl:if>
             
             <!--
                 This is perhaps not obvious: Normally text is stored
@@ -255,7 +276,8 @@
                 <xsl:call-template name="make_page_field"/>
               </xsl:for-each>
             </xsl:element>
-            
+          </xsl:variable>
+          <xsl:copy-of select="$output_data"/>
           </f:map>
         </xsl:for-each>
       </f:array>
