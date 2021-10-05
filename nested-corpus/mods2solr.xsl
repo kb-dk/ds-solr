@@ -41,16 +41,44 @@
             </f:string>
 
             <!-- basic bibliographic metadata -->
-            
-            <f:string key="title">
-              <xsl:value-of select="m:titleInfo/m:title"/>
-            </f:string>
+
+            <xsl:if test="m:titleInfo/m:title">
+              <f:array key="title">
+                <xsl:for-each select="m:titleInfo">
+                  <f:map>
+                    <xsl:if test="@xml:lang">
+                      <f:string key="lang">
+                        <xsl:value-of select="@xml:lang"/>
+                      </f:string>
+                    </xsl:if>
+                    <f:string>
+                      <xsl:attribute name="key">
+                        <xsl:choose>
+                          <xsl:when test="@type">
+                            <xsl:value-of select="@type"/>
+                          </xsl:when>
+                          <xsl:otherwise>main</xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:attribute>
+                      <xsl:for-each select="m:title">
+                        <xsl:value-of select="."/>
+                      </xsl:for-each>
+                    </f:string>
+                  </f:map>
+                </xsl:for-each>
+              </f:array>
+            </xsl:if>
             
             <xsl:for-each select="distinct-values(m:name/m:role/m:roleTerm)">
               <xsl:variable name="term" select="."/>
               <xsl:if test="not(contains($term,'last-modified-by'))">
                 <f:array>
-                  <xsl:attribute name="key"><xsl:value-of select="."/></xsl:attribute>
+                  <xsl:attribute name="key">
+                    <xsl:choose>
+                      <xsl:when test=". = 'src'">scr</xsl:when>
+                      <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:attribute>
                   <xsl:for-each select="$dom//m:name[m:role/m:roleTerm = $term]">
                     <xsl:call-template name="get-names"/>
                   </xsl:for-each>
@@ -150,8 +178,6 @@
                 </f:map>
               </xsl:for-each>
             </f:array>
-
-            
 
             <xsl:if test="m:subject/m:hierarchicalGeographic">
               <f:map key="coverage-geo-names">
@@ -353,7 +379,12 @@
 
   <xsl:template name="get-names">
     <f:map>
-      <f:string key="id"><xsl:value-of select="@authorityURI"/></f:string>
+      <xsl:if test="@authorityURI">
+        <f:string key="id"><xsl:value-of select="@authorityURI"/></f:string>
+      </xsl:if>
+      <xsl:if test="@xml:lang">
+        <f:string key="lang"><xsl:value-of select="@xml:lang"/></f:string>
+      </xsl:if>
       <f:string key="name">
         <xsl:for-each select="m:namePart">
           <xsl:choose>
