@@ -1,10 +1,17 @@
 [
   {
     "id": "/images/billed/2010/okt/billeder/object356751",
-    "title": "Hvidovre Teater",
+    "title": [
+      {
+        "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e5",
+        "lang": "da",
+        "main": "Hvidovre Teater"
+      }
+    ],
     "art": [
       {
         "id": "http://viaf.org/viaf/25276097",
+        "lang": "da",
         "name": "Seidel, Claus (1946-05-24)"
       }
     ],
@@ -14,7 +21,7 @@
       "Klassiker"
     ],
     "specific-notes": {
-      "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e19",
+      "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e25",
       "situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind."
     },
     "subject": [

@@ -1,7 +1,13 @@
 [
   {
     "id": "/images/luftfo/2011/maj/luftfoto/object322504",
-    "title": "Næblerødvej 32, Næblerød - 1936-1939 -",
+    "title": [
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e5",
+        "lang": "da",
+        "main": "Næblerødvej 32, Næblerød - 1936-1939 -"
+      }
+    ],
     "creator": [
       {
         "id": "http://viaf.org/viaf/307245669",
@@ -39,7 +45,7 @@
       }
     ],
     "coverage-geo-names": {
-      "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e51",
+      "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e55",
       "area": "Præsteskov",
       "cadastre": "17b",
       "parish": "Tystrup",

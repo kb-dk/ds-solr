@@ -1,16 +1,23 @@
 [
   {
     "id": "/letters/judsam/2011/mar/dsa/object2678",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
@@ -65,16 +72,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2671",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
@@ -129,16 +143,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2681",
-    "title": "Letter from Brandes, Georg to Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e5",
+        "main": "Letter from Brandes, Georg to Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
@@ -192,16 +213,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2674",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
@@ -255,16 +283,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2680",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
@@ -318,16 +353,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2676",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
@@ -382,16 +424,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2670",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
@@ -446,16 +495,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2679",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],
@@ -509,16 +565,23 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2673",
-    "title": "Letter to Brandes, Georg from Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e5",
+        "main": "Letter to Brandes, Georg from Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/4938982",
+        "lang": "en",
         "name": "Brandes, Georg"
       }
     ],

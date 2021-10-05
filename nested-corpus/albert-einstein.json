@@ -1,16 +1,23 @@
 [
   {
     "id": "/letters/judsam/2011/mar/dsa/object7871",
-    "title": "Letter from Einstein, Albert to Simonsen, David",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e5",
+        "main": "Letter from Einstein, Albert to Simonsen, David"
+      }
+    ],
     "aut": [
       {
         "id": "http://viaf.org/viaf/75121530",
+        "lang": "en",
         "name": "Einstein, Albert"
       }
     ],
     "rcp": [
       {
         "id": "http://viaf.org/viaf/54951228",
+        "lang": "en",
         "name": "Simonsen, David"
       }
     ],
