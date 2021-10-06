@@ -64,9 +64,10 @@
     "date": [
       "1916-04-12"
     ],
-    "physical-description": [
-      "2 pp."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e83",
+      "Extent": "2 pp."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json",
@@ -138,9 +139,10 @@
     "date": [
       "1915-05-18"
     ],
-    "physical-description": [
-      "2 pp."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e83",
+      "Extent": "2 pp."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0022/info.json",
@@ -212,9 +214,10 @@
     "date": [
       "3. juni"
     ],
-    "physical-description": [
-      "1 p."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e83",
+      "Extent": "1 p."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0033/info.json"
@@ -285,9 +288,10 @@
     "date": [
       "1915-06-23"
     ],
-    "physical-description": [
-      "1 p."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e83",
+      "Extent": "1 p."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0025/info.json"
@@ -358,9 +362,10 @@
     "date": [
       "1920-03-25"
     ],
-    "physical-description": [
-      "1 p."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e83",
+      "Extent": "1 p."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0032/info.json"
@@ -431,9 +436,10 @@
     "date": [
       "1916-04-14"
     ],
-    "physical-description": [
-      "2 pp."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e83",
+      "Extent": "2 pp."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0027/info.json",
@@ -505,9 +511,10 @@
     "date": [
       "1914-10-29"
     ],
-    "physical-description": [
-      "2 pp."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e83",
+      "Extent": "2 pp."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0020/info.json",
@@ -579,9 +586,10 @@
     "date": [
       "1920-03-19"
     ],
-    "physical-description": [
-      "1 p."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e83",
+      "Extent": "1 p."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0031/info.json"
@@ -652,9 +660,10 @@
     "date": [
       "1915-05-23"
     ],
-    "physical-description": [
-      "1 p."
-    ],
+    "physical-description": {
+      "id": "/letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e83",
+      "Extent": "1 p."
+    },
     "read-direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0024/info.json"
