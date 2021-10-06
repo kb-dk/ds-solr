@@ -15,4 +15,6 @@ digital library objects.
 |[ hvidovre-teater.xml]( hvidovre-teater.xml)| Museet for Dansk Bladtegning via [cop syndication](http://www5.kb.dk/cop/syndication/images/billed/2010/okt/billeder/object356751) | mods & RSS2 | Search for Hvidovre, Claus Seidel, Waage Sandø, Lane Lind, Kjeld Abell |
 |[homiliae-super-psalmos.xml](homiliae-super-psalmos.xml)| Homiliae super Psalmos etc -- Manuscript collection via [cop syndication](http://www5.kb.dk/cop/syndication/manus/vmanus/2011/dec/ha/object71279)| mods | Just a multipage document |
 | [responsa.xml](responsa.xml) |[קובץ שאלות ותשובות](http://www5.kb.dk/cop/syndication/manus/judsam/2009/sep/dsh/object41158) | mods | multilingual fields (Hebrew and English). RFC5646 language tags (Like Judeo-arabic in Hebrew script |
-| [work_on_logic.xml](work_on_logic.xml) |
+| [work_on_logic.xml](work_on_logic.xml) | | | Maimonides is still widely read on students of the history of philosophy. His authority is on http://viaf.org/viaf/100185495 |
+
+
