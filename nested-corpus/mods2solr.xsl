@@ -293,8 +293,13 @@
                     <f:string>
                       <xsl:attribute name="key">
                         <xsl:choose>
-                          <xsl:when test="$label"><xsl:value-of select="$label"/></xsl:when>
-                          <xsl:otherwise><xsl:value-of select="local-name(.)"/></xsl:otherwise>
+                          <xsl:when test="string-length($label) &gt; 0"><xsl:value-of select="$label"/></xsl:when>
+                          <xsl:otherwise>
+                            <xsl:choose>
+                              <xsl:when test="@type"><xsl:value-of select="@type"/></xsl:when>
+                              <xsl:otherwise><xsl:value-of select="local-name(.)"/></xsl:otherwise>
+                            </xsl:choose>
+                          </xsl:otherwise>
                         </xsl:choose>
                       </xsl:attribute>
                       <xsl:value-of select="."/>
