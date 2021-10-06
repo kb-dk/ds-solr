@@ -265,20 +265,44 @@
                                     | m:extent
                                     | m:digitalOrigin
                                     | m:note[not(@type='pageOrientation')]]">
-              <f:array key="physical-description">
-              <xsl:for-each select="m:physicalDescription">
-                <xsl:for-each select="m:form
-                                      | m:reformattingQuality
-                                      | m:internetMediaType
-                                      | m:extent
-                                      | m:digitalOrigin
-                                      | m:note[not(@type='pageOrientation')]">
+              <f:map key="physical-description">
+                <xsl:for-each select="m:physicalDescription">
+                  <xsl:variable name="label">
+                    <xsl:choose>
+                      <xsl:when test="@displayLabel">
+                        <xsl:value-of select="@displayLabel"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:choose>
+                          <xsl:when test="@type">
+                            <xsl:value-of select="@type"/>
+                          </xsl:when>
+                          <xsl:otherwise></xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:variable>
+                  
+                  <xsl:for-each select="m:form
+                                        | m:reformattingQuality
+                                        | m:internetMediaType
+                                        | m:extent
+                                        | m:digitalOrigin
+                                        | m:note[not(@type='pageOrientation')]">
 
-                  <f:string><xsl:value-of select="."/></f:string>
+                    <f:string>
+                      <xsl:attribute name="key">
+                        <xsl:choose>
+                          <xsl:when test="$label"><xsl:value-of select="$label"/></xsl:when>
+                          <xsl:otherwise><xsl:value-of select="local-name(.)"/></xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:attribute>
+                      <xsl:value-of select="."/>
+                    </f:string>
 
+                  </xsl:for-each>
                 </xsl:for-each>
-              </xsl:for-each>
-              </f:array>
+              </f:map>
             </xsl:if>
             
             <!--

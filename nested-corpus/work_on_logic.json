@@ -130,11 +130,12 @@
     "date": [
       "1866"
     ],
-    "physical-description": [
-      "Paper",
-      "61 fols.",
-      "22 x 17 cm"
-    ],
+    "physical-description": {
+      "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e155",
+      "Medium": "Paper",
+      "Extent": "61 fols.",
+      "Size": "22 x 17 cm"
+    },
     "read-direction": "RTL",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00144/info.json",
