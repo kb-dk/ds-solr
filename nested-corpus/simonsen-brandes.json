@@ -1,9 +1,10 @@
 [
   {
     "id": "/letters/judsam/2011/mar/dsa/object2678",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -60,7 +61,9 @@
     ],
     "not_after_date": "1916-04-12",
     "not_before_date": "1916-04-12",
-    "date": "1916-04-12",
+    "date": [
+      "1916-04-12"
+    ],
     "physical-description": [
       "2 pp."
     ],
@@ -72,9 +75,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2671",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -131,7 +135,9 @@
     ],
     "not_after_date": "1915-05-18",
     "not_before_date": "1915-05-18",
-    "date": "1915-05-18",
+    "date": [
+      "1915-05-18"
+    ],
     "physical-description": [
       "2 pp."
     ],
@@ -143,9 +149,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2681",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e7",
         "main": "Letter from Brandes, Georg to Simonsen, David"
       }
     ],
@@ -202,7 +209,9 @@
     ],
     "not_after_date": "1927-02-19",
     "not_before_date": "1892-01-01",
-    "date": "3. juni",
+    "date": [
+      "3. juni"
+    ],
     "physical-description": [
       "1 p."
     ],
@@ -213,9 +222,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2674",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -272,7 +282,9 @@
     ],
     "not_after_date": "1915-06-23",
     "not_before_date": "1915-06-23",
-    "date": "1915-06-23",
+    "date": [
+      "1915-06-23"
+    ],
     "physical-description": [
       "1 p."
     ],
@@ -283,9 +295,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2680",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -342,7 +355,9 @@
     ],
     "not_after_date": "1920-03-25",
     "not_before_date": "1920-03-25",
-    "date": "1920-03-25",
+    "date": [
+      "1920-03-25"
+    ],
     "physical-description": [
       "1 p."
     ],
@@ -353,9 +368,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2676",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -412,7 +428,9 @@
     ],
     "not_after_date": "1916-04-14",
     "not_before_date": "1916-04-14",
-    "date": "1916-04-14",
+    "date": [
+      "1916-04-14"
+    ],
     "physical-description": [
       "2 pp."
     ],
@@ -424,9 +442,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2670",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -483,7 +502,9 @@
     ],
     "not_after_date": "1914-10-29",
     "not_before_date": "1914-10-29",
-    "date": "1914-10-29",
+    "date": [
+      "1914-10-29"
+    ],
     "physical-description": [
       "2 pp."
     ],
@@ -495,9 +516,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2679",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -554,7 +576,9 @@
     ],
     "not_after_date": "1920-03-19",
     "not_before_date": "1920-03-19",
-    "date": "1920-03-19",
+    "date": [
+      "1920-03-19"
+    ],
     "physical-description": [
       "1 p."
     ],
@@ -565,9 +589,10 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2673",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e5",
+        "id": "/letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e7",
         "main": "Letter to Brandes, Georg from Simonsen, David"
       }
     ],
@@ -624,7 +649,9 @@
     ],
     "not_after_date": "1915-05-23",
     "not_before_date": "1915-05-23",
-    "date": "1915-05-23",
+    "date": [
+      "1915-05-23"
+    ],
     "physical-description": [
       "1 p."
     ],

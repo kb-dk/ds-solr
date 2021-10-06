@@ -1,9 +1,10 @@
 [
   {
     "id": "/images/luftfo/2011/maj/luftfoto/object322504",
+    "cataloging-language": "da",
     "title": [
       {
-        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e5",
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e7",
         "lang": "da",
         "main": "Næblerødvej 32, Næblerød - 1936-1939 -"
       }
@@ -45,7 +46,7 @@
       }
     ],
     "coverage-geo-names": {
-      "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e55",
+      "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e57",
       "area": "Præsteskov",
       "cadastre": "17b",
       "parish": "Tystrup",
@@ -56,7 +57,9 @@
       "city": "Fuglebjerg"
     },
     "dcterms_spatial": "55.35492968597365,11.532704574783565",
-    "date": "1936-1939",
+    "date": [
+      "1936-1939"
+    ],
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
     ]

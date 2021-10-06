@@ -1,9 +1,10 @@
 [
   {
     "id": "/letters/judsam/2011/mar/dsa/object7871",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e5",
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e7",
         "main": "Letter from Einstein, Albert to Simonsen, David"
       }
     ],
@@ -60,7 +61,9 @@
     ],
     "not_after_date": "1920-06-27",
     "not_before_date": "1920-06-27",
-    "date": "1920-06-27",
+    "date": [
+      "1920-06-27"
+    ],
     "physical-description": [
       "1 p."
     ],

@@ -25,7 +25,7 @@
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
-          
+
           <xsl:variable name="output_data">
             <f:map>
             <!-- Identification etc  -->
@@ -40,6 +40,12 @@
               <xsl:value-of select="$record-id"/>
             </f:string>
 
+            <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
+              <f:string key="cataloging-language">
+                <xsl:value-of select="."/>              
+              </f:string>
+            </xsl:for-each>
+            
             <!-- basic bibliographic metadata -->
 
             <xsl:if test="m:titleInfo/m:title">
@@ -242,12 +248,14 @@
                 </xsl:if>
               </xsl:otherwise>
             </xsl:choose>
-            
-            <xsl:for-each select="m:originInfo/m:dateCreated">
-              <f:string key="date">
-                <xsl:value-of select="."/>
-              </f:string>
-            </xsl:for-each>
+
+            <xsl:if test="m:originInfo/m:dateCreated">
+              <f:array key="date">
+                <xsl:for-each select="m:originInfo/m:dateCreated">
+                  <f:string><xsl:value-of select="."/></f:string>
+                </xsl:for-each>
+              </f:array>
+            </xsl:if>
 
             <!-- physical description and the like -->
 
