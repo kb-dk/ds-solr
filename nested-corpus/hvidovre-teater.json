@@ -1,9 +1,10 @@
 [
   {
     "id": "/images/billed/2010/okt/billeder/object356751",
+    "cataloging-language": "da",
     "title": [
       {
-        "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e5",
+        "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e7",
         "lang": "da",
         "main": "Hvidovre Teater"
       }
@@ -21,7 +22,7 @@
       "Klassiker"
     ],
     "specific-notes": {
-      "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e25",
+      "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e27",
       "situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind."
     },
     "subject": [
@@ -58,7 +59,9 @@
     ],
     "not_after_date": "1987-01-31",
     "not_before_date": "1987-01-31",
-    "date": "1987-01-31",
+    "date": [
+      "1987-01-31"
+    ],
     "physical-description": [
       "Tegning"
     ],

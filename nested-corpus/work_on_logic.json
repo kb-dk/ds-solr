@@ -1,65 +1,66 @@
 [
   {
     "id": "/manus/judsam/2009/sep/dsh/object27137",
+    "cataloging-language": "en",
     "title": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e5",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e7",
         "lang": "he",
         "main": "מלות ההגיון"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e10",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e12",
         "lang": "en",
         "transcribed": "Milot ha-higayon"
       }
     ],
     "scr": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e16",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e18",
         "lang": "en",
         "name": "Goldblum, J. I."
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e21",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e23",
         "lang": "he",
         "name": "גולדבלום, ישראל איסר"
       }
     ],
     "aut": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e27",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e29",
         "lang": "en",
         "name": "Maimonides"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e32",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e34",
         "lang": "en",
         "name": "Moshe ben Maimon"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e37",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e39",
         "lang": "en",
         "name": "Rambam"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e42",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e44",
         "lang": "he",
         "name": "משה בן מימון"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e47",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e49",
         "lang": "he",
         "name": "רמב\"ם"
       }
     ],
     "trl": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e53",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e55",
         "lang": "en",
         "name": "Ibn Tibon, Moshe"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e58",
+        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e60",
         "lang": "he",
         "name": "משה אבן תיבון"
       }
@@ -71,7 +72,7 @@
       "Allony & Kupfer 1964, # 113"
     ],
     "specific-notes": {
-      "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e72",
+      "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e74",
       "content": "Work on logic",
       "additional physical form": "Modern Hebrew cursive script",
       "citation/reference": "Allony & Kupfer 1964, # 113"
@@ -126,7 +127,9 @@
     ],
     "not_after_date": "1866-12-31",
     "not_before_date": "1866-01-01",
-    "date": "1866",
+    "date": [
+      "1866"
+    ],
     "physical-description": [
       "Paper",
       "61 fols.",
