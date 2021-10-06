@@ -309,6 +309,27 @@
                 </xsl:for-each>
               </f:map>
             </xsl:if>
+
+            <!-- A library object usually have a more identifiers than
+                 a software developer would like -->
+
+            <xsl:if test="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
+              <xsl:for-each select="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
+                <f:string key="shelf-mark"><xsl:value-of select="."/></f:string>
+              </xsl:for-each>
+            </xsl:if>
+
+            <xsl:for-each select="m:identifier[@type='local'][1]">
+              <f:string key="local-identifier"><xsl:value-of select="."/></f:string>
+            </xsl:for-each>
+
+            <xsl:for-each select="m:relatedItem[@type='original']/m:identifier">
+              <f:string key="original-object-identifier"><xsl:value-of select="."/></f:string>
+            </xsl:for-each>
+
+            <xsl:for-each select="m:identifier[@type='domsGuid']">
+              <f:string key="doms-guid"><xsl:value-of select="."/></f:string>
+            </xsl:for-each>
             
             <!--
                 This is perhaps not obvious: Normally text is stored
