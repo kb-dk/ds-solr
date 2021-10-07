@@ -2,9 +2,18 @@
   {
     "id": "/images/luftfo/2011/maj/luftfoto/object322504",
     "cataloging-language": "da",
-    "title": [
+    "last-modified-by": [
       {
         "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e7",
+        "lang": "da",
+        "name": "cumulus:cumulus"
+      }
+    ],
+    "record-created": "2007-10-09",
+    "record-revised": "2016-07-28",
+    "title": [
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e17",
         "lang": "da",
         "main": "Næblerødvej 32, Næblerød - 1936-1939 -"
       }
@@ -46,7 +55,7 @@
       }
     ],
     "coverage-geo-names": {
-      "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e57",
+      "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e67",
       "area": "Præsteskov",
       "cadastre": "17b",
       "parish": "Tystrup",

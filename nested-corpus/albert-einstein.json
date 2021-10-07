@@ -2,9 +2,18 @@
   {
     "id": "/letters/judsam/2011/mar/dsa/object7871",
     "cataloging-language": "en",
-    "title": [
+    "last-modified-by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e7",
+        "lang": "en",
+        "name": "cumulus:oam"
+      }
+    ],
+    "record-created": "2011-08-01",
+    "record-revised": "2013-04-16",
+    "title": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e17",
         "main": "Letter from Einstein, Albert to Simonsen, David"
       }
     ],
@@ -65,7 +74,7 @@
       "1920-06-27"
     ],
     "physical-description": {
-      "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e83",
+      "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e94",
       "Extent": "1 p."
     },
     "local-identifier": "dsa_eaa-ejc_0865.tif",

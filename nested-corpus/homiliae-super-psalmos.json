@@ -2,9 +2,16 @@
   {
     "id": "/manus/vmanus/2011/dec/ha/object71279",
     "cataloging-language": "da",
-    "title": [
+    "last-modified-by": [
       {
         "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e7",
+        "lang": "da",
+        "name": "cumulus:blo"
+      }
+    ],
+    "title": [
+      {
+        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e13",
         "lang": "da",
         "main": "Homiliae super Psalmos (etc.)"
       }
@@ -22,7 +29,7 @@
       "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     ],
     "specific-notes": {
-      "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e27",
+      "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e33",
       "citation/reference": "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     },
     "keywords": [
@@ -67,7 +74,7 @@
       "1100-1199"
     ],
     "physical-description": {
-      "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e86",
+      "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e92",
       "Medium": "Pergament",
       "Extent": "1 bind, 493 blade"
     },
