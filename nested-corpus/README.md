@@ -187,3 +187,9 @@ and
 
 The latter should purge all disposable stuff related to the record.
 
+
+## TODO
+
+The type or genre is not included at this time.
+
+
