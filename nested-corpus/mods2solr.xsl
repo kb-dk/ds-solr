@@ -28,9 +28,7 @@
 
           <xsl:variable name="output_data">
             <f:map>
-            <!-- Identification etc  -->
-            
-          
+            <!-- record identification, admin data etc  -->
 
             <xsl:variable name="edition">
               <xsl:value-of select="substring-before($record-id,'/object')"/>
@@ -45,6 +43,21 @@
                 <xsl:value-of select="."/>              
               </f:string>
             </xsl:for-each>
+
+            <xsl:for-each select="m:name[@type='cumulus' and m:role/m:roleTerm = 'last-modified-by']">
+              <f:array>
+                <xsl:attribute name="key">last-modified-by</xsl:attribute>
+                <xsl:call-template name="get-names"/>
+              </f:array>
+            </xsl:for-each>
+
+            <xsl:for-each select="m:recordInfo/m:recordCreationDate">
+              <f:string key="record-created"><xsl:value-of select="."/></f:string>
+            </xsl:for-each> 
+
+            <xsl:for-each select="m:recordInfo/m:recordChangeDate">
+              <f:string key="record-revised"><xsl:value-of select="."/></f:string>
+            </xsl:for-each> 
             
             <!-- basic bibliographic metadata -->
 
