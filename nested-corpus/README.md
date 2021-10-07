@@ -89,3 +89,99 @@ There are perhaps a handfull relators in use.
 * scr - Scribe
 * trl - Translator
 
+I propose that the search user interface have three Agent role aggregations 
+
+* creator
+* contributor
+* other person
+
+*Creator* should contain author, artist etc. *Contributor* should
+contain translator, scribe etc. *Other person* should for example
+contain recipient (addressee) and persons as subjects, that is a
+person depicted in a photograph or a person biographed in a biography.
+
+### Cumulus categories
+
+The category system is such that it includes basically a set
+breadcrumb paths under which the resource can be found. I am convinced
+that the category based search and navigation is obsoleted by facetted
+search. Still, I have included the categories in these records. They
+are given like the following:
+
+```
+ "categories": [
+      {
+        "id": "/manus/judsam/2009/sep/dsh/subject315",
+        "da": "David Simonsens Håndskrifter",
+        "en": "The David Simonsen Manuscripts"
+      },
+      {
+        "id": "/manus/judsam/2009/sep/dsh/subject319",
+        "da": "Sprog",
+        "en": "Language"
+      },
+      {
+        "id": "/manus/judsam/2009/sep/dsh/subject320",
+        "da": "Hebraisk",
+        "en": "Hebrew"
+      },
+	  ...
+
+```
+
+They are bilingual and hopefulle should be able to use that in
+generating the facetting. 
+
+What before appeared as 
+
+```
+"The David Simonsen Manuscripts"q->  "Language" -> "Hebrew"
+```
+
+will now be three independent facets. However. If you click on facet
+"The David Simonsen Manuscripts" all objects will have "Language" as
+one of the most commont facets. If you click on Language you will get
+Hebre, Yiddish, Ladino etc. I.e., users that are used to the
+categories will get same function in a slightly different fashion.
+
+### Subrecord identifiers
+
+I have been through some of the files and actually improved them when
+it comes to identification; I have added some basic linked data
+capabilities by identifying persons using [VIAF
+permalinks](https://www.oclc.org/en/viaf.html).
+
+Most nested records will, however, not have persistent
+identification. I then generate and ID having the following form:
+
+```
+ "title": [
+      {
+        "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e13",
+        "lang": "da",
+        "main": "Hvidovre Teater"
+      }
+    ]
+```
+
+The ID should be unique in the index given the way it is created. Note
+that we added -disposable-subrecord- followed by a record ID inside
+the mods.
+
+Assuming that we want to delete record with ID
+/images/billed/2010/okt/billeder/object35675
+
+we should be able to do using a http POST of  
+
+```
+<delete><query>id:'/images/billed/2010/okt/billeder/object356751'</query></delete>
+```
+
+and
+
+```
+<delete><query>id:'/images/billed/2010/okt/billeder/object356751-disposable*'</query></delete>
+```
+
+The latter should purge all disposable stuff related to the record.
+
