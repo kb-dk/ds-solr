@@ -43,7 +43,7 @@ Two pieces software have been written:
 	  <version>9.8.0-15</version>
   </dependency>
 ```
-* build.sh, which just runs the transforms. It uses <kbd>jq</kbd> -
+* build.sh, which just runs the transforms. It uses <kbd>[jq](https://stedolan.github.io/jq/)</kbd> -
   commandline JSON processor for prettyprinting and syntax
   checking. It is for making the resulting JSON debuggable. Available
   as standard module for most linux distros.
