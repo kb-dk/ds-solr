@@ -48,6 +48,8 @@ Two pieces software have been written:
   checking. It is for making the resulting JSON debuggable. Available
   as standard module for most linux distros.
   
+No attempts has been made to transform the TEI letter stuff. I can do that at a later stage.
+  
 ## Encoding details
 
 ### Relators
