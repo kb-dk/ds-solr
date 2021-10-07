@@ -16,15 +16,15 @@ digital library objects.
 
 | File | Source | Format | Test for  |
 |:-----|:-------|:-------|:----------------|
-|[henrik-hertz.xml](henrik-hertz.xml) | [letter-corpus](https://github.com/kb-dk/letter-corpus/tree/master/letter_books/001990301/001990301_000.xml) | TEI | Search for Berlin, Hertz, Brandes |
+|[henrik-hertz.xml](henrik-hertz.xml)  | [letter-corpus](https://github.com/kb-dk/letter-corpus/tree/master/letter_books/001990301/001990301_000.xml) | TEI | Search for Berlin, Hertz, Brandes |
 |[oersted.xml](oersted.xml) |  [letter-corpus](https://github.com/kb-dk/letter-corpus/tree/master/letter_books/002053861/002053861_X00.xml) | TEI | Search for Ørsted, Berlin, Sorø |
-|[simonsen-brandes.xml](simonsen-brandes.xml) |Simonsen's Arkiv via [cop syndication](http://www5.kb.dk/cop/syndication/letters/judsam/2011/mar/dsa/subject1952/en/) | mods & RSS2 | Search for Simonsen, Brandes, København/Copenhagen |
-| [albert-einstein.xml](albert-einstein.xml) | Simonsen's Arkiv via [cop syndication](http://www5.kb.dk/cop/syndication/letters/judsam/2011/mar/dsa/object7871) | mods & RSS2 | Search for Simonsen, Einstein, Berlin, Copenhagen |
-|[tystrup-soroe.xml](tystrup-soroe.xml)| Danmark set fra luften via [cop syndication](http://www5.kb.dk/cop/syndication/images/luftfo/2011/maj/luftfoto/object322504/da/) | mods & RSS2 | Search for Sorø |
-|[ hvidovre-teater.xml]( hvidovre-teater.xml)| Museet for Dansk Bladtegning via [cop syndication](http://www5.kb.dk/cop/syndication/images/billed/2010/okt/billeder/object356751) | mods & RSS2 | Search for Hvidovre, Claus Seidel, Waage Sandø, Lane Lind, Kjeld Abell |
+|[simonsen-brandes.xml](simonsen-brandes.xml) [[json](simonsen-brandes.json)] |Simonsen's Arkiv via [cop syndication](http://www5.kb.dk/cop/syndication/letters/judsam/2011/mar/dsa/subject1952/en/) | mods & RSS2 | Search for Simonsen, Brandes, København/Copenhagen |
+| [albert-einstein.xml](albert-einstein.xml) [[json](albert-einstein.json)] | Simonsen's Arkiv via [cop syndication](http://www5.kb.dk/cop/syndication/letters/judsam/2011/mar/dsa/object7871) | mods & RSS2 | Search for Simonsen, Einstein, Berlin, Copenhagen |
+|[tystrup-soroe.xml](tystrup-soroe.xml) [[json](tystrup-soroe.json)] | Danmark set fra luften via [cop syndication](http://www5.kb.dk/cop/syndication/images/luftfo/2011/maj/luftfoto/object322504/da/) | mods & RSS2 | Search for Sorø |
+|[hvidovre-teater.xml]( hvidovre-teater.xml) [[json]( hvidovre-teater.xml)] | Museet for Dansk Bladtegning via [cop syndication](http://www5.kb.dk/cop/syndication/images/billed/2010/okt/billeder/object356751) | mods & RSS2 | Search for Hvidovre, Claus Seidel, Waage Sandø, Lane Lind, Kjeld Abell |
 |[homiliae-super-psalmos.xml](homiliae-super-psalmos.xml)| Homiliae super Psalmos etc -- Manuscript collection via [cop syndication](http://www5.kb.dk/cop/syndication/manus/vmanus/2011/dec/ha/object71279)| mods | Just a multipage document |
-| [responsa.xml](responsa.xml) |[קובץ שאלות ותשובות](http://www5.kb.dk/cop/syndication/manus/judsam/2009/sep/dsh/object41158) | mods | multilingual fields (Hebrew and English). RFC5646 language tags (Like Judeo-arabic in Hebrew script |
-| [work_on_logic.xml](work_on_logic.xml) | | | [Maimonides](https://en.wikipedia.org/wiki/Maimonides) is still widely read by students of the history of philosophy. His bibliographic authority is on http://viaf.org/viaf/100185495 |
+| [responsa.xml](responsa.xml) [[json](responsa.json)] |[קובץ שאלות ותשובות](http://www5.kb.dk/cop/syndication/manus/judsam/2009/sep/dsh/object41158) | mods | multilingual fields (Hebrew and English). RFC5646 language tags (Like Judeo-arabic in Hebrew script |
+| [work_on_logic.xml](work_on_logic.xml) [[json](work_on_logic.json)] | | | [Maimonides](https://en.wikipedia.org/wiki/Maimonides) is still widely read by students of the history of philosophy. His bibliographic authority is on http://viaf.org/viaf/100185495 |
 
 ## Transform
 
