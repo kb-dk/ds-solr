@@ -15,6 +15,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Solr-internal fields -->
     <field name="_version_" type="long"/>
 
+    <field name="_root_" type="string" indexed="true" stored="false" docValues="false" />
 
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
@@ -31,6 +32,28 @@ daterange does not handle docValues - we might need two versions of datetime
          * `text`
          * `other`
          The list of acceptable types will probably be extended. -->
+<!--
+These are the mediatypes in use in cph, i.e., the ones appearing first in the URI
+
+pamphlets
+manus
+images
+editions
+letters
+maps
+books
+
+These are the collections
+
+billed
+dasmaa
+judsam
+kortsa
+musman
+ortsam
+vmanus
+
+-->    
     <field name="type"        type="string" required="true" />
     <!-- The name of the overall collection from which the material originated, such as _Dansk Vestindien_. -->
     <field name="collection"  type="string" required="true" />
@@ -44,21 +67,31 @@ daterange does not handle docValues - we might need two versions of datetime
          ************************************************************************************* -->
 
     <!-- Title for the material. -->
-    <field name="title"            type="text_da"  termVectors="true"/>
+
+    <field name="title"            type="text_da"  termVectors="true"  multiValued="true" />
     <!-- Title for the material, used for sorting.
          Populated automatically from `title`. -->
     <field name="title_sort"       type="sort_da"/>
+    <field name="title.main"       type="text_da"/> <!--  multiValued="true" ??? -->
+    <field name="main"       type="text_da"/> <!--  multiValued="true" ??? -->
+
     <copyField source="title"      dest="title_sort"/>
 
     <!-- Alternative ID. -->
     <field name="record_name"      type="string"/>
+    <field name="local-identifier" type="string"/>
 
     <!-- Description of the material. -->
     <field name="description"      type="text_da"/>
 
     <!-- Free-form notes for the material. -->
     <field name="note"             type="text_da" multiValued="true"/>
+    <field name="name"             type="text_da" multiValued="true"/>
+    <field name="main"             type="text_da" multiValued="true"/>
 
+    <field name="aut.name"         type="text_da" multiValued="true"/>
+    <field name="rcp.name"         type="text_da" multiValued="true"/>
+    
     <!-- Authors of the material. -->
     <field name="author"           type="text_da" multiValued="true"/>
     <!-- Authors of the material in verbatim form, used for grouping & faceting.
@@ -194,6 +227,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Language for the material. [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
          `da` for Danish, `en` for English, `de`for German. -->
     <field name="language"         type="string" multiValued="true"/>
+    <field name="last-modified-by.lang"         type="string" multiValued="true"/>
 
     <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
     <field name="location"         type="text_da"/>
