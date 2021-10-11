@@ -13,9 +13,11 @@ daterange does not handle docValues - we might need two versions of datetime
   -->
   <fields>
     <!-- Solr-internal fields -->
-    <field name="_version_" type="long"/>
-
-
+    <field     name="_version_" type="long"/>
+    <field     name="_root_" type="string" indexed="true" stored="false" docValues="false" />
+    <fieldType name="_nest_path_" class="solr.NestPathField" />
+    <field     name="_nest_path_" type="_nest_path_" />`
+    
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
          ************************************************************************************* -->
@@ -48,6 +50,10 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Title for the material, used for sorting.
          Populated automatically from `title`. -->
     <field name="title_sort"       type="sort_da"/>
+
+    <field name="main" type="text_da" uninvertible="true" indexed="true" stored="true"/>
+    <field name="name" type="text_da" uninvertible="true" indexed="true" stored="true"/>
+    
     <copyField source="title"      dest="title_sort"/>
 
     <!-- Alternative ID. -->
