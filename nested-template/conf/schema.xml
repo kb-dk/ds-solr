@@ -204,7 +204,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <!-- Language for the material. [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
          `da` for Danish, `en` for English, `de`for German. -->
-    <field name="cataloging-language"         type="string" multiValued="false"/>
+    <field name="cataloging_language"         type="string" multiValued="false"/>
     <field name="language"         type="string" multiValued="true"/>
 
     <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
