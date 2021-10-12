@@ -15,8 +15,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Solr-internal fields -->
     <field     name="_version_" type="long"/>
     <field     name="_root_" type="string" indexed="true" stored="false" docValues="false" />
-    <fieldType name="_nest_path_" class="solr.NestPathField" />
-    <field     name="_nest_path_" type="_nest_path_" />`
+    <field     name="_nest_path_" type="_nest_path_type" />`
     
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
@@ -33,9 +32,9 @@ daterange does not handle docValues - we might need two versions of datetime
          * `text`
          * `other`
          The list of acceptable types will probably be extended. -->
-    <field name="type"        type="string" required="true" />
+    <field name="type"        type="string" required="false" />
     <!-- The name of the overall collection from which the material originated, such as _Dansk Vestindien_. -->
-    <field name="collection"  type="string" required="true" />
+    <field name="collection"  type="string" required="false" />
     <!-- A timestamp for when the material was added or updated in Solr.
         Note: This is handled automatically by Solr. -->
     <field name="indexed"     type="date" default="NOW" />
@@ -49,12 +48,12 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="title"            type="text_da"  termVectors="true"/>
     <!-- Title for the material, used for sorting.
          Populated automatically from `title`. -->
-    <field name="title_sort"       type="sort_da"/>
+    <!-- field name="title_sort"       type="sort_da"/ -->
 
     <field name="main" type="text_da" uninvertible="true" indexed="true" stored="true"/>
     <field name="name" type="text_da" uninvertible="true" indexed="true" stored="true"/>
     
-    <copyField source="title"      dest="title_sort"/>
+    <!-- copyField source="title"      dest="title_sort"/ -->
 
     <!-- Alternative ID. -->
     <field name="record_name"      type="string"/>
@@ -131,6 +130,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="datetime_verbatim" type="string" />
     <!-- The creation date of the material or metadata about the material in the backing system. -->
     <field name="created_date"     type="date" />
+    <field name="record_created"     type="date_range" />
+    <field name="record_revised"     type="date_range" />
     <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
          Copied verbatim from the source. -->
     <field name="created_date_verbatim" type="string" />
@@ -199,6 +200,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <!-- Language for the material. [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
          `da` for Danish, `en` for English, `de`for German. -->
+    <field name="cataloging-language"         type="string" multiValued="false"/>
     <field name="language"         type="string" multiValued="true"/>
 
     <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
@@ -251,7 +253,10 @@ daterange does not handle docValues - we might need two versions of datetime
 
          Text types are single-valued indexed & stored, but not docValued (DV is not currently possible for Text).
 
-         Deviations are normally handled by overriding for the specific fields. -->
+         Deviations are normally handled by overriding for the specific fields. 
+    -->
+
+    <fieldType name="_nest_path_type" class="solr.NestPathField" />
     <fieldType name="string"     class="solr.StrField"         indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
     <fieldType name="boolean"    class="solr.BoolField"        indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
     <fieldType name="int"        class="solr.IntPointField"    indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />

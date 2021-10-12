@@ -1,16 +1,16 @@
 [
   {
     "id": "/manus/judsam/2009/sep/dsh/object41158",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e7",
         "lang": "en",
         "name": "cumulus:eja"
       }
     ],
-    "record-created": "2009-07-23",
-    "record-revised": "2009-07-31",
+    "record_created": "2009-07-23",
+    "record_revised": "2009-07-31",
     "title": [
       {
         "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e17",
@@ -130,7 +130,7 @@
       "North-African Hebrew cursive script",
       "Allony & Kupfer 1964, # 206"
     ],
-    "specific-notes": {
+    "specific_notes": {
       "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e135",
       "content": "Responsa",
       "additional physical form": "North-African Hebrew cursive script",
@@ -197,14 +197,14 @@
       "רצ\"ח",
       "ש\"ד"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e229",
       "Medium": "Paper",
       "Extent": "113 fols.",
       "Size": "29,5 x 21 cm"
     },
-    "shelf-mark": "Cod. Sim. Jud.-Arab 1",
-    "read-direction": "RTL",
+    "shelf_mark": "Cod. Sim. Jud.-Arab 1",
+    "read_direction": "RTL",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0236/info.json",
       "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0001/info.json",

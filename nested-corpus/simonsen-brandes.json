@@ -1,16 +1,16 @@
 [
   {
     "id": "/letters/judsam/2011/mar/dsa/object2678",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e17",
@@ -73,13 +73,13 @@
     "date": [
       "1916-04-12"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e94",
       "Extent": "2 pp."
     },
-    "local-identifier": "dsa_bra-boer_0029.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/af930070-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0029.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/af930070-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json",
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0030/info.json"
@@ -87,16 +87,16 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2671",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e17",
@@ -159,13 +159,13 @@
     "date": [
       "1915-05-18"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e94",
       "Extent": "2 pp."
     },
-    "local-identifier": "dsa_bra-boer_0022.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/21ddb040-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0022.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/21ddb040-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0022/info.json",
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0023/info.json"
@@ -173,16 +173,16 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2681",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e17",
@@ -245,29 +245,29 @@
     "date": [
       "3. juni"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e94",
       "Extent": "1 p."
     },
-    "local-identifier": "dsa_bra-boer_0033.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/f32324f0-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0033.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/f32324f0-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0033/info.json"
     ]
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2674",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e17",
@@ -330,29 +330,29 @@
     "date": [
       "1915-06-23"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e94",
       "Extent": "1 p."
     },
-    "local-identifier": "dsa_bra-boer_0025.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/61f94770-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0025.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/61f94770-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0025/info.json"
     ]
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2680",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e17",
@@ -415,29 +415,29 @@
     "date": [
       "1920-03-25"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e94",
       "Extent": "1 p."
     },
-    "local-identifier": "dsa_bra-boer_0032.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/dcd9e210-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0032.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/dcd9e210-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0032/info.json"
     ]
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2676",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e17",
@@ -500,13 +500,13 @@
     "date": [
       "1916-04-14"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e94",
       "Extent": "2 pp."
     },
-    "local-identifier": "dsa_bra-boer_0027.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/85e487d0-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0027.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/85e487d0-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0027/info.json",
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0028/info.json"
@@ -514,16 +514,16 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2670",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e17",
@@ -586,13 +586,13 @@
     "date": [
       "1914-10-29"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e94",
       "Extent": "2 pp."
     },
-    "local-identifier": "dsa_bra-boer_0020.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/0c414f30-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0020.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/0c414f30-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0020/info.json",
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0021/info.json"
@@ -600,16 +600,16 @@
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2679",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e17",
@@ -672,29 +672,29 @@
     "date": [
       "1920-03-19"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e94",
       "Extent": "1 p."
     },
-    "local-identifier": "dsa_bra-boer_0031.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/c64bf510-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0031.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/c64bf510-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0031/info.json"
     ]
   },
   {
     "id": "/letters/judsam/2011/mar/dsa/object2673",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e7",
         "lang": "en",
         "name": "cumulus:oam"
       }
     ],
-    "record-created": "2010-12-23",
-    "record-revised": "2011-03-17",
+    "record_created": "2010-12-23",
+    "record_revised": "2011-03-17",
     "title": [
       {
         "id": "/letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e17",
@@ -757,13 +757,13 @@
     "date": [
       "1915-05-23"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e94",
       "Extent": "1 p."
     },
-    "local-identifier": "dsa_bra-boer_0024.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/4a773670-0e89-11e0-a6d2-0016357f605f",
-    "read-direction": "LTR",
+    "local_identifier": "dsa_bra-boer_0024.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/4a773670-0e89-11e0-a6d2-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0024/info.json"
     ]

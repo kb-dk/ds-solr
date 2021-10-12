@@ -1,16 +1,16 @@
 [
   {
     "id": "/images/luftfo/2011/maj/luftfoto/object322504",
-    "cataloging-language": "da",
-    "last-modified-by": [
+    "cataloging_language": "da",
+    "last_modified_by": [
       {
         "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e7",
         "lang": "da",
         "name": "cumulus:cumulus"
       }
     ],
-    "record-created": "2007-10-09",
-    "record-revised": "2016-07-28",
+    "record_created": "2007-10-09",
+    "record_revised": "2016-07-28",
     "title": [
       {
         "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e17",
@@ -29,7 +29,7 @@
       "hestekøretøj",
       "præsteskov"
     ],
-    "keywords-geographic": [
+    "keywords_geographic": [
       "Danmark, Sjælland, Sorø, Tystrup"
     ],
     "categories": [
@@ -54,7 +54,7 @@
         "en": "Hovedstaden"
       }
     ],
-    "coverage-geo-names": {
+    "coverage_geo_names": {
       "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e67",
       "area": "Præsteskov",
       "cadastre": "17b",
@@ -69,9 +69,9 @@
     "date": [
       "1936-1939"
     ],
-    "shelf-mark": "St. Dyr.",
-    "local-identifier": "sylvest_nks_00950_6.tif",
-    "doms-guid": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",
+    "shelf_mark": "St. Dyr.",
+    "local_identifier": "sylvest_nks_00950_6.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
     ]

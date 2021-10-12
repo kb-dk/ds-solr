@@ -3,31 +3,34 @@
 	"id": "/letters/judsam/2011/mar/dsa/object7871",
 	"cataloging-language": "en",
 	
-	"record-created": "2011-08-01",
-	"record-revised": "2013-04-16",
+	"record_created": "2011-08-01",
+	"record_revised": "2013-04-16",
 	"title": [
 	    {
 		"id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e17",
+		"language": "en",
 		"main": "Letter from Einstein, Albert to Simonsen, David"
 	    }
 	],
 	"aut": [
 	    {
 		"id": "http://viaf.org/viaf/75121530",
-		"lang": "en",
+		"language": "en",
 		"name": "Einstein, Albert"
 	    }
 	],
 	"rcp": [
 	    {
 		"id": "http://viaf.org/viaf/54951228",
-		"lang": "en",
+		"language": "en",
 		"name": "Simonsen, David"
 	    }
 	],
-	"local-identifier": "dsa_eaa-ejc_0865.tif",
-	"doms-guid": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f",
-	"read-direction": "LTR",
+	"type": "letter",
+	"collection": "judsam",
+	"local_identifier": "dsa_eaa-ejc_0865.tif",
+	"doms_guid": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f",
+	"read_direction": "LTR",
 	"pages": [
 	    "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
 	]

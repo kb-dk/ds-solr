@@ -39,24 +39,24 @@
             </f:string>
 
             <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
-              <f:string key="cataloging-language">
+              <f:string key="cataloging_language">
                 <xsl:value-of select="."/>              
               </f:string>
             </xsl:for-each>
 
             <xsl:for-each select="m:name[@type='cumulus' and m:role/m:roleTerm = 'last-modified-by']">
               <f:array>
-                <xsl:attribute name="key">last-modified-by</xsl:attribute>
+                <xsl:attribute name="key">last_modified_by</xsl:attribute>
                 <xsl:call-template name="get-names"/>
               </f:array>
             </xsl:for-each>
 
             <xsl:for-each select="m:recordInfo/m:recordCreationDate">
-              <f:string key="record-created"><xsl:value-of select="."/></f:string>
+              <f:string key="record_created"><xsl:value-of select="."/></f:string>
             </xsl:for-each> 
 
             <xsl:for-each select="m:recordInfo/m:recordChangeDate">
-              <f:string key="record-revised"><xsl:value-of select="."/></f:string>
+              <f:string key="record_revised"><xsl:value-of select="."/></f:string>
             </xsl:for-each> 
             
             <!-- basic bibliographic metadata -->
@@ -116,7 +116,7 @@
             </xsl:if>
 
             <xsl:if test="m:note[@type or @displayLabel]">
-              <f:map key="specific-notes">
+              <f:map key="specific_notes">
                 <xsl:for-each select="m:note[@type or @displayLabel]">
                   <f:string>
                     <xsl:attribute name="key">
@@ -158,7 +158,7 @@
 
             <xsl:if test="m:subject/m:geographic">
               <f:array>
-                <xsl:attribute name="key">keywords-geographic</xsl:attribute>
+                <xsl:attribute name="key">keywords_geographic</xsl:attribute>
                 <xsl:for-each select="distinct-values(m:subject/m:geographic)">
                   <f:string><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
@@ -199,7 +199,7 @@
             </f:array>
 
             <xsl:if test="m:subject/m:hierarchicalGeographic">
-              <f:map key="coverage-geo-names">
+              <f:map key="coverage_geo_names">
                 <xsl:for-each select="m:subject/m:hierarchicalGeographic">
                   <xsl:for-each select="m:area">
                     <xsl:element name="f:string">
@@ -278,7 +278,7 @@
                                     | m:extent
                                     | m:digitalOrigin
                                     | m:note[not(@type='pageOrientation')]]">
-              <f:map key="physical-description">
+              <f:map key="physical_description">
                 <xsl:for-each select="m:physicalDescription">
                   <xsl:variable name="label">
                     <xsl:choose>
@@ -328,20 +328,20 @@
 
             <xsl:if test="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
               <xsl:for-each select="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
-                <f:string key="shelf-mark"><xsl:value-of select="."/></f:string>
+                <f:string key="shelf_mark"><xsl:value-of select="."/></f:string>
               </xsl:for-each>
             </xsl:if>
 
             <xsl:for-each select="m:identifier[@type='local'][1]">
-              <f:string key="local-identifier"><xsl:value-of select="."/></f:string>
+              <f:string key="local_identifier"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
             <xsl:for-each select="m:relatedItem[@type='original']/m:identifier">
-              <f:string key="original-object-identifier"><xsl:value-of select="."/></f:string>
+              <f:string key="original_object-identifier"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
             <xsl:for-each select="m:identifier[@type='domsGuid']">
-              <f:string key="doms-guid"><xsl:value-of select="."/></f:string>
+              <f:string key="doms_guid"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
             
             <!--
@@ -366,7 +366,7 @@
                 software.
             -->                          
             <xsl:for-each select="m:physicalDescription/m:note[@type='pageOrientation'][1]">
-              <f:string key="read-direction"><xsl:value-of select="."/></f:string>
+              <f:string key="read_direction"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
             <xsl:element name="f:array">
