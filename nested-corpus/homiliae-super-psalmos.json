@@ -1,8 +1,8 @@
 [
   {
     "id": "/manus/vmanus/2011/dec/ha/object71279",
-    "cataloging-language": "da",
-    "last-modified-by": [
+    "cataloging_language": "da",
+    "last_modified_by": [
       {
         "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e7",
         "lang": "da",
@@ -28,7 +28,7 @@
       "Indhold: (1 r) Homilia in psalmum I (2 r) Homilia in psalmum VII (16 v) Homilia in psalmum XIV (35 v) Homilia in partem psalmi decimi quarti, et contra faeneratores (45 v) Homilia in psalmum XXVIII (58 r) Homilia in psalmum XXIX (79 r) Homilia in psalmum XXXII (93 r) Homilia in psalmum XXXIII (114 v) Homilia in psalmum XLV (165 r) Homilia in psalmum XLVIII (189 v) Homilia in psalmum LIX (204 v) Homilia in psalmum LXI (230 r) Homilia in psalmum CXIV (238 v) Homilia in psalmum CXV (260 v) Homilia in in illud, Attende tibi ipsi (270 v) Quod deus non est auctor malorum (304 r) Adversus eos qui irascuntur (324 v) De invidia (340 r) Homilia in illud, Destruam horrea mea (352 v) Homilia in divites (366 v) Homilia in ebriosos (387 r) De humilitate (402 r) Quod rebus mundanis adhaerendum non sit (413 v) Ad adolescentes (434 r) De poenitentia (454 v) De jejunio homilia I (466 r) De jejunio homilia II (482 r).",
       "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     ],
-    "specific-notes": {
+    "specific_notes": {
       "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e33",
       "citation/reference": "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     },
@@ -73,15 +73,15 @@
     "date": [
       "1100-1199"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e92",
       "Medium": "Pergament",
       "Extent": "1 bind, 493 blade"
     },
-    "shelf-mark": "GKS 18 folio",
-    "original-object-identifier": "000023762KBH01",
-    "doms-guid": "a1445e60-06c2-11e1-bbcf-0016357f605f",
-    "read-direction": "LTR",
+    "shelf_mark": "GKS 18 folio",
+    "original_object-identifier": "000023762KBH01",
+    "doms_guid": "a1445e60-06c2-11e1-bbcf-0016357f605f",
+    "read_direction": "LTR",
     "pages": [
       "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_11/non-archival/Manus/VMANUS/2010/dec/gks-2_18/gks-2_18_0001/info.json",
       "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_11/non-archival/Manus/VMANUS/2010/dec/gks-2_18/gks-2_18_0002/info.json",

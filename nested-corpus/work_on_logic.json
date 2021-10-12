@@ -1,16 +1,16 @@
 [
   {
     "id": "/manus/judsam/2009/sep/dsh/object27137",
-    "cataloging-language": "en",
-    "last-modified-by": [
+    "cataloging_language": "en",
+    "last_modified_by": [
       {
         "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e7",
         "lang": "en",
         "name": "cumulus:eja"
       }
     ],
-    "record-created": "2009-04-07",
-    "record-revised": "2009-07-28",
+    "record_created": "2009-04-07",
+    "record_revised": "2009-07-28",
     "title": [
       {
         "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e17",
@@ -80,7 +80,7 @@
       "Modern Hebrew cursive script",
       "Allony & Kupfer 1964, # 113"
     ],
-    "specific-notes": {
+    "specific_notes": {
       "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e84",
       "content": "Work on logic",
       "additional physical form": "Modern Hebrew cursive script",
@@ -139,14 +139,14 @@
     "date": [
       "1866"
     ],
-    "physical-description": {
+    "physical_description": {
       "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e165",
       "Medium": "Paper",
       "Extent": "61 fols.",
       "Size": "22 x 17 cm"
     },
-    "shelf-mark": "Cod. Sim. Heb. 35",
-    "read-direction": "RTL",
+    "shelf_mark": "Cod. Sim. Heb. 35",
+    "read_direction": "RTL",
     "pages": [
       "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00144/info.json",
       "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00001/info.json",
