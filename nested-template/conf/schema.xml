@@ -39,6 +39,10 @@ daterange does not handle docValues - we might need two versions of datetime
         Note: This is handled automatically by Solr. -->
     <field name="indexed"     type="date" default="NOW" />
 
+    <field name="local_identifier" type="string" stored="true" required="false" />
+    <field name="doms_guid" type="string" stored="true" required="false" />
+    <field name="read_direction" type="string" stored="true" required="false" />
+    <field name="pages" type="string" multiValued="true"/>
 
     <!-- *************************************************************************************
          Common fields below (should be used over `specific` fields when possible)
