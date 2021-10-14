@@ -166,7 +166,10 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <field name="not_after_date"     type="date_range" />
     <field name="not_before_date"     type="date_range" />
-    <field name="date"     type="date_range" />
+
+    <field name="visible_date"     type="text_da" />
+    <field name="visible_date_verbatim"     type="string" />
+    <copyField source="visible_date" dest="visible_date_verbatim" />
 
     
     <field name="last_modified_by" type="string" />

@@ -181,7 +181,7 @@
     ],
     "not_after_date": "1866-12-31",
     "not_before_date": "1866-01-01",
-    "date": [
+    "visible_date": [
       "1866"
     ],
     "physical_description": {
