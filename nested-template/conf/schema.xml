@@ -16,6 +16,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <field     name="_version_" type="long"/>
     <field     name="_root_" type="string" indexed="true" stored="false" docValues="false" />
     <field     name="_nest_path_" type="_nest_path_type" />`
+    <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
     
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
@@ -24,7 +25,15 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- An identifier unique within the Royal Danish Library organization.
          Prefix with `ds_` and append collection-name and a collection-specific identifier for at total such as
          `ds_danskvestindien_324f243ed528`. No spaces allowed (replace with underscore `_`). -->
+    
     <field name="id"          type="string" stored="true" required="true" />
+    <field name="authority"   type="string" stored="true"  indexed="true" />
+    <field name="entity_id"   type="string" stored="true"  indexed="true" />
+
+    <!-- the one below is basically the same as _nest_parent_ -->
+    
+    <field name="describing"  type="string" stored="true"  indexed="true" />
+    
     <!-- The original material type. One of
          * `image`
          * `moving_image`
@@ -32,17 +41,14 @@ daterange does not handle docValues - we might need two versions of datetime
          * `text`
          * `other`
          The list of acceptable types will probably be extended. -->
-    <field name="type"        type="string" required="false" />
+    <field name="media_type"    type="string"  stored="true"  indexed="true" />
+    <field name="entity_type"   type="string"  stored="true"  indexed="true" />
+    
     <!-- The name of the overall collection from which the material originated, such as _Dansk Vestindien_. -->
-    <field name="collection"  type="string" required="false" />
-    <!-- A timestamp for when the material was added or updated in Solr.
-        Note: This is handled automatically by Solr. -->
-    <field name="indexed"     type="date" default="NOW" />
-
+    <field name="collection"  type="string"  stored="true"  indexed="true" />
     <field name="local_identifier" type="string" stored="true" required="false" />
     <field name="doms_guid" type="string" stored="true" required="false" />
     <field name="read_direction" type="string" stored="true" required="false" />
-    <field name="pages" type="string" multiValued="true"/>
 
     <!-- *************************************************************************************
          Common fields below (should be used over `specific` fields when possible)
@@ -52,12 +58,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="title"            type="text_da"  termVectors="true"/>
     <!-- Title for the material, used for sorting.
          Populated automatically from `title`. -->
-    <!-- field name="title_sort"       type="sort_da"/ -->
-
-    <field name="main" type="text_da" uninvertible="true" indexed="true" stored="true"/>
-    <field name="name" type="text_da" uninvertible="true" indexed="true" stored="true"/>
-    
-    <!-- copyField source="title"      dest="title_sort"/ -->
+    <field name="title_sort"       type="sort_da"/>
+    <copyField source="title"      dest="title_sort"/>
 
     <!-- Alternative ID. -->
     <field name="record_name"      type="string"/>
@@ -76,9 +78,24 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Authors for the material, used for sorting.
          Populated automatically from `author`.
          Note: This is multi valued.-->
+
+    <!-- An agent is a person or corporate body contributing to the material --> 
+    
+    <field name="agent_name"           type="text_da" multiValued="true"/>
+    <!-- Agent contributing to the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `author` using copyField. -->
+    <field name="agent_name_verbatim"  type="string" multiValued="true"/>
+    <!-- Agent contributing to for the material, used for sorting.
+         Populated automatically from `author`.
+         Note: This is multi valued.-->
+    
     <field name="author_sort"       type="sort_da" multiValued="true"/>
     <copyField source="author"      dest="author_sort"/>
     <copyField source="author"      dest="author_verbatim"/>
+
+    <field name="agent_name_sort"       type="sort_da" multiValued="true"/>
+    <copyField source="agent_name"      dest="agent_name_sort"/>
+    <copyField source="agent_name"      dest="agent_name_verbatim"/>
 
     <!-- The person or persons that is the subject of the material, e.g. the person shown on a painting. -->
     <field name="subject_person"    type="text_da" multiValued="true"/>
@@ -116,6 +133,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Uncontrolled topics related to the material.
          Populated automatically from `topic` using copyField. -->
     <field name="topic_verbatim"   type="string" multiValued="true"/>
+
     <copyField source="topic"      dest="topic_verbatim"/>
 
     <!-- The logical hierarchical position of the material, if available.
@@ -136,6 +154,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="created_date"     type="date" />
     <field name="record_created"     type="date_range" />
     <field name="record_revised"     type="date_range" />
+
+    <field name="last_modified_by" type="string" />
+    
     <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
          Copied verbatim from the source. -->
     <field name="created_date_verbatim" type="string" />
@@ -164,6 +185,13 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="width_cm"         type="double"/>
     <field name="height_cm"        type="double"/>
     <field name="depth_cm"         type="double"/>
+
+    <field name="medium" type="text_da" stored="true"  indexed="true" />
+    <field name="medium_verbatim" type="string" stored="true"  indexed="true" />
+    <copyField source="medium"      dest="medium_verbatim"/>
+    
+    <field name="extent" type="string" stored="true"  indexed="true" />
+    <field name="size"   type="string" stored="true"  indexed="true" />
 
     <!-- Image or moving image dimensions in pixels. The depth dimension is for 3D bitmaps, such as
          [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). -->
@@ -202,8 +230,15 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Uncontrolled copyright oriented text -->
     <field name="license_notice"   type="text_da" multiValued="true"/>
 
-    <!-- Language for the material. [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
-         `da` for Danish, `en` for English, `de`for German. -->
+    <!-- Language for the material according to RFC5646 https://datatracker.ietf.org/doc/html/rfc5646
+         `da` for Danish,
+         `en` for English,
+         `de` for German,
+         jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken
+         and written by the Jewish population in Arabic countries during the medieval times) 
+         We have a vast number of combinations of scripts and languages.
+    -->
+    
     <field name="cataloging_language"         type="string" multiValued="false"/>
     <field name="language"         type="string" multiValued="true"/>
 

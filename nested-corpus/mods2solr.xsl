@@ -7,7 +7,9 @@
                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                version="3.0">
 
+    
   <xsl:output method="text" />
+  <!-- xsl:output method="xml" / -->
   
   <xsl:template match="/">
     <xsl:variable name="json">
@@ -47,7 +49,9 @@
             <xsl:for-each select="m:name[@type='cumulus' and m:role/m:roleTerm = 'last-modified-by']">
               <f:array>
                 <xsl:attribute name="key">last_modified_by</xsl:attribute>
-                <xsl:call-template name="get-names"/>
+                <xsl:call-template name="get-names">
+                  <xsl:with-param name="record_identifier" select="$record-id"/>
+                </xsl:call-template>
               </f:array>
             </xsl:for-each>
 
@@ -62,27 +66,33 @@
             <!-- basic bibliographic metadata -->
 
             <xsl:if test="m:titleInfo/m:title">
-              <f:array key="title">
+              <f:array key="tit">
                 <xsl:for-each select="m:titleInfo">
                   <f:map>
+                    <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>                    
                     <xsl:if test="@xml:lang">
-                      <f:string key="lang">
+                      <f:string key="language">
                         <xsl:value-of select="@xml:lang"/>
                       </f:string>
                     </xsl:if>
-                    <f:string>
-                      <xsl:attribute name="key">
-                        <xsl:choose>
-                          <xsl:when test="@type">
-                            <xsl:value-of select="@type"/>
-                          </xsl:when>
-                          <xsl:otherwise>main</xsl:otherwise>
-                        </xsl:choose>
-                      </xsl:attribute>
+                    <xsl:choose>
+                      <xsl:when test="@type">
+                      <f:string key="entity_type">
+                        <xsl:value-of select="@type"/>
+                      </f:string>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <f:string key="entity_type">main</f:string>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                    <f:array key="title">
                       <xsl:for-each select="m:title">
-                        <xsl:value-of select="."/>
+                        <f:string><xsl:value-of select="."/></f:string>
                       </xsl:for-each>
-                    </f:string>
+                    </f:array>
+                    <xsl:call-template name="disposable-subrecord">
+                      <xsl:with-param name="record_identifier" select="$record-id"/>
+                    </xsl:call-template>
                   </f:map>
                 </xsl:for-each>
               </f:array>
@@ -99,7 +109,9 @@
                     </xsl:choose>
                   </xsl:attribute>
                   <xsl:for-each select="$dom//m:name[m:role/m:roleTerm = $term]">
-                    <xsl:call-template name="get-names"/>
+                    <xsl:call-template name="get-names">
+                      <xsl:with-param name="record_identifier" select="$record-id"/>
+                    </xsl:call-template>
                   </xsl:for-each>
                 </f:array>
               </xsl:if>
@@ -117,6 +129,7 @@
 
             <xsl:if test="m:note[@type or @displayLabel]">
               <f:map key="specific_notes">
+                <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>                    
                 <xsl:for-each select="m:note[@type or @displayLabel]">
                   <f:string>
                     <xsl:attribute name="key">
@@ -183,7 +196,8 @@
                 <xsl:variable name="subject"
                               select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'/')"/>
                 <f:map>
-                  <f:string key="id"><xsl:value-of select="."/></f:string>
+                  <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                  <f:string key="entity_id"><xsl:value-of select="."/></f:string>
                   <f:string key="da">
                     <xsl:for-each select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
                       <xsl:value-of select="."/>
@@ -200,6 +214,7 @@
 
             <xsl:if test="m:subject/m:hierarchicalGeographic">
               <f:map key="coverage_geo_names">
+                <f:string key="describing"><xsl:value-of select="."/></f:string>
                 <xsl:for-each select="m:subject/m:hierarchicalGeographic">
                   <xsl:for-each select="m:area">
                     <xsl:element name="f:string">
@@ -279,6 +294,7 @@
                                     | m:digitalOrigin
                                     | m:note[not(@type='pageOrientation')]]">
               <f:map key="physical_description">
+                <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
                 <xsl:for-each select="m:physicalDescription">
                   <xsl:variable name="label">
                     <xsl:choose>
@@ -306,11 +322,11 @@
                     <f:string>
                       <xsl:attribute name="key">
                         <xsl:choose>
-                          <xsl:when test="string-length($label) &gt; 0"><xsl:value-of select="$label"/></xsl:when>
+                          <xsl:when test="string-length($label) &gt; 0"><xsl:value-of select="lower-case($label)"/></xsl:when>
                           <xsl:otherwise>
                             <xsl:choose>
-                              <xsl:when test="@type"><xsl:value-of select="@type"/></xsl:when>
-                              <xsl:otherwise><xsl:value-of select="local-name(.)"/></xsl:otherwise>
+                              <xsl:when test="@type"><xsl:value-of select="lower-case(@type)"/></xsl:when>
+                              <xsl:otherwise><xsl:value-of select="lower-case(local-name(.))"/></xsl:otherwise>
                             </xsl:choose>
                           </xsl:otherwise>
                         </xsl:choose>
@@ -386,6 +402,7 @@
       </f:array>
     </xsl:variable>
     <xsl:value-of select="f:xml-to-json($json)"/>
+    <!-- xsl:copy-of select="$json"/ -->
   </xsl:template>
   
   <xsl:template name="make_page_field">
@@ -449,14 +466,23 @@
   </xsl:template>
 
   <xsl:template name="get-names">
+    <xsl:param name="record_identifier"/>
     <f:map>
+      <xsl:call-template name="disposable-subrecord">
+        <xsl:with-param name="record_identifier" select="$record_identifier"/>
+      </xsl:call-template>
       <xsl:if test="@authorityURI">
-        <f:string key="id"><xsl:value-of select="@authorityURI"/></f:string>
+        <f:string key="authority"><xsl:value-of select="@authorityURI"/></f:string>
       </xsl:if>
+      <f:string key="describing"><xsl:value-of select="$record_identifier"/></f:string>
       <xsl:if test="@xml:lang">
-        <f:string key="lang"><xsl:value-of select="@xml:lang"/></f:string>
+        <f:string key="language"><xsl:value-of select="@xml:lang"/></f:string>
       </xsl:if>
-      <f:string key="name">
+      <f:string key="entity_type"><xsl:choose>
+                      <xsl:when test="contains(m:role/m:roleTerm,'src')">scr</xsl:when>
+                      <xsl:otherwise><xsl:value-of select="m:role/m:roleTerm"/></xsl:otherwise>
+                    </xsl:choose></f:string>
+      <f:string key="agent_name">
         <xsl:for-each select="m:namePart">
           <xsl:choose>
             <xsl:when test="@type = 'date'"> (<xsl:value-of select="."/>)</xsl:when>
@@ -489,6 +515,14 @@
       </xsl:choose>
     </f:map>
   </xsl:template>
+
+  <xsl:template name="disposable-subrecord">
+    <xsl:param name="record_identifier"/>
+    <f:string key="id">
+      <xsl:value-of select="concat($record_identifier,'-disposable-subrecord-',generate-id())"/>
+    </f:string>
+  </xsl:template>
+
   
   <xsl:template match="*|@*">
     <xsl:param name="record_identifier"/>
