@@ -47,6 +47,11 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- The name of the overall collection from which the material originated, such as _Dansk Vestindien_. -->
     <field name="collection"  type="string"  stored="true"  indexed="true" />
     <field name="local_identifier" type="string" stored="true" required="false" />
+
+    <field name="shelf_mark" type="text_da" stored="true"  indexed="true" />
+    <field name="shelf_mark_verbatim" type="string" stored="true"  indexed="true" />
+    <copyField source="shelf_mark"      dest="shelf_mark_verbatim"/>
+    
     <field name="doms_guid" type="string" stored="true" required="false" />
     <field name="read_direction" type="string" stored="true" required="false" />
 
@@ -66,6 +71,10 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <!-- Description of the material. -->
     <field name="description"      type="text_da"/>
+    <field name="situation"      type="text_da"/>
+
+    <field name="en"      type="text_da"/>
+    <field name="da"      type="text_da"/>
 
     <!-- Free-form notes for the material. -->
     <field name="note"             type="text_da" multiValued="true"/>
@@ -155,6 +164,11 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="record_created"     type="date_range" />
     <field name="record_revised"     type="date_range" />
 
+    <field name="not_after_date"     type="date_range" />
+    <field name="not_before_date"     type="date_range" />
+    <field name="date"     type="date_range" />
+
+    
     <field name="last_modified_by" type="string" />
     
     <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
@@ -186,6 +200,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="height_cm"        type="double"/>
     <field name="depth_cm"         type="double"/>
 
+    <field name="technique" type="text_da" stored="true"  indexed="true" />
     <field name="medium" type="text_da" stored="true"  indexed="true" />
     <field name="medium_verbatim" type="string" stored="true"  indexed="true" />
     <copyField source="medium"      dest="medium_verbatim"/>
@@ -206,6 +221,9 @@ daterange does not handle docValues - we might need two versions of datetime
          lightweight, i.e. < 100 KB and between 500x500 and 1000x1000 pixels.
          For image material there will typically only be a single preview, while moving images
          might provide more preview images. -->
+
+    <field name="pages"    type="string" multiValued="true"/>
+    
     <field name="image_preview"    type="string" multiValued="true"/>
 
     <!-- If the material is an image, this field contains an URL to the full image at the highest
