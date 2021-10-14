@@ -90,7 +90,7 @@
     ],
     "not_after_date": "1987-01-31",
     "not_before_date": "1987-01-31",
-    "date": [
+    "visible_date": [
       "1987-01-31"
     ],
     "physical_description": {

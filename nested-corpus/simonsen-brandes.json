@@ -96,7 +96,7 @@
     ],
     "not_after_date": "1916-04-12",
     "not_before_date": "1916-04-12",
-    "date": [
+    "visible_date": [
       "1916-04-12"
     ],
     "physical_description": {
@@ -209,7 +209,7 @@
     ],
     "not_after_date": "1915-05-18",
     "not_before_date": "1915-05-18",
-    "date": [
+    "visible_date": [
       "1915-05-18"
     ],
     "physical_description": {
@@ -322,7 +322,7 @@
     ],
     "not_after_date": "1927-02-19",
     "not_before_date": "1892-01-01",
-    "date": [
+    "visible_date": [
       "3. juni"
     ],
     "physical_description": {
@@ -434,7 +434,7 @@
     ],
     "not_after_date": "1915-06-23",
     "not_before_date": "1915-06-23",
-    "date": [
+    "visible_date": [
       "1915-06-23"
     ],
     "physical_description": {
@@ -546,7 +546,7 @@
     ],
     "not_after_date": "1920-03-25",
     "not_before_date": "1920-03-25",
-    "date": [
+    "visible_date": [
       "1920-03-25"
     ],
     "physical_description": {
@@ -658,7 +658,7 @@
     ],
     "not_after_date": "1916-04-14",
     "not_before_date": "1916-04-14",
-    "date": [
+    "visible_date": [
       "1916-04-14"
     ],
     "physical_description": {
@@ -771,7 +771,7 @@
     ],
     "not_after_date": "1914-10-29",
     "not_before_date": "1914-10-29",
-    "date": [
+    "visible_date": [
       "1914-10-29"
     ],
     "physical_description": {
@@ -884,7 +884,7 @@
     ],
     "not_after_date": "1920-03-19",
     "not_before_date": "1920-03-19",
-    "date": [
+    "visible_date": [
       "1920-03-19"
     ],
     "physical_description": {
@@ -996,7 +996,7 @@
     ],
     "not_after_date": "1915-05-23",
     "not_before_date": "1915-05-23",
-    "date": [
+    "visible_date": [
       "1915-05-23"
     ],
     "physical_description": {

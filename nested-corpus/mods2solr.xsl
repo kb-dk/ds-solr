@@ -278,7 +278,7 @@
             </xsl:choose>
 
             <xsl:if test="m:originInfo/m:dateCreated">
-              <f:array key="date">
+              <f:array key="visible_date">
                 <xsl:for-each select="m:originInfo/m:dateCreated">
                   <f:string><xsl:value-of select="."/></f:string>
                 </xsl:for-each>

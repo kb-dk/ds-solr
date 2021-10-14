@@ -92,7 +92,7 @@
     ],
     "not_after_date": "1199-01-01",
     "not_before_date": "1100-01-01",
-    "date": [
+    "visible_date": [
       "1100-1199"
     ],
     "physical_description": {
