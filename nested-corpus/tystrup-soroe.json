@@ -1,0 +1,97 @@
+[
+  {
+    "id": "/images/luftfo/2011/maj/luftfoto/object322504",
+    "cataloging_language": "da",
+    "last_modified_by": [
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d1e68",
+        "describing": "/images/luftfo/2011/maj/luftfoto/object322504",
+        "language": "da",
+        "entity_type": "last-modified-by",
+        "agent_name": "cumulus:cumulus"
+      }
+    ],
+    "record_created": "2007-10-09",
+    "record_revised": "2016-07-28",
+    "tit": [
+      {
+        "describing": "/images/luftfo/2011/maj/luftfoto/object322504",
+        "language": "da",
+        "entity_type": "main",
+        "title": [
+          "Næblerødvej 32, Næblerød - 1936-1939 -"
+        ],
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d1e244"
+      }
+    ],
+    "creator": [
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d1e56",
+        "authority": "http://viaf.org/viaf/307245669",
+        "describing": "/images/luftfo/2011/maj/luftfoto/object322504",
+        "entity_type": "creator",
+        "agent_name": "Sylvest Jensen Luftfoto"
+      }
+    ],
+    "keywords": [
+      "kastrup storskov",
+      "hestekøretøj",
+      "præsteskov"
+    ],
+    "keywords_geographic": [
+      "Danmark, Sjælland, Sorø, Tystrup"
+    ],
+    "categories": [
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e58",
+        "describing": "/images/luftfo/2011/maj/luftfoto/object322504",
+        "entity_id": "/images/luftfo/2011/maj/luftfoto/subject203",
+        "da": "Luftfoto",
+        "en": "Luftfoto"
+      },
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e67",
+        "describing": "/images/luftfo/2011/maj/luftfoto/object322504",
+        "entity_id": "/images/luftfo/2011/maj/luftfoto/subject204",
+        "da": "Sylvest Jensen",
+        "en": "Sylvest Jensen"
+      },
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e76",
+        "describing": "/images/luftfo/2011/maj/luftfoto/object322504",
+        "entity_id": "/images/luftfo/2011/maj/luftfoto/subject251",
+        "da": "NK-Serie",
+        "en": "NK-Serie"
+      },
+      {
+        "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e85",
+        "describing": "/images/luftfo/2011/maj/luftfoto/object322504",
+        "entity_id": "/images/luftfo/2011/maj/luftfoto/subject843",
+        "da": "Hovedstaden",
+        "en": "Hovedstaden"
+      }
+    ],
+    "coverage_geo_names": {
+      "id": "/images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e94",
+      "describing": "\n        http://www.kb.dk/images/luftfo/2011/maj/luftfoto/object322504/da/\n        \n        \n          \n            da\n          \n          /images/luftfo/2011/maj/luftfoto/object322504\n          2007-10-09\n          2016-07-28\n        \n        \n          Sylvest Jensen Luftfoto\n          \n            creator\n          \n        \n        \n          cumulus:cumulus\n          \n            last-modified-by\n          \n        \n        \n        \n        \n        \n          \n          HomeHjem/LuftfotoLuftfoto/Sylvest JensenSylvest Jensen/NK-SerieNK-Serie\n        \n        \n          \n          \n        \n        \n          \n          \n        \n        \n          \n          HomeHjem/LuftfotoLuftfoto/Sylvest JensenSylvest Jensen/NK-SerieNK-Serie/HovedstadenHovedstaden\n        \n        \n          \n            Præsteskov\n            17b\n            Tystrup\n            Jægerhytten\n            4250\n            32\n            Næblerødvej\n            Fuglebjerg\n          \n        \n        \n          St. Dyr.\n        \n        still image\n        sylvest_nks_00950_6.tif\n        Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f\n        Billedet er beskyttet af loven om ophavsret\n        \n          \n            \n              78598398\n            \n            \n              \n                8126\n                10921\n              \n            \n          \n        \n        \n          online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6.tif\n        \n        \n        \n        \n          Næblerødvej 32, Næblerød - 1936-1939 -\n        \n        \n          Danmark, Sjælland, Sorø, Tystrup\n        \n        \n          1936-1939\n        \n        Skråfoto\n        http://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json\n        http://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/full/full/0/native.jpg\n        http://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/full/,100/0/native.jpg\n        \n          \n            55.35492968597365,11.532704574783565\n          \n        \n        \n          kastrup storskov\n        \n        \n          hestekøretøj\n        \n        \n          præsteskov\n        \n      ",
+      "area": "Præsteskov",
+      "cadastre": "17b",
+      "parish": "Tystrup",
+      "building": "Jægerhytten",
+      "zipcode": "4250",
+      "housenumber": "32",
+      "street": "Næblerødvej",
+      "city": "Fuglebjerg"
+    },
+    "dcterms_spatial": "55.35492968597365,11.532704574783565",
+    "date": [
+      "1936-1939"
+    ],
+    "shelf_mark": "St. Dyr.",
+    "local_identifier": "sylvest_nks_00950_6.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",
+    "pages": [
+      "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+    ]
+  }
+]
