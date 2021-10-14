@@ -19,4 +19,7 @@ http://localhost:10007/solr/ds/select?fl=*%2C%5Bchild%5D&q=%7B!term%20f%3Dcatalo
 
 ## 2.
 
-"q":"{!parent which=\"*:* -_nest_path_:\\\\/aut\"}name:albert"}}
+"q":"{!parent which=\"*:* -_nest_path_ :\\\\/aut\"}name:albert"}}
+
+
+{!child of="*:* -_nest_path_:\\/aut"}name:albert
