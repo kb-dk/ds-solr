@@ -1,0 +1,114 @@
+[
+  {
+    "id": "/letters/judsam/2011/mar/dsa/object7871",
+    "cataloging_language": "en",
+    "last_modified_by": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d1e56",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "language": "en",
+        "entity_type": "last-modified-by",
+        "agent_name": "cumulus:oam"
+      }
+    ],
+    "record_created": "2011-08-01",
+    "record_revised": "2013-04-16",
+    "tit": [
+      {
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_type": "main",
+        "title": [
+          "Letter from Einstein, Albert to Simonsen, David"
+        ],
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d1e68"
+      }
+    ],
+    "aut": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d1e75",
+        "authority": "http://viaf.org/viaf/75121530",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "language": "en",
+        "entity_type": "aut",
+        "agent_name": "Einstein, Albert"
+      }
+    ],
+    "rcp": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d1e98",
+        "authority": "http://viaf.org/viaf/54951228",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "language": "en",
+        "entity_type": "rcp",
+        "agent_name": "Simonsen, David"
+      }
+    ],
+    "categories": [
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e62",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_id": "/letters/judsam/2011/mar/dsa/subject4",
+        "da": "David Simonsen Archives",
+        "en": "David Simonsen Archives"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e71",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_id": "/letters/judsam/2011/mar/dsa/subject4795",
+        "da": "E",
+        "en": "E"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e80",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_id": "/letters/judsam/2011/mar/dsa/subject4796",
+        "da": "Ei",
+        "en": "Ei"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e89",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_id": "/letters/judsam/2011/mar/dsa/subject5",
+        "da": "Letters to/from David Simonsen",
+        "en": "Letters to/from David Simonsen"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e98",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_id": "/letters/judsam/2011/mar/dsa/subject5384",
+        "da": "Einstein, Albert",
+        "en": "Einstein, Albert"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e107",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_id": "/letters/judsam/2011/mar/dsa/subject5385",
+        "da": "0001",
+        "en": "0001"
+      },
+      {
+        "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e116",
+        "describing": "/letters/judsam/2011/mar/dsa/object7871",
+        "entity_id": "/letters/judsam/2011/mar/dsa/subject6",
+        "da": "Correspondents",
+        "en": "Correspondents"
+      }
+    ],
+    "not_after_date": "1920-06-27",
+    "not_before_date": "1920-06-27",
+    "date": [
+      "1920-06-27"
+    ],
+    "physical_description": {
+      "id": "/letters/judsam/2011/mar/dsa/object7871-disposable-subrecord-d3e133",
+      "describing": "/letters/judsam/2011/mar/dsa/object7871",
+      "extent": "1 p."
+    },
+    "local_identifier": "dsa_eaa-ejc_0865.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f",
+    "read_direction": "LTR",
+    "pages": [
+      "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
+    ]
+  }
+]
