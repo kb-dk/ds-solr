@@ -1,11 +1,12 @@
 [
   {
-    "id": "/manus/vmanus/2011/dec/ha/object71279",
+    "id": "manus/vmanus/2011/dec/ha/object71279",
+    "described": true,
     "cataloging_language": "da",
     "last_modified_by": [
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d1e60",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d1e60",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
         "language": "da",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:blo"
@@ -13,20 +14,21 @@
     ],
     "tit": [
       {
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
+        "described": false,
         "language": "da",
         "entity_type": "main",
         "title": [
           "Homiliae super Psalmos (etc.)"
         ],
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d1e39"
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d1e39"
       }
     ],
     "aut": [
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d1e45",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d1e45",
         "authority": "http://viaf.org/viaf/88967224",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
         "language": "da",
         "entity_type": "aut",
         "agent_name": "Magnus, Basilius"
@@ -38,8 +40,9 @@
       "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     ],
     "specific_notes": {
-      "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e52",
-      "describing": "/manus/vmanus/2011/dec/ha/object71279",
+      "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e56",
+      "describing": "manus/vmanus/2011/dec/ha/object71279",
+      "described": false,
       "citation/reference": "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     },
     "keywords": [
@@ -48,44 +51,50 @@
     ],
     "categories": [
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e63",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
-        "entity_id": "/manus/vmanus/2011/dec/ha/subject1513",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e69",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
+        "described": false,
+        "entity_id": "manus/vmanus/2011/dec/ha/subject1513",
         "da": "Græsk",
         "en": "Græsk"
       },
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e72",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
-        "entity_id": "/manus/vmanus/2011/dec/ha/subject898",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e80",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
+        "described": false,
+        "entity_id": "manus/vmanus/2011/dec/ha/subject898",
         "da": "Vesterlandske håndskrifter",
         "en": "Vesterlandske håndskrifter"
       },
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e81",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
-        "entity_id": "/manus/vmanus/2011/dec/ha/subject902",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e91",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
+        "described": false,
+        "entity_id": "manus/vmanus/2011/dec/ha/subject902",
         "da": "Sprog",
         "en": "Sprog"
       },
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e90",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
-        "entity_id": "/manus/vmanus/2011/dec/ha/subject1550",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e102",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
+        "described": false,
+        "entity_id": "manus/vmanus/2011/dec/ha/subject1550",
         "da": "GKS 0018 folio",
         "en": "GKS 0018 folio"
       },
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e99",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
-        "entity_id": "/manus/vmanus/2011/dec/ha/subject6603",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e113",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
+        "described": false,
+        "entity_id": "manus/vmanus/2011/dec/ha/subject6603",
         "da": "GKS (Gammel Kongelig Samling)",
         "en": "GKS (Gammel Kongelig Samling)"
       },
       {
-        "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e108",
-        "describing": "/manus/vmanus/2011/dec/ha/object71279",
-        "entity_id": "/manus/vmanus/2011/dec/ha/subject899",
+        "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e124",
+        "describing": "manus/vmanus/2011/dec/ha/object71279",
+        "described": false,
+        "entity_id": "manus/vmanus/2011/dec/ha/subject899",
         "da": "Samlinger",
         "en": "Samlinger"
       }
@@ -96,8 +105,9 @@
       "1100-1199"
     ],
     "physical_description": {
-      "id": "/manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e125",
-      "describing": "/manus/vmanus/2011/dec/ha/object71279",
+      "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e143",
+      "describing": "manus/vmanus/2011/dec/ha/object71279",
+      "described": false,
       "medium": "Pergament",
       "extent": "1 bind, 493 blade"
     },

@@ -15,9 +15,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Solr-internal fields -->
     <field     name="_version_" type="long"/>
     <field     name="_root_" type="string" indexed="true" stored="false" docValues="false" />
-    <field     name="_nest_path_" type="_nest_path_type" />`
+    <field     name="_nest_path_" type="_nest_path_" />`
     <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
-    
+
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
          ************************************************************************************* -->
@@ -31,7 +31,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="entity_id"   type="string" stored="true"  indexed="true" />
 
     <!-- the one below is basically the same as _nest_parent_ -->
-    
+
+    <field name="described"  type="boolean" stored="true"  indexed="true" />
     <field name="describing"  type="string" stored="true"  indexed="true" />
     
     <!-- The original material type. One of
@@ -316,7 +317,7 @@ daterange does not handle docValues - we might need two versions of datetime
          Deviations are normally handled by overriding for the specific fields. 
     -->
 
-    <fieldType name="_nest_path_type" class="solr.NestPathField" />
+    <fieldType name="_nest_path_" class="solr.NestPathField" />
     <fieldType name="string"     class="solr.StrField"         indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
     <fieldType name="boolean"    class="solr.BoolField"        indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
     <fieldType name="int"        class="solr.IntPointField"    indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
