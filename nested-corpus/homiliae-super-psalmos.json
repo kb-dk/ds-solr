@@ -43,9 +43,9 @@
       "id": "manus/vmanus/2011/dec/ha/object71279-disposable-subrecord-d3e56",
       "describing": "manus/vmanus/2011/dec/ha/object71279",
       "described": false,
-      "citation/reference": "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
+      "reference": "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     },
-    "keywords": [
+    "keyword": [
       "Græsk",
       "GKS 0018 folio"
     ],
@@ -112,7 +112,7 @@
       "extent": "1 bind, 493 blade"
     },
     "shelf_mark": "GKS 18 folio",
-    "original_object-identifier": "000023762KBH01",
+    "original_object_identifier": "000023762KBH01",
     "doms_guid": "a1445e60-06c2-11e1-bbcf-0016357f605f",
     "read_direction": "LTR",
     "pages": [

@@ -139,7 +139,10 @@
                     <xsl:attribute name="key">
                       <xsl:choose>
                         <xsl:when test="@type">
-                          <xsl:value-of select="@type"/>
+                          <xsl:choose>
+                            <xsl:when test="contains(@type,'citation/reference')">reference</xsl:when>
+                            <xsl:otherwise><xsl:value-of select="@type"/></xsl:otherwise>
+                          </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
                           <xsl:value-of select="@displayLabel"/>
@@ -168,7 +171,7 @@
 
             <xsl:if test="m:subject/m:topic">
               <f:array>
-                <xsl:attribute name="key">keywords</xsl:attribute>
+                <xsl:attribute name="key">keyword</xsl:attribute>
                 <xsl:for-each select="distinct-values(m:subject/m:topic)">
                   <f:string><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
@@ -177,7 +180,7 @@
 
             <xsl:if test="m:subject/m:geographic">
               <f:array>
-                <xsl:attribute name="key">keywords_geographic</xsl:attribute>
+                <xsl:attribute name="key">location</xsl:attribute>
                 <xsl:for-each select="distinct-values(m:subject/m:geographic)">
                   <f:string><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
@@ -221,7 +224,7 @@
 
             <xsl:if test="m:subject/m:hierarchicalGeographic">
               <f:map key="coverage_geo_names">
-                <f:string key="describing"><xsl:value-of select="."/></f:string>
+                <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
                 <f:boolean key="described">false</f:boolean>
                 <xsl:for-each select="m:subject/m:hierarchicalGeographic">
                   <xsl:for-each select="m:area">
@@ -245,7 +248,7 @@
             
             <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
               <xsl:if test="not(contains(.,'0.0,0.0'))">
-                <f:string key="dcterms_spatial"><xsl:value-of select="."/></f:string>
+                <f:string key="location_coordinates"><xsl:value-of select="."/></f:string>
               </xsl:if>
             </xsl:for-each>
 
@@ -362,7 +365,7 @@
             </xsl:for-each>
 
             <xsl:for-each select="m:relatedItem[@type='original']/m:identifier">
-              <f:string key="original_object-identifier"><xsl:value-of select="."/></f:string>
+              <f:string key="original_object_identifier"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
             <xsl:for-each select="m:identifier[@type='domsGuid']">

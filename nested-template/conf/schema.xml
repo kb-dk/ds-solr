@@ -52,6 +52,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="shelf_mark" type="text_da" stored="true"  indexed="true" />
     <field name="shelf_mark_verbatim" type="string" stored="true"  indexed="true" />
     <copyField source="shelf_mark"      dest="shelf_mark_verbatim"/>
+
+    <field name="original_object_identifier" type="text_da" stored="true"  indexed="true" />
     
     <field name="doms_guid" type="string" stored="true" required="false" />
     <field name="read_direction" type="string" stored="true" required="false" />
@@ -74,6 +76,10 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="description"      type="text_da"/>
     <field name="situation"      type="text_da"/>
 
+    <field name="content"      type="text_da"/>
+    <field name="additional physical form"      type="text_da"/>
+    <field name="reference"      type="text_da"/>
+    
     <field name="en"      type="text_da"/>
     <field name="da"      type="text_da"/>
 
@@ -168,10 +174,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="not_after_date"     type="date_range" />
     <field name="not_before_date"     type="date_range" />
 
-    <field name="visible_date"     type="text_da" />
-    <field name="visible_date_verbatim"     type="string" />
-    <copyField source="visible_date" dest="visible_date_verbatim" />
-
+    <field name="visible_date"     type="text_da"  multiValued="true" />
     
     <field name="last_modified_by" type="string" />
     
@@ -270,6 +273,15 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Geographical coordinates for the material. -->
     <field name="location_coordinates" type="geo"/>
 
+    <field name="area"  type="text_da"/>
+    <field name="cadastre"  type="text_da"/>
+    <field name="parish"  type="text_da"/>
+    <field name="building"  type="text_da"/>
+    <field name="zipcode"  type="text_da"/>
+    <field name="housenumber"  type="text_da"/>
+    <field name="street"  type="text_da"/>
+    <field name="city"  type="text_da"/>
+    
     <!-- Primary and secondary type description of the physical material. -->
     <field name="physical_source_1"    type="string"/>
     <field name="physical_source_2"    type="string"/>
