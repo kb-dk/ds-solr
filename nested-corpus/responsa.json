@@ -1,11 +1,12 @@
 [
   {
-    "id": "/manus/judsam/2009/sep/dsh/object41158",
+    "id": "manus/judsam/2009/sep/dsh/object41158",
+    "described": true,
     "cataloging_language": "en",
     "last_modified_by": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e303",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e303",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:eja"
@@ -15,35 +16,37 @@
     "record_revised": "2009-07-31",
     "tit": [
       {
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
         "language": "he",
         "entity_type": "main",
         "title": [
           "קובץ שאלות ותשובות"
         ],
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e57"
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e57"
       },
       {
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
         "language": "en",
         "entity_type": "transcribed",
         "title": [
           "Qovets she'elot u-tshuvot"
         ],
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e63"
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e63"
       }
     ],
     "scr": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e70",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e70",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "scr",
         "agent_name": "Yehuda Mordekhai ben Yitsḥaq Mordekhai"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e82",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e82",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "scr",
         "agent_name": "יהודה מרדכי בן יצחק מרדכי"
@@ -51,36 +54,36 @@
     ],
     "aut": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e94",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e94",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Maimonides"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e106",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e106",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Moshe ben Maimon"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e118",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e118",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Rambam"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e130",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e130",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "aut",
         "agent_name": "משה בן מימון"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e143",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e143",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "aut",
         "agent_name": "רמב\"ם"
@@ -88,85 +91,85 @@
     ],
     "ctb": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e155",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e155",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Alfasi, Yitsḥaq ben Ya'aqov"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e167",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e167",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Migash, Yosef ben Meir"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e179",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e179",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Shmuel ben Yosef ha-Nagid"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e191",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e191",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Alghiani, Yitsḥaq"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e203",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e203",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Moshe ben Moshe, of Broshilaish"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e216",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e216",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Ibn Danan, Sa'adya bein Maimon"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e228",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e228",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "אלפסי, יצחק בן יעקב"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e240",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e240",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "מיגש, יוסף בן מאיר"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e252",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e252",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "שמואל בן יוסף הנגיד"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e264",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e264",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "אלגיאני, יצחק"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e276",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e276",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "משה בן משה די ברושלייש"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e289",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e289",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "אבן דנן, סעדיה בן מימון"
@@ -179,8 +182,9 @@
       "Allony & Kupfer 1964, # 206"
     ],
     "specific_notes": {
-      "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e269",
-      "describing": "/manus/judsam/2009/sep/dsh/object41158",
+      "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e276",
+      "describing": "manus/judsam/2009/sep/dsh/object41158",
+      "described": false,
       "content": "Responsa",
       "additional physical form": "North-African Hebrew cursive script",
       "citation/reference": "Allony & Kupfer 1964, # 206"
@@ -194,65 +198,74 @@
     ],
     "categories": [
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e291",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject315",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e299",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject315",
         "da": "David Simonsens Håndskrifter",
         "en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e300",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject319",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e310",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject319",
         "da": "Sprog",
         "en": "Language"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e309",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject320",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e321",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject320",
         "da": "Hebraisk",
         "en": "Hebrew"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e318",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject423",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e332",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject423",
         "da": "Jødisk-arabisk",
         "en": "Judeo-Arabic"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e327",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject322",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e343",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject322",
         "da": "Ophavsland",
         "en": "Country of origin"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e336",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject451",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e354",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject451",
         "da": "Marokko",
         "en": "Marocco"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e345",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject316",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e365",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject316",
         "da": "Opstillingssignatur",
         "en": "Shelf mark"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e354",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject543",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e376",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject543",
         "da": "Cod. Sim. Jud.-Arab 001-007",
         "en": "Cod. Sim. Jud.-Arab 001-007"
       },
       {
-        "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e363",
-        "describing": "/manus/judsam/2009/sep/dsh/object41158",
-        "entity_id": "/manus/judsam/2009/sep/dsh/subject544",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e387",
+        "describing": "manus/judsam/2009/sep/dsh/object41158",
+        "described": false,
+        "entity_id": "manus/judsam/2009/sep/dsh/subject544",
         "da": "Cod. Sim. Jud.-Arab 001",
         "en": "Cod. Sim. Jud.-Arab 001"
       }
@@ -265,8 +278,9 @@
       "ש\"ד"
     ],
     "physical_description": {
-      "id": "/manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e383",
-      "describing": "/manus/judsam/2009/sep/dsh/object41158",
+      "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e409",
+      "describing": "manus/judsam/2009/sep/dsh/object41158",
+      "described": false,
       "medium": "Paper",
       "extent": "113 fols.",
       "size": "29,5 x 21 cm"

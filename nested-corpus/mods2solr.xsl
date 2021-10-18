@@ -20,10 +20,10 @@
           <xsl:variable name="record-id">
             <xsl:choose>
               <xsl:when test="processing-instruction('cobject_id')">
-                <xsl:value-of select="processing-instruction('cobject_id')"/>
+                <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="m:recordInfo/m:recordIdentifier"/>
+                <xsl:value-of select="replace(m:recordInfo/m:recordIdentifier,'^/','')"/>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
@@ -40,6 +40,8 @@
               <xsl:value-of select="$record-id"/>
             </f:string>
 
+            <f:boolean key="described">true</f:boolean>
+            
             <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
               <f:string key="cataloging_language">
                 <xsl:value-of select="."/>              
@@ -69,7 +71,8 @@
               <f:array key="tit">
                 <xsl:for-each select="m:titleInfo">
                   <f:map>
-                    <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>                    
+                    <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                    <f:boolean key="described">false</f:boolean>
                     <xsl:if test="@xml:lang">
                       <f:string key="language">
                         <xsl:value-of select="@xml:lang"/>
@@ -129,7 +132,8 @@
 
             <xsl:if test="m:note[@type or @displayLabel]">
               <f:map key="specific_notes">
-                <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>                    
+                <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                <f:boolean key="described">false</f:boolean>
                 <xsl:for-each select="m:note[@type or @displayLabel]">
                   <f:string>
                     <xsl:attribute name="key">
@@ -155,7 +159,9 @@
               <f:array>
                 <xsl:attribute name="key">subject</xsl:attribute>
                 <xsl:for-each select="$dom//m:subject/m:name[m:role/m:roleTerm = $term]">
-                  <xsl:call-template name="get-names"/>
+                  <xsl:call-template name="get-names">
+                    <xsl:with-param name="record_identifier" select="$record-id"/>
+                  </xsl:call-template>
                 </xsl:for-each>
               </f:array>
             </xsl:for-each>
@@ -197,6 +203,7 @@
                               select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'/')"/>
                 <f:map>
                   <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                  <f:boolean key="described">false</f:boolean>
                   <f:string key="entity_id"><xsl:value-of select="."/></f:string>
                   <f:string key="da">
                     <xsl:for-each select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
@@ -215,6 +222,7 @@
             <xsl:if test="m:subject/m:hierarchicalGeographic">
               <f:map key="coverage_geo_names">
                 <f:string key="describing"><xsl:value-of select="."/></f:string>
+                <f:boolean key="described">false</f:boolean>
                 <xsl:for-each select="m:subject/m:hierarchicalGeographic">
                   <xsl:for-each select="m:area">
                     <xsl:element name="f:string">
@@ -295,6 +303,7 @@
                                     | m:note[not(@type='pageOrientation')]]">
               <f:map key="physical_description">
                 <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                <f:boolean key="described">false</f:boolean>
                 <xsl:for-each select="m:physicalDescription">
                   <xsl:variable name="label">
                     <xsl:choose>
