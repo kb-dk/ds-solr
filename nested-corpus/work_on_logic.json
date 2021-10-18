@@ -6,6 +6,7 @@
     "last_modified_by": [
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e181",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -39,6 +40,7 @@
     "scr": [
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e70",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "en",
         "entity_type": "scr",
@@ -46,6 +48,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e82",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "he",
         "entity_type": "scr",
@@ -55,6 +58,7 @@
     "aut": [
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e94",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "en",
         "entity_type": "aut",
@@ -62,6 +66,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e106",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "en",
         "entity_type": "aut",
@@ -69,6 +74,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e118",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "en",
         "entity_type": "aut",
@@ -76,6 +82,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e130",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "he",
         "entity_type": "aut",
@@ -83,6 +90,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e143",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "he",
         "entity_type": "aut",
@@ -92,6 +100,7 @@
     "trl": [
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e155",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "en",
         "entity_type": "trl",
@@ -99,6 +108,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d1e167",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "language": "he",
         "entity_type": "trl",
@@ -112,7 +122,7 @@
       "Allony & Kupfer 1964, # 113"
     ],
     "specific_notes": {
-      "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e165",
+      "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e185",
       "describing": "manus/judsam/2009/sep/dsh/object27137",
       "described": false,
       "content": "Work on logic",
@@ -127,7 +137,7 @@
     ],
     "categories": [
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e186",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e206",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject315",
@@ -135,7 +145,7 @@
         "en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e197",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e217",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject319",
@@ -143,7 +153,7 @@
         "en": "Language"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e208",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e228",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject320",
@@ -151,7 +161,7 @@
         "en": "Hebrew"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e219",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e239",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject316",
@@ -159,7 +169,7 @@
         "en": "Shelf mark"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e230",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e250",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject420",
@@ -167,7 +177,7 @@
         "en": "Cod. Sim. Heb. 031-040"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e241",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e261",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject428",
@@ -175,7 +185,7 @@
         "en": "Cod. Sim. Heb. 035"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e252",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e272",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject322",
@@ -183,7 +193,7 @@
         "en": "Country of origin"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e263",
+        "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e283",
         "describing": "manus/judsam/2009/sep/dsh/object27137",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject429",
@@ -197,7 +207,7 @@
       "1866"
     ],
     "physical_description": {
-      "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e281",
+      "id": "manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e301",
       "describing": "manus/judsam/2009/sep/dsh/object27137",
       "described": false,
       "medium": "Paper",

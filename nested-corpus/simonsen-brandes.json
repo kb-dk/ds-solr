@@ -6,6 +6,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d1e46",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -29,6 +30,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d1e64",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "language": "en",
         "entity_type": "aut",
@@ -39,6 +41,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d1e88",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "language": "en",
         "entity_type": "rcp",
@@ -47,7 +50,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e66",
+        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e72",
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -55,7 +58,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e77",
+        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e83",
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -63,7 +66,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e88",
+        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e94",
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1958",
@@ -71,7 +74,7 @@
         "en": "0005"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e99",
+        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e105",
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -79,7 +82,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e110",
+        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e116",
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -87,7 +90,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e121",
+        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e127",
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -95,7 +98,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e132",
+        "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e138",
         "describing": "letters/judsam/2011/mar/dsa/object2678",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -109,7 +112,7 @@
       "1916-04-12"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e151",
+      "id": "letters/judsam/2011/mar/dsa/object2678-disposable-subrecord-d3e157",
       "describing": "letters/judsam/2011/mar/dsa/object2678",
       "described": false,
       "extent": "2 pp."
@@ -129,6 +132,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d1e301",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -152,6 +156,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d1e319",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "language": "en",
         "entity_type": "aut",
@@ -162,6 +167,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d1e343",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "language": "en",
         "entity_type": "rcp",
@@ -170,7 +176,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e66",
+        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e72",
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -178,7 +184,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e77",
+        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e83",
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -186,7 +192,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e88",
+        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e94",
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1954",
@@ -194,7 +200,7 @@
         "en": "0002"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e99",
+        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e105",
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -202,7 +208,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e110",
+        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e116",
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -210,7 +216,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e121",
+        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e127",
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -218,7 +224,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e132",
+        "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e138",
         "describing": "letters/judsam/2011/mar/dsa/object2671",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -232,7 +238,7 @@
       "1915-05-18"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e151",
+      "id": "letters/judsam/2011/mar/dsa/object2671-disposable-subrecord-d4e157",
       "describing": "letters/judsam/2011/mar/dsa/object2671",
       "described": false,
       "extent": "2 pp."
@@ -252,6 +258,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d1e556",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -275,6 +282,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d1e574",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "language": "en",
         "entity_type": "aut",
@@ -285,6 +293,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d1e598",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "language": "en",
         "entity_type": "rcp",
@@ -293,7 +302,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e66",
+        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e72",
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -301,7 +310,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e77",
+        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e83",
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -309,7 +318,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e88",
+        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e94",
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1961",
@@ -317,7 +326,7 @@
         "en": "0009"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e99",
+        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e105",
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -325,7 +334,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e110",
+        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e116",
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -333,7 +342,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e121",
+        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e127",
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -341,7 +350,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e132",
+        "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e138",
         "describing": "letters/judsam/2011/mar/dsa/object2681",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -355,7 +364,7 @@
       "3. juni"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e151",
+      "id": "letters/judsam/2011/mar/dsa/object2681-disposable-subrecord-d5e157",
       "describing": "letters/judsam/2011/mar/dsa/object2681",
       "described": false,
       "extent": "1 p."
@@ -374,6 +383,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d1e805",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -397,6 +407,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d1e823",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "language": "en",
         "entity_type": "aut",
@@ -407,6 +418,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d1e847",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "language": "en",
         "entity_type": "rcp",
@@ -415,7 +427,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e66",
+        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e72",
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -423,7 +435,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e77",
+        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e83",
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -431,7 +443,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e88",
+        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e94",
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1956",
@@ -439,7 +451,7 @@
         "en": "0004"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e99",
+        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e105",
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -447,7 +459,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e110",
+        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e116",
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -455,7 +467,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e121",
+        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e127",
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -463,7 +475,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e132",
+        "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e138",
         "describing": "letters/judsam/2011/mar/dsa/object2674",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -477,7 +489,7 @@
       "1915-06-23"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e151",
+      "id": "letters/judsam/2011/mar/dsa/object2674-disposable-subrecord-d6e157",
       "describing": "letters/judsam/2011/mar/dsa/object2674",
       "described": false,
       "extent": "1 p."
@@ -496,6 +508,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d1e1054",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -519,6 +532,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d1e1072",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "language": "en",
         "entity_type": "aut",
@@ -529,6 +543,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d1e1096",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "language": "en",
         "entity_type": "rcp",
@@ -537,7 +552,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e66",
+        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e72",
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -545,7 +560,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e77",
+        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e83",
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -553,7 +568,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e88",
+        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e94",
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1960",
@@ -561,7 +576,7 @@
         "en": "0008"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e99",
+        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e105",
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -569,7 +584,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e110",
+        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e116",
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -577,7 +592,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e121",
+        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e127",
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -585,7 +600,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e132",
+        "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e138",
         "describing": "letters/judsam/2011/mar/dsa/object2680",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -599,7 +614,7 @@
       "1920-03-25"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e151",
+      "id": "letters/judsam/2011/mar/dsa/object2680-disposable-subrecord-d7e157",
       "describing": "letters/judsam/2011/mar/dsa/object2680",
       "described": false,
       "extent": "1 p."
@@ -618,6 +633,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d1e1304",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -641,6 +657,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d1e1322",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "language": "en",
         "entity_type": "aut",
@@ -651,6 +668,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d1e1346",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "language": "en",
         "entity_type": "rcp",
@@ -659,7 +677,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e66",
+        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e72",
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -667,7 +685,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e77",
+        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e83",
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -675,7 +693,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e88",
+        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e94",
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1957",
@@ -683,7 +701,7 @@
         "en": "0006"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e99",
+        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e105",
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -691,7 +709,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e110",
+        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e116",
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -699,7 +717,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e121",
+        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e127",
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -707,7 +725,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e132",
+        "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e138",
         "describing": "letters/judsam/2011/mar/dsa/object2676",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -721,7 +739,7 @@
       "1916-04-14"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e151",
+      "id": "letters/judsam/2011/mar/dsa/object2676-disposable-subrecord-d8e157",
       "describing": "letters/judsam/2011/mar/dsa/object2676",
       "described": false,
       "extent": "2 pp."
@@ -741,6 +759,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d1e1559",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -764,6 +783,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d1e1577",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "language": "en",
         "entity_type": "aut",
@@ -774,6 +794,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d1e1601",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "language": "en",
         "entity_type": "rcp",
@@ -782,7 +803,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e66",
+        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e72",
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -790,7 +811,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e77",
+        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e83",
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -798,7 +819,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e88",
+        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e94",
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1953",
@@ -806,7 +827,7 @@
         "en": "0001"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e99",
+        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e105",
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -814,7 +835,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e110",
+        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e116",
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -822,7 +843,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e121",
+        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e127",
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -830,7 +851,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e132",
+        "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e138",
         "describing": "letters/judsam/2011/mar/dsa/object2670",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -844,7 +865,7 @@
       "1914-10-29"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e151",
+      "id": "letters/judsam/2011/mar/dsa/object2670-disposable-subrecord-d9e157",
       "describing": "letters/judsam/2011/mar/dsa/object2670",
       "described": false,
       "extent": "2 pp."
@@ -864,6 +885,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d1e1814",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -887,6 +909,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d1e1832",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "language": "en",
         "entity_type": "aut",
@@ -897,6 +920,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d1e1856",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "language": "en",
         "entity_type": "rcp",
@@ -905,7 +929,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e66",
+        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e72",
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -913,7 +937,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e77",
+        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e83",
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -921,7 +945,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e88",
+        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e94",
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1959",
@@ -929,7 +953,7 @@
         "en": "0007"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e99",
+        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e105",
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -937,7 +961,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e110",
+        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e116",
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -945,7 +969,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e121",
+        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e127",
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -953,7 +977,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e132",
+        "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e138",
         "describing": "letters/judsam/2011/mar/dsa/object2679",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -967,7 +991,7 @@
       "1920-03-19"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e151",
+      "id": "letters/judsam/2011/mar/dsa/object2679-disposable-subrecord-d10e157",
       "describing": "letters/judsam/2011/mar/dsa/object2679",
       "described": false,
       "extent": "1 p."
@@ -986,6 +1010,7 @@
     "last_modified_by": [
       {
         "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d1e2063",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -1009,6 +1034,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d1e2081",
         "authority": "http://viaf.org/viaf/54951228",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "language": "en",
         "entity_type": "aut",
@@ -1019,6 +1045,7 @@
       {
         "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d1e2105",
         "authority": "http://viaf.org/viaf/4938982",
+        "described": false,
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "language": "en",
         "entity_type": "rcp",
@@ -1027,7 +1054,7 @@
     ],
     "categories": [
       {
-        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e66",
+        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e72",
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1925",
@@ -1035,7 +1062,7 @@
         "en": "Br"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e77",
+        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e83",
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1952",
@@ -1043,7 +1070,7 @@
         "en": "Brandes, Georg"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e88",
+        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e94",
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject1955",
@@ -1051,7 +1078,7 @@
         "en": "0003"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e99",
+        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e105",
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject4",
@@ -1059,7 +1086,7 @@
         "en": "David Simonsen Archives"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e110",
+        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e116",
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject49",
@@ -1067,7 +1094,7 @@
         "en": "B"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e121",
+        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e127",
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject5",
@@ -1075,7 +1102,7 @@
         "en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e132",
+        "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e138",
         "describing": "letters/judsam/2011/mar/dsa/object2673",
         "described": false,
         "entity_id": "letters/judsam/2011/mar/dsa/subject6",
@@ -1089,7 +1116,7 @@
       "1915-05-23"
     ],
     "physical_description": {
-      "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e151",
+      "id": "letters/judsam/2011/mar/dsa/object2673-disposable-subrecord-d11e157",
       "describing": "letters/judsam/2011/mar/dsa/object2673",
       "described": false,
       "extent": "1 p."

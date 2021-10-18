@@ -486,6 +486,7 @@
       <xsl:if test="@authorityURI">
         <f:string key="authority"><xsl:value-of select="@authorityURI"/></f:string>
       </xsl:if>
+      <f:boolean key="described">false</f:boolean>
       <f:string key="describing"><xsl:value-of select="$record_identifier"/></f:string>
       <xsl:if test="@xml:lang">
         <f:string key="language"><xsl:value-of select="@xml:lang"/></f:string>

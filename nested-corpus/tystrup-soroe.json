@@ -6,6 +6,7 @@
     "last_modified_by": [
       {
         "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d1e68",
+        "described": false,
         "describing": "images/luftfo/2011/maj/luftfoto/object322504",
         "language": "da",
         "entity_type": "last-modified-by",
@@ -30,6 +31,7 @@
       {
         "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d1e56",
         "authority": "http://viaf.org/viaf/307245669",
+        "described": false,
         "describing": "images/luftfo/2011/maj/luftfoto/object322504",
         "entity_type": "creator",
         "agent_name": "Sylvest Jensen Luftfoto"
@@ -45,7 +47,7 @@
     ],
     "categories": [
       {
-        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e62",
+        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e66",
         "describing": "images/luftfo/2011/maj/luftfoto/object322504",
         "described": false,
         "entity_id": "images/luftfo/2011/maj/luftfoto/subject203",
@@ -53,7 +55,7 @@
         "en": "Luftfoto"
       },
       {
-        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e73",
+        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e77",
         "describing": "images/luftfo/2011/maj/luftfoto/object322504",
         "described": false,
         "entity_id": "images/luftfo/2011/maj/luftfoto/subject204",
@@ -61,7 +63,7 @@
         "en": "Sylvest Jensen"
       },
       {
-        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e84",
+        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e88",
         "describing": "images/luftfo/2011/maj/luftfoto/object322504",
         "described": false,
         "entity_id": "images/luftfo/2011/maj/luftfoto/subject251",
@@ -69,7 +71,7 @@
         "en": "NK-Serie"
       },
       {
-        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e95",
+        "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e99",
         "describing": "images/luftfo/2011/maj/luftfoto/object322504",
         "described": false,
         "entity_id": "images/luftfo/2011/maj/luftfoto/subject843",
@@ -78,7 +80,7 @@
       }
     ],
     "coverage_geo_names": {
-      "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e107",
+      "id": "images/luftfo/2011/maj/luftfoto/object322504-disposable-subrecord-d3e111",
       "describing": "images/luftfo/2011/maj/luftfoto/object322504",
       "described": false,
       "area": "Præsteskov",

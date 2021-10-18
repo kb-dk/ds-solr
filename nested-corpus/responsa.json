@@ -6,6 +6,7 @@
     "last_modified_by": [
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e303",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "last-modified-by",
@@ -39,6 +40,7 @@
     "scr": [
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e70",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "scr",
@@ -46,6 +48,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e82",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "scr",
@@ -55,6 +58,7 @@
     "aut": [
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e94",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "aut",
@@ -62,6 +66,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e106",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "aut",
@@ -69,6 +74,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e118",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "aut",
@@ -76,6 +82,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e130",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "aut",
@@ -83,6 +90,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e143",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "aut",
@@ -92,6 +100,7 @@
     "ctb": [
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e155",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
@@ -99,6 +108,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e167",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
@@ -106,6 +116,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e179",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
@@ -113,6 +124,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e191",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
@@ -120,6 +132,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e203",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
@@ -127,6 +140,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e216",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "en",
         "entity_type": "ctb",
@@ -134,6 +148,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e228",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
@@ -141,6 +156,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e240",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
@@ -148,6 +164,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e252",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
@@ -155,6 +172,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e264",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
@@ -162,6 +180,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e276",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
@@ -169,6 +188,7 @@
       },
       {
         "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d1e289",
+        "described": false,
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "language": "he",
         "entity_type": "ctb",
@@ -182,7 +202,7 @@
       "Allony & Kupfer 1964, # 206"
     ],
     "specific_notes": {
-      "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e276",
+      "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e316",
       "describing": "manus/judsam/2009/sep/dsh/object41158",
       "described": false,
       "content": "Responsa",
@@ -198,7 +218,7 @@
     ],
     "categories": [
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e299",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e339",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject315",
@@ -206,7 +226,7 @@
         "en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e310",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e350",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject319",
@@ -214,7 +234,7 @@
         "en": "Language"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e321",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e361",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject320",
@@ -222,7 +242,7 @@
         "en": "Hebrew"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e332",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e372",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject423",
@@ -230,7 +250,7 @@
         "en": "Judeo-Arabic"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e343",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e383",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject322",
@@ -238,7 +258,7 @@
         "en": "Country of origin"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e354",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e394",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject451",
@@ -246,7 +266,7 @@
         "en": "Marocco"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e365",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e405",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject316",
@@ -254,7 +274,7 @@
         "en": "Shelf mark"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e376",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e416",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject543",
@@ -262,7 +282,7 @@
         "en": "Cod. Sim. Jud.-Arab 001-007"
       },
       {
-        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e387",
+        "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e427",
         "describing": "manus/judsam/2009/sep/dsh/object41158",
         "described": false,
         "entity_id": "manus/judsam/2009/sep/dsh/subject544",
@@ -278,7 +298,7 @@
       "ש\"ד"
     ],
     "physical_description": {
-      "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e409",
+      "id": "manus/judsam/2009/sep/dsh/object41158-disposable-subrecord-d3e449",
       "describing": "manus/judsam/2009/sep/dsh/object41158",
       "described": false,
       "medium": "Paper",
