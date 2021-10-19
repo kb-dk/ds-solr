@@ -2,6 +2,12 @@
 
 ## Introduction
 
+In recent releases, as of solr 8, [facilities for the searching and
+indexing nested documents has
+improved](https://solr.apache.org/guide/8_0/major-changes-in-solr-8.html).
+
+## The Corpus
+
 This directory contains
 
 1. a corpus of metadata/data for free data sets. The metadata is in
