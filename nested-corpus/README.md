@@ -63,7 +63,9 @@ What happens in the indexing and searching is actually a drastic change in the s
 },
 ```
 
-In particular, the field 'tit' is now a value in the automatically generated ```_nest_path_``` field
+In particular, the field 'tit' is now a value in the automatically
+generated ```_nest_path_``` field. You will not get the structure back
+until you add ```*,[child]``` to you field list.
 
 ## The Corpus
 
