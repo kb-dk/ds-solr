@@ -26,14 +26,14 @@ daterange does not handle docValues - we might need two versions of datetime
          Prefix with `ds_` and append collection-name and a collection-specific identifier for at total such as
          `ds_danskvestindien_324f243ed528`. No spaces allowed (replace with underscore `_`). -->
     
-    <field name="id"          type="string" stored="true" required="true" />
+    <field name="id"          type="string" stored="true"  indexed="true" required="true" />
     <field name="authority"   type="string" stored="true"  indexed="true" />
     <field name="entity_id"   type="string" stored="true"  indexed="true" />
 
     <!-- the one below is basically the same as _nest_parent_ -->
 
-    <field name="described"  type="boolean" stored="true"  indexed="true" />
-    <field name="describing"  type="string" stored="true"  indexed="true" />
+    <field name="described"   type="boolean" stored="true"  indexed="true" />
+    <field name="describing"  type="string"  stored="true"  indexed="true" />
     
     <!-- The original material type. One of
          * `image`
