@@ -17,7 +17,7 @@
         <xsl:for-each select="//m:mods">
           <xsl:variable name="dom" select="."/>
 
-          <xsl:variable name="record-id">
+          <xsl:variable name="record-id-in">
             <xsl:choose>
               <xsl:when test="processing-instruction('cobject_id')">
                 <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
@@ -28,12 +28,16 @@
             </xsl:choose>
           </xsl:variable>
 
+          <xsl:variable name="record-id">
+            <xsl:value-of select="replace($record-id-in,'/','-','s')"/>
+          </xsl:variable>
+
           <xsl:variable name="output_data">
             <f:map>
             <!-- record identification, admin data etc  -->
 
             <xsl:variable name="edition">
-              <xsl:value-of select="substring-before($record-id,'/object')"/>
+              <xsl:value-of select="substring-before($record-id,'-object')"/>
             </xsl:variable>
             
             <f:string key="id">

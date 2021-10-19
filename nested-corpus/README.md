@@ -57,7 +57,11 @@ No attempts has been made to transform the TEI letter stuff. I can do that at a 
 Agent's (i.e., entities having a specified relation to the work
 described) roles are named according to [marc relator
   list](https://www.loc.gov/marc/relators/relaterm.html) at library of
-congress. The mods name field has been translated into a field given
+congress.
+
+
+
+The mods name field has been translated into a field given
 by its relator code. Hence
   
   
@@ -73,12 +77,21 @@ by its relator code. Hence
 is transformed to
 
 ```
-"aut": { 
-        "id": "/manus/judsam/2009/sep/dsh/object27137-disposable-subrecord-d3e54",
-        "lang": "he",
-        "name": "משה בן מימון"
-   }
+"aut":  {
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e130",
+        "described": false,
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
+        "language": "he",
+        "entity_type": "aut",
+        "agent_name": "משה בן מימון"
+      },
 ```
+
+All nested items have an id, and the boolean 'described' which is
+false if the item is describing something and true when it is a true
+for 'real' objects that are described by child objects. There is also
+the 'describing' field which is present in descriptive items (for
+which described is false), containing the id of the item being described.
 
 There are perhaps a handfull relators in use.
 
@@ -111,23 +124,29 @@ search. Still, I have included the categories in these records. They
 are given like the following:
 
 ```
- "categories": [
-      {
-        "id": "/manus/judsam/2009/sep/dsh/subject315",
-        "da": "David Simonsens Håndskrifter",
-        "en": "The David Simonsen Manuscripts"
-      },
-      {
-        "id": "/manus/judsam/2009/sep/dsh/subject319",
-        "da": "Sprog",
-        "en": "Language"
-      },
-      {
-        "id": "/manus/judsam/2009/sep/dsh/subject320",
-        "da": "Hebraisk",
-        "en": "Hebrew"
-      },
-	  ...
+
+"categories": [
+
+...
+
+{
+  "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e206",
+  "describing": "manus-judsam-2009-sep-dsh-object27137",
+  "described": false,
+  "entity_id": "manus-judsam-2009-sep-dsh/subject315",
+  "da": "David Simonsens Håndskrifter",
+  "en": "The David Simonsen Manuscripts"
+},
+{
+  "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e217",
+  "describing": "manus-judsam-2009-sep-dsh-object27137",
+  "described": false,
+  "entity_id": "manus-judsam-2009-sep-dsh/subject319",
+  "da": "Sprog",
+  "en": "Language"
+},
+
+...
 
 ```
 
@@ -157,13 +176,18 @@ Most nested records will, however, not have persistent
 identification. I then generate and ID having the following form:
 
 ```
- "title": [
+ "tit": [
       {
-        "id": "/images/billed/2010/okt/billeder/object356751-disposable-subrecord-d3e13",
-        "lang": "da",
-        "main": "Hvidovre Teater"
+        "describing": "images-billed-2010-okt-billeder-object356751",
+        "described": false,
+        "language": "da",
+        "entity_type": "main",
+        "title": [
+          "Hvidovre Teater"
+        ],
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d1e51"
       }
-    ]
+    ],
 ```
 
 The ID should be unique in the index given the way it is created. Note
@@ -171,19 +195,16 @@ that we added -disposable-subrecord- followed by a record ID inside
 the mods.
 
 Assuming that we want to delete record with ID
-/images/billed/2010/okt/billeder/object35675
+
+```images-billed-2010-okt-billeder-object35675```
 
 we should be able to do using a http POST of  
 
-```
-<delete><query>id:'/images/billed/2010/okt/billeder/object356751'</query></delete>
-```
+```<delete><query>id:'images-billed-2010-okt-billeder-object356751'</query></delete>```
 
 and
 
-```
-<delete><query>id:'/images/billed/2010/okt/billeder/object356751-disposable*'</query></delete>
-```
+```<delete><query>id:'images-billed-2010-okt-billeder-object356751-disposable*'</query></delete>```
 
 The latter should purge all disposable stuff related to the record.
 
