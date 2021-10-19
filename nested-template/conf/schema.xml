@@ -15,7 +15,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Solr-internal fields -->
     <field     name="_version_" type="long"/>
     <field     name="_root_" type="string" indexed="true" stored="true"/>
-    <field     name="_nest_path_" type="_nest_path_" stored="true" required="true" />
+    <field     name="_nest_path_" type="_nest_path_" stored="true" indexed="true" />
     <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
 
     <!-- *************************************************************************************

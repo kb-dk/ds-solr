@@ -2,9 +2,68 @@
 
 ## Introduction
 
-In recent releases, as of solr 8, [facilities for the searching and
+In recent releases, as of Solr 8, [facilities for the searching and
 indexing nested documents has
 improved](https://solr.apache.org/guide/8_0/major-changes-in-solr-8.html).
+
+Solr nested documents are different from most other similar constructs. One
+difference is that these Solr documents all have the same content
+model. Anyone used to encoding (meta)data in SQL, XML, json or
+whatever will think of elements or tables with different kinds column schemas or
+element content models.
+
+All documents in a Solr nesting-structure have the same content
+model. When you get used to it, you will regard that as feature, not a
+bug, and that it has a beauty.
+
+Then, if you create (as I did) a series of fields like "tit"
+containing titles the json I created looked like this:
+
+```
+ "tit": [
+      {
+        "describing": "manus-judsam-2009-sep-dsh-object41158",
+        "described": false,
+        "language": "he",
+        "entity_type": "main",
+        "title": [
+          "קובץ שאלות ותשובות"
+        ],
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d1e57"
+      },
+      {
+        "describing": "manus-judsam-2009-sep-dsh-object41158",
+        "described": false,
+        "language": "en",
+        "entity_type": "transcribed",
+        "title": [
+          "Qovets she'elot u-tshuvot"
+        ],
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d1e63"
+      }
+    ],
+```
+
+What happens in the indexing and searching is actually a drastic change in the structure:
+
+```
+{
+        "describing":"manus-judsam-2009-sep-dsh-object41158",
+        "described":false,
+        "entity_type":"main",
+        "title":"קובץ שאלות ותשובות",
+        "id":"manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d1e57",
+        "_nest_path_":"/tit#0",
+        "_nest_parent_":"manus-judsam-2009-sep-dsh-object41158",
+        "_root_":"manus-judsam-2009-sep-dsh-object41158",
+        "_version_":1714032457556164608,
+        "title_sort":"e*\u0010\b(\u0003\u0004e.\u0006\u001c\u00100\u0003\u0004e\u00100.\u0010\b\u00100\u0001\u0016\u0000",
+        "language":["he"],
+        "score":2.336233}]
+},
+```
+
+In particular, the field 'tit' is now a value in the automatically generated ```_nest_path_``` field
 
 ## The Corpus
 
