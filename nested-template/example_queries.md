@@ -24,7 +24,3 @@ http://localhost:10007/solr/ds/select?fl=*%2C%5Bchild%5D&q=%7B!term%20f%3Dcatalo
 
 {!child of="*:* -_nest_path_:\\/aut"}name:albert
 
-<form action="http://localhost:10007/solr/ds/select">
- q=	<input name="q" content=""/>
-
-</form>

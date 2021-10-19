@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Search by example</title>
+  </head>
+  <body>
+    <div>
+
+      <h1>Search by example</h1>
+      
+      <h3>Form</h3>
+      
+      <form target="_null_"  action="http://localhost:10007/solr/ds/select">
+        <dl>
+          <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><input name="q" value="agent_name:albert"/></dd>
+          <dt>Filter Query (fq)</dt><dd  style="margin-bottom:+0.5em;"><input name="fq" value=""/></dd>
+          <dt>Field list (comma separated, fl)</dt><dd  style="margin-bottom:+0.5em;"><input name="fl" value="*,[child]" /></dd>
+          <dt>Format (wt)</dt>
+          <dd  style="margin-bottom:+0.5em;">
+            <select id="format" name="wt">
+              <option value="json">json</option>
+              <option value="xml">xml</option>
+            </select>
+          </dd>
+          <dt></dt><dd  style="margin-bottom:+0.5em;"><input type="submit" value="search" /></dd>
+        </dl>
+      </form>
+
+      <h3>Simple searches</h3>
+      
+      <ul>
+        <li>describing:manus-vmanus-2011-dec-ha-object71279 (11 hits)</li>
+        <li>described:false <a href="http://localhost:10007/solr/ds/select?q=described%3Afalse&amp;fq=&amp;fl=">(205 hits)</a></li>
+        <li>agent_name:(Waage Sandø)<br/>
+        agent_name:(albert einstein)</li>
+        <li>note:"Waage Sandø" <a href="http://localhost:10007/solr/ds/select?q=note%3A%22Waage+Sand%C3%B8%22&amp;fq=&amp;fl=*%2C%5Bchild%5D&amp;wt=json">(1 hit)</a></li>
+
+      </ul>
+
+      <h3>Searches with joins</h3>
+
+      <ul>
+        <li>{!join from=describing to=id}described:false (0 hits)</li>
+        <li>{!parent which="described:false"}agent_name:(georg brandes)</li>
+      </ul>
+      
+    </div>
+  </body>
+</html>
