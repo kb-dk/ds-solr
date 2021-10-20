@@ -1,6 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Search by example</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   </head>
   <body>
     <div>
@@ -184,23 +185,6 @@
 
        <p>
          <strong>9.</strong>
-            The should ideally only be one manuscript having
-            <kbd id="shelfmark">shelf_mark_verbatim:"Cod. Sim. Heb. 35"</kbd>
-            <a href="#form"
-               onclick="var content = document.getElementById('shelfmark').innerHTML;
-                        document.getElementById('solr_q').value = content;
-                        console.log(content);
-                        document.getElementById('solr_fq').value = '';
-                        document.getElementById('solr_fl').value = '*,[child]';
-                        document.getElementById('num_hits').value = '300';">
-              (1 hits)
-            </a>
-            That assumption turned out to be correct, at least in this
-            corpus (in which there are only two manuscripts).
-       </p>
-
-       <p>
-         <strong>10.</strong>
              The should ideally only be one manuscript having
             <kbd id="shelfmark">shelf_mark_verbatim:"Cod. Sim. Heb. 35"</kbd>
             <a href="#form"
@@ -254,7 +238,12 @@
         </p>
 
         
-        <p><strong>2.</strong>{!parent which="described:true"}agent_name:(georg brandes)</p>
+        <p>
+          <strong>3.</strong> The way I had planned to search was
+          using the <a
+          href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
+          Join Parent Query Parser</a> {!parent
+          which="described:true"}agent_name:(georg brandes)</p>
 
       </div>
     </div>
