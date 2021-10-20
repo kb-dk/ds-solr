@@ -11,9 +11,9 @@
       
       <form target="_null_"  action="http://localhost:10007/solr/ds/select">
         <dl>
-          <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><input name="q" value="agent_name:albert"/></dd>
-          <dt>Filter Query (fq)</dt><dd  style="margin-bottom:+0.5em;"><input name="fq" value=""/></dd>
-          <dt>Field list (comma separated, fl)</dt><dd  style="margin-bottom:+0.5em;"><input name="fl" value="*,[child]" /></dd>
+          <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><input name="q"  size="75" value="agent_name:albert"/></dd>
+          <dt>Filter Query (fq)</dt><dd  style="margin-bottom:+0.5em;"><input  size="75" name="fq" value=""/></dd>
+          <dt>Field list (comma separated, fl)</dt><dd  style="margin-bottom:+0.5em;"><input name="fl" size="75" value="*,[child]" /></dd>
           <dt>Format (wt)</dt>
           <dd  style="margin-bottom:+0.5em;">
             <select id="format" name="wt">
@@ -21,6 +21,8 @@
               <option value="xml">xml</option>
             </select>
           </dd>
+          <dt>Retrieve number</dt>
+          <dd style="margin-bottom:+0.5em;"><input id="num_hits" size="10" name="rows" value="300"></input></dd>
           <dt></dt><dd  style="margin-bottom:+0.5em;"><input type="submit" value="search" /></dd>
         </dl>
       </form>
