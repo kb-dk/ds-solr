@@ -6,14 +6,23 @@
     <div>
 
       <h1>Search by example</h1>
-      
+      <div style="width:30%; float:left;">
       <h3>Form</h3>
       
-      <form target="_null_"  action="http://localhost:10007/solr/ds/select">
+      <form id="search_form" target="_null_"  action="http://localhost:10007/solr/ds/select">
         <dl>
-          <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><input name="q"  size="75" value="agent_name:albert"/></dd>
-          <dt>Filter Query (fq)</dt><dd  style="margin-bottom:+0.5em;"><input  size="75" name="fq" value=""/></dd>
-          <dt>Field list (comma separated, fl)</dt><dd  style="margin-bottom:+0.5em;"><input name="fl" size="75" value="*,[child]" /></dd>
+          <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><textarea id="solr_q" name="q"  cols="30" rows="10">agent_name:albert</textarea></dd>
+          <dt>Filter Query (fq)</dt>
+          <dd  style="margin-bottom:+0.5em;">
+            <textarea id="solr_fq"  cols="30" rows="2">
+
+            </textarea>
+          </dd>
+
+          <dt>Field list (comma separated, fl)</dt>
+          <dd  style="margin-bottom:+0.5em;">
+            <textarea id="solr_fl" name="fl"  cols="30" rows="2">*,[child]</textarea>
+          </dd>
           <dt>Format (wt)</dt>
           <dd  style="margin-bottom:+0.5em;">
             <select id="format" name="wt">
@@ -22,19 +31,65 @@
             </select>
           </dd>
           <dt>Retrieve number</dt>
-          <dd style="margin-bottom:+0.5em;"><input id="num_hits" size="10" name="rows" value="300"></input></dd>
-          <dt></dt><dd  style="margin-bottom:+0.5em;"><input type="submit" value="search" /></dd>
+          <dd style="margin-bottom:+0.5em;">
+            <input id="num_hits" size="10" name="rows" value="300"/>
+          </dd>
+          <dt></dt>
+          <dd  style="margin-bottom:+0.5em;">
+            <input type="submit" value="search" />
+            <a href="#form"
+               onclick="var content = document.getElementById('albert').innerHTML;
+                        document.getElementById('solr_q').value = content;
+                        console.log(content);
+                        document.getElementById('solr_fq').value = '';
+                        document.getElementById('solr_fl').value = '*';
+                        document.getElementById('num_hits').value = '300';">
+            <strong>Reset form!</strong>
+          </a>
+
+          </dd>
         </dl>
       </form>
-
-      <h3>Simple searches</h3>
+      </div>
+      <div style="width:60%; float:left;">
+        <h3>Simple searches</h3>
       
-      <ul>
-        <li>describing:manus-vmanus-2011-dec-ha-object71279 (11 hits)</li>
-        <li>Select nodes that are describing other nodes <kbd>described:false</kbd> <a href="http://localhost:10007/solr/ds/select?q=described%3Afalse&amp;fq=&amp;fl=">(205 hits)</a></li>
-        <li>Select nodes that are described by other nodes <kbd>described:true</kbd> <a href="http://localhost:10007/solr/ds/select?q=described%3Atrue&amp;fq=&amp;fl=">(15 hits)</a></li>
-        <li>agent_name:(Waage Sandø)<br/>
-        agent_name:(albert einstein)</li>
+        <ul>
+          <li>Find Albert Einstein <kbd id="albert">agent_name:albert</kbd> (1 hit)</li>
+          <li>Find descriptors of homiliae-super-psalmos
+          <kbd id="object71279">describing:manus-vmanus-2011-dec-ha-object71279</kbd>
+           <a href="#form"
+               onclick="var content = document.getElementById('object71279').innerHTML;
+                        document.getElementById('solr_q').value = content;
+                        console.log(content);
+                        document.getElementById('solr_fq').value = '';
+                        document.getElementById('solr_fl').value = '*';
+                        document.getElementById('num_hits').value = '300';">(11 hits)</a>
+          </li>
+          <li>Select nodes that are describing other nodes <kbd id="descriptive_nodes">described:false</kbd>
+           <a href="#form"
+               onclick="var content = document.getElementById('descriptive_nodes').innerHTML;
+                        document.getElementById('solr_q').value = content;
+                        console.log(content);
+                        document.getElementById('solr_fq').value = '';
+                        document.getElementById('solr_fl').value = '*';
+                        document.getElementById('num_hits').value = '300';">(205 hits)</a>
+          </li>
+
+          <li>Select nodes that are described by other nodes <kbd
+          id="described_nodes">described:true</kbd>
+           <a href="#form"
+               onclick="var content = document.getElementById('described_nodes').innerHTML;
+                        document.getElementById('solr_q').value = content;
+                        console.log(content);
+                        document.getElementById('solr_fq').value = '';
+                        document.getElementById('solr_fl').value = '*,[child]';
+                        document.getElementById('num_hits').value = '300';">
+            (15 hits)
+          </a>
+          </li>
+          <li>Both first and last name <kbd id="waage_sandoe">agent_name:(Waage Sandø)</kbd> in a note, which belong to a described node</li>
+
         <li>note:"Waage Sandø" <a href="http://localhost:10007/solr/ds/select?q=note%3A%22Waage+Sand%C3%B8%22&amp;fq=&amp;fl=*%2C%5Bchild%5D&amp;wt=json">(1 hit)</a></li>
 
       </ul>
@@ -45,7 +100,7 @@
         <li>{!join from=describing to=id}described:false (0 hits)</li>
         <li>{!parent which="described:true"}agent_name:(georg brandes)</li>
       </ul>
-      
+      </div>
     </div>
   </body>
 </html>
