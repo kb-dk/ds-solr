@@ -375,6 +375,15 @@
             <xsl:for-each select="m:identifier[@type='domsGuid']">
               <f:string key="doms_guid"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
+
+            <xsl:if test="m:language/m:languageTerm[@authority='rfc4646']">
+              <f:array key="language">
+                <xsl:for-each select="m:language/m:languageTerm[@authority='rfc4646']">
+                  <f:string><xsl:value-of select="."/></f:string>
+                </xsl:for-each>
+              </f:array>
+            </xsl:if>
+
             
             <!--
                 This is perhaps not obvious: Normally text is stored
