@@ -6,100 +6,208 @@
     <div>
 
       <h1>Search by example</h1>
-      <div style="width:30%; float:left;">
-      <h3>Form</h3>
       
-      <form id="search_form" target="_null_"  action="http://localhost:10007/solr/ds/select">
-        <dl>
-          <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><textarea id="solr_q" name="q"  cols="30" rows="10">agent_name:albert</textarea></dd>
-          <dt>Filter Query (fq)</dt>
-          <dd  style="margin-bottom:+0.5em;">
-            <textarea id="solr_fq"  cols="30" rows="2">
+      <div style="width:30%; float:left;">
+        <h3>Form</h3>
+        
+        <form id="search_form" target="_null_"  action="http://localhost:10007/solr/ds/select">
+          <dl>
+            <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><textarea id="solr_q" name="q"  cols="30" rows="10">agent_name:albert</textarea></dd>
+            <dt>Filter Query (fq)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <textarea id="solr_fq"  cols="30" rows="2">
 
-            </textarea>
-          </dd>
+              </textarea>
+            </dd>
 
-          <dt>Field list (comma separated, fl)</dt>
-          <dd  style="margin-bottom:+0.5em;">
-            <textarea id="solr_fl" name="fl"  cols="30" rows="2">*,[child]</textarea>
-          </dd>
-          <dt>Format (wt)</dt>
-          <dd  style="margin-bottom:+0.5em;">
-            <select id="format" name="wt">
-              <option value="json">json</option>
-              <option value="xml">xml</option>
-            </select>
-          </dd>
-          <dt>Retrieve number</dt>
-          <dd style="margin-bottom:+0.5em;">
-            <input id="num_hits" size="10" name="rows" value="300"/>
-          </dd>
-          <dt></dt>
-          <dd  style="margin-bottom:+0.5em;">
-            <input type="submit" value="search" />
+            <dt>Field list (comma separated, fl)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <textarea id="solr_fl" name="fl"  cols="30" rows="2">*,[child]</textarea>
+            </dd>
+            <dt>Format (wt)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <select id="format" name="wt">
+                <option value="json">json</option>
+                <option value="xml">xml</option>
+              </select>
+            </dd>
+            <dt>Retrieve number</dt>
+            <dd style="margin-bottom:+0.5em;">
+              <input id="num_hits" size="10" name="rows" value="300"/>
+            </dd>
+            <dt></dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <input type="submit" value="search" />
+              <a href="#form"
+                 onclick="var content = document.getElementById('albert').innerHTML;
+                          document.getElementById('solr_q').value = content;
+                          console.log(content);
+                          document.getElementById('solr_fq').value = '';
+                          document.getElementById('solr_fl').value = '*';
+                          document.getElementById('num_hits').value = '300';">
+                <strong>Reset form!</strong>
+              </a>
+
+            </dd>
+          </dl>
+        </form>
+      </div>
+      <div style="width:60%; float:left;">
+        <h3>Simple searches</h3>
+        <p>Here we search for solr documents, regardless of whether they are corresponding to a Digital Library Object (DLO) or a descriptor of such an object.</p>
+        
+        <ul>
+          <li>
+            Find Albert Einstein, i.e., find the descriptor of a letter authored by Albert.
+            <kbd id="albert">agent_name:albert</kbd>
+
             <a href="#form"
                onclick="var content = document.getElementById('albert').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*';
+                      document.getElementById('num_hits').value = '300';">
+              <strong>(1 hit)</strong>
+            </a>
+          </li>
+          <li>Find descriptors of homiliae-super-psalmos
+          <kbd id="object71279">describing:manus-vmanus-2011-dec-ha-object71279</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('object71279').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*';
+                      document.getElementById('num_hits').value = '300';">(11 hits)</a>
+          </li>
+          <li>Select nodes that are descriptors (describing other nodes) <kbd id="descriptive_nodes">described:false</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('descriptive_nodes').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*';
+                      document.getElementById('num_hits').value = '300';">(205 hits)</a>
+          </li>
+
+          <li>Select nodes that are DLOs (i.e., described by other nodes) <kbd
+          id="described_nodes">described:true</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('described_nodes').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (15 hits)
+          </a>
+          </li>
+          <li>
+            Both first and last name of a name descriptor
+            <kbd id="waage_sandoe_name">agent_name:(Waage Sandø)</kbd>
+            <a href="#form"
+               onclick="var content = document.getElementById('waage_sandoe_name').innerHTML;
                         document.getElementById('solr_q').value = content;
                         console.log(content);
                         document.getElementById('solr_fq').value = '';
                         document.getElementById('solr_fl').value = '*';
                         document.getElementById('num_hits').value = '300';">
-            <strong>Reset form!</strong>
-          </a>
+              (1 hits)
+            </a>
+          </li>
 
-          </dd>
-        </dl>
-      </form>
-      </div>
-      <div style="width:60%; float:left;">
-        <h3>Simple searches</h3>
-      
-        <ul>
-          <li>Find Albert Einstein <kbd id="albert">agent_name:albert</kbd> (1 hit)</li>
-          <li>Find descriptors of homiliae-super-psalmos
-          <kbd id="object71279">describing:manus-vmanus-2011-dec-ha-object71279</kbd>
-           <a href="#form"
-               onclick="var content = document.getElementById('object71279').innerHTML;
+          <li>
+            <kbd id="waage_sandoe_note">note:"Waage Sandø"</kbd> in
+            a note (which belongs to a DLO, i.e., a described
+            node). This search include a field list, *,[child], such
+            that all child nodes (descriptors) appear as well.
+            <a href="#form"
+               onclick="var content =
+                      document.getElementById('waage_sandoe_note').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';"> (1 hits)
+            </a>
+          </li>
+
+          <li>
+
+            Search for instance of Georg Brandes where he is in the
+            recieving end of a correspondence <kbd
+            id="recieved_by_brandes">agent_name:(georg brandes) AND entity_type:rcp</kbd>
+
+            <a href="#form"
+               onclick="var content = document.getElementById('recieved_by_brandes').innerHTML;
                         document.getElementById('solr_q').value = content;
                         console.log(content);
                         document.getElementById('solr_fq').value = '';
                         document.getElementById('solr_fl').value = '*';
-                        document.getElementById('num_hits').value = '300';">(11 hits)</a>
+                        document.getElementById('num_hits').value = '300';">
+              (8 hits)
+            </a>
+            
           </li>
-          <li>Select nodes that are describing other nodes <kbd id="descriptive_nodes">described:false</kbd>
-           <a href="#form"
-               onclick="var content = document.getElementById('descriptive_nodes').innerHTML;
+          <li>
+            Search for instance of Georg Brandes where he is the author of a message 
+            <kbd id="authored_by_brandes">agent_name:(georg brandes) AND entity_type:aut</kbd>
+            <a href="#form"
+               onclick="var content = document.getElementById('authored_by_brandes').innerHTML;
                         document.getElementById('solr_q').value = content;
                         console.log(content);
                         document.getElementById('solr_fq').value = '';
                         document.getElementById('solr_fl').value = '*';
-                        document.getElementById('num_hits').value = '300';">(205 hits)</a>
-          </li>
+                        document.getElementById('num_hits').value = '300';">
+              (1 hits)
+            </a>
 
-          <li>Select nodes that are described by other nodes <kbd
-          id="described_nodes">described:true</kbd>
-           <a href="#form"
-               onclick="var content = document.getElementById('described_nodes').innerHTML;
+          </li>
+          <li>
+            The should ideally only be one manuscript having
+            <kbd id="shelfmark">shelf_mark_verbatim:"Cod. Sim. Heb. 35"</kbd>
+            <a href="#form"
+               onclick="var content = document.getElementById('shelfmark').innerHTML;
                         document.getElementById('solr_q').value = content;
                         console.log(content);
                         document.getElementById('solr_fq').value = '';
                         document.getElementById('solr_fl').value = '*,[child]';
                         document.getElementById('num_hits').value = '300';">
-            (15 hits)
-          </a>
+              (1 hits)
+            </a>
+            That assertion turned out to be correct, at least in this corpus.
           </li>
-          <li>Both first and last name <kbd id="waage_sandoe">agent_name:(Waage Sandø)</kbd> in a note, which belong to a described node</li>
 
-        <li>note:"Waage Sandø" <a href="http://localhost:10007/solr/ds/select?q=note%3A%22Waage+Sand%C3%B8%22&amp;fq=&amp;fl=*%2C%5Bchild%5D&amp;wt=json">(1 hit)</a></li>
+          <li>
+             The should ideally only be one manuscript having
+            <kbd id="shelfmark">shelf_mark_verbatim:"Cod. Sim. Heb. 35"</kbd>
+            <a href="#form"
+               onclick="var content = document.getElementById('shelfmark').innerHTML;
+                        document.getElementById('solr_q').value = content;
+                        console.log(content);
+                        document.getElementById('solr_fq').value = '';
+                        document.getElementById('solr_fl').value = '*,[child]';
+                        document.getElementById('num_hits').value = '300';">
+              (1 hits)
+            </a>
+            That assertion turned out to be correct, at least in this corpus.
+          </li>
 
-      </ul>
+          
+        </ul>
 
-      <h3>Searches with joins</h3>
+        <h3>Searches with  joins</h3>
 
-      <ul>
-        <li>{!join from=describing to=id}described:false (0 hits)</li>
-        <li>{!parent which="described:true"}agent_name:(georg brandes)</li>
-      </ul>
+        <p>Here we search using joins in order to return a DLO given a
+        hit in a descriptor solr document.</p>
+
+        <p>The snag is: I haven't managed to get them to work.</p>
+        
+        <ul>
+          <li>{!join from=describing to=id}described:false (0 hits)</li>
+          <li>{!parent which="described:true"}agent_name:(georg brandes)</li>
+        </ul>
       </div>
     </div>
   </body>
