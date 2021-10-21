@@ -11,7 +11,7 @@
       <div style="width:30%; float:left;">
         <h3>Form</h3>
         
-        <form id="search_form" target="_null_"  action="http://localhost:10007/solr/another_ds/select">
+        <form id="search_form" target="_null_"  action="http://localhost:10007/solr/ds/select">
           <dl>
             <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><textarea id="solr_q" name="q"  cols="30" rows="10">agent_name:albert</textarea></dd>
             <dt>Filter Query (fq)</dt>
@@ -228,6 +228,27 @@
           corpus (there are only one three manuscripts).
         </p>
 
+
+	<p>
+          <strong>10.</strong>
+          Here we are searching for nodes that contain subject
+          descriptors, being for instance persons.
+          <kbd id="nest_path">_nest_path_:"/subject"</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('nest_path').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (2 hits)
+          </a>. The two actors depicted in the corpus both of which
+          happen to be named actors in the same drawing. See <a href="https://solr.apache.org/guide/8_10/indexing-nested-documents.html#schema-configuration">Schema Configuration</a> on how to enable _nest_path_.
+        </p>
+	
+
+
+	
         <h3>Searches with joins</h3>
 
         <p>Here we search using joins in order to return a DLO given a
