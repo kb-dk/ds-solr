@@ -55,196 +55,258 @@
       </div>
       <div style="width:60%; float:left;">
         <h3>Simple searches</h3>
-        <p>Here we search for solr documents, regardless of whether they are corresponding to a Digital Library Object (DLO) or a descriptor of such an object.</p>
+
+        <p>Documentation on these kinds of indexing and searching:</p>
+
+        <ul>
+          <li>Please refer to SOLR's documentation of <a
+          href="https://solr.apache.org/guide/8_10/other-parsers.html">Other
+          Parsers</a> for an overview.</li>
+          
+          <li>There is a special document on <a href="https://solr.apache.org/guide/8_10/searching-nested-documents.html#searching-nested-documents">Searching
+          Nested Child Documents</a> for information on what is going on
+          in these searches.</li>
+
+          <li>That document has a sister on indexing
+          which is a good read <a
+          href="https://solr.apache.org/guide/8_10/indexing-nested-documents.html">Indexing
+          Nested Child Documents</a>.</li>
+
+          <li>See also <a
+          href="https://solr.apache.org/guide/8_10/local-parameters-in-queries.html">Local
+          Parameters in Queries</a> for an overview of these '{!'
+          ... '}' syntaxes.</li>
+        </ul>
+
+        <p>Here we search for solr documents, regardless of whether
+        they are corresponding to a Digital Library Object (DLO) or a
+        descriptor of such an object.</p>
         
-       <p><strong>1.</strong>
-            Find Albert Einstein, i.e., find the descriptor of a letter authored by Albert.
-            <kbd id="albert">agent_name:albert</kbd>
+        <p><strong>1.</strong>
+        Find Albert Einstein, i.e., find the descriptor of a letter authored by Albert.
+        <kbd id="albert">agent_name:albert</kbd>
 
-            <a href="#form"
-               onclick="var content = document.getElementById('albert').innerHTML;
-                      document.getElementById('solr_q').value = content;
-                      console.log(content);
-                      document.getElementById('solr_fq').value = '';
-                      document.getElementById('solr_fl').value = '*';
-                      document.getElementById('num_hits').value = '300';">
-              <strong>(1 hit)</strong>
-            </a>
-       </p>
-       <p><strong>2.</strong>
-       Find descriptors of homiliae-super-psalmos
-          <kbd id="object71279">describing:manus-vmanus-2011-dec-ha-object71279</kbd>
-          <a href="#form"
-             onclick="var content = document.getElementById('object71279').innerHTML;
-                      document.getElementById('solr_q').value = content;
-                      console.log(content);
-                      document.getElementById('solr_fq').value = '';
-                      document.getElementById('solr_fl').value = '*';
-                      document.getElementById('num_hits').value = '300';">(11 hits)</a>
+        <a href="#form"
+           onclick="var content = document.getElementById('albert').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">
+          <strong>(1 hit)</strong>
+        </a>
+        </p>
+        <p><strong>2.</strong>
+        Find descriptors of homiliae-super-psalmos
+        <kbd id="object71279">describing:manus-vmanus-2011-dec-ha-object71279</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('object71279').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">(11 hits)</a>
 
-          You can also, obviously, find the DLO homiliae-super-psalmos
-          <kbd id="object71279_itself">id:manus-vmanus-2011-dec-ha-object71279</kbd>
-          <a href="#form"
-             onclick="var content = document.getElementById('object71279_itself').innerHTML;
-                      document.getElementById('solr_q').value = content;
-                      console.log(content);
-                      document.getElementById('solr_fq').value = '';
-                      document.getElementById('solr_fl').value = '*,[child]';
-                      document.getElementById('num_hits').value = '300';">(1 hits)</a>
-          Here we add a fieldlist '*,[child]' in order to be able to retrieve the whole object.
-       </p>
-       <p><strong>3. </strong>
-       Select nodes that are descriptors (describing other nodes) <kbd id="descriptive_nodes">described:false</kbd>
-          <a href="#form"
-             onclick="var content = document.getElementById('descriptive_nodes').innerHTML;
-                      document.getElementById('solr_q').value = content;
-                      console.log(content);
-                      document.getElementById('solr_fq').value = '';
-                      document.getElementById('solr_fl').value = '*';
-                      document.getElementById('num_hits').value = '300';">(205 hits)</a>
-       </p>
+        You can also, obviously, find the DLO homiliae-super-psalmos
+        <kbd id="object71279_itself">id:manus-vmanus-2011-dec-ha-object71279</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('object71279_itself').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">(1 hits)</a>
+        Here we add a fieldlist '*,[child]' in order to be able to retrieve the whole object.
+        </p>
+        <p><strong>3. </strong>
+        Select nodes that are descriptors (describing other nodes) <kbd id="descriptive_nodes">described:false</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('descriptive_nodes').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">(205 hits)</a>
+        </p>
 
-       <p><strong>4.</strong>
-       Select nodes that are DLOs (i.e., described by other nodes) <kbd
-          id="described_nodes">described:true</kbd>
-          <a href="#form"
-             onclick="var content = document.getElementById('described_nodes').innerHTML;
-                      document.getElementById('solr_q').value = content;
-                      console.log(content);
-                      document.getElementById('solr_fq').value = '';
-                      document.getElementById('solr_fl').value = '*,[child]';
-                      document.getElementById('num_hits').value = '300';">
-            (15 hits)
-          </a>
-       </p>
-       <p><strong>5.</strong>
-            Both first and last name of a name descriptor
-            <kbd id="waage_sandoe_name">agent_name:(Waage Sandø)</kbd>
-            <a href="#form"
-               onclick="var content = document.getElementById('waage_sandoe_name').innerHTML;
-                        document.getElementById('solr_q').value = content;
-                        console.log(content);
-                        document.getElementById('solr_fq').value = '';
-                        document.getElementById('solr_fl').value = '*';
-                        document.getElementById('num_hits').value = '300';">
-              (1 hits)
-            </a>
-       </p>
+        <p><strong>4.</strong>
+        Select nodes that are DLOs (i.e., described by other nodes) <kbd
+        id="described_nodes">described:true</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('described_nodes').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+          (15 hits)
+        </a>
+        </p>
+        <p><strong>5.</strong>
+        Both first and last name of a name descriptor
+        <kbd id="waage_sandoe_name">agent_name:(Waage Sandø)</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('waage_sandoe_name').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">
+          (1 hits)
+        </a>
+        </p>
 
-       <p>
-         <strong>6.</strong>
-            <kbd id="waage_sandoe_note">note:"Waage Sandø"</kbd> in
-            a note (which belongs to a DLO, i.e., a described
-            node). This search include a field list, *,[child], such
-            that all child nodes (descriptors) appear as well.
-            <a href="#form"
-               onclick="var content =
+        <p>
+          <strong>6.</strong>
+          <kbd id="waage_sandoe_note">note:"Waage Sandø"</kbd> in
+          a note (which belongs to a DLO, i.e., a described
+          node). This search include a field list, *,[child], such
+          that all child nodes (descriptors) appear as well.
+          <a href="#form"
+             onclick="var content =
                       document.getElementById('waage_sandoe_note').innerHTML;
                       document.getElementById('solr_q').value = content;
                       console.log(content);
                       document.getElementById('solr_fq').value = '';
                       document.getElementById('solr_fl').value = '*,[child]';
                       document.getElementById('num_hits').value = '300';"> (1 hits)
-            </a>
-       </p>
+          </a>
+          The [child] is called a <a
+          href="https://solr.apache.org/guide/8_10/searching-nested-documents.html#child-doc-transformer">Child
+          Doc Transformer</a>.
+        </p>
 
-       <p>
-         <strong>7.</strong>
+        <p>
+          <strong>7.</strong>
 
-            Search for instance of Georg Brandes where he is in the
-            recieving end of a correspondence <kbd
-            id="recieved_by_brandes">agent_name:(georg brandes) AND entity_type:rcp</kbd>
+          Search for instance of Georg Brandes where he is in the
+          recieving end of a correspondence <kbd
+          id="recieved_by_brandes">agent_name:(georg brandes) AND entity_type:rcp</kbd>
 
-            <a href="#form"
-               onclick="var content = document.getElementById('recieved_by_brandes').innerHTML;
-                        document.getElementById('solr_q').value = content;
-                        console.log(content);
-                        document.getElementById('solr_fq').value = '';
-                        document.getElementById('solr_fl').value = '*';
-                        document.getElementById('num_hits').value = '300';">
-              (8 hits)
-            </a>
-            
-       </p>
+          <a href="#form"
+             onclick="var content = document.getElementById('recieved_by_brandes').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*';
+                      document.getElementById('num_hits').value = '300';">
+            (8 hits)
+          </a>
+          
+        </p>
 
-       <p><strong>8.</strong>
+        <p><strong>8.</strong>
 
-            Search for instance of Georg Brandes where he is the author of a message 
-            <kbd id="authored_by_brandes">agent_name:(georg brandes) AND entity_type:aut</kbd>
-            <a href="#form"
-               onclick="var content = document.getElementById('authored_by_brandes').innerHTML;
-                        document.getElementById('solr_q').value = content;
-                        console.log(content);
-                        document.getElementById('solr_fq').value = '';
-                        document.getElementById('solr_fl').value = '*';
-                        document.getElementById('num_hits').value = '300';">
-              (1 hits)
-            </a>
+        Search for instance of Georg Brandes where he is the author of a message 
+        <kbd id="authored_by_brandes">agent_name:(georg brandes) AND entity_type:aut</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('authored_by_brandes').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">
+          (1 hits)
+        </a>
 
-       </p>
+        </p>
 
-       <p>
-         <strong>9.</strong>
-             The should ideally only be one manuscript having
-            <kbd id="shelfmark">shelf_mark_verbatim:"Cod. Sim. Heb. 35"</kbd>
-            <a href="#form"
-               onclick="var content = document.getElementById('shelfmark').innerHTML;
-                        document.getElementById('solr_q').value = content;
-                        console.log(content);
-                        document.getElementById('solr_fq').value = '';
-                        document.getElementById('solr_fl').value = '*,[child]';
-                        document.getElementById('num_hits').value = '300';">
-              (1 hits)
-            </a>
-            That assertion turned out to be correct, at least in this
-            corpus (there are only one three manuscripts).
-       </p>
+        <p>
+          <strong>9.</strong>
+          The should ideally only be one manuscript having
+          <kbd id="shelfmark">shelf_mark_verbatim:"Cod. Sim. Heb. 35"</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('shelfmark').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (1 hits)
+          </a>
+          That assertion turned out to be correct, at least in this
+          corpus (there are only one three manuscripts).
+        </p>
 
-        <h3>Searches with  joins</h3>
+        <h3>Searches with joins</h3>
 
         <p>Here we search using joins in order to return a DLO given a
         hit in a descriptor solr document.</p>
 
+
         <p>The snag is: I haven't managed to get any of them to work.</p>
-        
 
-        <p><strong>1.</strong> Here we try to apply the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
-        <kbd id="joined_recieved_by_brandes">{!join from=describing to=id}agent_name:(georg brandes) AND entity_type:rcp</kbd>
-        <a href="#form"
-           onclick="var content = document.getElementById('joined_recieved_by_brandes').innerHTML;
-                    document.getElementById('solr_q').value = content;
-                    console.log(content);
-                    document.getElementById('solr_fq').value = '';
-                    document.getElementById('solr_fl').value = '*,[child]';
-                    document.getElementById('num_hits').value = '300';">
-          (0 hits)
-        </a>
-        </p>
 
-        <p><strong>2.</strong> Here we try a variation of this method, but still applying the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
-        We use the original <kbd>agent_name:(georg brandes) AND entity_type:rcp</kbd> query, but add
-        a filter query <kbd>{!join from=describing to=id}described:false</kbd>
+          <h4>Join Query Parser</h4>
 
-        
-        <a href="#form"
-           onclick="var content = document.getElementById('recieved_by_brandes').innerHTML;
-                    document.getElementById('solr_q').value = content;
-                    console.log(content);
-                    document.getElementById('solr_fq').value = '{!join from=describing to=id}described:false';
-                    document.getElementById('solr_fl').value = '*,[child]';
-                    document.getElementById('num_hits').value = '300';">
-          (0 hits)
-        </a>
-        </p>
+          <p><strong>1.</strong> Here we try to apply the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
+          <kbd id="joined_recieved_by_brandes">{!join from=describing to=id}agent_name:(georg brandes) AND entity_type:rcp</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('joined_recieved_by_brandes').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (0 hits)
+          </a>
+          </p>
 
-        
-        <p>
-          <strong>3.</strong> The way I had planned to search was
-          using the <a
-          href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
-          Join Parent Query Parser</a> {!parent
-          which="described:true"}agent_name:(georg brandes)</p>
+          <p><strong>2.</strong> Here we try a variation of this method, but still applying the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
+          We use the original <kbd>agent_name:(georg brandes) AND entity_type:rcp</kbd> query, but add
+          a filter query <kbd>{!join from=describing to=id}described:false</kbd>
 
+          
+          <a href="#form"
+             onclick="var content = document.getElementById('recieved_by_brandes').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '{!join from=describing to=id}described:false';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (0 hits)
+          </a>
+          </p>
+
+          <h4>Block Join Parent Query Parser</h4>
+          
+          <p>
+            <strong>1.</strong> This was the way I had planned to search. Using
+            the <a
+            href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
+            Join Parent Query Parser</a> <kbd id="brandes_parent_query">{!parent which="described:true"}agent_name:(georg brandes)</kbd>
+
+            <a href="#form"
+             onclick="var content = document.getElementById('brandes_parent_query').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '{!join from=describing to=id}described:false';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+              (0 hits)
+            </a>
+          
+          </p>
+
+            <p>
+            <strong>2.</strong> Basically the same thing 
+            (I.e., using a
+             <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
+             Join Parent Query Parser</a>) but this time formulated as a filter query
+             <kbd id="brandes_parent_query_as_filter">agent_name:(georg brandes)</kbd>
+
+            <a href="#form"
+             onclick="var content = document.getElementById('brandes_parent_query_as_filter').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '{!parent which=&quot;described:true&quot;}described:false';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+              (0 hits)
+            </a>
+          
+          </p>
+          
       </div>
     </div>
   </body>
