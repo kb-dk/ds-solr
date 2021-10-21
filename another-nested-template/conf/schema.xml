@@ -1,0 +1,394 @@
+<?xml version="1.0" ?>
+<!-- TODO: Expand these notes
+Default: docValues, not stored
+Alias english & american spelling (organisation/organization)
+Add copyFields
+daterange does not handle docValues - we might need two versions of datetime
+-->
+<schema name="template" version="1.6">
+  <!--
+       * All fields are prefixed with a comment describing the field
+       * The content of the comment is markdown, in expectation of automated documentation generation
+       * Where it makes sense, sample queries or suggestions for use are included
+  -->
+  <fields>
+    <!-- Solr-internal fields -->
+    <field     name="_version_" type="long"/>
+    <field     name="_root_" type="string" indexed="true" stored="true"/>
+    <field     name="_nest_path_" type="_nest_path_" stored="true" indexed="true" />
+    <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
+
+    <!-- *************************************************************************************
+         Mandatory fields below (all documents must have these)
+         ************************************************************************************* -->
+
+    <!-- An identifier unique within the Royal Danish Library organization.
+         Prefix with `ds_` and append collection-name and a collection-specific identifier for at total such as
+         `ds_danskvestindien_324f243ed528`. No spaces allowed (replace with underscore `_`). -->
+    
+    <field name="id"          type="string" stored="true"  indexed="true" required="true" />
+    <field name="authority"   type="string" stored="true"  indexed="true" />
+    <field name="entity_id"   type="string" stored="true"  indexed="true" />
+
+    <!-- the one below is basically the same as _nest_parent_ -->
+
+    <field name="described"   type="boolean" stored="true"  indexed="true" />
+    <field name="describing"  type="string"  stored="true"  indexed="true" />
+    
+    <!-- The original material type. One of
+         * `image`
+         * `moving_image`
+         * `sound`
+         * `text`
+         * `other`
+         The list of acceptable types will probably be extended. -->
+    <field name="media_type"    type="string"  stored="true"  indexed="true" />
+    <field name="entity_type"   type="string"  stored="true"  indexed="true" />
+    
+    <!-- The name of the overall collection from which the material originated, such as _Dansk Vestindien_. -->
+    <field name="collection"  type="string"  stored="true"  indexed="true" />
+    <field name="local_identifier" type="string" stored="true" required="false" />
+
+    <field name="shelf_mark" type="text_da" stored="true"  indexed="true" />
+    <field name="shelf_mark_verbatim" type="string" stored="true"  indexed="true" />
+    <copyField source="shelf_mark"      dest="shelf_mark_verbatim"/>
+
+    <field name="original_object_identifier" type="text_da" stored="true"  indexed="true" />
+    
+    <field name="doms_guid" type="string" stored="true" required="false" />
+    <field name="read_direction" type="string" stored="true" required="false" />
+
+    <!-- *************************************************************************************
+         Common fields below (should be used over `specific` fields when possible)
+         ************************************************************************************* -->
+
+    <!-- Title for the material. -->
+    <field name="title"            type="text_da"  termVectors="true"/>
+    <!-- Title for the material, used for sorting.
+         Populated automatically from `title`. -->
+    <field name="title_sort"       type="sort_da"/>
+    <copyField source="title"      dest="title_sort"/>
+
+    <!-- Alternative ID. -->
+    <field name="record_name"      type="string"/>
+
+    <!-- Description of the material. -->
+    <field name="description"      type="text_da"/>
+    <field name="situation"      type="text_da"/>
+
+    <field name="content"      type="text_da"/>
+    <field name="additional physical form"      type="text_da"/>
+    <field name="reference"      type="text_da"/>
+    
+    <field name="en"      type="text_da"/>
+    <field name="da"      type="text_da"/>
+
+    <!-- Free-form notes for the material. -->
+    <field name="note"             type="text_da" multiValued="true"/>
+
+    <!-- Authors of the material. -->
+    <field name="author"           type="text_da" multiValued="true"/>
+    <!-- Authors of the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `author` using copyField. -->
+    <field name="author_verbatim"  type="string" multiValued="true"/>
+    <!-- Authors for the material, used for sorting.
+         Populated automatically from `author`.
+         Note: This is multi valued.-->
+
+    <!-- An agent is a person or corporate body contributing to the material --> 
+    
+    <field name="agent_name"           type="text_da" multiValued="true"/>
+    <!-- Agent contributing to the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `author` using copyField. -->
+    <field name="agent_name_verbatim"  type="string" multiValued="true"/>
+    <!-- Agent contributing to for the material, used for sorting.
+         Populated automatically from `author`.
+         Note: This is multi valued.-->
+    
+    <field name="author_sort"       type="sort_da" multiValued="true"/>
+    <copyField source="author"      dest="author_sort"/>
+    <copyField source="author"      dest="author_verbatim"/>
+
+    <field name="agent_name_sort"       type="sort_da" multiValued="true"/>
+    <copyField source="agent_name"      dest="agent_name_sort"/>
+    <copyField source="agent_name"      dest="agent_name_verbatim"/>
+
+    <!-- The person or persons that is the subject of the material, e.g. the person shown on a painting. -->
+    <field name="subject_person"    type="text_da" multiValued="true"/>
+    <!-- Subject_Persons of the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `subject_person` using copyField. -->
+    <field name="subject_person_verbatim"  type="string" multiValued="true"/>
+    <!-- Subject_Persons for the material, used for sorting.
+         Populated automatically from `subject_person`.
+         Note: This is multi valued.-->
+    <field name="subject_person_sort" type="sort_da" multiValued="true"/>
+    <copyField source="subject_person" dest="subject_person_sort"/>
+    <copyField source="subject_person" dest="subject_person_verbatim"/>
+
+    <!-- The institution or organization behind the material. -->
+    <field name="organization"     type="text_da" multiValued="true"/>
+    <!-- The institution or organization behind the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `organization` using copyField. -->
+    <field name="organization_verbatim"  type="string" multiValued="true"/>
+
+    <!-- Uncontrolled subjects related to the material.
+         Subjects should be descriptive: `Christian 9 (1818-1906) konge af Danmark 1863-1906`. -->
+    <field name="subject"          type="text_da" multiValued="true"/>
+
+    <!-- Uncontrolled keywords related to the material.
+         Keywords should be short and generic: `konge`, `kongerække`, `danmark`. -->
+    <field name="keyword"          type="text_da" multiValued="true" termVectors="true"/>
+    <!-- Uncontrolled keywords related to the material.
+         Populated automatically from `keyword` using copyField. -->
+    <field name="keyword_verbatim" type="string" multiValued="true"/>
+    <copyField source="keyword"    dest="keyword_verbatim"/>
+
+    <!-- Uncontrolled topics related to the material.
+         Topics should be longer than keywords, but not elaborate descriptions.-->
+    <field name="topic"            type="text_da" multiValued="true" termVectors="true"/>
+    <!-- Uncontrolled topics related to the material.
+         Populated automatically from `topic` using copyField. -->
+    <field name="topic_verbatim"   type="string" multiValued="true"/>
+
+    <copyField source="topic"      dest="topic_verbatim"/>
+
+    <!-- The logical hierarchical position of the material, if available.
+         Separate values with `/`. Example: `Billeder/Samlinger/Avis- og bladarkiver/`.
+         Note: There can be more than one path. -->
+    <field name="logical_path"     type="descendent_path" multiValued="true"/>
+
+    <!-- The date that the material is about. For a newspaper this would be the
+         publication date. For a photography it would be the time the photo was taken. For a painting it
+         would be the time it was painted.
+         Note: This is a [DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting)
+         that supports non-precise dates such as `2000-11` as well as ranges such as `[2000-11-01 TO 2014-12-01]`. -->
+    <field name="datetime"         type="date_range" />
+    <!-- Fallback representation for datetime, when the source datetime cannot be parsed.
+         Copied verbatim from the source. -->
+    <field name="datetime_verbatim" type="string" />
+    <!-- The creation date of the material or metadata about the material in the backing system. -->
+    <field name="created_date"     type="date" />
+    <field name="record_created"     type="date_range" />
+    <field name="record_revised"     type="date_range" />
+
+    <field name="not_after_date"     type="date_range" />
+    <field name="not_before_date"     type="date_range" />
+
+    <field name="visible_date"     type="text_da"  multiValued="true" />
+    
+    <field name="last_modified_by" type="string" />
+    
+    <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
+         Copied verbatim from the source. -->
+    <field name="created_date_verbatim" type="string" />
+    <!-- When the material or metadata about the material was last changed.
+         If the material or metadata about the material was not changed after creation, this
+         timestamp is the same as `created_date`. -->
+    <field name="modified_date"    type="date" />
+    <!-- Fallback representation for modified_date, when the source datetime cannot be parsed.
+         Copied verbatim from the source. -->
+    <field name="modified_date_verbatim" type="string" />
+
+    <!-- The major text content of the material, if available.
+         * For a word file, this would be the textual content.
+         * For an image, there would be no value. -->
+    <field name="text"             type="text_da" multiValued="true"/>
+    <!-- Fallback field for search.
+         Misc. content that is not indexed in any other fields are added to this. -->
+    <field name="freetext"         type="text_da" multiValued="true"/>
+
+    <!-- The page that the material is about, e.g. a page number from a book or a newspaper. -->
+    <field name="page"             type="int"/>
+
+    <!-- Physical material dimensions in centimeters.
+         Note: For images this is not related to scanning resolution. The dimensions is for the original
+         physical object. -->
+    <field name="width_cm"         type="double"/>
+    <field name="height_cm"        type="double"/>
+    <field name="depth_cm"         type="double"/>
+
+    <field name="technique" type="text_da" stored="true"  indexed="true" />
+    <field name="medium" type="text_da" stored="true"  indexed="true" />
+    <field name="medium_verbatim" type="string" stored="true"  indexed="true" />
+    <copyField source="medium"      dest="medium_verbatim"/>
+    
+    <field name="extent" type="string" stored="true"  indexed="true" />
+    <field name="size"   type="string" stored="true"  indexed="true" />
+
+    <!-- Image or moving image dimensions in pixels. The depth dimension is for 3D bitmaps, such as
+         [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). -->
+    <field name="width_pixels"     type="long"/>
+    <field name="height_pixels"    type="long"/>
+    <field name="depth_pixels"     type="long"/>
+    <!-- Total number of pixels in a still image or a single frame for moving image. -->
+    <field name="pixels"           type="long"/>
+
+    <!-- One or more preview images if available.
+         Size and quality is not defined, but aim for something fairly
+         lightweight, i.e. < 100 KB and between 500x500 and 1000x1000 pixels.
+         For image material there will typically only be a single preview, while moving images
+         might provide more preview images. -->
+
+    <field name="pages"    type="string" multiValued="true"/>
+    
+    <field name="image_preview"    type="string" multiValued="true"/>
+
+    <!-- If the material is an image, this field contains an URL to the full image at the highest
+         possible quality. If the material is not an image, this field will not be defined.
+         Hint: If available, it is recommended for the user to use the iiif-field for image requests,
+         as it offers more options. -->
+    <field name="image_full"       type="string"/>
+
+    <!-- If the material is served by an IIIF-compliant server, this is the base URL to the material on the server, e.g.
+         https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/
+         Hint: Parameters for image requests to IIIF can be found at https://iiif.io/api/image/2.1/#image-request-parameters -->
+    <field name="iiif"             type="string"/>
+    
+    
+    <!-- Short and controlled form of the licence for the material. Valid entries are
+         * [Creative commons hort form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0`
+         * `Apache License 2.0`
+         * `GPL 3.0`
+         TODO: Expand on this. -->
+    <field name="license"          type="string"/>
+
+    <!-- Uncontrolled copyright oriented text -->
+    <field name="license_notice"   type="text_da" multiValued="true"/>
+
+    <!-- Language for the material according to RFC5646 https://datatracker.ietf.org/doc/html/rfc5646
+         `da` for Danish,
+         `en` for English,
+         `de` for German,
+         jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken
+         and written by the Jewish population in Arabic countries during the medieval times) 
+         We have a vast number of combinations of scripts and languages.
+    -->
+    
+    <field name="cataloging_language"         type="string" multiValued="false"/>
+    <field name="language"         type="string" multiValued="true"/>
+
+    <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
+    <field name="location"         type="text_da"/>
+
+    <!-- Geographical coordinates for the material. -->
+    <field name="location_coordinates" type="geo"/>
+
+    <field name="area"  type="text_da"/>
+    <field name="cadastre"  type="text_da"/>
+    <field name="parish"  type="text_da"/>
+    <field name="building"  type="text_da"/>
+    <field name="zipcode"  type="text_da"/>
+    <field name="housenumber"  type="text_da"/>
+    <field name="street"  type="text_da"/>
+    <field name="city"  type="text_da"/>
+    
+    <!-- Primary and secondary type description of the physical material. -->
+    <field name="physical_source_1"    type="string"/>
+    <field name="physical_source_2"    type="string"/>
+
+    <!-- Institution-internal location, e.g. room, shelf, box. -->
+    <field name="archive_location"     type="string"/>
+
+    <!-- Institution-internal reference number for the physical material. -->
+    <field name="accession_number"     type="string"/>
+
+    <!-- Source location or reference to the material for the document.
+         Primarily used for debugging/backtracing. -->
+    <field name="source_material_reference" type="string"/>
+    
+    <!-- Free-form external reference to related material.
+         TODO: At some point this should be tightly coupled to related_url_text below. -->
+    <field name="related_url"          type="string"/>
+
+    <!-- Free-form external reference text to related material.
+         TODO: At some point this should be tightly coupled to related_url above. -->
+    <field name="related_url_text"     type="text_da"/>
+    
+    <!-- Image similarity DHash in the form of <Complexity><bitcount>_<value> e.g. "Simple30_890940".
+         Note that the field is multi-valued and will eventually contain mutiple DHashes of varying
+         complexity and bitcount. -->
+    <field name="dhash"                type="string" multiValued="true" />
+
+    <!-- *************************************************************************************
+         Specific fields below (fields that only makes sense for a specific collection)
+         ************************************************************************************* -->
+
+  </fields>
+
+  <uniqueKey>id</uniqueKey>
+  
+  <types>
+    <!-- Guiding principles:
+
+         Atomic types are single-valued, indexed & docValues, but not stored. This allows for low-cost faceting,
+         grouping and sorting. The downside is a performance penalty on document retrieval where a full document
+         takes longer to retrieve. Enabling stored speeds up retrieval at the cost of increased index size.
+
+         Text types are single-valued indexed & stored, but not docValued (DV is not currently possible for Text).
+
+         Deviations are normally handled by overriding for the specific fields. 
+    -->
+
+    <fieldType name="_nest_path_" class="solr.NestPathField" />
+    <fieldType name="string"     class="solr.StrField"         indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="boolean"    class="solr.BoolField"        indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="int"        class="solr.IntPointField"    indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="long"       class="solr.LongPointField"   indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="float"      class="solr.FloatPointField"  indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="double"     class="solr.DoublePointField" indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <fieldType name="date"       class="solr.DatePointField"   indexed="true"  docValues="true" stored="false" multiValued="false" sortMissingLast="true" />
+    <!-- Date range does not handle docValues -->
+    <fieldType name="date_range" class="solr.DateRangeField"   indexed="true"  stored="true" multiValued="false" sortMissingLast="true" />
+    <fieldType name="binary"     class="solr.BinaryField"      indexed="false" docValues="false" stored="true" multiValued="false" />
+    <fieldType name="random"     class="solr.RandomSortField" />
+    <fieldType name="sort_da"  class="solr.ICUCollationField" locale="da" strength="secondary" indexed="true" docValues="true" stored="false" termVectors="false" sortMissingLast="true"/>
+    <!-- https://lucene.apache.org/solr/guide/8_1/spatial-search.html#latlonpointspatialfield -->
+    <fieldType name="geo"        class="solr.LatLonPointSpatialField" docValues="true"/>
+
+    <!-- Used for logical paths, specifying position in a hierarchy -->
+    <!-- https://github.com/apache/lucene-solr/blob/releases/lucene-solr/6.4.0/solr/example/example-DIH/solr/db/conf/managed-schema#L657 -->
+    <fieldType name="descendent_path" class="solr.TextField">
+      <analyzer type="index">
+        <tokenizer class="solr.PathHierarchyTokenizerFactory" delimiter="/" />
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.KeywordTokenizerFactory" />
+      </analyzer>
+    </fieldType>
+
+    <!-- Used for file paths, so that ["MOO BOO/FooBar_zoo.baz"] becomes ["moo", "boo", "foo", "bar", "zoo", "baz"] -->
+    <fieldType name="file_path" class="solr.TextField" positionIncrementGap="100" indexed="true" stored="true" multiValued="false">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory" />
+        <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="0" />
+        <filter class="solr.LowerCaseFilterFactory" />
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory" />
+        <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="0" />
+        <filter class="solr.LowerCaseFilterFactory" />
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="freetext" class="solr.TextField" indexed="true" stored="false" termVectors="true">
+      <analyzer>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.TrimFilterFactory"/>
+        <filter class="solr.LengthFilterFactory" min="1" max="9999999" />
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="text_da" class="solr.TextField" positionIncrementGap="100">
+      <analyzer>
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords_da.txt" format="snowball"/>
+        <filter class="solr.SnowballPorterFilterFactory" language="Danish"/>
+        <filter class="solr.TrimFilterFactory"/>
+        <filter class="solr.LengthFilterFactory" min="1" max="9999999" />
+      </analyzer>
+    </fieldType>
+
+  </types>
+</schema>
