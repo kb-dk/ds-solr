@@ -306,7 +306,7 @@
              onclick="var content = document.getElementById('brandes_parent_query').innerHTML;
                       document.getElementById('solr_q').value = content;
                       console.log(content);
-                      document.getElementById('solr_fq').value = '{!join from=describing to=id}described:false';
+                      document.getElementById('solr_fq').value = '';
                       document.getElementById('solr_fl').value = '*,[child]';
                       document.getElementById('num_hits').value = '300';">
               (0 hits)
@@ -337,12 +337,19 @@
 
           <p>Here I could have discussed
           the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-children-query-parser">Block
-          Join Children Query Parser</a>, but I don't do that. It
-          doesn't work. I'm pretty sure that I've got some
-          installation or basic configuration problem, but I cannot
-          figure what that is.</p>
+          Join Children Query Parser</a>, but I don't do that.</p>
           
-      </div>
+
+
+
+
+    <div>
+      <h2>Conclusion</h2>
+      <p>It doesn't work. I'm pretty sure that I've got some
+      installation or basic configuration problem or (possibly) there
+      is a Solr bug. Anyway, but I cannot figure out what that is.</p>
     </div>
+  </div>
+        </div>
   </body>
 </html>

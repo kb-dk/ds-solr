@@ -14,7 +14,7 @@ daterange does not handle docValues - we might need two versions of datetime
   <fields>
     <!-- Solr-internal fields -->
     <field     name="_version_" type="long"/>
-    <field     name="_root_" type="string" indexed="true" stored="true"/>
+    <field     name="_root_" type="string" indexed="true" stored="true"  docValues="true"/>
     <field     name="_nest_path_" type="_nest_path_" stored="true" indexed="true" />
     <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
 
@@ -34,7 +34,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <field name="described"   type="boolean" stored="true"  indexed="true" />
     <field name="describing"  type="string"  stored="true"  indexed="true" />
-    
+
     <!-- The original material type. One of
          * `image`
          * `moving_image`
@@ -360,12 +360,12 @@ daterange does not handle docValues - we might need two versions of datetime
     <fieldType name="file_path" class="solr.TextField" positionIncrementGap="100" indexed="true" stored="true" multiValued="false">
       <analyzer type="index">
         <tokenizer class="solr.StandardTokenizerFactory" />
-        <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="0" />
+        <filter class="solr.WordDelimiterGraphFilterFactory" preserveOriginal="0" />
         <filter class="solr.LowerCaseFilterFactory" />
       </analyzer>
       <analyzer type="query">
         <tokenizer class="solr.StandardTokenizerFactory" />
-        <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="0" />
+        <filter class="solr.WordDelimiterGraphFilterFactory" preserveOriginal="0" />
         <filter class="solr.LowerCaseFilterFactory" />
       </analyzer>
     </fieldType>
