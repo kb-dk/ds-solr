@@ -140,65 +140,65 @@
         "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e206",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject315",
-        "da": "David Simonsens Håndskrifter",
-        "en": "The David Simonsen Manuscripts"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject315",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e217",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e215",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject319",
-        "da": "Sprog",
-        "en": "Language"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject319",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e228",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e224",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject320",
-        "da": "Hebraisk",
-        "en": "Hebrew"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject320",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e239",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e233",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject316",
-        "da": "Opstillingssignatur",
-        "en": "Shelf mark"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject316",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e250",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e242",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject420",
-        "da": "Cod. Sim. Heb. 031-040",
-        "en": "Cod. Sim. Heb. 031-040"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject420",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e261",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e251",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject428",
-        "da": "Cod. Sim. Heb. 035",
-        "en": "Cod. Sim. Heb. 035"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject428",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e272",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e260",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject322",
-        "da": "Ophavsland",
-        "en": "Country of origin"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject322",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e283",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e269",
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject429",
-        "da": "Frankrig",
-        "en": "France"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject429",
+        "da": "",
+        "en": ""
       }
     ],
     "not_after_date": "1866-12-31",
@@ -207,7 +207,7 @@
       "1866"
     ],
     "physical_description": {
-      "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e301",
+      "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e285",
       "describing": "manus-judsam-2009-sep-dsh-object27137",
       "described": false,
       "medium": "Paper",

@@ -199,7 +199,7 @@
                     <xsl:sort select="@href" data-type="text" />
                     <xsl:if test="not(contains(@href,'editions'))">
                       <xsl:value-of
-                          select="concat($edition,'/',replace(@href,'(.*/sub)([^/]+)/../','sub$2'))"/>
+                          select="concat($edition,'-',replace(@href,'(.*/sub)([^/]+)/../','sub$2'))"/>
                     </xsl:if>
                   </xsl:for-each>
                 </xsl:for-each>

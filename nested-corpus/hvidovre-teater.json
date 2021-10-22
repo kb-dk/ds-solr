@@ -70,33 +70,33 @@
         "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e95",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder/subject2108",
-        "da": "Billeder",
-        "en": "Billeder"
+        "entity_id": "images-billed-2010-okt-billeder-subject2108",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e106",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e104",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder/subject2135",
-        "da": "Særudgivelser",
-        "en": "Særudgivelser"
+        "entity_id": "images-billed-2010-okt-billeder-subject2135",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e117",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e113",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder/subject4277",
-        "da": "Seidel, Claus",
-        "en": "Seidel, Claus"
+        "entity_id": "images-billed-2010-okt-billeder-subject4277",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e128",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e122",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder/subject6229",
-        "da": "Bladtegninger",
-        "en": "Bladtegninger"
+        "entity_id": "images-billed-2010-okt-billeder-subject6229",
+        "da": "",
+        "en": ""
       }
     ],
     "not_after_date": "1987-01-31",
@@ -105,7 +105,7 @@
       "1987-01-31"
     ],
     "physical_description": {
-      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e147",
+      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e139",
       "describing": "images-billed-2010-okt-billeder-object356751",
       "described": false,
       "technique": "Tegning"

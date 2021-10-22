@@ -221,73 +221,73 @@
         "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e339",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject315",
-        "da": "David Simonsens Håndskrifter",
-        "en": "The David Simonsen Manuscripts"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject315",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e350",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e348",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject319",
-        "da": "Sprog",
-        "en": "Language"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject319",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e361",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e357",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject320",
-        "da": "Hebraisk",
-        "en": "Hebrew"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject320",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e372",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e366",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject423",
-        "da": "Jødisk-arabisk",
-        "en": "Judeo-Arabic"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject423",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e383",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e375",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject322",
-        "da": "Ophavsland",
-        "en": "Country of origin"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject322",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e394",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e384",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject451",
-        "da": "Marokko",
-        "en": "Marocco"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject451",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e405",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e393",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject316",
-        "da": "Opstillingssignatur",
-        "en": "Shelf mark"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject316",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e416",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e402",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject543",
-        "da": "Cod. Sim. Jud.-Arab 001-007",
-        "en": "Cod. Sim. Jud.-Arab 001-007"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject543",
+        "da": "",
+        "en": ""
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e427",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e411",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
-        "entity_id": "manus-judsam-2009-sep-dsh/subject544",
-        "da": "Cod. Sim. Jud.-Arab 001",
-        "en": "Cod. Sim. Jud.-Arab 001"
+        "entity_id": "manus-judsam-2009-sep-dsh-subject544",
+        "da": "",
+        "en": ""
       }
     ],
     "not_after_date": "1544-12-31",
@@ -298,7 +298,7 @@
       "ש\"ד"
     ],
     "physical_description": {
-      "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e449",
+      "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e431",
       "describing": "manus-judsam-2009-sep-dsh-object41158",
       "described": false,
       "medium": "Paper",
