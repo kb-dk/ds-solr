@@ -27,14 +27,16 @@ daterange does not handle docValues - we might need two versions of datetime
          `ds_danskvestindien_324f243ed528`. No spaces allowed (replace with underscore `_`). -->
     
     <field name="id"          type="string" stored="true"  indexed="true" required="true" />
-    <field name="authority"   type="string" stored="true"  indexed="true" />
-    <field name="entity_id"   type="string" stored="true"  indexed="true" />
 
     <!-- the one below is basically the same as _nest_parent_ -->
 
-    <field name="described"   type="boolean" stored="true"  indexed="true" />
     <field name="describing"  type="string"  stored="true"  indexed="true" />
 
+    <field name="described"   type="boolean" stored="true"  indexed="true" />
+    <field name="entity_id"   type="string" stored="true"  indexed="true" />
+
+
+    
     <!-- The original material type. One of
          * `image`
          * `moving_image`
@@ -95,7 +97,10 @@ daterange does not handle docValues - we might need two versions of datetime
          Populated automatically from `author`.
          Note: This is multi valued.-->
 
-    <!-- An agent is a person or corporate body contributing to the material --> 
+    <!-- An agent is a person or corporate body contributing to the material -->
+    <!-- authority is meant for an URI to a name authority record -->
+
+    <field name="authority"   type="string" stored="true"  indexed="true" />
     
     <field name="agent_name"           type="text_da" multiValued="true"/>
     <!-- Agent contributing to the material in verbatim form, used for grouping & faceting.
