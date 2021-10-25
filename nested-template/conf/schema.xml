@@ -82,8 +82,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="additional physical form"      type="text_da"/>
     <field name="reference"      type="text_da"/>
     
-    <field name="en"      type="text_da"/>
-    <field name="da"      type="text_da"/>
+    <field name="subject_name_en"      type="text_da"/>
+    <field name="subject_name_da"      type="text_da"/>
 
     <!-- Free-form notes for the material. -->
     <field name="note"             type="text_da" multiValued="true"/>
