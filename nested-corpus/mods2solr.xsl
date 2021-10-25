@@ -198,8 +198,9 @@
                   <xsl:for-each select="h:a[@href]">
                     <xsl:sort select="@href" data-type="text" />
                     <xsl:if test="not(contains(@href,'editions'))">
-                      <xsl:value-of
-                          select="concat($edition,'-',replace(@href,'(.*/sub)([^/]+)/../','sub$2'))"/>
+                      <xsl:variable name="cat"><xsl:value-of
+                                    select="replace(@href,'^.*subject(\d+).*$','subject$1')"/></xsl:variable>
+                      <xsl:value-of select="$cat"/>
                     </xsl:if>
                   </xsl:for-each>
                 </xsl:for-each>
@@ -207,19 +208,21 @@
 
               <xsl:for-each select="distinct-values($categories)" >
                 <xsl:variable name="subject"
-                              select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'/')"/>
+                              select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'')"/>
                 <f:map>
                   <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
                   <f:boolean key="described">false</f:boolean>
-                  <f:string key="entity_id"><xsl:value-of select="."/></f:string>
-                  <f:string key="da">
-                    <xsl:for-each select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
-                      <xsl:value-of select="."/>
+                  <f:string key="entity_id"><xsl:value-of select="concat(substring-before($record-id,'object'),$subject)"/></f:string>
+                  <f:string key="subject_name_da">
+                    <xsl:for-each
+                        select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
+                      <xsl:value-of select="."/> 
                     </xsl:for-each>
                   </f:string>
-                  <f:string key="en">
-                    <xsl:for-each select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
-                      <xsl:value-of select="."/>
+                  <f:string key="subject_name_en">
+                    <xsl:for-each
+                        select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
+                      <xsl:value-of select="."/> 
                     </xsl:for-each>
                   </f:string>
                 </f:map>
