@@ -31,6 +31,7 @@
 | entity\_type| name=entity\_type type=string stored=true indexed=true ) | is the name of (or related to) the pseudo field containing the child document|
 | collection| name=collection type=string stored=true indexed=true ) | the name of the collection from which the material originated, such as _Dansk Vestindien_|
 | local\_identifier| name=local\_identifier type=string stored=true required=false ) | contains a human usable id that can help a curator to identify which digital object is at hand and make it retrievable from a curatorial object store, like Cumulus|
+| record\_name| name=record\_name type=string ) | supposedly a synonym for local_identifier|
 | shelf\_mark| name=shelf\_mark type=text\_da stored=true indexed=true ) | the location of an original physical object in the Library's stocks|
 | shelf\_mark\_verbatim| name=shelf\_mark\_verbatim type=string stored=true indexed=true ) |
 | original\_object\_identifier| name=original\_object\_identifier type=text\_da stored=true indexed=true ) |
@@ -39,6 +40,10 @@
   
 ### References
   
+
+* [MODS location](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) 
+
+* [MODS identifier](https://www.loc.gov/standards/mods/userguide/identifier.html) 
 
 
 ## types and genres 
@@ -60,9 +65,8 @@
 
 | Field  | Options | Description |
 |:-------|:--------|:------------|
-| title| name=title type=text\_da termVectors=true ) |
-| title\_sort| name=title\_sort type=sort\_da ) |
-| record\_name| name=record\_name type=string ) |
+| title| name=title type=text\_da termVectors=true ) | The name given to the resource by its creator, or occasionally by its cataloger| _sort ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
+| title\_sort| name=title\_sort type=sort\_da ) | ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
 | description| name=description type=text\_da ) |
 | situation| name=situation type=text\_da ) |
 | content| name=content type=text\_da ) |
@@ -73,7 +77,7 @@
 | author| name=author type=text\_da multiValued=true ) |
 | author\_verbatim| name=author\_verbatim type=string multiValued=true ) |
 | authority| name=authority type=string stored=true indexed=true ) |
-| agent\_name| name=agent\_name type=text\_da multiValued=true ) |
+| agent\_name| name=agent\_name type=text\_da multiValued=true ) | Name of an agent that has created or contributed to the material|
 | agent\_name\_verbatim| name=agent\_name\_verbatim type=string multiValued=true ) |
 | author\_sort| name=author\_sort type=sort\_da multiValued=true ) |
 | agent\_name\_sort| name=agent\_name\_sort type=sort\_da multiValued=true ) |
@@ -83,6 +87,10 @@
   
 ### References
   
+
+* [MODS title](https://www.loc.gov/standards/mods/userguide/titleinfo.html) 
+
+* [MODS name](https://www.loc.gov/standards/mods/userguide/name.html) 
 
 
 ## subject and coverage 

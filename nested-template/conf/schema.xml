@@ -49,6 +49,9 @@ daterange does not handle docValues - we might need two versions of datetime
     
     <field name="local_identifier" type="string" stored="true" required="false" /> <?field-description local_identifier contains a human usable id that can help a curator to identify which digital object is at hand and make it retrievable from a curatorial object store, like Cumulus ?>
 
+    <!-- Alternative ID. -->
+    <field name="record_name"      type="string"/>  <?field-description record_name supposedly a synonym for local_identifier ?>
+
     <field name="shelf_mark" type="text_da" stored="true"  indexed="true" /> <?field-description shelf_mark the location of an original physical object in the Library's stocks ?>
     <field name="shelf_mark_verbatim" type="string" stored="true"  indexed="true" />
     <copyField source="shelf_mark"      dest="shelf_mark_verbatim"/>
@@ -56,6 +59,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="original_object_identifier" type="text_da" stored="true"  indexed="true" />
     
     <field name="doms_guid" type="string" stored="true" required="false" />  <?field-description doms_guid the uuid of the item in the Copenhagen DOMS ?>
+
+    <?field-references [MODS location](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) ?>
+    <?field-references [MODS identifier](https://www.loc.gov/standards/mods/userguide/identifier.html) ?>
     
     <?end-field-group SOLR id, other identifiers and related fields ?>
 
@@ -72,19 +78,13 @@ daterange does not handle docValues - we might need two versions of datetime
     <?end-field-group types and genres ?>
     
     <?begin-field-group title, authors etc ?>
-    <!-- *************************************************************************************
-         Common fields below (should be used over `specific` fields when possible)
-         ************************************************************************************* -->
-
+  
     <!-- Title for the material. -->
-    <field name="title"            type="text_da"  termVectors="true"/>
+    <field name="title"            type="text_da"  termVectors="true"/>  <?field-description title The name given to the resource by its creator, or occasionally by its cataloger   ?>
     <!-- Title for the material, used for sorting.
          Populated automatically from `title`. -->
-    <field name="title_sort"       type="sort_da"/>
+    <field name="title_sort"       type="sort_da"/>   <?field-description title_sort ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...) ?>
     <copyField source="title"      dest="title_sort"/>
-
-    <!-- Alternative ID. -->
-    <field name="record_name"      type="string"/>
 
     <!-- Description of the material. -->
     <field name="description"      type="text_da"/>
@@ -113,9 +113,8 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <field name="authority"   type="string" stored="true"  indexed="true" />
     
-    <field name="agent_name"           type="text_da" multiValued="true"/>
-    <!-- Agent contributing to the material in verbatim form, used for grouping & faceting.
-         Populated automatically from `author` using copyField. -->
+    <field name="agent_name"           type="text_da" multiValued="true"/>   <?field-description agent_name Name of an agent that has created or contributed to the material  ?>
+    
     <field name="agent_name_verbatim"  type="string" multiValued="true"/>
     <!-- Agent contributing to for the material, used for sorting.
          Populated automatically from `author`.
@@ -135,8 +134,9 @@ daterange does not handle docValues - we might need two versions of datetime
          Populated automatically from `organization` using copyField. -->
     <field name="organization_verbatim"  type="string" multiValued="true"/>
 
+    <?field-references [MODS title](https://www.loc.gov/standards/mods/userguide/titleinfo.html) ?>
+    <?field-references [MODS name](https://www.loc.gov/standards/mods/userguide/name.html) ?>
 
-    
     <?end-field-group title, authors etc ?>
 
 
