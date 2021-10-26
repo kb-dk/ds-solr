@@ -25,7 +25,7 @@
 | Field  | Options | Description |
 |:-------|:--------|:------------|
 | id| name=id type=string stored=true indexed=true required=true ) |
-| describing| name=describing type=string stored=true indexed=true ) | contains the id of the root document being described in a child document|
+| describing| name=describing type=string stored=true indexed=true ) | contains the id of the root document being described in a child document. See [root and \_nest\_parent\_ above](#internal-fields)|
 | described| name=described type=boolean stored=true indexed=true ) | is a boolean which is true if the document is a root doc, false otherwise|
 | entity\_id| name=entity\_id type=string stored=true indexed=true ) | is a string used as a kind of classification code|
 | entity\_type| name=entity\_type type=string stored=true indexed=true ) | is the name of (or related to) the pseudo field containing the child document|

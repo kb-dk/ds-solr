@@ -39,7 +39,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <!-- the one below is basically the same as _nest_parent_ -->
 
-    <field name="describing"  type="string"  stored="true"  indexed="true" /> <?field-description describing contains the id of the root document being described in a child document ?>
+    <field name="describing"  type="string"  stored="true"  indexed="true" /> <?field-description describing contains the id of the root document being described in a child document. See [root and \_nest\_parent\_ above](#internal-fields) ?>
     <field name="described"   type="boolean" stored="true"  indexed="true" /> <?field-description described is a boolean which is true if the document is a root doc, false otherwise ?> 
     <field name="entity_id"   type="string"  stored="true"  indexed="true" /> <?field-description entity_id is a string used as a kind of classification code ?>
     <field name="entity_type" type="string"  stored="true"  indexed="true" /> <?field-description entity_type is the name of (or related to) the pseudo field containing the child document ?> 
