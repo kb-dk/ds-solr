@@ -10,4 +10,4 @@
   
 ### References
   
-https://solr.apache.org/guide/8_10/indexing-nested-documents.html#schema-configuration 
+[Schema configuration for nested documents](https://solr.apache.org/guide/8_10/indexing-nested-documents.html#schema-configuration) 
