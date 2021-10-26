@@ -5,6 +5,7 @@
                xmlns:h="http://www.w3.org/1999/xhtml"
                xmlns:xs="http://www.w3.org/2001/XMLSchema"
                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+               xmlns:my="urn:my"
                version="3.0">
 
     
@@ -145,11 +146,11 @@
                         <xsl:when test="@type">
                           <xsl:choose>
                             <xsl:when test="contains(@type,'citation/reference')">reference</xsl:when>
-                            <xsl:otherwise><xsl:value-of select="@type"/></xsl:otherwise>
+                            <xsl:otherwise><xsl:value-of select="my:escape_stuff(@type)"/></xsl:otherwise>
                           </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:value-of select="@displayLabel"/>
+                          <xsl:value-of select="my:escape_stuff(@displayLabel)"/>
                         </xsl:otherwise>
                       </xsl:choose>
                     </xsl:attribute>
@@ -341,11 +342,11 @@
                     <f:string>
                       <xsl:attribute name="key">
                         <xsl:choose>
-                          <xsl:when test="string-length($label) &gt; 0"><xsl:value-of select="lower-case($label)"/></xsl:when>
+                          <xsl:when test="string-length($label) &gt; 0"><xsl:value-of select="my:escape_stuff(lower-case($label))"/></xsl:when>
                           <xsl:otherwise>
                             <xsl:choose>
-                              <xsl:when test="@type"><xsl:value-of select="lower-case(@type)"/></xsl:when>
-                              <xsl:otherwise><xsl:value-of select="lower-case(local-name(.))"/></xsl:otherwise>
+                              <xsl:when test="@type"><xsl:value-of select="my:escape_stuff(lower-case(@type))"/></xsl:when>
+                              <xsl:otherwise><xsl:value-of select="my:escape_stuff(lower-case(local-name(.)))"/></xsl:otherwise>
                             </xsl:choose>
                           </xsl:otherwise>
                         </xsl:choose>
@@ -552,6 +553,7 @@
     </f:string>
   </xsl:template>
 
+  <xsl:function name="my:escape_stuff"><xsl:param name="arg"/><xsl:value-of select="replace($arg,'\s','_','s')"/></xsl:function>
   
   <xsl:template match="*|@*">
     <xsl:param name="record_identifier"/>
