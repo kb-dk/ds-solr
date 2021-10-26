@@ -71,32 +71,32 @@
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject2108",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Billeder",
+        "subject_name_en": "Billeder"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e104",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e106",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject2135",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Særudgivelser",
+        "subject_name_en": "Særudgivelser"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e113",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e117",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject4277",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Seidel, Claus",
+        "subject_name_en": "Seidel, Claus"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e122",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e128",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject6229",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Bladtegninger",
+        "subject_name_en": "Bladtegninger"
       }
     ],
     "not_after_date": "1987-01-31",
@@ -105,7 +105,7 @@
       "1987-01-31"
     ],
     "physical_description": {
-      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e139",
+      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e147",
       "describing": "images-billed-2010-okt-billeder-object356751",
       "described": false,
       "technique": "Tegning"
