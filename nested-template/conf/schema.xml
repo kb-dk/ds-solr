@@ -42,27 +42,24 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="describing"  type="string"  stored="true"  indexed="true" /> <?field-description describing contains the id of the root document being described in a child document ?>
     <field name="described"   type="boolean" stored="true"  indexed="true" /> <?field-description described is a boolean which is true if the document is a root doc, false otherwise ?> 
     <field name="entity_id"   type="string"  stored="true"  indexed="true" /> <?field-description entity_id is a string used as a kind of classification code ?>
+    <field name="entity_type" type="string"  stored="true"  indexed="true" /> <?field-description entity_type is the name of (or related to) the pseudo field containing the child document ?> 
     
 
     <field name="collection"  type="string"  stored="true"  indexed="true" /> <?field-description collection the name of the collection from which the material originated, such as _Dansk Vestindien_ ?>
     
-    <field name="local_identifier" type="string" stored="true" required="false" /> <?field-description local_identifier contains a an human usable id that can help a curator to identify which digital object is at hand and then retrieve it from a curatorial object store, like Cumulus ?>
+    <field name="local_identifier" type="string" stored="true" required="false" /> <?field-description local_identifier contains a human usable id that can help a curator to identify which digital object is at hand and make it retrievable from a curatorial object store, like Cumulus ?>
 
-    <field name="shelf_mark" type="text_da" stored="true"  indexed="true" /> <?field-description shelf_mark the location of an original object in the Library's stocks ?>
+    <field name="shelf_mark" type="text_da" stored="true"  indexed="true" /> <?field-description shelf_mark the location of an original physical object in the Library's stocks ?>
     <field name="shelf_mark_verbatim" type="string" stored="true"  indexed="true" />
     <copyField source="shelf_mark"      dest="shelf_mark_verbatim"/>
 
     <field name="original_object_identifier" type="text_da" stored="true"  indexed="true" />
     
-    <field name="doms_guid" type="string" stored="true" required="false" />
-
-
+    <field name="doms_guid" type="string" stored="true" required="false" />  <?field-description doms_guid the uuid of the item in the Copenhagen DOMS ?>
     
-    <field name="entity_type" type="string"  stored="true"  indexed="true" /> <?field-description entity_type is the name of (or related to) the pseudo field containing the child document ?> 
-
-
     <?end-field-group SOLR id, other identifiers and related fields ?>
-    
+
+    <?begin-field-group types and genres ?>    
     <!-- The original material type. One of
          * `image`
          * `moving_image`
@@ -72,8 +69,9 @@ daterange does not handle docValues - we might need two versions of datetime
          The list of acceptable types will probably be extended. -->
     <field name="media_type"    type="string"  stored="true"  indexed="true" />
 
-    <field name="read_direction" type="string" stored="true" required="false" />
-
+    <?end-field-group types and genres ?>
+    
+    <?begin-field-group title, authors etc ?>
     <!-- *************************************************************************************
          Common fields below (should be used over `specific` fields when possible)
          ************************************************************************************* -->
@@ -131,6 +129,18 @@ daterange does not handle docValues - we might need two versions of datetime
     <copyField source="agent_name"      dest="agent_name_sort"/>
     <copyField source="agent_name"      dest="agent_name_verbatim"/>
 
+    <!-- The institution or organization behind the material. -->
+    <field name="organization"     type="text_da" multiValued="true"/>
+    <!-- The institution or organization behind the material in verbatim form, used for grouping & faceting.
+         Populated automatically from `organization` using copyField. -->
+    <field name="organization_verbatim"  type="string" multiValued="true"/>
+
+
+    
+    <?end-field-group title, authors etc ?>
+
+
+    <?begin-field-group subject and coverage ?>
     <!-- The person or persons that is the subject of the material, e.g. the person shown on a painting. -->
     <field name="subject_person"    type="text_da" multiValued="true"/>
     <!-- Subject_Persons of the material in verbatim form, used for grouping & faceting.
@@ -143,12 +153,23 @@ daterange does not handle docValues - we might need two versions of datetime
     <copyField source="subject_person" dest="subject_person_sort"/>
     <copyField source="subject_person" dest="subject_person_verbatim"/>
 
-    <!-- The institution or organization behind the material. -->
-    <field name="organization"     type="text_da" multiValued="true"/>
-    <!-- The institution or organization behind the material in verbatim form, used for grouping & faceting.
-         Populated automatically from `organization` using copyField. -->
-    <field name="organization_verbatim"  type="string" multiValued="true"/>
 
+    <!-- Geographical coordinates for the material. -->
+    <field name="location_coordinates" type="geo"/>
+
+    <field name="area"        type="text_da"/>
+    <field name="cadastre"    type="text_da"/>
+    <field name="parish"      type="text_da"/>
+    <field name="building"    type="text_da"/>
+    <field name="zipcode"     type="text_da"/>
+    <field name="housenumber" type="text_da"/>
+    <field name="street"      type="text_da"/>
+    <field name="city"        type="text_da"/>
+
+
+
+
+    
     <!-- Uncontrolled subjects related to the material.
          Subjects should be descriptive: `Christian 9 (1818-1906) konge af Danmark 1863-1906`. -->
     <field name="subject"          type="text_da" multiValued="true"/>
@@ -175,6 +196,9 @@ daterange does not handle docValues - we might need two versions of datetime
          Note: There can be more than one path. -->
     <field name="logical_path"     type="descendent_path" multiValued="true"/>
 
+    <?end-field-group subject and geographical coverage ?>
+
+    <?begin-field-group temporal coverage ?>
     <!-- The date that the material is about. For a newspaper this would be the
          publication date. For a photography it would be the time the photo was taken. For a painting it
          would be the time it was painted.
@@ -186,16 +210,11 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="datetime_verbatim" type="string" />
     <!-- The creation date of the material or metadata about the material in the backing system. -->
     <field name="created_date"     type="date" />
-    <field name="record_created"     type="date_range" />
-    <field name="record_revised"     type="date_range" />
-
     <field name="not_after_date"     type="date_range" />
     <field name="not_before_date"     type="date_range" />
 
     <field name="visible_date"     type="text_da"  multiValued="true" />
-    
-    <field name="last_modified_by" type="string" />
-    
+
     <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
          Copied verbatim from the source. -->
     <field name="created_date_verbatim" type="string" />
@@ -207,9 +226,23 @@ daterange does not handle docValues - we might need two versions of datetime
          Copied verbatim from the source. -->
     <field name="modified_date_verbatim" type="string" />
 
+    <?end-field-group temporal coverage ?>
+
+    <?begin-field-group administrative metadata ?>
+
+    <field name="record_created"     type="date_range" />
+    <field name="record_revised"     type="date_range" />
+
+    <field name="last_modified_by" type="string" />
+    
     <!-- The major text content of the material, if available.
          * For a word file, this would be the textual content.
          * For an image, there would be no value. -->
+
+    <?end-field-group administrative metadata ?>
+
+    <?begin-field-group physical description ?>
+    
     <field name="text"             type="text_da" multiValued="true"/>
     <!-- Fallback field for search.
          Misc. content that is not indexed in any other fields are added to this. -->
@@ -268,7 +301,9 @@ daterange does not handle docValues - we might need two versions of datetime
          Hint: Parameters for image requests to IIIF can be found at https://iiif.io/api/image/2.1/#image-request-parameters -->
     <field name="iiif"             type="string"/>
     
-    
+    <?end-field-group physical description ?>
+
+    <?begin-field-group Licensing and terms and conditions ?>
     <!-- Short and controlled form of the licence for the material. Valid entries are
          * [Creative commons hort form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0`
          * `Apache License 2.0`
@@ -279,6 +314,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Uncontrolled copyright oriented text -->
     <field name="license_notice"   type="text_da" multiValued="true"/>
 
+    <?end-field-group Licensing and terms and conditions ?>
+
+    <?begin-field-group Language ?>    
     <!-- Language for the material according to RFC5646 https://datatracker.ietf.org/doc/html/rfc5646
          `da` for Danish,
          `en` for English,
@@ -293,19 +331,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
     <field name="location"         type="text_da"/>
-
-    <!-- Geographical coordinates for the material. -->
-    <field name="location_coordinates" type="geo"/>
-
-    <field name="area"        type="text_da"/>
-    <field name="cadastre"    type="text_da"/>
-    <field name="parish"      type="text_da"/>
-    <field name="building"    type="text_da"/>
-    <field name="zipcode"     type="text_da"/>
-    <field name="housenumber" type="text_da"/>
-    <field name="street"      type="text_da"/>
-    <field name="city"        type="text_da"/>
-    
+    <field name="read_direction" type="string" stored="true" required="false" />
     <!-- Primary and secondary type description of the physical material. -->
     <field name="physical_source_1"    type="string"/>
     <field name="physical_source_2"    type="string"/>
