@@ -13,7 +13,7 @@ daterange does not handle docValues - we might need two versions of datetime
   -->
   <fields>
 
-    <?field-group Internal Fields ?>
+    <?begin-field-group Internal Fields ?>
     
     <!-- Solr-internal fields -->
     <field     name="_version_" type="long"/>
@@ -21,9 +21,11 @@ daterange does not handle docValues - we might need two versions of datetime
     <?field-description _root_ contains the id of the root document of a collection of nested solr documents ?>
     <field     name="_nest_path_" type="_nest_path_" stored="true" indexed="true" />
     <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
-
+    
     <?field-references https://solr.apache.org/guide/8_10/indexing-nested-documents.html#schema-configuration ?>
 
+    <?end-field-group Internal Fields ?>
+    
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
          ************************************************************************************* -->
