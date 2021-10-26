@@ -156,7 +156,7 @@
 | technique| name=technique type=text\_da stored=true indexed=true ) |
 | medium| name=medium type=text\_da stored=true indexed=true ) |
 | medium\_verbatim| name=medium\_verbatim type=string stored=true indexed=true ) |
-| additional\_physical\_form| name=additional\_physical\_form type=text\_da ) |
+| additional\_physical\_form| name=additional\_physical\_form type=text\_da ) | seems to be a bug in COP export: Should really be any of script, medium or size.|
 | extent| name=extent type=string stored=true indexed=true ) |
 | size| name=size type=string stored=true indexed=true ) |
 | width\_pixels| name=width\_pixels type=long ) |
