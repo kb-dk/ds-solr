@@ -266,8 +266,7 @@ daterange does not handle docValues - we might need two versions of datetime
            type="string" stored="true"  indexed="true" />
     <copyField source="medium"      dest="medium_verbatim"/>
     
-    <field name="additional_physical_form"
-           type="text_da"/>
+    <field name="additional_physical_form" type="text_da"/>   <?field-description additional_physical_form seems to be a bug in COP export: Should really be any of script, medium or size. ?>
     
     <field name="extent" type="string" stored="true"  indexed="true" />
     <field name="size"   type="string" stored="true"  indexed="true" />
