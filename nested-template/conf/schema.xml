@@ -12,11 +12,17 @@ daterange does not handle docValues - we might need two versions of datetime
        * Where it makes sense, sample queries or suggestions for use are included
   -->
   <fields>
+
+    <?field-group Internal Fields ?>
+    
     <!-- Solr-internal fields -->
     <field     name="_version_" type="long"/>
     <field     name="_root_" type="string" indexed="true" stored="true"  docValues="true"/>
+    <?field-description _root_ contains the id of the root document of a collection of nested solr documents ?>
     <field     name="_nest_path_" type="_nest_path_" stored="true" indexed="true" />
     <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
+
+    <?field-references https://solr.apache.org/guide/8_10/indexing-nested-documents.html#schema-configuration ?>
 
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
@@ -31,11 +37,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- the one below is basically the same as _nest_parent_ -->
 
     <field name="describing"  type="string"  stored="true"  indexed="true" />
-
     <field name="described"   type="boolean" stored="true"  indexed="true" />
-    <field name="entity_id"   type="string" stored="true"  indexed="true" />
-
-
+    <field name="entity_id"   type="string"  stored="true"  indexed="true" />
+    <field name="entity_type" type="string"  stored="true"  indexed="true" />
     
     <!-- The original material type. One of
          * `image`
@@ -45,7 +49,7 @@ daterange does not handle docValues - we might need two versions of datetime
          * `other`
          The list of acceptable types will probably be extended. -->
     <field name="media_type"    type="string"  stored="true"  indexed="true" />
-    <field name="entity_type"   type="string"  stored="true"  indexed="true" />
+
     
     <!-- The name of the overall collection from which the material originated, such as _Dansk Vestindien_. -->
     <field name="collection"  type="string"  stored="true"  indexed="true" />
@@ -76,11 +80,10 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <!-- Description of the material. -->
     <field name="description"      type="text_da"/>
-    <field name="situation"      type="text_da"/>
+    <field name="situation"        type="text_da"/>
 
-    <field name="content"      type="text_da"/>
-    <field name="additional physical form"      type="text_da"/>
-    <field name="reference"      type="text_da"/>
+    <field name="content"          type="text_da"/>
+    <field name="reference"        type="text_da"/>
     
     <field name="subject_name_en"      type="text_da"/>
     <field name="subject_name_da"      type="text_da"/>
@@ -212,10 +215,16 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="height_cm"        type="double"/>
     <field name="depth_cm"         type="double"/>
 
-    <field name="technique" type="text_da" stored="true"  indexed="true" />
-    <field name="medium" type="text_da" stored="true"  indexed="true" />
-    <field name="medium_verbatim" type="string" stored="true"  indexed="true" />
+    <field name="technique"
+           type="text_da" stored="true"  indexed="true" />
+    <field name="medium"
+           type="text_da" stored="true"  indexed="true" />
+    <field name="medium_verbatim"
+           type="string" stored="true"  indexed="true" />
     <copyField source="medium"      dest="medium_verbatim"/>
+    
+    <field name="additional_physical_form"
+           type="text_da"/>
     
     <field name="extent" type="string" stored="true"  indexed="true" />
     <field name="size"   type="string" stored="true"  indexed="true" />
@@ -269,8 +278,8 @@ daterange does not handle docValues - we might need two versions of datetime
          We have a vast number of combinations of scripts and languages.
     -->
     
-    <field name="cataloging_language"         type="string" multiValued="false"/>
-    <field name="language"         type="string" multiValued="true"/>
+    <field name="cataloging_language" type="string" multiValued="false"/>
+    <field name="language"            type="string" multiValued="true"/>
 
     <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
     <field name="location"         type="text_da"/>
@@ -278,14 +287,14 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Geographical coordinates for the material. -->
     <field name="location_coordinates" type="geo"/>
 
-    <field name="area"  type="text_da"/>
-    <field name="cadastre"  type="text_da"/>
-    <field name="parish"  type="text_da"/>
-    <field name="building"  type="text_da"/>
-    <field name="zipcode"  type="text_da"/>
-    <field name="housenumber"  type="text_da"/>
-    <field name="street"  type="text_da"/>
-    <field name="city"  type="text_da"/>
+    <field name="area"        type="text_da"/>
+    <field name="cadastre"    type="text_da"/>
+    <field name="parish"      type="text_da"/>
+    <field name="building"    type="text_da"/>
+    <field name="zipcode"     type="text_da"/>
+    <field name="housenumber" type="text_da"/>
+    <field name="street"      type="text_da"/>
+    <field name="city"        type="text_da"/>
     
     <!-- Primary and secondary type description of the physical material. -->
     <field name="physical_source_1"    type="string"/>

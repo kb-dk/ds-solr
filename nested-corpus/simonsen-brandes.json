@@ -54,56 +54,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2678",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e81",
+        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e83",
         "describing": "letters-judsam-2011-mar-dsa-object2678",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e90",
+        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e94",
         "describing": "letters-judsam-2011-mar-dsa-object2678",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1958",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0005",
+        "subject_name_en": "0005"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e99",
+        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e105",
         "describing": "letters-judsam-2011-mar-dsa-object2678",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e108",
+        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e116",
         "describing": "letters-judsam-2011-mar-dsa-object2678",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e117",
+        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e127",
         "describing": "letters-judsam-2011-mar-dsa-object2678",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e126",
+        "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e138",
         "describing": "letters-judsam-2011-mar-dsa-object2678",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1916-04-12",
@@ -112,7 +112,7 @@
       "1916-04-12"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e143",
+      "id": "letters-judsam-2011-mar-dsa-object2678-disposable-subrecord-d3e157",
       "describing": "letters-judsam-2011-mar-dsa-object2678",
       "described": false,
       "extent": "2 pp."
@@ -183,56 +183,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2671",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e81",
+        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e83",
         "describing": "letters-judsam-2011-mar-dsa-object2671",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e90",
+        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e94",
         "describing": "letters-judsam-2011-mar-dsa-object2671",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1954",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0002",
+        "subject_name_en": "0002"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e99",
+        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e105",
         "describing": "letters-judsam-2011-mar-dsa-object2671",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e108",
+        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e116",
         "describing": "letters-judsam-2011-mar-dsa-object2671",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e117",
+        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e127",
         "describing": "letters-judsam-2011-mar-dsa-object2671",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e126",
+        "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e138",
         "describing": "letters-judsam-2011-mar-dsa-object2671",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1915-05-18",
@@ -241,7 +241,7 @@
       "1915-05-18"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e143",
+      "id": "letters-judsam-2011-mar-dsa-object2671-disposable-subrecord-d4e157",
       "describing": "letters-judsam-2011-mar-dsa-object2671",
       "described": false,
       "extent": "2 pp."
@@ -312,56 +312,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2681",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e81",
+        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e83",
         "describing": "letters-judsam-2011-mar-dsa-object2681",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e90",
+        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e94",
         "describing": "letters-judsam-2011-mar-dsa-object2681",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1961",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0009",
+        "subject_name_en": "0009"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e99",
+        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e105",
         "describing": "letters-judsam-2011-mar-dsa-object2681",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e108",
+        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e116",
         "describing": "letters-judsam-2011-mar-dsa-object2681",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e117",
+        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e127",
         "describing": "letters-judsam-2011-mar-dsa-object2681",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e126",
+        "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e138",
         "describing": "letters-judsam-2011-mar-dsa-object2681",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1927-02-19",
@@ -370,7 +370,7 @@
       "3. juni"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e143",
+      "id": "letters-judsam-2011-mar-dsa-object2681-disposable-subrecord-d5e157",
       "describing": "letters-judsam-2011-mar-dsa-object2681",
       "described": false,
       "extent": "1 p."
@@ -440,56 +440,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2674",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e81",
+        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e83",
         "describing": "letters-judsam-2011-mar-dsa-object2674",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e90",
+        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e94",
         "describing": "letters-judsam-2011-mar-dsa-object2674",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1956",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0004",
+        "subject_name_en": "0004"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e99",
+        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e105",
         "describing": "letters-judsam-2011-mar-dsa-object2674",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e108",
+        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e116",
         "describing": "letters-judsam-2011-mar-dsa-object2674",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e117",
+        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e127",
         "describing": "letters-judsam-2011-mar-dsa-object2674",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e126",
+        "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e138",
         "describing": "letters-judsam-2011-mar-dsa-object2674",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1915-06-23",
@@ -498,7 +498,7 @@
       "1915-06-23"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e143",
+      "id": "letters-judsam-2011-mar-dsa-object2674-disposable-subrecord-d6e157",
       "describing": "letters-judsam-2011-mar-dsa-object2674",
       "described": false,
       "extent": "1 p."
@@ -568,56 +568,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2680",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e81",
+        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e83",
         "describing": "letters-judsam-2011-mar-dsa-object2680",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e90",
+        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e94",
         "describing": "letters-judsam-2011-mar-dsa-object2680",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1960",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0008",
+        "subject_name_en": "0008"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e99",
+        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e105",
         "describing": "letters-judsam-2011-mar-dsa-object2680",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e108",
+        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e116",
         "describing": "letters-judsam-2011-mar-dsa-object2680",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e117",
+        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e127",
         "describing": "letters-judsam-2011-mar-dsa-object2680",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e126",
+        "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e138",
         "describing": "letters-judsam-2011-mar-dsa-object2680",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1920-03-25",
@@ -626,7 +626,7 @@
       "1920-03-25"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e143",
+      "id": "letters-judsam-2011-mar-dsa-object2680-disposable-subrecord-d7e157",
       "describing": "letters-judsam-2011-mar-dsa-object2680",
       "described": false,
       "extent": "1 p."
@@ -696,56 +696,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2676",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e81",
+        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e83",
         "describing": "letters-judsam-2011-mar-dsa-object2676",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e90",
+        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e94",
         "describing": "letters-judsam-2011-mar-dsa-object2676",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1957",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0006",
+        "subject_name_en": "0006"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e99",
+        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e105",
         "describing": "letters-judsam-2011-mar-dsa-object2676",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e108",
+        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e116",
         "describing": "letters-judsam-2011-mar-dsa-object2676",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e117",
+        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e127",
         "describing": "letters-judsam-2011-mar-dsa-object2676",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e126",
+        "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e138",
         "describing": "letters-judsam-2011-mar-dsa-object2676",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1916-04-14",
@@ -754,7 +754,7 @@
       "1916-04-14"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e143",
+      "id": "letters-judsam-2011-mar-dsa-object2676-disposable-subrecord-d8e157",
       "describing": "letters-judsam-2011-mar-dsa-object2676",
       "described": false,
       "extent": "2 pp."
@@ -825,56 +825,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2670",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e81",
+        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e83",
         "describing": "letters-judsam-2011-mar-dsa-object2670",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e90",
+        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e94",
         "describing": "letters-judsam-2011-mar-dsa-object2670",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1953",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0001",
+        "subject_name_en": "0001"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e99",
+        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e105",
         "describing": "letters-judsam-2011-mar-dsa-object2670",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e108",
+        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e116",
         "describing": "letters-judsam-2011-mar-dsa-object2670",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e117",
+        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e127",
         "describing": "letters-judsam-2011-mar-dsa-object2670",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e126",
+        "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e138",
         "describing": "letters-judsam-2011-mar-dsa-object2670",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1914-10-29",
@@ -883,7 +883,7 @@
       "1914-10-29"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e143",
+      "id": "letters-judsam-2011-mar-dsa-object2670-disposable-subrecord-d9e157",
       "describing": "letters-judsam-2011-mar-dsa-object2670",
       "described": false,
       "extent": "2 pp."
@@ -954,56 +954,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2679",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e81",
+        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e83",
         "describing": "letters-judsam-2011-mar-dsa-object2679",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e90",
+        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e94",
         "describing": "letters-judsam-2011-mar-dsa-object2679",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1959",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0007",
+        "subject_name_en": "0007"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e99",
+        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e105",
         "describing": "letters-judsam-2011-mar-dsa-object2679",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e108",
+        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e116",
         "describing": "letters-judsam-2011-mar-dsa-object2679",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e117",
+        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e127",
         "describing": "letters-judsam-2011-mar-dsa-object2679",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e126",
+        "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e138",
         "describing": "letters-judsam-2011-mar-dsa-object2679",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1920-03-19",
@@ -1012,7 +1012,7 @@
       "1920-03-19"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e143",
+      "id": "letters-judsam-2011-mar-dsa-object2679-disposable-subrecord-d10e157",
       "describing": "letters-judsam-2011-mar-dsa-object2679",
       "described": false,
       "extent": "1 p."
@@ -1082,56 +1082,56 @@
         "describing": "letters-judsam-2011-mar-dsa-object2673",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1925",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Br",
+        "subject_name_en": "Br"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e81",
+        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e83",
         "describing": "letters-judsam-2011-mar-dsa-object2673",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1952",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Brandes, Georg",
+        "subject_name_en": "Brandes, Georg"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e90",
+        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e94",
         "describing": "letters-judsam-2011-mar-dsa-object2673",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject1955",
-        "da": "",
-        "en": ""
+        "subject_name_da": "0003",
+        "subject_name_en": "0003"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e99",
+        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e105",
         "describing": "letters-judsam-2011-mar-dsa-object2673",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject4",
-        "da": "",
-        "en": ""
+        "subject_name_da": "David Simonsen ArchivesB",
+        "subject_name_en": "David Simonsen ArchivesB"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e108",
+        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e116",
         "describing": "letters-judsam-2011-mar-dsa-object2673",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject49",
-        "da": "",
-        "en": ""
+        "subject_name_da": "B",
+        "subject_name_en": "B"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e117",
+        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e127",
         "describing": "letters-judsam-2011-mar-dsa-object2673",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject5",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Letters to/from David Simonsen",
+        "subject_name_en": "Letters to/from David Simonsen"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e126",
+        "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e138",
         "describing": "letters-judsam-2011-mar-dsa-object2673",
         "described": false,
         "entity_id": "letters-judsam-2011-mar-dsa-subject6",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Correspondents",
+        "subject_name_en": "Correspondents"
       }
     ],
     "not_after_date": "1915-05-23",
@@ -1140,7 +1140,7 @@
       "1915-05-23"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e143",
+      "id": "letters-judsam-2011-mar-dsa-object2673-disposable-subrecord-d11e157",
       "describing": "letters-judsam-2011-mar-dsa-object2673",
       "described": false,
       "extent": "1 p."

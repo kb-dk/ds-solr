@@ -57,48 +57,48 @@
         "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
         "entity_id": "manus-vmanus-2011-dec-ha-subject1513",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Græsk",
+        "subject_name_en": "Græsk"
       },
       {
-        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e82",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e84",
         "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
         "entity_id": "manus-vmanus-2011-dec-ha-subject898",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Vesterlandske håndskrifter",
+        "subject_name_en": "Vesterlandske håndskrifter"
       },
       {
-        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e91",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e95",
         "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
         "entity_id": "manus-vmanus-2011-dec-ha-subject902",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Sprog",
+        "subject_name_en": "Sprog"
       },
       {
-        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e100",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e106",
         "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
         "entity_id": "manus-vmanus-2011-dec-ha-subject1550",
-        "da": "",
-        "en": ""
+        "subject_name_da": "GKS 0018 folio",
+        "subject_name_en": "GKS 0018 folio"
       },
       {
-        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e109",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e117",
         "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
         "entity_id": "manus-vmanus-2011-dec-ha-subject6603",
-        "da": "",
-        "en": ""
+        "subject_name_da": "GKS (Gammel Kongelig Samling)",
+        "subject_name_en": "GKS (Gammel Kongelig Samling)"
       },
       {
-        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e118",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e128",
         "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
         "entity_id": "manus-vmanus-2011-dec-ha-subject899",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Samlinger",
+        "subject_name_en": "Samlinger"
       }
     ],
     "not_after_date": "1199-01-01",
@@ -107,7 +107,7 @@
       "1100-1199"
     ],
     "physical_description": {
-      "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e135",
+      "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e147",
       "describing": "manus-vmanus-2011-dec-ha-object71279",
       "described": false,
       "medium": "Pergament",

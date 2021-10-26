@@ -51,36 +51,36 @@
         "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
         "entity_id": "images-luftfo-2011-maj-luftfoto-subject203",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Luftfoto",
+        "subject_name_en": "Luftfoto"
       },
       {
-        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e75",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e77",
         "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
         "entity_id": "images-luftfo-2011-maj-luftfoto-subject204",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Sylvest Jensen",
+        "subject_name_en": "Sylvest Jensen"
       },
       {
-        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e84",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e88",
         "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
         "entity_id": "images-luftfo-2011-maj-luftfoto-subject251",
-        "da": "",
-        "en": ""
+        "subject_name_da": "NK-Serie",
+        "subject_name_en": "NK-Serie"
       },
       {
-        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e93",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e99",
         "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
         "entity_id": "images-luftfo-2011-maj-luftfoto-subject843",
-        "da": "",
-        "en": ""
+        "subject_name_da": "Hovedstaden",
+        "subject_name_en": "Hovedstaden"
       }
     ],
     "coverage_geo_names": {
-      "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e103",
+      "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e111",
       "describing": "images-luftfo-2011-maj-luftfoto-object322504",
       "described": false,
       "area": "Præsteskov",
