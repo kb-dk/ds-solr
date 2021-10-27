@@ -62,7 +62,7 @@
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|title|text\_da|||||The name given to the resource by its creator, or occasionally by its cataloger_sort ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
+|title|text\_da|||||The name given to the resource by its creator, or occasionally by its cataloger|
 |title\_sort|sort\_da|||||ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
 |description|text\_da||||||
 |situation|text\_da||||||
