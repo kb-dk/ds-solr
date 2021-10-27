@@ -245,24 +245,21 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <?begin-field-group temporal coverage ?>
     
-    <!-- The date that the material is about. For a newspaper this would be the
+    <field name="datetime"         type="date_range" />   <?field-description  datetime  The date that the material is about. For a newspaper this would be the
          publication date. For a photography it would be the time the photo was taken. For a painting it
          would be the time it was painted.
          Note: This is a [DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting)
-         that supports non-precise dates such as `2000-11` as well as ranges such as `[2000-11-01 TO 2014-12-01]`. -->
-    <field name="datetime"         type="date_range" />
-    <!-- Fallback representation for datetime, when the source datetime cannot be parsed.
-         Copied verbatim from the source. -->
-    <field name="datetime_verbatim" type="string" />
+         that supports non-precise dates such as `2000-11` as well as ranges such as `[2000-11-01 TO 2014-12-01]`. ?>
+
+    
+    <field name="datetime_verbatim" type="string" />  <?field-description datetime_verbatim Fallback representation for datetime, when the source datetime cannot be parsed. Copied verbatim from the source. ?>
   
     <field name="not_after_date"     type="date_range" />
     <field name="not_before_date"     type="date_range" />
 
     <field name="visible_date"     type="text_da"  multiValued="true" />
 
-    <!-- Fallback representation for created_date, when the source datetime cannot be parsed.
-         Copied verbatim from the source. -->
-    <field name="created_date_verbatim" type="string" />
+   
     <!-- When the material or metadata about the material was last changed.
          If the material or metadata about the material was not changed after creation, this
          timestamp is the same as `created_date`. -->
@@ -286,6 +283,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="last_modified_by" type="string" />
 
     <field name="created_date"     type="date" />  <?field-description created_date The creation date of the material or metadata about the material in the backing system. ?>
+
+    <field name="created_date_verbatim" type="string" /> <?field-description  created_date_verbatim Fallback representation for created_date, when the source datetime cannot be parsed. Copied verbatim from the source. ?>
 
     <field name="width_pixels"     type="long"/> <?field-description width_pixels Image or moving image width in pixels. ?>
     <field name="height_pixels"    type="long"/> <?field-description height_pixels Image or moving image height in pixels. ?>
