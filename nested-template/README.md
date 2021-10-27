@@ -212,12 +212,16 @@
 
 | Field  | Options | Description |
 |:-------|:--------|:------------|
-| cataloging\_language| name=cataloging\_language type=string multiValued=false ) |
-| language| name=language type=string multiValued=true ) |
+| language| name=language type=string multiValued=true ) | 'da' for Danish, 'en' for English, 'de' for German, jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken and written by the Jewish population in Arabic countries during the medieval times). We have a vast number of combinations of scripts and languages.|
+| cataloging\_language| name=cataloging\_language type=string multiValued=false ) | Either Danish 'da' or English 'en' depending on record source and expected target audience|
 
   
 ### References
   
+
+* [Language for the material according to RFC5646](https://datatracker.ietf.org/doc/html/rfc5646) 
+
+* [MODS Subelement: &lt;languageOfCataloging>](https://www.loc.gov/standards/mods/userguide/recordinfo.html#languageofcataloging) 
 
 
 ## Left-overs? 
