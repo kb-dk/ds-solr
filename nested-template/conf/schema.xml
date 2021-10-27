@@ -13,7 +13,7 @@ daterange does not handle docValues - we might need two versions of datetime
   -->
   <fields>
 
-    <?begin-field-group Internal Fields ?>
+    <?begin-field-group internal fields ?>
 
     <field     name="_version_" type="long"/>
     <field     name="_root_" type="string" indexed="true" stored="true"  docValues="true"/>
@@ -23,7 +23,7 @@ daterange does not handle docValues - we might need two versions of datetime
     
     <?field-references [Schema configuration for nested documents](https://solr.apache.org/guide/8_10/indexing-nested-documents.html#schema-configuration) ?>
 
-    <?end-field-group Internal Fields ?>
+    <?end-field-group internal fields ?>
     
     <!-- *************************************************************************************
          Mandatory fields below (all documents must have these)
@@ -332,7 +332,7 @@ daterange does not handle docValues - we might need two versions of datetime
     
     <?end-field-group physical description ?>
 
-    <?begin-field-group Licensing and terms and conditions ?>
+    <?begin-field-group licensing and terms and conditions ?>
     <!-- Short and controlled form of the licence for the material. Valid entries are
          * [Creative commons hort form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0`
          * `Apache License 2.0`
@@ -343,9 +343,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Uncontrolled copyright oriented text -->
     <field name="license_notice"   type="text_da" multiValued="true"/>
 
-    <?end-field-group Licensing and terms and conditions ?>
+    <?end-field-group licensing and terms and conditions ?>
 
-    <?begin-field-group Language ?>    
+    <?begin-field-group language ?>    
     
     <field name="language"            type="string" multiValued="true"/>   <?field-description language 'da' for Danish, 'en' for English, 'de' for German, jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken and written by the Jewish population in Arabic countries during the medieval times). We have a vast number of combinations of scripts and languages. ?>
 
@@ -353,7 +353,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <?field-references  [Language tags for the material according to RFC5646](https://datatracker.ietf.org/doc/html/rfc5646) ?>
     <?field-references [MODS Subelement: &lt;languageOfCataloging>](https://www.loc.gov/standards/mods/userguide/recordinfo.html#languageofcataloging) ?> 
-    <?end-field-group Language ?>    
+    <?end-field-group language ?>    
     
   </fields>
 
