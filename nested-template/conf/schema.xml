@@ -60,6 +60,33 @@ daterange does not handle docValues - we might need two versions of datetime
     
     <field name="doms_guid" type="string" stored="true" required="false" />  <?field-description doms_guid the uuid of the item in the Copenhagen DOMS ?>
 
+        <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
+    <field name="location"         type="text_da"/>
+    <field name="read_direction" type="string" stored="true" required="false" />
+    <!-- Primary and secondary type description of the physical material. -->
+    <field name="physical_source_1"    type="string"/>
+    <field name="physical_source_2"    type="string"/>
+
+    <!-- Institution-internal location, e.g. room, shelf, box. -->
+    <field name="archive_location"     type="string"/>
+
+    <!-- Institution-internal reference number for the physical material. -->
+    <field name="accession_number"     type="string"/>
+
+    <!-- Source location or reference to the material for the document.
+         Primarily used for debugging/backtracing. -->
+    <field name="source_material_reference" type="string"/>
+    
+    <!-- Free-form external reference to related material.
+         TODO: At some point this should be tightly coupled to related_url_text below. -->
+    <field name="related_url"          type="string"/>
+
+    <!-- Free-form external reference text to related material.
+         TODO: At some point this should be tightly coupled to related_url above. -->
+    <field name="related_url_text"     type="text_da"/>
+   
+
+
     <?field-references [MODS location](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) ?>
     <?field-references [MODS identifier](https://www.loc.gov/standards/mods/userguide/identifier.html) ?>
     
@@ -324,42 +351,10 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <field name="cataloging_language" type="string" multiValued="false"/>  <?field-description cataloging_language Either Danish 'da' or English 'en' depending on record source and expected target audience ?>
 
-    <?field-references  [Language for the material according to RFC5646](https://datatracker.ietf.org/doc/html/rfc5646) ?>
+    <?field-references  [Language tags for the material according to RFC5646](https://datatracker.ietf.org/doc/html/rfc5646) ?>
     <?field-references [MODS Subelement: &lt;languageOfCataloging>](https://www.loc.gov/standards/mods/userguide/recordinfo.html#languageofcataloging) ?> 
     <?end-field-group Language ?>    
-
-    <?begin-field-group Left-overs? ?>
-    <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
-    <field name="location"         type="text_da"/>
-    <field name="read_direction" type="string" stored="true" required="false" />
-    <!-- Primary and secondary type description of the physical material. -->
-    <field name="physical_source_1"    type="string"/>
-    <field name="physical_source_2"    type="string"/>
-
-    <!-- Institution-internal location, e.g. room, shelf, box. -->
-    <field name="archive_location"     type="string"/>
-
-    <!-- Institution-internal reference number for the physical material. -->
-    <field name="accession_number"     type="string"/>
-
-    <!-- Source location or reference to the material for the document.
-         Primarily used for debugging/backtracing. -->
-    <field name="source_material_reference" type="string"/>
     
-    <!-- Free-form external reference to related material.
-         TODO: At some point this should be tightly coupled to related_url_text below. -->
-    <field name="related_url"          type="string"/>
-
-    <!-- Free-form external reference text to related material.
-         TODO: At some point this should be tightly coupled to related_url above. -->
-    <field name="related_url_text"     type="text_da"/>
-    
-
-
-    <!-- *************************************************************************************
-         Specific fields below (fields that only makes sense for a specific collection)
-         ************************************************************************************* -->
-    <?end-field-group Left-overs? ?>
   </fields>
 
   <uniqueKey>id</uniqueKey>
