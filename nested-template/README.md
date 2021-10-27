@@ -56,7 +56,7 @@
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|media\_type|string|true|true||||
+|media\_type|string|true|true|||images, maps, letters, manus, pamphlets, books, editions, categories|
 
 
 ## title, authors etc 
@@ -132,7 +132,9 @@
 
 * [SOLR DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting) 
 
-* [date fields in TEI guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html) 
+* [date element in TEI guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html) 
+
+* [Dates and Times](https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONADA) 
 
 
 ## technical and administrative metadata 
