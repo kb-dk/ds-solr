@@ -10,8 +10,8 @@
 | \_root\_| type=string indexed=true stored=true docValues=true | contains the id of the root document of a collection of nested solr documents|
 | \_nest\_path\_| stored=true indexed=true |
 | \_nest\_parent\_| type=string indexed=true stored=true |
+    
 
-  
 ### References
   
 
@@ -36,8 +36,8 @@
 | shelf\_mark\_verbatim| type=string stored=true indexed=true |
 | original\_object\_identifier| type=text\_da stored=true indexed=true |
 | doms\_guid| type=string stored=true required=false | the uuid of the item in the Copenhagen DOMS|
+    
 
-  
 ### References
   
 
@@ -53,10 +53,6 @@
 | Field  | Options | Description |
 |:-------|:--------|:------------|
 | media\_type| type=string stored=true indexed=true |
-
-  
-### References
-  
 
 
 ## title, authors etc 
@@ -83,8 +79,8 @@
 | agent\_name\_sort| type=sort\_da multiValued=true |
 | organization| type=text\_da multiValued=true |
 | organization\_verbatim| type=string multiValued=true |
+    
 
-  
 ### References
   
 
@@ -118,10 +114,6 @@
 | topic\_verbatim| type=string multiValued=true |
 | logical\_path| type=descendent\_path multiValued=true |
 
-  
-### References
-  
-
 
 ## temporal coverage 
       
@@ -139,10 +131,6 @@
 | modified\_date| type=date |
 | modified\_date\_verbatim| type=string |
 
-  
-### References
-  
-
 
 ## technical and administrative metadata 
       
@@ -158,10 +146,6 @@
 | depth\_pixels| type=long | The depth dimension is for 3D bitmaps, such as [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging).|
 | pixels| type=long | Total number of pixels in a still image or a single frame for moving image.|
 | dhash| type=string multiValued=true |
-
-  
-### References
-  
 
 
 ## physical description 
@@ -187,10 +171,6 @@
 | image\_full| type=string |
 | iiif| type=string |
 
-  
-### References
-  
-
 
 ## Licensing and terms and conditions 
       
@@ -201,10 +181,6 @@
 | license| type=string |
 | license\_notice| type=text\_da multiValued=true |
 
-  
-### References
-  
-
 
 ## Language 
       
@@ -214,8 +190,8 @@
 |:-------|:--------|:------------|
 | language| type=string multiValued=true | 'da' for Danish, 'en' for English, 'de' for German, jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken and written by the Jewish population in Arabic countries during the medieval times). We have a vast number of combinations of scripts and languages.|
 | cataloging\_language| type=string multiValued=false | Either Danish 'da' or English 'en' depending on record source and expected target audience|
+    
 
-  
 ### References
   
 
@@ -239,7 +215,3 @@
 | source\_material\_reference| type=string |
 | related\_url| type=string |
 | related\_url\_text| type=text\_da |
-
-  
-### References
-  
