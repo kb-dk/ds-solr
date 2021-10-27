@@ -26,13 +26,15 @@
 <xsl:for-each select="following-sibling::field[following-sibling::processing-instruction('end-field-group')=$pi]">
 <xsl:variable name="this_field"><xsl:value-of select="@name"/></xsl:variable>| <xsl:value-of select="my:escape_stuff(@name)"/>| <xsl:for-each select="@*"><xsl:if test="not(contains(.,$this_field))"><xsl:value-of select="my:escape_stuff(local-name(.))"/>=<xsl:value-of select="my:escape_stuff(.)"/><xsl:text> </xsl:text></xsl:if></xsl:for-each><xsl:for-each select="following-sibling::processing-instruction('field-description')[matches(.,concat('^',$this_field))]">| <xsl:value-of select="normalize-space(substring-after(.,$this_field))"/></xsl:for-each>|
 </xsl:for-each>
-
-<xsl:text>
   
+<xsl:for-each select="following-sibling::processing-instruction(field-references)[following-sibling::processing-instruction('end-field-group')=$pi]">
+  <xsl:if test="position()=1">
+<xsl:text>    
+
 ### References
   
 </xsl:text>
-<xsl:for-each select="following-sibling::processing-instruction(field-references)[following-sibling::processing-instruction('end-field-group')=$pi]">
+  </xsl:if>
 * <xsl:value-of select="."/><xsl:text>
 </xsl:text>
 </xsl:for-each>
