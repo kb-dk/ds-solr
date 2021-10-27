@@ -62,7 +62,25 @@ daterange does not handle docValues - we might need two versions of datetime
 
         <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
     <field name="location"         type="text_da"/>
-    <field name="read_direction" type="string" stored="true" required="false" />
+    <field name="read_direction" type="string" stored="true" required="false" /> <?field-description read_direction This is perhaps not obvious: Normally text is stored
+                in the order it is to be read. However, from the point
+                of view of people used to read western languages (LTR
+                scripts) it might seem odd click on a left-arrow to
+                get next page, but that is the way people reading
+                Chinese, Arabic and Hebrew thinks (RTL scripts). And
+                that is true for languages using those scripts, like
+                Persian (using Arabic script) and Yiddish and Ladino
+                using Hebrew script. Judeo-Arabic is a dialect of
+                Arabic written using Hebrew script. We have all these
+                in our collections.
+
+                We have all these in our digital collections. However,
+                around 2005-2010 someone decided that the staff doing
+                the digitization cannot learn to recognize RTL or LTR
+                objects, so a lot of texts has been digitized in what
+                was claimed to be the "logical" direction, namely LTR.
+                Instead of correcting the data we have done this in
+                software. ?>  
     <!-- Primary and secondary type description of the physical material. -->
     <field name="physical_source_1"    type="string"/>
     <field name="physical_source_2"    type="string"/>
