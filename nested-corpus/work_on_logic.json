@@ -20,7 +20,7 @@
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
         "language": "he",
-        "entity_type": "main",
+        "entity_type": "title main",
         "title": [
           "מלות ההגיון"
         ],
@@ -30,7 +30,7 @@
         "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
         "language": "en",
-        "entity_type": "transcribed",
+        "entity_type": "title transcribed",
         "title": [
           "Milot ha-higayon"
         ],
