@@ -41,6 +41,7 @@
 |source\_material\_reference|string||||||
 |related\_url|string||||||
 |related\_url\_text|text\_da||||||
+|reference|text\_da||||||
     
 
 ### References
@@ -67,7 +68,6 @@
 |description|text\_da||||||
 |situation|text\_da||||||
 |content|text\_da||||||
-|reference|text\_da||||||
 |subject\_name\_en|text\_da||||||
 |subject\_name\_da|text\_da||||||
 |note|text\_da|||true|||
