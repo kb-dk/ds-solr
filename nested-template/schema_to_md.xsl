@@ -21,9 +21,9 @@
       
 </xsl:text>
 
-| Field  | Type | Stored | Indexed | multiValued | Description |
+| field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:------------|:-------|:--------|:------------|
-<xsl:for-each select="following-sibling::field[following-sibling::processing-instruction('end-field-group')=$pi]"><xsl:variable name="this_field"><xsl:value-of select="@name"/></xsl:variable>|<xsl:value-of select="my:escape_stuff(@name)"/>|<xsl:value-of select="my:escape_stuff(@type)"/>|<xsl:value-of select="my:escape_stuff(@stored)"/>|<xsl:value-of select="my:escape_stuff(@indexed)"/>|  <xsl:value-of select="my:escape_stuff(@multiValued)"/>|<xsl:for-each select="following-sibling::processing-instruction('field-description')[matches(.,concat('^',$this_field))]"><xsl:value-of select="normalize-space(substring-after(.,$this_field))"/></xsl:for-each>|
+<xsl:for-each select="following-sibling::field[following-sibling::processing-instruction('end-field-group')=$pi]"><xsl:variable name="this_field"><xsl:value-of select="@name"/></xsl:variable>|<xsl:value-of select="my:escape_stuff(@name)"/>|<xsl:value-of select="my:escape_stuff(@type)"/>|<xsl:value-of select="my:escape_stuff(@stored)"/>|<xsl:value-of select="my:escape_stuff(@indexed)"/>|<xsl:value-of select="my:escape_stuff(@multiValued)"/>|<xsl:value-of select="my:escape_stuff(@required)"/>|<xsl:for-each select="following-sibling::processing-instruction('field-description')[matches(.,concat('^',$this_field))]"><xsl:value-of select="normalize-space(substring-after(.,$this_field))"/></xsl:for-each>|
 </xsl:for-each>
   
 <xsl:for-each select="following-sibling::processing-instruction(field-references)[following-sibling::processing-instruction('end-field-group')=$pi]">
