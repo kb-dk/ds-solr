@@ -169,7 +169,7 @@
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|license|string|||||Short and controlled form of the licence for the material. Valid entries are * [Creative commons short form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0` * `Apache License 2.0` * `GPL 3.0` TODO: Expand on this.|
+|license|string|||||Short and controlled form of the licence for the material. Valid entries are [Creative commons short form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0`. Other possibilities are `Apache License 2.0` or `GPL 3.0`. Traditionally metadata belongs to KB and are usually CC0. The objects belong to the creators and we cannot claim intellectual property rights on them. This does really belong to the cataloging rules.|
 |license\_notice|text\_da|||true||Uncontrolled copyright oriented text|
     
 
