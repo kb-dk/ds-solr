@@ -309,26 +309,29 @@ daterange does not handle docValues - we might need two versions of datetime
          [Hint: Parameters for image requests to IIIF can be found at iiif.io](https://iiif.io/api/image/2.1/#image-request-parameters) ?>
     
     
-    <field name="dhash"                type="string" multiValued="true" />     <?field-description Image similarity DHash in the form of &lt;Complexity>&lt;bitcount>_&lt;value> e.g. "Simple30_890940". Note that the field is multi-valued and will eventually contain mutiple DHashes of varying complexity and bitcount. ?>
+    <field name="dhash"                type="string" multiValued="true" />     <?field-description dhash  Image similarity DHash in the form of &lt;Complexity>&lt;bitcount>_&lt;value> e.g. "Simple30_890940". Note that the field is multi-valued and will eventually contain mutiple DHashes of varying complexity and bitcount. ?>
 
-
-    
-    <!-- The major text content of the material, if available.
-         * For a word file, this would be the textual content.
-         * For an image, there would be no value. -->
+      <?field-references [MODS &lt;recordInfo>](https://www.loc.gov/standards/mods/userguide/recordinfo.html) ?>
+      <?field-references [IIIF image protocol](https://iiif.io/api/image/2.1/ ?>
+      
 
     <?end-field-group technical and administrative metadata ?>
 
+    <?begin-field-group full text ?>
+
+     
+    <field name="text"             type="text_da" multiValued="true"/>     <?field-description text The major text content of the material, if available.
+         * For a word file, this would be the textual content.
+         * For an image, there would be no value. ?>
+
+    <field name="freetext"         type="text_da" multiValued="true"/>    <?field-description freetext Fallback field for search. Misc. content that is not indexed in any other fields are added to this. ?>
+
+    <field name="page"             type="int"/>    <?field-description page The page that the material is about, e.g. a page number from a book or a newspaper. ?>
+
+    <?end-field-group full text ?>
+
     <?begin-field-group physical description ?>
     
-    <field name="text"             type="text_da" multiValued="true"/>
-    <!-- Fallback field for search.
-         Misc. content that is not indexed in any other fields are added to this. -->
-    <field name="freetext"         type="text_da" multiValued="true"/>
-
-    <!-- The page that the material is about, e.g. a page number from a book or a newspaper. -->
-    <field name="page"             type="int"/>
-
     <!-- Physical material dimensions in centimeters.
          Note: For images this is not related to scanning resolution. The dimensions is for the original
          physical object. -->

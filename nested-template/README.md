@@ -151,16 +151,30 @@
 |image\_preview|string|||true||One or more preview images if available. Size and quality is not defined, but aim for something fairly lightweight, i.e. < 100 KB and between 500x500 and 1000x1000 pixels. For image material there will typically only be a single preview, while moving images might provide more preview images.|
 |image\_full|string|||||If the material is an image, this field contains an URL to the full image at the highest possible quality. If the material is not an image, this field will not be defined. Hint: If available, it is recommended for the user to use the iiif-field for image requests, as it offers more options.|
 |iiif|string|||||If the material is served by an IIIF-compliant server, this is the base URL to the material on the server, e.g. [https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/]( https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/) [Hint: Parameters for image requests to IIIF can be found at iiif.io](https://iiif.io/api/image/2.1/#image-request-parameters)|
-|dhash|string|||true|||
+|dhash|string|||true||Image similarity DHash in the form of &lt;Complexity>&lt;bitcount>_&lt;value> e.g. "Simple30_890940". Note that the field is multi-valued and will eventually contain mutiple DHashes of varying complexity and bitcount.|
+    
+
+### References
+  
+
+* [MODS &lt;recordInfo>](https://www.loc.gov/standards/mods/userguide/recordinfo.html) 
+
+* [IIIF image protocol](https://iiif.io/api/image/2.1/ 
+
+
+## full text 
+      
+| field  | type | stored | indexed | multiValued | required | description |
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
+|text|text\_da|||true||The major text content of the material, if available. * For a word file, this would be the textual content. * For an image, there would be no value.|
+|freetext|text\_da|||true||Fallback field for search. Misc. content that is not indexed in any other fields are added to this.|
+|page|int|||||The page that the material is about, e.g. a page number from a book or a newspaper.|
 
 
 ## physical description 
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|text|text\_da|||true|||
-|freetext|text\_da|||true|||
-|page|int||||||
 |width\_cm|double||||||
 |height\_cm|double||||||
 |depth\_cm|double||||||
