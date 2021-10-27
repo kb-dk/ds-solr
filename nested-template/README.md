@@ -157,12 +157,12 @@
 |medium|text\_da|true|true||||
 |medium\_verbatim|string|true|true||||
 |additional\_physical\_form|text\_da|||||seems to be a bug in COP export: Should really be any of script, medium or size.|
-|extent|string|true|true||||
-|size|string|true|true||||
-|pages|string|||true|||
-|image\_preview|string|||true|||
-|image\_full|string||||||
-|iiif|string||||||
+|extent|string|true|true|||the number of pages of the object. Images scanned from photographs usually have two pages; and both are scanned but extent are only used for stuff with more than two pages 😉.|
+|size|string|true|true|||the size of the objects as in widht x height|
+|pages|string|||true||In Cph we encode a list of URIs to the IIIF server.|
+|image\_preview|string|||true||One or more preview images if available. Size and quality is not defined, but aim for something fairly lightweight, i.e. < 100 KB and between 500x500 and 1000x1000 pixels. For image material there will typically only be a single preview, while moving images might provide more preview images.|
+|image\_full|string|||||If the material is an image, this field contains an URL to the full image at the highest possible quality. If the material is not an image, this field will not be defined. Hint: If available, it is recommended for the user to use the iiif-field for image requests, as it offers more options.|
+|iiif|string|||||If the material is served by an IIIF-compliant server, this is the base URL to the material on the server, e.g. [https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/]( https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/) [Hint: Parameters for image requests to IIIF can be found at iiif.io](https://iiif.io/api/image/2.1/#image-request-parameters)|
 
 
 ## licensing and terms and conditions 
