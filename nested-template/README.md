@@ -166,7 +166,7 @@
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|text|text\_da|||true||The major text content of the material, if available. * For a word file, this would be the textual content. * For an image, there would be no value.|
+|text|text\_da|||true||The major text content of the material, if available. For a word file, this would be the textual content. For an image, there would be no value.|
 |freetext|text\_da|||true||Fallback field for search. Misc. content that is not indexed in any other fields are added to this.|
 |page|int|||||The page that the material is about, e.g. a page number from a book or a newspaper.|
 

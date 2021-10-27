@@ -320,9 +320,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <?begin-field-group full text ?>
 
      
-    <field name="text"             type="text_da" multiValued="true"/>     <?field-description text The major text content of the material, if available.
-         * For a word file, this would be the textual content.
-         * For an image, there would be no value. ?>
+    <field name="text"             type="text_da" multiValued="true"/>     <?field-description text The major text content of the material, if available. For a word file, this would be the textual content. For an image, there would be no value. ?>
 
     <field name="freetext"         type="text_da" multiValued="true"/>    <?field-description freetext Fallback field for search. Misc. content that is not indexed in any other fields are added to this. ?>
 
