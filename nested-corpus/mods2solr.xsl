@@ -85,12 +85,10 @@
                     </xsl:if>
                     <xsl:choose>
                       <xsl:when test="@type">
-                      <f:string key="entity_type">
-                        <xsl:value-of select="@type"/>
-                      </f:string>
+                      <f:string key="entity_type">title <xsl:value-of select="@type"/></f:string>
                       </xsl:when>
                       <xsl:otherwise>
-                        <f:string key="entity_type">main</f:string>
+                        <f:string key="entity_type">title main</f:string>
                       </xsl:otherwise>
                     </xsl:choose>
                     <f:array key="title">

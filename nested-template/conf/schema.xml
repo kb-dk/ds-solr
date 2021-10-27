@@ -269,8 +269,8 @@ daterange does not handle docValues - we might need two versions of datetime
 
 
   <?field-references [SOLR DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting) ?>
-  <?field-references [date fields in TEI guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html) ?>
-
+  <?field-references [date element in TEI guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html) ?>
+  <?field-references [Dates and Times](https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONADA) ?>
     
     <?end-field-group temporal coverage ?>
 
