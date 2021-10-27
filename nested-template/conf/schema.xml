@@ -351,16 +351,15 @@ daterange does not handle docValues - we might need two versions of datetime
     <?end-field-group physical description ?>
 
     <?begin-field-group licensing and terms and conditions ?>
-    <!-- Short and controlled form of the licence for the material. Valid entries are
-         * [Creative commons hort form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0`
+    <field name="license"          type="string"/>  <?field-description license  Short and controlled form of the licence for the material. Valid entries are
+         * [Creative commons short form](https://creativecommons.org/choose/), e.g. `by-nc-sa` or `cc0`
          * `Apache License 2.0`
          * `GPL 3.0`
-         TODO: Expand on this. -->
-    <field name="license"          type="string"/>
+         TODO: Expand on this.?>
+    <field name="license_notice"   type="text_da" multiValued="true"/>  <?field-description license_notice Uncontrolled copyright oriented text ?>
 
-    <!-- Uncontrolled copyright oriented text -->
-    <field name="license_notice"   type="text_da" multiValued="true"/>
-
+     <?field-references  [Creative commons short form](https://creativecommons.org/choose/) ?>
+    
     <?end-field-group licensing and terms and conditions ?>
 
     <?begin-field-group language ?>    
