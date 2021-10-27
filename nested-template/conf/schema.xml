@@ -264,7 +264,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
 
     <field name="width_pixels"     type="long"/> <?field-description width_pixels Image or moving image width in pixels. ?>
-    <field name="height_pixels"    type="long"/> <?field-description height_pixels Image or moving image width in pixels. ?>
+    <field name="height_pixels"    type="long"/> <?field-description height_pixels Image or moving image height in pixels. ?>
     <field name="depth_pixels"     type="long"/> <?field-description depth_pixels The depth dimension is for 3D bitmaps, such as [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). ?>
 
     <field name="pixels"           type="long"/> <?field-description pixels Total number of pixels in a still image or a single frame for moving image. ?>
