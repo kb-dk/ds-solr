@@ -236,13 +236,13 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="last_modified_by" type="string" />
 
 
-    <!-- Image or moving image dimensions in pixels. The depth dimension is for 3D bitmaps, such as
-         [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). -->
-    <field name="width_pixels"     type="long"/>
-    <field name="height_pixels"    type="long"/>
-    <field name="depth_pixels"     type="long"/>
+    <field name="width_pixels"     type="long"/> <?field-description width_pixels Image or moving image width in pixels. ?>
+    <field name="height_pixels"    type="long"/> <?field-description height_pixels Image or moving image width in pixels. ?>
+    <field name="depth_pixels"     type="long"/> <?field-description depth_pixels The depth dimension is for 3D bitmaps, such as [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). ?>
 
-    <field name="pixels"           type="long"/>  <?field-description pixels Total number of pixels in a still image or a single frame for moving image. ?>
+    <field name="pixels"           type="long"/> <?field-description pixels Total number of pixels in a still image or a single frame for moving image. ?>
+
+    <field name="dhash"                type="string" multiValued="true" />     <?field-description Image similarity DHash in the form of &lt;Complexity>&lt;bitcount>_&lt;value> e.g. "Simple30_890940". Note that the field is multi-valued and will eventually contain mutiple DHashes of varying complexity and bitcount. ?>
 
 
     
@@ -359,10 +359,7 @@ daterange does not handle docValues - we might need two versions of datetime
          TODO: At some point this should be tightly coupled to related_url above. -->
     <field name="related_url_text"     type="text_da"/>
     
-    <!-- Image similarity DHash in the form of <Complexity><bitcount>_<value> e.g. "Simple30_890940".
-         Note that the field is multi-valued and will eventually contain mutiple DHashes of varying
-         complexity and bitcount. -->
-    <field name="dhash"                type="string" multiValued="true" />
+
 
     <!-- *************************************************************************************
          Specific fields below (fields that only makes sense for a specific collection)

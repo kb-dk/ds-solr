@@ -153,10 +153,11 @@
 | record\_created| name=record\_created type=date\_range ) |
 | record\_revised| name=record\_revised type=date\_range ) |
 | last\_modified\_by| name=last\_modified\_by type=string ) |
-| width\_pixels| name=width\_pixels type=long ) |
-| height\_pixels| name=height\_pixels type=long ) |
-| depth\_pixels| name=depth\_pixels type=long ) |
+| width\_pixels| name=width\_pixels type=long ) | Image or moving image width in pixels.|
+| height\_pixels| name=height\_pixels type=long ) | Image or moving image width in pixels.|
+| depth\_pixels| name=depth\_pixels type=long ) | The depth dimension is for 3D bitmaps, such as [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging).|
 | pixels| name=pixels type=long ) | Total number of pixels in a still image or a single frame for moving image.|
+| dhash| name=dhash type=string multiValued=true ) |
 
   
 ### References
@@ -234,7 +235,6 @@
 | source\_material\_reference| name=source\_material\_reference type=string ) |
 | related\_url| name=related\_url type=string ) |
 | related\_url\_text| name=related\_url\_text type=text\_da ) |
-| dhash| name=dhash type=string multiValued=true ) |
 
   
 ### References
