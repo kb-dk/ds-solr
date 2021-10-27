@@ -244,6 +244,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <?end-field-group subject and geographical coverage ?>
 
     <?begin-field-group temporal coverage ?>
+    
     <!-- The date that the material is about. For a newspaper this would be the
          publication date. For a photography it would be the time the photo was taken. For a painting it
          would be the time it was painted.
@@ -253,8 +254,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Fallback representation for datetime, when the source datetime cannot be parsed.
          Copied verbatim from the source. -->
     <field name="datetime_verbatim" type="string" />
-    <!-- The creation date of the material or metadata about the material in the backing system. -->
-    <field name="created_date"     type="date" />
+  
     <field name="not_after_date"     type="date_range" />
     <field name="not_before_date"     type="date_range" />
 
@@ -271,6 +271,11 @@ daterange does not handle docValues - we might need two versions of datetime
          Copied verbatim from the source. -->
     <field name="modified_date_verbatim" type="string" />
 
+
+  <?field-references [SOLR DateRangeField](https://lucene.apache.org/solr/guide/8_1/working-with-dates.html#date-range-formatting) ?>
+  <?field-references [date fields in TEI guidelines](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html) ?>
+
+    
     <?end-field-group temporal coverage ?>
 
     <?begin-field-group technical and administrative metadata ?>
@@ -280,6 +285,7 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <field name="last_modified_by" type="string" />
 
+    <field name="created_date"     type="date" />  <?field-description created_date The creation date of the material or metadata about the material in the backing system. ?>
 
     <field name="width_pixels"     type="long"/> <?field-description width_pixels Image or moving image width in pixels. ?>
     <field name="height_pixels"    type="long"/> <?field-description height_pixels Image or moving image height in pixels. ?>
@@ -287,6 +293,23 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <field name="pixels"           type="long"/> <?field-description pixels Total number of pixels in a still image or a single frame for moving image. ?>
 
+    
+    <field name="image_preview"    type="string" multiValued="true"/> <?field-description image_preview One or more preview images if available.
+         Size and quality is not defined, but aim for something fairly
+         lightweight, i.e. < 100 KB and between 500x500 and 1000x1000 pixels.
+         For image material there will typically only be a single preview, while moving images
+         might provide more preview images. ?>
+
+    <field name="image_full"       type="string"/> <?field-description  image_full If the material is an image, this field contains an URL to the full image at the highest
+         possible quality. If the material is not an image, this field will not be defined.
+         Hint: If available, it is recommended for the user to use the iiif-field for image requests,
+         as it offers more options. ?>
+
+        <field name="iiif"             type="string"/>  <?field-description  iiif If the material is served by an IIIF-compliant server, this is the base URL to the material on the server, e.g.
+         [https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/](         https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/) 
+         [Hint: Parameters for image requests to IIIF can be found at iiif.io](https://iiif.io/api/image/2.1/#image-request-parameters) ?>
+    
+    
     <field name="dhash"                type="string" multiValued="true" />     <?field-description Image similarity DHash in the form of &lt;Complexity>&lt;bitcount>_&lt;value> e.g. "Simple30_890940". Note that the field is multi-valued and will eventually contain mutiple DHashes of varying complexity and bitcount. ?>
 
 
@@ -325,25 +348,10 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="additional_physical_form" type="text_da"/>   <?field-description additional_physical_form seems to be a bug in COP export: Should really be any of script, medium or size. ?>
     
     <field name="extent" type="string" stored="true"  indexed="true" /> <?field-description extent the number of pages of the object. Images scanned from photographs usually have two pages; and both are scanned but extent are only used for stuff with more than two pages 😉. ?>
-    <field name="size"   type="string" stored="true"  indexed="true" />  <?field-description size the size of the objects as in widht x height ?>
+    <field name="size"   type="string" stored="true"  indexed="true" />  <?field-description size the size of the objects as in widht x height, octavo or quarto or whatever. ?>
 
     <field name="pages"    type="string" multiValued="true"/> <?field-description pages In Cph we encode a list of URIs to the IIIF server. ?>
-    
-    <field name="image_preview"    type="string" multiValued="true"/> <?field-description image_preview One or more preview images if available.
-         Size and quality is not defined, but aim for something fairly
-         lightweight, i.e. < 100 KB and between 500x500 and 1000x1000 pixels.
-         For image material there will typically only be a single preview, while moving images
-         might provide more preview images. ?>
 
-    <field name="image_full"       type="string"/> <?field-description  image_full If the material is an image, this field contains an URL to the full image at the highest
-         possible quality. If the material is not an image, this field will not be defined.
-         Hint: If available, it is recommended for the user to use the iiif-field for image requests,
-         as it offers more options. ?>
-
-        <field name="iiif"             type="string"/>  <?field-description  iiif If the material is served by an IIIF-compliant server, this is the base URL to the material on the server, e.g.
-         [https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/](         https://kb-images.kb.dk/DAMJP2/online_master_arkiv/non-archival/KOB/bs_kistebilleder-2/bs000007/) 
-         [Hint: Parameters for image requests to IIIF can be found at iiif.io](https://iiif.io/api/image/2.1/#image-request-parameters) ?>
-    
     <?end-field-group physical description ?>
 
     <?begin-field-group licensing and terms and conditions ?>
