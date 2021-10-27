@@ -118,7 +118,8 @@ daterange does not handle docValues - we might need two versions of datetime
          * `text`
          * `other`
          The list of acceptable types will probably be extended. -->
-    <field name="media_type"    type="string"  stored="true"  indexed="true" />
+    <field name="media_type"    type="string"  stored="true"  indexed="true" />  <?field-description media_type images, maps, letters, manus, pamphlets, books, editions, categories ?>
+
 
     <?end-field-group types and genres ?>
     
