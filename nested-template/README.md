@@ -2,10 +2,8 @@
 
 ## internal fields 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |\_version\_|long||||||
 |\_root\_|string|true|true|||contains the id of the root document of a collection of nested solr documents|
 |\_nest\_path\_|\_nest\_path\_|true|true||||
@@ -20,10 +18,8 @@
 
 ## SOLR id, other identifiers and related fields 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |id|string|true|true||true||
 |describing|string|true|true|||contains the id of the root document being described in a child document. See [root and \_nest\_parent\_ above](#internal-fields)|
 |described|boolean|true|true|||is a boolean which is true if the document is a root doc, false otherwise|
@@ -57,19 +53,15 @@
 
 ## types and genres 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |media\_type|string|true|true||||
 
 
 ## title, authors etc 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |title|text\_da|||||The name given to the resource by its creator, or occasionally by its cataloger_sort ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
 |title\_sort|sort\_da|||||ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
 |description|text\_da||||||
@@ -100,10 +92,8 @@
 
 ## subject and geographical coverage 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |subject\_person|text\_da|||true|||
 |subject\_person\_verbatim|string|||true|||
 |subject\_person\_sort|sort\_da|||true|||
@@ -126,10 +116,8 @@
 
 ## temporal coverage 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |datetime|date\_range||||||
 |datetime\_verbatim|string||||||
 |created\_date|date||||||
@@ -143,10 +131,8 @@
 
 ## technical and administrative metadata 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |record\_created|date\_range||||||
 |record\_revised|date\_range||||||
 |last\_modified\_by|string||||||
@@ -159,10 +145,8 @@
 
 ## physical description 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |text|text\_da|||true|||
 |freetext|text\_da|||true|||
 |page|int||||||
@@ -183,20 +167,16 @@
 
 ## licensing and terms and conditions 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |license|string||||||
 |license\_notice|text\_da|||true|||
 
 
 ## language 
       
-
-
 | field  | type | stored | indexed | multiValued | required | description |
-|:-------|:--------|:------------|:-------|:--------|:------------|
+|:-------|:--------|:-------|:------|:------|:--------|:--------|
 |language|string|||true||'da' for Danish, 'en' for English, 'de' for German, jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken and written by the Jewish population in Arabic countries during the medieval times). We have a vast number of combinations of scripts and languages.|
 |cataloging\_language|string|||false||Either Danish 'da' or English 'en' depending on record source and expected target audience|
     
