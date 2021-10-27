@@ -140,7 +140,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <?end-field-group title, authors etc ?>
 
 
-    <?begin-field-group subject and coverage ?>
+    <?begin-field-group subject and geographical coverage ?>
     <!-- The person or persons that is the subject of the material, e.g. the person shown on a painting. -->
     <field name="subject_person"    type="text_da" multiValued="true"/>
     <!-- Subject_Persons of the material in verbatim form, used for grouping & faceting.
@@ -228,18 +228,29 @@ daterange does not handle docValues - we might need two versions of datetime
 
     <?end-field-group temporal coverage ?>
 
-    <?begin-field-group administrative metadata ?>
+    <?begin-field-group technical and administrative metadata ?>
 
     <field name="record_created"     type="date_range" />
     <field name="record_revised"     type="date_range" />
 
     <field name="last_modified_by" type="string" />
+
+
+    <!-- Image or moving image dimensions in pixels. The depth dimension is for 3D bitmaps, such as
+         [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). -->
+    <field name="width_pixels"     type="long"/>
+    <field name="height_pixels"    type="long"/>
+    <field name="depth_pixels"     type="long"/>
+
+    <field name="pixels"           type="long"/>  <?field-description pixels Total number of pixels in a still image or a single frame for moving image. ?>
+
+
     
     <!-- The major text content of the material, if available.
          * For a word file, this would be the textual content.
          * For an image, there would be no value. -->
 
-    <?end-field-group administrative metadata ?>
+    <?end-field-group technical and administrative metadata ?>
 
     <?begin-field-group physical description ?>
     
@@ -270,14 +281,6 @@ daterange does not handle docValues - we might need two versions of datetime
     
     <field name="extent" type="string" stored="true"  indexed="true" />
     <field name="size"   type="string" stored="true"  indexed="true" />
-
-    <!-- Image or moving image dimensions in pixels. The depth dimension is for 3D bitmaps, such as
-         [MRI scans](https://en.wikipedia.org/wiki/Magnetic_resonance_imaging). -->
-    <field name="width_pixels"     type="long"/>
-    <field name="height_pixels"    type="long"/>
-    <field name="depth_pixels"     type="long"/>
-    <!-- Total number of pixels in a still image or a single frame for moving image. -->
-    <field name="pixels"           type="long"/>
 
     <!-- One or more preview images if available.
          Size and quality is not defined, but aim for something fairly
@@ -328,6 +331,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="cataloging_language" type="string" multiValued="false"/>
     <field name="language"            type="string" multiValued="true"/>
 
+    <?end-field-group Language ?>    
+
+    <?begin-field-group Left-overs? ?>
     <!-- Non-controlled location information: `Denmark`, `Aarhus`, `Victor Albecks Vej 1, 8000 Aarhus C`. -->
     <field name="location"         type="text_da"/>
     <field name="read_direction" type="string" stored="true" required="false" />
@@ -361,7 +367,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- *************************************************************************************
          Specific fields below (fields that only makes sense for a specific collection)
          ************************************************************************************* -->
-
+    <?end-field-group Left-overs? ?>
   </fields>
 
   <uniqueKey>id</uniqueKey>
