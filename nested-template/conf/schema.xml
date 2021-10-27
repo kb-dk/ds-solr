@@ -319,18 +319,13 @@ daterange does not handle docValues - we might need two versions of datetime
     <?end-field-group Licensing and terms and conditions ?>
 
     <?begin-field-group Language ?>    
-    <!-- Language for the material according to RFC5646 https://datatracker.ietf.org/doc/html/rfc5646
-         `da` for Danish,
-         `en` for English,
-         `de` for German,
-         jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken
-         and written by the Jewish population in Arabic countries during the medieval times) 
-         We have a vast number of combinations of scripts and languages.
-    -->
     
-    <field name="cataloging_language" type="string" multiValued="false"/>
-    <field name="language"            type="string" multiValued="true"/>
+    <field name="language"            type="string" multiValued="true"/>   <?field-description language 'da' for Danish, 'en' for English, 'de' for German, jrb-Hebr i.e., Judeo-Arabic in Hebrew script (jrb is the *Arabic* spoken and written by the Jewish population in Arabic countries during the medieval times). We have a vast number of combinations of scripts and languages. ?>
 
+    <field name="cataloging_language" type="string" multiValued="false"/>  <?field-description cataloging_language Either Danish 'da' or English 'en' depending on record source and expected target audience ?>
+
+    <?field-references  [Language for the material according to RFC5646](https://datatracker.ietf.org/doc/html/rfc5646) ?>
+    <?field-references [MODS Subelement: &lt;languageOfCataloging>](https://www.loc.gov/standards/mods/userguide/recordinfo.html#languageofcataloging) ?> 
     <?end-field-group Language ?>    
 
     <?begin-field-group Left-overs? ?>
