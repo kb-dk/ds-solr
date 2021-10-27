@@ -93,12 +93,30 @@
 * [MODS name](https://www.loc.gov/standards/mods/userguide/name.html) 
 
 
-## subject and coverage 
+## subject and geographical coverage 
       
 
 
 | Field  | Options | Description |
 |:-------|:--------|:------------|
+| subject\_person| name=subject\_person type=text\_da multiValued=true ) |
+| subject\_person\_verbatim| name=subject\_person\_verbatim type=string multiValued=true ) |
+| subject\_person\_sort| name=subject\_person\_sort type=sort\_da multiValued=true ) |
+| location\_coordinates| name=location\_coordinates type=geo ) |
+| area| name=area type=text\_da ) |
+| cadastre| name=cadastre type=text\_da ) |
+| parish| name=parish type=text\_da ) |
+| building| name=building type=text\_da ) |
+| zipcode| name=zipcode type=text\_da ) |
+| housenumber| name=housenumber type=text\_da ) |
+| street| name=street type=text\_da ) |
+| city| name=city type=text\_da ) |
+| subject| name=subject type=text\_da multiValued=true ) |
+| keyword| name=keyword type=text\_da multiValued=true termVectors=true ) |
+| keyword\_verbatim| name=keyword\_verbatim type=string multiValued=true ) |
+| topic| name=topic type=text\_da multiValued=true termVectors=true ) |
+| topic\_verbatim| name=topic\_verbatim type=string multiValued=true ) |
+| logical\_path| name=logical\_path type=descendent\_path multiValued=true ) |
 
   
 ### References
@@ -126,7 +144,7 @@
   
 
 
-## administrative metadata 
+## technical and administrative metadata 
       
 
 
@@ -135,6 +153,10 @@
 | record\_created| name=record\_created type=date\_range ) |
 | record\_revised| name=record\_revised type=date\_range ) |
 | last\_modified\_by| name=last\_modified\_by type=string ) |
+| width\_pixels| name=width\_pixels type=long ) |
+| height\_pixels| name=height\_pixels type=long ) |
+| depth\_pixels| name=depth\_pixels type=long ) |
+| pixels| name=pixels type=long ) | Total number of pixels in a still image or a single frame for moving image.|
 
   
 ### References
@@ -159,10 +181,6 @@
 | additional\_physical\_form| name=additional\_physical\_form type=text\_da ) | seems to be a bug in COP export: Should really be any of script, medium or size.|
 | extent| name=extent type=string stored=true indexed=true ) |
 | size| name=size type=string stored=true indexed=true ) |
-| width\_pixels| name=width\_pixels type=long ) |
-| height\_pixels| name=height\_pixels type=long ) |
-| depth\_pixels| name=depth\_pixels type=long ) |
-| pixels| name=pixels type=long ) |
 | pages| name=pages type=string multiValued=true ) |
 | image\_preview| name=image\_preview type=string multiValued=true ) |
 | image\_full| name=image\_full type=string ) |
@@ -193,6 +211,30 @@
 
 | Field  | Options | Description |
 |:-------|:--------|:------------|
+| cataloging\_language| name=cataloging\_language type=string multiValued=false ) |
+| language| name=language type=string multiValued=true ) |
+
+  
+### References
+  
+
+
+## Left-overs? 
+      
+
+
+| Field  | Options | Description |
+|:-------|:--------|:------------|
+| location| name=location type=text\_da ) |
+| read\_direction| name=read\_direction type=string stored=true required=false ) |
+| physical\_source\_1| name=physical\_source\_1 type=string ) |
+| physical\_source\_2| name=physical\_source\_2 type=string ) |
+| archive\_location| name=archive\_location type=string ) |
+| accession\_number| name=accession\_number type=string ) |
+| source\_material\_reference| name=source\_material\_reference type=string ) |
+| related\_url| name=related\_url type=string ) |
+| related\_url\_text| name=related\_url\_text type=text\_da ) |
+| dhash| name=dhash type=string multiValued=true ) |
 
   
 ### References
