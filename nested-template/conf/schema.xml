@@ -103,7 +103,7 @@ daterange does not handle docValues - we might need two versions of datetime
          TODO: At some point this should be tightly coupled to related_url above. -->
     <field name="related_url_text"     type="text_da"/>
    
-
+    <field name="reference"        type="text_da"/>
 
     <?field-references [MODS location](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) ?>
     <?field-references [MODS identifier](https://www.loc.gov/standards/mods/userguide/identifier.html) ?>
@@ -136,7 +136,6 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="situation"        type="text_da"/>
 
     <field name="content"          type="text_da"/>
-    <field name="reference"        type="text_da"/>
     
     <field name="subject_name_en"      type="text_da"/>
     <field name="subject_name_da"      type="text_da"/>
