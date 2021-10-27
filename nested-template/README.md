@@ -36,6 +36,15 @@
 | shelf\_mark\_verbatim| type=string stored=true indexed=true |
 | original\_object\_identifier| type=text\_da stored=true indexed=true |
 | doms\_guid| type=string stored=true required=false | the uuid of the item in the Copenhagen DOMS|
+| location| type=text\_da |
+| read\_direction| type=string stored=true required=false |
+| physical\_source\_1| type=string |
+| physical\_source\_2| type=string |
+| archive\_location| type=string |
+| accession\_number| type=string |
+| source\_material\_reference| type=string |
+| related\_url| type=string |
+| related\_url\_text| type=text\_da |
     
 
 ### References
@@ -195,23 +204,6 @@
 ### References
   
 
-* [Language for the material according to RFC5646](https://datatracker.ietf.org/doc/html/rfc5646) 
+* [Language tags for the material according to RFC5646](https://datatracker.ietf.org/doc/html/rfc5646) 
 
 * [MODS Subelement: &lt;languageOfCataloging>](https://www.loc.gov/standards/mods/userguide/recordinfo.html#languageofcataloging) 
-
-
-## Left-overs? 
-      
-
-
-| Field  | Options | Description |
-|:-------|:--------|:------------|
-| location| type=text\_da |
-| read\_direction| type=string stored=true required=false |
-| physical\_source\_1| type=string |
-| physical\_source\_2| type=string |
-| archive\_location| type=string |
-| accession\_number| type=string |
-| source\_material\_reference| type=string |
-| related\_url| type=string |
-| related\_url\_text| type=text\_da |
