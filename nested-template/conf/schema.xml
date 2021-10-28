@@ -342,7 +342,7 @@ daterange does not handle docValues - we might need two versions of datetime
            type="string" stored="true"  indexed="true" />
     <copyField source="medium"      dest="medium_verbatim"/>
     
-    <field name="additional_physical_form" type="text_da"/>   <?field-description additional_physical_form seems to be a bug in COP export: Should really be any of script, medium or size. ?>
+    <field name="script" type="text_da"/>   <?field-description script The script used in a text. ?>
     
     <field name="extent" type="string" stored="true"  indexed="true" /> <?field-description extent the number of pages of the object. Images scanned from photographs usually have two pages; and both are scanned but extent are only used for stuff with more than two pages 😉. ?>
     <field name="size"   type="string" stored="true"  indexed="true" />  <?field-description size the size of the objects as in widht x height, octavo or quarto or whatever. ?>
