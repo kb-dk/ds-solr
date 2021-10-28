@@ -105,7 +105,7 @@ daterange does not handle docValues - we might need two versions of datetime
    
     <field name="reference"        type="text_da"/>
 
-    <?field-references [MODS location](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) ?>
+    <?field-references [MODS location/shelflocator ](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) ?>
     <?field-references [MODS identifier](https://www.loc.gov/standards/mods/userguide/identifier.html) ?>
     
     <?end-field-group SOLR id, other identifiers and related fields ?>
