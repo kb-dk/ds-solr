@@ -56,7 +56,7 @@
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|media\_type|string|true|true|||images, maps, letters, manus, pamphlets, books, editions, categories|
+|media\_type|string|true|true|||`images`, `maps`, `letters`, `manus`, `pamphlets`, `books`, `editions`, `categories`|
 
 
 ## title, authors etc 
@@ -74,7 +74,7 @@
 |author|text\_da|||true|||
 |author\_verbatim|string|||true|||
 |authority|string|true|true||||
-|agent\_name|text\_da|||true||Name of an agent that has created or contributed to the material|
+|agent\_name|text\_da|||true||Name of an agent that has created or contributed to the material. An agent is a person or corporate body (or possibly automata) which stands in a relation to the object. Typical relators are aut, ctb, rcp, scr, trl, act and art (author, contributor, recipient, scribe, translator, actor and artist).|
 |agent\_name\_verbatim|string|||true|||
 |author\_sort|sort\_da|||true|||
 |agent\_name\_sort|sort\_da|||true|||
@@ -88,6 +88,8 @@
 * [MODS title](https://www.loc.gov/standards/mods/userguide/titleinfo.html) 
 
 * [MODS name](https://www.loc.gov/standards/mods/userguide/name.html) 
+
+* [Code List for Relators](https://www.loc.gov/marc/relators/relaterm.html) 
 
 
 ## subject and geographical coverage 
