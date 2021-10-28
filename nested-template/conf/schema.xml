@@ -309,7 +309,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="dhash"                type="string" multiValued="true" />     <?field-description dhash  Image similarity DHash in the form of &lt;Complexity>&lt;bitcount>_&lt;value> e.g. "Simple30_890940". Note that the field is multi-valued and will eventually contain mutiple DHashes of varying complexity and bitcount. ?>
 
       <?field-references [MODS &lt;recordInfo>](https://www.loc.gov/standards/mods/userguide/recordinfo.html) ?>
-      <?field-references [IIIF image protocol](https://iiif.io/api/image/2.1/ ?>
+      <?field-references [IIIF image protocol](https://iiif.io/api/image/2.1/) ?>
       
 
     <?end-field-group technical and administrative metadata ?>
