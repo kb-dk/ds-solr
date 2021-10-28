@@ -185,7 +185,7 @@
 |technique|text\_da|true|true||||
 |medium|text\_da|true|true||||
 |medium\_verbatim|string|true|true||||
-|additional\_physical\_form|text\_da|||||seems to be a bug in COP export: Should really be any of script, medium or size.|
+|script|text\_da|||||The script used in a text.|
 |extent|string|true|true|||the number of pages of the object. Images scanned from photographs usually have two pages; and both are scanned but extent are only used for stuff with more than two pages 😉.|
 |size|string|true|true|||the size of the objects as in widht x height, octavo or quarto or whatever.|
 |pages|string|||true||In Cph we encode a list of URIs to the IIIF server.|
