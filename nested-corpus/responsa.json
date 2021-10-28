@@ -196,13 +196,10 @@
       }
     ],
     "note": [
-      "The spine of the volume is included in the digitization (before the beginning of the volume).",
-      "Responsa",
-      "North-African Hebrew cursive script",
-      "Allony & Kupfer 1964, # 206"
+      "The spine of the volume is included in the digitization (before the beginning of the volume)."
     ],
     "specific_notes": {
-      "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e316",
+      "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e310",
       "describing": "manus-judsam-2009-sep-dsh-object41158",
       "described": false,
       "content": "Responsa",
@@ -218,7 +215,7 @@
     ],
     "categories": [
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e339",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e333",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject315",
@@ -226,7 +223,7 @@
         "subject_name_en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e350",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e344",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject319",
@@ -234,7 +231,7 @@
         "subject_name_en": "Language"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e361",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e355",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject320",
@@ -242,7 +239,7 @@
         "subject_name_en": "Hebrew"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e372",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e366",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject423",
@@ -250,7 +247,7 @@
         "subject_name_en": "Judeo-Arabic"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e383",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e377",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject322",
@@ -258,7 +255,7 @@
         "subject_name_en": "Country of origin"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e394",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e388",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject451",
@@ -266,7 +263,7 @@
         "subject_name_en": "Marocco"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e405",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e399",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject316",
@@ -274,7 +271,7 @@
         "subject_name_en": "Shelf mark"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e416",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e410",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject543",
@@ -282,7 +279,7 @@
         "subject_name_en": "Cod. Sim. Jud.-Arab 001-007"
       },
       {
-        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e427",
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e421",
         "describing": "manus-judsam-2009-sep-dsh-object41158",
         "described": false,
         "entity_id": "manus-judsam-2009-sep-dsh-subject544",
@@ -298,7 +295,7 @@
       "ש\"ד"
     ],
     "physical_description": {
-      "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e449",
+      "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d3e443",
       "describing": "manus-judsam-2009-sep-dsh-object41158",
       "described": false,
       "medium": "Paper",

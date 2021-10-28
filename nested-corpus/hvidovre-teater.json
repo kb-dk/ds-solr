@@ -37,12 +37,11 @@
       }
     ],
     "note": [
-      "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
       "Sprittusch og raster",
       "Klassiker"
     ],
     "specific_notes": {
-      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e60",
+      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e58",
       "describing": "images-billed-2010-okt-billeder-object356751",
       "described": false,
       "situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind."
@@ -67,7 +66,7 @@
     ],
     "categories": [
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e95",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e93",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject2108",
@@ -75,7 +74,7 @@
         "subject_name_en": "Billeder"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e106",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e104",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject2135",
@@ -83,7 +82,7 @@
         "subject_name_en": "Særudgivelser"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e117",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e115",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject4277",
@@ -91,7 +90,7 @@
         "subject_name_en": "Seidel, Claus"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e128",
+        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e126",
         "describing": "images-billed-2010-okt-billeder-object356751",
         "described": false,
         "entity_id": "images-billed-2010-okt-billeder-subject6229",
@@ -105,7 +104,7 @@
       "1987-01-31"
     ],
     "physical_description": {
-      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e147",
+      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e145",
       "describing": "images-billed-2010-okt-billeder-object356751",
       "described": false,
       "technique": "Tegning"

@@ -125,9 +125,9 @@
 
             <!-- *********************** misc notes               ******************** -->
 
-            <xsl:if test="m:note[not(@type) or not(@displayLabel)]">
+            <xsl:if test="m:note[not(@type or @displayLabel)]">
               <f:array key="note">
-                <xsl:for-each select="m:note">
+                <xsl:for-each select="m:note[not(@type or @displayLabel)]">
                   <f:string><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
               </f:array>
