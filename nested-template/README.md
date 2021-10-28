@@ -47,7 +47,7 @@
 ### References
   
 
-* [MODS location](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) 
+* [MODS location/shelflocator ](https://www.loc.gov/standards/mods/userguide/location.html#shelflocator) 
 
 * [MODS identifier](https://www.loc.gov/standards/mods/userguide/identifier.html) 
 
