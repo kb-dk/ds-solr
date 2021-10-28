@@ -203,19 +203,15 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Geographical coordinates for the material. -->
     <field name="location_coordinates" type="geo"/>
 
-    <field name="area"        type="text_da"/>
-    <field name="cadastre"    type="text_da"/>
-    <field name="parish"      type="text_da"/>
-    <field name="building"    type="text_da"/>
-    <field name="zipcode"     type="text_da"/>
-    <field name="housenumber" type="text_da"/>
-    <field name="street"      type="text_da"/>
-    <field name="city"        type="text_da"/>
+    <field name="area"        type="text_da"/>  <?field-description area lokalitet ?>
+    <field name="cadastre"    type="text_da"/>  <?field-description cadastre matrikelnummer ?>
+    <field name="parish"      type="text_da"/>  <?field-description parish sogn ?>
+    <field name="building"    type="text_da"/>  <?field-description building bygningsnavn ?>
+    <field name="zipcode"     type="text_da"/>  <?field-description zipcode postnummer ?>
+    <field name="housenumber" type="text_da"/>  <?field-description housenumber husnummer ?>
+    <field name="street"      type="text_da"/>  <?field-description street vejnavn ?>
+    <field name="city"        type="text_da"/>  <?field-description city by ?>
 
-
-
-
-    
     <!-- Uncontrolled subjects related to the material.
          Subjects should be descriptive: `Christian 9 (1818-1906) konge af Danmark 1863-1906`. -->
     <field name="subject"          type="text_da" multiValued="true"/>
