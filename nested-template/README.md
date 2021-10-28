@@ -163,7 +163,7 @@
 
 * [MODS &lt;recordInfo>](https://www.loc.gov/standards/mods/userguide/recordinfo.html) 
 
-* [IIIF image protocol](https://iiif.io/api/image/2.1/ 
+* [IIIF image protocol](https://iiif.io/api/image/2.1/) 
 
 
 ## full text 
