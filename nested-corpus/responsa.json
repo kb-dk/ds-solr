@@ -303,6 +303,16 @@
       "size": "29,5 x 21 cm"
     },
     "shelf_mark": "Cod. Sim. Jud.-Arab 1",
+    "collection": [
+      {
+        "title": "The Judaica Collection: The David Simonsen Manuscripts",
+        "content": "mixed material",
+        "entity_type": "collection",
+        "describing": "manus-judsam-2009-sep-dsh-object41158",
+        "described": false,
+        "id": "manus-judsam-2009-sep-dsh-object41158-disposable-subrecord-d1e536"
+      }
+    ],
     "language": [
       "he",
       "jrb-Hebr"

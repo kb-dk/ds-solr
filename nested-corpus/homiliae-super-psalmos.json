@@ -114,6 +114,16 @@
     },
     "shelf_mark": "GKS 18 folio",
     "original_object_identifier": "000023762KBH01",
+    "collection": [
+      {
+        "title": "Håndskriftsamlingen",
+        "content": "mixed material",
+        "entity_type": "collection",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
+        "described": false,
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d1e194"
+      }
+    ],
     "doms_guid": "a1445e60-06c2-11e1-bbcf-0016357f605f",
     "language": [
       "Græsk"
