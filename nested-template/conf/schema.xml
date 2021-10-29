@@ -45,7 +45,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="entity_type" type="string"  stored="true"  indexed="true" /> <?field-description entity_type is the name of (or related to) the pseudo field containing the child document ?> 
     
 
-    <field name="collection"  type="string"  stored="true"  indexed="true" /> <?field-description collection the name of the collection from which the material originated, such as _Dansk Vestindien_ ?>
+    <!-- field name="collection"  type="string"  stored="true"  indexed="true" /> <?field-description collection the name of the collection from which the material originated, such as _Dansk Vestindien_ ? -->
     
     <field name="local_identifier" type="string" stored="true" required="false" /> <?field-description local_identifier contains a human usable id that can help a curator to identify which digital object is at hand and make it retrievable from a curatorial object store, like Cumulus ?>
 
