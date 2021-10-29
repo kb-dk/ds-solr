@@ -17,7 +17,7 @@ and uses the same setup files as production.
 `wget 'https://archive.apache.org/dist/lucene/solr/X.Y.Z/solr-X.Y.Z.tgz'`
 1. Unpack it  
 `tar xzovf solr-X.Y.Z.tgz`
-1. Compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
+1. If your X.Y.Z is older than from 05/Jul/19 14:48, compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
 `echo 'SOLR_OPTS="$SOLR_OPTS -Djava.locale.providers=JRE,SPI"' >> solr-X.Y.Z/bin/solr.in.sh`
 1. Start Solr in cloud mode  
 `solr-X.Y.Z/bin/solr -c -m 1g -p 10007`    
