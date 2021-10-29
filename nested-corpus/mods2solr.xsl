@@ -371,6 +371,26 @@
               <f:string key="original_object_identifier"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
+            <xsl:if test="m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
+              <f:array key="collection">
+                <xsl:for-each select="m:relatedItem[m:typeOfResource/@collection='yes']">
+                  <f:map>
+                    <f:string key="title"><xsl:value-of select="m:titleInfo/m:title"/></f:string>
+                    <f:string key="content">
+                      <xsl:value-of select="m:typeOfResource[@collection='yes']"/>
+                    </f:string>
+                    <f:string key="entity_type">collection</f:string>
+                    <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                    <f:boolean key="described">false</f:boolean>
+                    <f:string key="id">
+                      <xsl:value-of
+                          select="concat($record-id,'-disposable-subrecord-',generate-id())"/>
+                    </f:string>
+                  </f:map>
+              </xsl:for-each>
+              </f:array>
+            </xsl:if>
+            
             <xsl:for-each select="m:identifier[@type='domsGuid']">
               <f:string key="doms_guid"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
