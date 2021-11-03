@@ -1,13 +1,13 @@
 [
   {
-    "id": "images-billed-2010-okt-billeder-object356751",
+    "id": "images!billed!2010!okt!billeder!object356751",
     "described": true,
     "cataloging_language": "da",
     "last_modified_by": [
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d1e74",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e74",
         "described": false,
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "language": "da",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:blo"
@@ -15,22 +15,22 @@
     ],
     "tit": [
       {
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
         "language": "da",
         "entity_type": "title main",
         "title": [
           "Hvidovre Teater"
         ],
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d1e51"
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e51"
       }
     ],
     "art": [
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d1e57",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e57",
         "authority": "http://viaf.org/viaf/25276097",
         "described": false,
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "language": "da",
         "entity_type": "art",
         "agent_name": "Seidel, Claus (1946-05-24)"
@@ -41,59 +41,59 @@
       "Klassiker"
     ],
     "specific_notes": {
-      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e58",
-      "describing": "images-billed-2010-okt-billeder-object356751",
+      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e58",
+      "describing": "images!billed!2010!okt!billeder!object356751",
       "described": false,
       "situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind."
     },
     "subject": [
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d1e180",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e180",
         "authority": "http://viaf.org/viaf/312847028",
         "described": false,
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "entity_type": "act",
         "agent_name": "Lind, Lane (1945-)"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d1e198",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e198",
         "authority": "http://viaf.org/viaf/316745351",
         "described": false,
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "entity_type": "act",
         "agent_name": "Sandø, Waage (1943-)"
       }
     ],
     "categories": [
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e93",
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e93",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder-subject2108",
+        "entity_id": "images!billed!2010!okt!billeder!subject2108",
         "subject_name_da": "Billeder",
         "subject_name_en": "Billeder"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e104",
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e104",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder-subject2135",
+        "entity_id": "images!billed!2010!okt!billeder!subject2135",
         "subject_name_da": "Særudgivelser",
         "subject_name_en": "Særudgivelser"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e115",
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e115",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder-subject4277",
+        "entity_id": "images!billed!2010!okt!billeder!subject4277",
         "subject_name_da": "Seidel, Claus",
         "subject_name_en": "Seidel, Claus"
       },
       {
-        "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e126",
-        "describing": "images-billed-2010-okt-billeder-object356751",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e126",
+        "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
-        "entity_id": "images-billed-2010-okt-billeder-subject6229",
+        "entity_id": "images!billed!2010!okt!billeder!subject6229",
         "subject_name_da": "Bladtegninger",
         "subject_name_en": "Bladtegninger"
       }
@@ -104,8 +104,8 @@
       "1987-01-31"
     ],
     "physical_description": {
-      "id": "images-billed-2010-okt-billeder-object356751-disposable-subrecord-d3e145",
-      "describing": "images-billed-2010-okt-billeder-object356751",
+      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e145",
+      "describing": "images!billed!2010!okt!billeder!object356751",
       "described": false,
       "technique": "Tegning"
     },

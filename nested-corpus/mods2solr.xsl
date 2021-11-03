@@ -12,7 +12,7 @@
   <xsl:output method="text" />
   <!-- xsl:output method="xml" / -->
 
-  <xsl:param name="sep_string" select="'-'"/>
+  <xsl:param name="sep_string" select="'!'"/>
   
   <xsl:template match="/">
     <xsl:variable name="json">
