@@ -1,13 +1,13 @@
 [
   {
-    "id": "manus_judsam_2009_sep_dsh_object27137",
+    "id": "manus-judsam-2009-sep-dsh-object27137",
     "described": true,
     "cataloging_language": "en",
     "last_modified_by": [
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e181",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e181",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "en",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:eja"
@@ -17,39 +17,39 @@
     "record_revised": "2009-07-28",
     "tit": [
       {
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
         "language": "he",
         "entity_type": "title main",
         "title": [
           "מלות ההגיון"
         ],
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e57"
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e57"
       },
       {
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
         "language": "en",
         "entity_type": "title transcribed",
         "title": [
           "Milot ha-higayon"
         ],
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e63"
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e63"
       }
     ],
     "scr": [
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e70",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e70",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "en",
         "entity_type": "scr",
         "agent_name": "Goldblum, J. I."
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e82",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e82",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "he",
         "entity_type": "scr",
         "agent_name": "גולדבלום, ישראל איסר"
@@ -57,41 +57,41 @@
     ],
     "aut": [
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e94",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e94",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Maimonides"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e106",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e106",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Moshe ben Maimon"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e118",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e118",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Rambam"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e130",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e130",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "he",
         "entity_type": "aut",
         "agent_name": "משה בן מימון"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e143",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e143",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "he",
         "entity_type": "aut",
         "agent_name": "רמב\"ם"
@@ -99,17 +99,17 @@
     ],
     "trl": [
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e155",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e155",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "en",
         "entity_type": "trl",
         "agent_name": "Ibn Tibon, Moshe"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e167",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e167",
         "described": false,
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "language": "he",
         "entity_type": "trl",
         "agent_name": "משה אבן תיבון"
@@ -119,8 +119,8 @@
       "Copy of MS in the Bibliothèque Nationale, Paris: Cod. Hebr. 673 quarto and 1201 quarto (Zotenberg, H.: Manuscrits orientaux: Catalogue des manuscrits hébreux..., 1866, pp. 105 and 201)."
     ],
     "specific_notes": {
-      "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e179",
-      "describing": "manus_judsam_2009_sep_dsh_object27137",
+      "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e179",
+      "describing": "manus-judsam-2009-sep-dsh-object27137",
       "described": false,
       "content": "Work on logic",
       "script": "Modern Hebrew cursive script",
@@ -134,66 +134,66 @@
     ],
     "categories": [
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e200",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e200",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject315",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject315",
         "subject_name_da": "David Simonsens Håndskrifter",
         "subject_name_en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e211",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e211",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject319",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject319",
         "subject_name_da": "Sprog",
         "subject_name_en": "Language"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e222",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e222",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject320",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject320",
         "subject_name_da": "Hebraisk",
         "subject_name_en": "Hebrew"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e233",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e233",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject316",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject316",
         "subject_name_da": "Opstillingssignatur",
         "subject_name_en": "Shelf mark"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e244",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e244",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject420",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject420",
         "subject_name_da": "Cod. Sim. Heb. 031-040",
         "subject_name_en": "Cod. Sim. Heb. 031-040"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e255",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e255",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject428",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject428",
         "subject_name_da": "Cod. Sim. Heb. 035",
         "subject_name_en": "Cod. Sim. Heb. 035"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e266",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e266",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject322",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject322",
         "subject_name_da": "Ophavsland",
         "subject_name_en": "Country of origin"
       },
       {
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e277",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e277",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "entity_id": "manus_judsam_2009_sep_dsh_subject429",
+        "entity_id": "manus-judsam-2009-sep-dsh-subject429",
         "subject_name_da": "Frankrig",
         "subject_name_en": "France"
       }
@@ -204,8 +204,8 @@
       "1866"
     ],
     "physical_description": {
-      "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d3e295",
-      "describing": "manus_judsam_2009_sep_dsh_object27137",
+      "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d3e295",
+      "describing": "manus-judsam-2009-sep-dsh-object27137",
       "described": false,
       "medium": "Paper",
       "extent": "61 fols.",
@@ -217,9 +217,9 @@
         "title": "The Judaica Collection: The David Simonsen Manuscripts",
         "content": "mixed material",
         "entity_type": "collection",
-        "describing": "manus_judsam_2009_sep_dsh_object27137",
+        "describing": "manus-judsam-2009-sep-dsh-object27137",
         "described": false,
-        "id": "manus_judsam_2009_sep_dsh_object27137_disposable_subrecord_d1e373"
+        "id": "manus-judsam-2009-sep-dsh-object27137-disposable-subrecord-d1e373"
       }
     ],
     "language": [
