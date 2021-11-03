@@ -386,7 +386,9 @@
                     <f:boolean key="described">false</f:boolean>
                     <f:string key="id">
                       <xsl:value-of
+
                           select="concat($record-id,concat($sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id()))"/>
+
                     </f:string>
                   </f:map>
               </xsl:for-each>
