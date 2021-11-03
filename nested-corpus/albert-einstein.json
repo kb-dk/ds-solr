@@ -1,13 +1,13 @@
 [
   {
-    "id": "letters-judsam-2011-mar-dsa-object7871",
+    "id": "letters_judsam_2011_mar_dsa_object7871",
     "described": true,
     "cataloging_language": "en",
     "last_modified_by": [
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d1e56",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d1e56",
         "described": false,
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "language": "en",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:oam"
@@ -17,21 +17,21 @@
     "record_revised": "2013-04-16",
     "tit": [
       {
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
         "entity_type": "title main",
         "title": [
           "Letter from Einstein, Albert to Simonsen, David"
         ],
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d1e68"
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d1e68"
       }
     ],
     "aut": [
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d1e75",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d1e75",
         "authority": "http://viaf.org/viaf/75121530",
         "described": false,
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Einstein, Albert"
@@ -39,10 +39,10 @@
     ],
     "rcp": [
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d1e98",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d1e98",
         "authority": "http://viaf.org/viaf/54951228",
         "described": false,
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "language": "en",
         "entity_type": "rcp",
         "agent_name": "Simonsen, David"
@@ -50,58 +50,58 @@
     ],
     "categories": [
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e72",
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e72",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
-        "entity_id": "letters-judsam-2011-mar-dsa-subject4",
+        "entity_id": "letters_judsam_2011_mar_dsa_subject4",
         "subject_name_da": "David Simonsen ArchivesEEi",
         "subject_name_en": "David Simonsen ArchivesEEi"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e83",
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e83",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
-        "entity_id": "letters-judsam-2011-mar-dsa-subject4795",
+        "entity_id": "letters_judsam_2011_mar_dsa_subject4795",
         "subject_name_da": "E",
         "subject_name_en": "E"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e94",
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e94",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
-        "entity_id": "letters-judsam-2011-mar-dsa-subject4796",
+        "entity_id": "letters_judsam_2011_mar_dsa_subject4796",
         "subject_name_da": "Ei",
         "subject_name_en": "Ei"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e105",
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e105",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
-        "entity_id": "letters-judsam-2011-mar-dsa-subject5",
+        "entity_id": "letters_judsam_2011_mar_dsa_subject5",
         "subject_name_da": "Letters to/from David SimonsenEinstein, Albert0001",
         "subject_name_en": "Letters to/from David SimonsenEinstein, Albert0001"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e116",
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e116",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
-        "entity_id": "letters-judsam-2011-mar-dsa-subject5384",
+        "entity_id": "letters_judsam_2011_mar_dsa_subject5384",
         "subject_name_da": "Einstein, Albert",
         "subject_name_en": "Einstein, Albert"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e127",
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e127",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
-        "entity_id": "letters-judsam-2011-mar-dsa-subject5385",
+        "entity_id": "letters_judsam_2011_mar_dsa_subject5385",
         "subject_name_da": "0001",
         "subject_name_en": "0001"
       },
       {
-        "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e138",
-        "describing": "letters-judsam-2011-mar-dsa-object7871",
+        "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e138",
+        "describing": "letters_judsam_2011_mar_dsa_object7871",
         "described": false,
-        "entity_id": "letters-judsam-2011-mar-dsa-subject6",
+        "entity_id": "letters_judsam_2011_mar_dsa_subject6",
         "subject_name_da": "Correspondents",
         "subject_name_en": "Correspondents"
       }
@@ -112,8 +112,8 @@
       "1920-06-27"
     ],
     "physical_description": {
-      "id": "letters-judsam-2011-mar-dsa-object7871-disposable-subrecord-d3e157",
-      "describing": "letters-judsam-2011-mar-dsa-object7871",
+      "id": "letters_judsam_2011_mar_dsa_object7871_disposable_subrecord_d3e157",
+      "describing": "letters_judsam_2011_mar_dsa_object7871",
       "described": false,
       "extent": "1 p."
     },

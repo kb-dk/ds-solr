@@ -30,7 +30,7 @@
           </xsl:variable>
 
           <xsl:variable name="record-id">
-            <xsl:value-of select="replace($record-id-in,'/','-','s')"/>
+            <xsl:value-of select="replace($record-id-in,'/','_','s')"/>
           </xsl:variable>
 
           <xsl:variable name="output_data">
@@ -38,7 +38,7 @@
             <!-- record identification, admin data etc  -->
 
             <xsl:variable name="edition">
-              <xsl:value-of select="substring-before($record-id,'-object')"/>
+              <xsl:value-of select="substring-before($record-id,'_object')"/>
             </xsl:variable>
             
             <f:string key="id">
@@ -384,7 +384,7 @@
                     <f:boolean key="described">false</f:boolean>
                     <f:string key="id">
                       <xsl:value-of
-                          select="concat($record-id,'-disposable-subrecord-',generate-id())"/>
+                          select="concat($record-id,'_disposable_subrecord_',generate-id())"/>
                     </f:string>
                   </f:map>
               </xsl:for-each>
@@ -545,7 +545,7 @@
       <xsl:choose>
         <xsl:when test="not(f:string[@key='id'])">
           <f:string key="id">
-            <xsl:value-of select="concat($record_identifier,'-disposable-subrecord-',generate-id())"/>
+            <xsl:value-of select="concat($record_identifier,'_disposable_subrecord_',generate-id())"/>
           </f:string>
           <xsl:apply-templates select="*">
             <xsl:with-param name="record_identifier" select="$record_identifier"/>
@@ -564,7 +564,7 @@
   <xsl:template name="disposable-subrecord">
     <xsl:param name="record_identifier"/>
     <f:string key="id">
-      <xsl:value-of select="concat($record_identifier,'-disposable-subrecord-',generate-id())"/>
+      <xsl:value-of select="concat($record_identifier,'_disposable_subrecord_',generate-id())"/>
     </f:string>
   </xsl:template>
 
