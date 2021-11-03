@@ -11,6 +11,8 @@
     
   <xsl:output method="text" />
   <!-- xsl:output method="xml" / -->
+
+  <xsl:param name="sep_string" select="'-'"/>
   
   <xsl:template match="/">
     <xsl:variable name="json">
@@ -30,7 +32,7 @@
           </xsl:variable>
 
           <xsl:variable name="record-id">
-            <xsl:value-of select="replace($record-id-in,'/','-','s')"/>
+            <xsl:value-of select="replace($record-id-in,'/',$sep_string,'s')"/>
           </xsl:variable>
 
           <xsl:variable name="output_data">
@@ -38,7 +40,7 @@
             <!-- record identification, admin data etc  -->
 
             <xsl:variable name="edition">
-              <xsl:value-of select="substring-before($record-id,'-object')"/>
+              <xsl:value-of select="substring-before($record-id,concat($sep_string,'object'))"/>
             </xsl:variable>
             
             <f:string key="id">
@@ -384,7 +386,9 @@
                     <f:boolean key="described">false</f:boolean>
                     <f:string key="id">
                       <xsl:value-of
-                          select="concat($record-id,'-disposable-subrecord-',generate-id())"/>
+
+                          select="concat($record-id,concat($sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id()))"/>
+
                     </f:string>
                   </f:map>
               </xsl:for-each>
@@ -545,7 +549,7 @@
       <xsl:choose>
         <xsl:when test="not(f:string[@key='id'])">
           <f:string key="id">
-            <xsl:value-of select="concat($record_identifier,'-disposable-subrecord-',generate-id())"/>
+            <xsl:value-of select="concat($record_identifier,$sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id())"/>
           </f:string>
           <xsl:apply-templates select="*">
             <xsl:with-param name="record_identifier" select="$record_identifier"/>
@@ -564,11 +568,11 @@
   <xsl:template name="disposable-subrecord">
     <xsl:param name="record_identifier"/>
     <f:string key="id">
-      <xsl:value-of select="concat($record_identifier,'-disposable-subrecord-',generate-id())"/>
+      <xsl:value-of select="concat($record_identifier,$sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id())"/>
     </f:string>
   </xsl:template>
 
-  <xsl:function name="my:escape_stuff"><xsl:param name="arg"/><xsl:value-of select="replace($arg,'\s','_','s')"/></xsl:function>
+  <xsl:function name="my:escape_stuff"><xsl:param name="arg"/><xsl:value-of select="replace($arg,'\s',$sep_string,'s')"/></xsl:function>
   
   <xsl:template match="*|@*">
     <xsl:param name="record_identifier"/>
