@@ -1,13 +1,13 @@
 [
   {
-    "id": "images_luftfo_2011_maj_luftfoto_object322504",
+    "id": "images-luftfo-2011-maj-luftfoto-object322504",
     "described": true,
     "cataloging_language": "da",
     "last_modified_by": [
       {
-        "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d1e68",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d1e68",
         "described": false,
-        "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+        "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "language": "da",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:cumulus"
@@ -17,22 +17,22 @@
     "record_revised": "2016-07-28",
     "tit": [
       {
-        "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+        "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
         "language": "da",
         "entity_type": "title main",
         "title": [
           "Næblerødvej 32, Næblerød - 1936-1939 -"
         ],
-        "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d1e244"
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d1e244"
       }
     ],
     "creator": [
       {
-        "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d1e56",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d1e56",
         "authority": "http://viaf.org/viaf/307245669",
         "described": false,
-        "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+        "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "entity_type": "creator",
         "agent_name": "Sylvest Jensen Luftfoto"
       }
@@ -47,41 +47,41 @@
     ],
     "categories": [
       {
-        "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d3e66",
-        "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e66",
+        "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
-        "entity_id": "images_luftfo_2011_maj_luftfoto_subject203",
+        "entity_id": "images-luftfo-2011-maj-luftfoto-subject203",
         "subject_name_da": "Luftfoto",
         "subject_name_en": "Luftfoto"
       },
       {
-        "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d3e77",
-        "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e77",
+        "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
-        "entity_id": "images_luftfo_2011_maj_luftfoto_subject204",
+        "entity_id": "images-luftfo-2011-maj-luftfoto-subject204",
         "subject_name_da": "Sylvest Jensen",
         "subject_name_en": "Sylvest Jensen"
       },
       {
-        "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d3e88",
-        "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e88",
+        "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
-        "entity_id": "images_luftfo_2011_maj_luftfoto_subject251",
+        "entity_id": "images-luftfo-2011-maj-luftfoto-subject251",
         "subject_name_da": "NK-Serie",
         "subject_name_en": "NK-Serie"
       },
       {
-        "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d3e99",
-        "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+        "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e99",
+        "describing": "images-luftfo-2011-maj-luftfoto-object322504",
         "described": false,
-        "entity_id": "images_luftfo_2011_maj_luftfoto_subject843",
+        "entity_id": "images-luftfo-2011-maj-luftfoto-subject843",
         "subject_name_da": "Hovedstaden",
         "subject_name_en": "Hovedstaden"
       }
     ],
     "coverage_geo_names": {
-      "id": "images_luftfo_2011_maj_luftfoto_object322504_disposable_subrecord_d3e111",
-      "describing": "images_luftfo_2011_maj_luftfoto_object322504",
+      "id": "images-luftfo-2011-maj-luftfoto-object322504-disposable-subrecord-d3e111",
+      "describing": "images-luftfo-2011-maj-luftfoto-object322504",
       "described": false,
       "area": "Præsteskov",
       "cadastre": "17b",

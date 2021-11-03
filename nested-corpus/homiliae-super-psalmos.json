@@ -1,13 +1,13 @@
 [
   {
-    "id": "manus_vmanus_2011_dec_ha_object71279",
+    "id": "manus-vmanus-2011-dec-ha-object71279",
     "described": true,
     "cataloging_language": "da",
     "last_modified_by": [
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d1e60",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d1e60",
         "described": false,
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "language": "da",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:blo"
@@ -15,22 +15,22 @@
     ],
     "tit": [
       {
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
         "language": "da",
         "entity_type": "title main",
         "title": [
           "Homiliae super Psalmos (etc.)"
         ],
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d1e39"
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d1e39"
       }
     ],
     "aut": [
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d1e45",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d1e45",
         "authority": "http://viaf.org/viaf/88967224",
         "described": false,
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "language": "da",
         "entity_type": "aut",
         "agent_name": "Magnus, Basilius"
@@ -41,8 +41,8 @@
       "Indhold: (1 r) Homilia in psalmum I (2 r) Homilia in psalmum VII (16 v) Homilia in psalmum XIV (35 v) Homilia in partem psalmi decimi quarti, et contra faeneratores (45 v) Homilia in psalmum XXVIII (58 r) Homilia in psalmum XXIX (79 r) Homilia in psalmum XXXII (93 r) Homilia in psalmum XXXIII (114 v) Homilia in psalmum XLV (165 r) Homilia in psalmum XLVIII (189 v) Homilia in psalmum LIX (204 v) Homilia in psalmum LXI (230 r) Homilia in psalmum CXIV (238 v) Homilia in psalmum CXV (260 v) Homilia in in illud, Attende tibi ipsi (270 v) Quod deus non est auctor malorum (304 r) Adversus eos qui irascuntur (324 v) De invidia (340 r) Homilia in illud, Destruam horrea mea (352 v) Homilia in divites (366 v) Homilia in ebriosos (387 r) De humilitate (402 r) Quod rebus mundanis adhaerendum non sit (413 v) Ad adolescentes (434 r) De poenitentia (454 v) De jejunio homilia I (466 r) De jejunio homilia II (482 r)."
     ],
     "specific_notes": {
-      "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e58",
-      "describing": "manus_vmanus_2011_dec_ha_object71279",
+      "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e58",
+      "describing": "manus-vmanus-2011-dec-ha-object71279",
       "described": false,
       "reference": "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
     },
@@ -52,50 +52,50 @@
     ],
     "categories": [
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e71",
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e71",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
-        "entity_id": "manus_vmanus_2011_dec_ha_subject1513",
+        "entity_id": "manus-vmanus-2011-dec-ha-subject1513",
         "subject_name_da": "Græsk",
         "subject_name_en": "Græsk"
       },
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e82",
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e82",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
-        "entity_id": "manus_vmanus_2011_dec_ha_subject898",
+        "entity_id": "manus-vmanus-2011-dec-ha-subject898",
         "subject_name_da": "Vesterlandske håndskrifter",
         "subject_name_en": "Vesterlandske håndskrifter"
       },
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e93",
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e93",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
-        "entity_id": "manus_vmanus_2011_dec_ha_subject902",
+        "entity_id": "manus-vmanus-2011-dec-ha-subject902",
         "subject_name_da": "Sprog",
         "subject_name_en": "Sprog"
       },
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e104",
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e104",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
-        "entity_id": "manus_vmanus_2011_dec_ha_subject1550",
+        "entity_id": "manus-vmanus-2011-dec-ha-subject1550",
         "subject_name_da": "GKS 0018 folio",
         "subject_name_en": "GKS 0018 folio"
       },
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e115",
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e115",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
-        "entity_id": "manus_vmanus_2011_dec_ha_subject6603",
+        "entity_id": "manus-vmanus-2011-dec-ha-subject6603",
         "subject_name_da": "GKS (Gammel Kongelig Samling)",
         "subject_name_en": "GKS (Gammel Kongelig Samling)"
       },
       {
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e126",
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e126",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
-        "entity_id": "manus_vmanus_2011_dec_ha_subject899",
+        "entity_id": "manus-vmanus-2011-dec-ha-subject899",
         "subject_name_da": "Samlinger",
         "subject_name_en": "Samlinger"
       }
@@ -106,8 +106,8 @@
       "1100-1199"
     ],
     "physical_description": {
-      "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d3e145",
-      "describing": "manus_vmanus_2011_dec_ha_object71279",
+      "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d3e145",
+      "describing": "manus-vmanus-2011-dec-ha-object71279",
       "described": false,
       "medium": "Pergament",
       "extent": "1 bind, 493 blade"
@@ -119,9 +119,9 @@
         "title": "Håndskriftsamlingen",
         "content": "mixed material",
         "entity_type": "collection",
-        "describing": "manus_vmanus_2011_dec_ha_object71279",
+        "describing": "manus-vmanus-2011-dec-ha-object71279",
         "described": false,
-        "id": "manus_vmanus_2011_dec_ha_object71279_disposable_subrecord_d1e194"
+        "id": "manus-vmanus-2011-dec-ha-object71279-disposable-subrecord-d1e194"
       }
     ],
     "doms_guid": "a1445e60-06c2-11e1-bbcf-0016357f605f",
