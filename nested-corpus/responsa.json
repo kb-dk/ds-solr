@@ -2,6 +2,7 @@
   {
     "id": "manus!judsam!2009!sep!dsh!object41158",
     "described": true,
+    "entity_type": "the_object",
     "cataloging_language": "en",
     "last_modified_by": [
       {
@@ -199,7 +200,7 @@
       "The spine of the volume is included in the digitization (before the beginning of the volume)."
     ],
     "specific_notes": {
-      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e310",
+      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e312",
       "describing": "manus!judsam!2009!sep!dsh!object41158",
       "described": false,
       "content": "Responsa",
@@ -215,7 +216,7 @@
     ],
     "categories": [
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e333",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e335",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject315",
@@ -223,7 +224,7 @@
         "subject_name_en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e344",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e346",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject319",
@@ -231,7 +232,7 @@
         "subject_name_en": "Language"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e355",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e357",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject320",
@@ -239,7 +240,7 @@
         "subject_name_en": "Hebrew"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e366",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e368",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject423",
@@ -247,7 +248,7 @@
         "subject_name_en": "Judeo-Arabic"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e377",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e379",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject322",
@@ -255,7 +256,7 @@
         "subject_name_en": "Country of origin"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e388",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e390",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject451",
@@ -263,7 +264,7 @@
         "subject_name_en": "Marocco"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e399",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e401",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject316",
@@ -271,7 +272,7 @@
         "subject_name_en": "Shelf mark"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e410",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e412",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject543",
@@ -279,7 +280,7 @@
         "subject_name_en": "Cod. Sim. Jud.-Arab 001-007"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e421",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e423",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject544",
@@ -295,7 +296,7 @@
       "ש\"ד"
     ],
     "physical_description": {
-      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e443",
+      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e445",
       "describing": "manus!judsam!2009!sep!dsh!object41158",
       "described": false,
       "medium": "Paper",

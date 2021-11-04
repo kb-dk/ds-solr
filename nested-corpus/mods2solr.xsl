@@ -48,6 +48,7 @@
             </f:string>
 
             <f:boolean key="described">true</f:boolean>
+            <f:string key="entity_type">the_object</f:string>
             
             <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
               <f:string key="cataloging_language">

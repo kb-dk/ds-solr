@@ -2,6 +2,7 @@
   {
     "id": "manus!vmanus!2011!dec!ha!object71279",
     "described": true,
+    "entity_type": "the_object",
     "cataloging_language": "da",
     "last_modified_by": [
       {
@@ -41,7 +42,7 @@
       "Indhold: (1 r) Homilia in psalmum I (2 r) Homilia in psalmum VII (16 v) Homilia in psalmum XIV (35 v) Homilia in partem psalmi decimi quarti, et contra faeneratores (45 v) Homilia in psalmum XXVIII (58 r) Homilia in psalmum XXIX (79 r) Homilia in psalmum XXXII (93 r) Homilia in psalmum XXXIII (114 v) Homilia in psalmum XLV (165 r) Homilia in psalmum XLVIII (189 v) Homilia in psalmum LIX (204 v) Homilia in psalmum LXI (230 r) Homilia in psalmum CXIV (238 v) Homilia in psalmum CXV (260 v) Homilia in in illud, Attende tibi ipsi (270 v) Quod deus non est auctor malorum (304 r) Adversus eos qui irascuntur (324 v) De invidia (340 r) Homilia in illud, Destruam horrea mea (352 v) Homilia in divites (366 v) Homilia in ebriosos (387 r) De humilitate (402 r) Quod rebus mundanis adhaerendum non sit (413 v) Ad adolescentes (434 r) De poenitentia (454 v) De jejunio homilia I (466 r) De jejunio homilia II (482 r)."
     ],
     "specific_notes": {
-      "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e58",
+      "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e60",
       "describing": "manus!vmanus!2011!dec!ha!object71279",
       "described": false,
       "reference": "Bruun, Chr. (1890): De illuminerede Haandskrifter fra Middelalderen i Det Store Kongelige Bibliothek, side 32-33 og 296 og Schartau, Bjarne (1994): Codices Graeci Haunienses, side 55."
@@ -52,7 +53,7 @@
     ],
     "categories": [
       {
-        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e71",
+        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e73",
         "describing": "manus!vmanus!2011!dec!ha!object71279",
         "described": false,
         "entity_id": "manus!vmanus!2011!dec!ha!subject1513",
@@ -60,7 +61,7 @@
         "subject_name_en": "Græsk"
       },
       {
-        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e82",
+        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e84",
         "describing": "manus!vmanus!2011!dec!ha!object71279",
         "described": false,
         "entity_id": "manus!vmanus!2011!dec!ha!subject898",
@@ -68,7 +69,7 @@
         "subject_name_en": "Vesterlandske håndskrifter"
       },
       {
-        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e93",
+        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e95",
         "describing": "manus!vmanus!2011!dec!ha!object71279",
         "described": false,
         "entity_id": "manus!vmanus!2011!dec!ha!subject902",
@@ -76,7 +77,7 @@
         "subject_name_en": "Sprog"
       },
       {
-        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e104",
+        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e106",
         "describing": "manus!vmanus!2011!dec!ha!object71279",
         "described": false,
         "entity_id": "manus!vmanus!2011!dec!ha!subject1550",
@@ -84,7 +85,7 @@
         "subject_name_en": "GKS 0018 folio"
       },
       {
-        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e115",
+        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e117",
         "describing": "manus!vmanus!2011!dec!ha!object71279",
         "described": false,
         "entity_id": "manus!vmanus!2011!dec!ha!subject6603",
@@ -92,7 +93,7 @@
         "subject_name_en": "GKS (Gammel Kongelig Samling)"
       },
       {
-        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e126",
+        "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e128",
         "describing": "manus!vmanus!2011!dec!ha!object71279",
         "described": false,
         "entity_id": "manus!vmanus!2011!dec!ha!subject899",
@@ -106,7 +107,7 @@
       "1100-1199"
     ],
     "physical_description": {
-      "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e145",
+      "id": "manus!vmanus!2011!dec!ha!object71279!disposable!subrecord!d3e147",
       "describing": "manus!vmanus!2011!dec!ha!object71279",
       "described": false,
       "medium": "Pergament",
