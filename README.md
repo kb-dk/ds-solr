@@ -13,24 +13,24 @@ For testing, Solr should be installed locally. The local installation runs in So
 and uses the same setup files as production. 
 
 1. Ensure that the current folder for the term is the `ds-solr`-checkout.
-1. Download Solr 8.2 binary release from https://archive.apache.org/dist/lucene/solr/  
-`wget 'https://archive.apache.org/dist/lucene/solr/8.2.0/solr-8.2.0.tgz'`
+1. Download a recent and stable binary release of Solr. We refer to such a version as X.Y.Z. As of writing this, X.Y.Z=8.10.1. You can pick up such a release at https://archive.apache.org/dist/lucene/solr/   If you want to cut and paste commands use `sed 's/X.Y.Z/your.favourate.release/' README.md  | less` and run them all.
+`wget 'https://archive.apache.org/dist/lucene/solr/X.Y.Z/solr-X.Y.Z.tgz'`
 1. Unpack it  
-`tar xzovf solr-8.2.0.tgz`
-1. Compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
-`echo 'SOLR_OPTS="$SOLR_OPTS -Djava.locale.providers=JRE,SPI"' >> solr-8.2.0/bin/solr.in.sh`
+`tar xzovf solr-X.Y.Z.tgz`
+1. If your X.Y.Z is older than from 05/Jul/19 14:48, compensate for the [SOLR-13606](https://issues.apache.org/jira/browse/SOLR-13606) bug  
+`echo 'SOLR_OPTS="$SOLR_OPTS -Djava.locale.providers=JRE,SPI"' >> solr-X.Y.Z/bin/solr.in.sh`
 1. Start Solr in cloud mode  
-`solr-8.2.0/bin/solr -c -m 1g -p 10007`    
+`solr-X.Y.Z/bin/solr -c -m 1g -p 10007`    
 It will probably complain about `open file` and `max processes` limits. 
 That should not be a problem for small-scale testing, but medium- to large-scale,
 these limits should be raised.
 1. Check that the local SolrCloud is running by visiting http://localhost:10007/solr/#/
 1. Upload a collection configuration to SolrCloud    
-`solr-8.2.0/bin/solr zk upconfig -z localhost:11007 -d template/ -n ds-conf` 
+`solr-X.Y.Z/bin/solr zk upconfig -z localhost:11007 -d template/ -n ds-conf` 
 alternatively use `curl`
 `cd template/conf/ ; zip -q -r t.zip * ; curl -X POST --header "Content-Type:application/octet-stream" --data-binary @t.zip "http://localhost:10007/solr/admin/configs?action=UPLOAD&name=ds-conf" ; rm t.zip ; cd -`
 1. Create a collection in SolrCloud  
-`solr-8.2.0/bin/solr create_collection -c ds -n ds-conf` 
+`solr-X.Y.Z/bin/solr create_collection -c ds -n ds-conf` 
 alternatively use `curl`
 `curl 'http://localhost:10007/solr/admin/collections?action=CREATE&name=ds&collection.configName=ds-conf&numShards=1&replicationFactor=1&wt=xml'`
 1. Check that the collection was created by visiting 
@@ -41,16 +41,16 @@ alternatively use `curl`
 [Solr admin web interface](http://localhost:10007/solr/#/ds/query) or with curl  
 `curl 'http://localhost:10007/solr/ds/select?wt=json&q=*:*'`
 1. Stop Solr with  
-`solr-8.2.0/bin/solr stop` 
+`solr-X.Y.Z/bin/solr stop` 
 
 After this, Solr can be started and stopped with  
-`solr-8.2.0/bin/solr -c -m 1g -p 10007`  
+`solr-X.Y.Z/bin/solr -c -m 1g -p 10007`  
 and
-`solr-8.2.0/bin/solr stop`  
+`solr-X.Y.Z/bin/solr stop`  
 without losing any documents.
 
 Documents, such at the `XML`-file produced by [ds-cumulus-export](https://github.com/Det-Kongelige-Bibliotek/ds-cumulus-export), are indexed in Solr with  
-`solr-8.2.0/bin/post -p 10007 -c ds indexThisInSolr.xml`
+`solr-X.Y.Z/bin/post -p 10007 -c ds indexThisInSolr.xml`
 
 All documents in the collection can be deleted with
 `curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: text/xml" --data-binary '<delete><query>*:*</query></delete>'`
