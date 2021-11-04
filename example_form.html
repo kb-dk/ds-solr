@@ -21,6 +21,14 @@
               </textarea>
             </dd>
 
+	    <dt>Default boolean (q.op)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <select id="boolean" name="q.op">
+                <option value="AND">AND</option>
+                <option value="OR">OR</option>
+              </select>
+            </dd>
+	    
             <dt>Field list (comma separated, fl)</dt>
             <dd  style="margin-bottom:+0.5em;">
               <textarea id="solr_fl" name="fl"  cols="30" rows="2">*</textarea>
@@ -126,7 +134,7 @@
                     console.log(content);
                     document.getElementById('solr_fq').value = '';
                     document.getElementById('solr_fl').value = '*';
-                    document.getElementById('num_hits').value = '300';">(205 hits)</a>
+                    document.getElementById('num_hits').value = '300';">(208 hits)</a>
         </p>
 
         <p><strong>4.</strong>
