@@ -57,7 +57,7 @@ All documents in the collection can be deleted with
 
 ## Search tips
 1. Search for all material geographically with [geo rectangle](https://lucene.apache.org/solr/guide/8_1/spatial-search.html#filtering-by-an-arbitrary-rectangle)  
-`curl 'http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[55.10,9.21+TO+58.10,11.21\]'`
+`curl` ['http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[54.0,9.0+TO+59.0,12.0\]'](http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[54.0,9.0+TO+59.0,12.0\])
 
 
 ## Fields
