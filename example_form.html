@@ -269,7 +269,21 @@
           Configuration</a> on how to enable and use _nest_path_.
         </p>
 	
+        <p><strong>11.</strong>
+        In the corpus we have an aerial photograph of a building situated at 55.35,11.53. A search for 
+        <kbd id="location_coordinates">location_coordinates:[54.0,9.0+TO+59.0,12.0]</kbd>
 
+        <a href="#form"
+           onclick="var content = document.getElementById('location_coordinates').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (1 hits)
+          </a>.
+        
+        </p>
 
 	
         <h3>Searches with joins</h3>
