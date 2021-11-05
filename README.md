@@ -61,7 +61,7 @@ All documents in the collection can be deleted with
 
 2. Search for manuscripts completed early 16th century, e.g., [1500 - 1550]
 
-['http://localhost:10007/solr/ds/select?wt=json&q=not_before_date:\[1500 TO *\] AND not_after_date:\[* TO 1550\]](http://localhost:10007/solr/ds/select?wt=json&q=not_before_date:[1500 TO *] AND not_after_date:[* TO 1550])
+[http://localhost:10007/solr/ds/select?wt=json&q=not_before_date:\[1500 TO *\] AND not_after_date:\[* TO 1550\]](http://localhost:10007/solr/ds/select?wt=json&q=not_before_date:\[1500+TO+*\]+AND+not_after_date:\[*+TO+1550\])
 
 ## Fields
 Field names are lowercase and `_` is the separation character.
