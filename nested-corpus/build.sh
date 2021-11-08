@@ -1,6 +1,18 @@
 #!/bin/bash
 
-SAXON="java -jar /home/slu/saxon/saxon9he.jar --suppressXsltNamespaceCheck:on  "
+: ${SAXON_JAR:="/home/$USER/saxon/saxon9he.jar"}
+if [[ ! -s "$SAXON_JAR" ]]; then
+    >&2 echo "$SAXON_JAR not available. Please install it from https://sourceforge.net/projects/saxon/files/Saxon-HE/"
+    exit 2
+fi
+for TOOL in jq; do
+    if [[ -z $(which $TOOL) ]]; then
+        >&2 echo "$TOOL not available. Please install it"
+        exit 3
+    fi
+done
+
+SAXON="java -jar "$SAXON_JAR" --suppressXsltNamespaceCheck:on  "
 
 # set to 1 if you want to prettyprint you json
 
@@ -16,9 +28,10 @@ mods_files=("albert-einstein.xml"
 	    "responsa.xml")
 
 for file in ${mods_files[@]}; do
-    json=$(echo $file | perl -pe 's/.xml/.json/g')
+    json=$(sed 's/.xml$/.json/' <<< "$file")
+    echo " - Producing $json"
     if [ "$DEBUG_JSON" = "1" ]; then
-	$SAXON -xsl:mods2solr.xsl -s:"$file" | jq > "$json"
+	$SAXON -xsl:mods2solr.xsl -s:"$file" | jq . > "$json"
     else
 	$SAXON -xsl:mods2solr.xsl -s:"$file" > "$json"
     fi
