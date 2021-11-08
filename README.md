@@ -41,12 +41,12 @@ alternatively use `curl`
 [Solr admin web interface](http://localhost:10007/solr/#/ds/query) or with curl  
 `curl 'http://localhost:10007/solr/ds/select?wt=json&q=*:*'`
 1. Stop Solr with  
-`solr-X.Y.Z/bin/solr stop` 
+`solr-X.Y.Z/bin/solr stop -p 10007` 
 
 After this, Solr can be started and stopped with  
 `solr-X.Y.Z/bin/solr -c -m 1g -p 10007`  
 and
-`solr-X.Y.Z/bin/solr stop`  
+`solr-X.Y.Z/bin/solr stop -p 10007`  
 without losing any documents.
 
 Documents, such at the `XML`-file produced by [ds-cumulus-export](https://github.com/Det-Kongelige-Bibliotek/ds-cumulus-export), are indexed in Solr with  
