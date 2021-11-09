@@ -57,7 +57,7 @@ All documents in the collection can be deleted with
 
 ## Search tips
 1. Search for all material geographically with [geo rectangle](https://lucene.apache.org/solr/guide/8_1/spatial-search.html#filtering-by-an-arbitrary-rectangle)  
-`curl` ['http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[54.0,9.0+TO+59.0,12.0\]'](http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[54.0,9.0+TO+59.0,12.0\])
+`curl` ['http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[54.0,9.0+TO+59.0,12.0\]&fl=*,\[child\]'](http://localhost:10007/solr/ds/select?wt=json&q=location_coordinates:\[54.0,9.0+TO+59.0,12.0\]&fl=*,\[child\])
 
 2. Search for manuscripts completed early 16th century, e.g., [1500 - 1550]
  `curl`[http://localhost:10007/solr/ds/select?wt=json&q=not_before_date:\[1500 TO *\] AND not_after_date:\[* TO 1550\]&fl=*,\[child\]](http://localhost:10007/solr/ds/select?wt=json&q=not_before_date:\[1500+TO+*\]+AND+not_after_date:\[*+TO+1550\]&fl=*,\[child\])
