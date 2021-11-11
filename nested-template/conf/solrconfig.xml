@@ -23,7 +23,9 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>8.2.0</luceneMatchVersion>
+  <!-- luceneMatchVersion>8.2.0</luceneMatchVersion -->
+  <!-- luceneMatchVersion>7.1.0</luceneMatchVersion -->
+  <luceneMatchVersion>8.10.1</luceneMatchVersion>
 
    <!-- A 'dir' option by itself adds any files found in the directory
        to the classpath, this is useful for including all jars in a
@@ -54,6 +56,7 @@
     -->
   <dataDir>${solr.data.dir:}</dataDir>
 
+  <!-- allowSubQueryParsing>true</allowSubQueryParsing -->
 
   <!-- The DirectoryFactory to use for indexes.
        
