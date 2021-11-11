@@ -63,6 +63,7 @@
                           console.log(content);
                           document.getElementById('solr_fq').value = '';
                           document.getElementById('solr_fl').value = '*';
+                          document.getElementById('querytype').value= 'lucene';
                           document.getElementById('num_hits').value = '300';">
                 <strong>Reset form!</strong>
               </a>
@@ -310,40 +311,44 @@
         <p>Here we search using joins in order to return a DLO given a
         hit in a descriptor solr document.</p>
 
-
-        <p>The snag is: I haven't managed to get any of them to
-        work.</p>
+        <p>The snags are:</p>
+        <ul>
+          <li>default query type must be <strong>lucene</strong></li>
+          <li>we want <strong>eDismax</strong> for ranking, boost, and a lot of other stuff</li>
+        </ul>
 
 
           <h4>Join Query Parser</h4>
 
           <p><strong>1.</strong> Here we try to apply the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
-          <kbd id="joined_recieved_by_brandes">{!join from=describing to=id}agent_name:(georg brandes) AND entity_type:rcp</kbd>
+          <kbd id="joined_recieved_by_brandes">{!join from=describing to=id}{!edismax v="agent_name:(georg brandes) AND entity_type:rcp"}</kbd>
           <a href="#form"
              onclick="var content = document.getElementById('joined_recieved_by_brandes').innerHTML;
                       document.getElementById('solr_q').value = content;
                       console.log(content);
                       document.getElementById('solr_fq').value = '';
+                      document.getElementById('querytype').value = 'lucene';
                       document.getElementById('solr_fl').value = '*,[child]';
                       document.getElementById('num_hits').value = '300';">
-            (0 hits)
-          </a>
+            (8 hits) 
+          </a> <strong style="color:green;">Success!</strong>
           </p>
 
           <p><strong>2.</strong> Here we try a variation of this method, but still applying the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
-          We use the original <kbd>agent_name:(georg brandes) AND entity_type:rcp</kbd> query, but add
-          a filter query <kbd>{!join from=describing to=id}described:false</kbd>
+          We use the original <kbd id="recieved_by_brandes_edismax">{!edismax v="agent_name:(georg brandes) AND entity_type:rcp"}</kbd> query, but add
+          a filter query <kbd>{!join from=describing to=id}</kbd>
 
           
           <a href="#form"
-             onclick="var content = document.getElementById('recieved_by_brandes').innerHTML;
+             onclick="var content = document.getElementById('recieved_by_brandes_edismax').innerHTML;
                       document.getElementById('solr_q').value = content;
                       console.log(content);
                       document.getElementById('solr_fq').value = '{!join from=describing to=id}described:false';
                       document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('querytype').value = 'lucene';
                       document.getElementById('num_hits').value = '300';">
             (0 hits)
-          </a>
+          </a>  <strong style="color:red;">Failure!</strong>
           </p>
 
           <h4>Block Join Parent Query Parser</h4>
@@ -352,16 +357,17 @@
             <strong>1.</strong> This was the way I had planned to search. Using
             the <a
             href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
-            Join Parent Query Parser</a> <kbd id="brandes_parent_query">{!parent which="described:true"}agent_name:(georg brandes)</kbd>
+            Join Parent Query Parser</a> <kbd id="brandes_parent_query">{!parent which="described:true"}{!edismax v="agent_name:(georg brandes)"}</kbd>
 
             <a href="#form"
              onclick="var content = document.getElementById('brandes_parent_query').innerHTML;
                       document.getElementById('solr_q').value = content;
                       console.log(content);
+                      document.getElementById('querytype').value = 'lucene';
                       document.getElementById('solr_fq').value = '';
                       document.getElementById('solr_fl').value = '*,[child]';
                       document.getElementById('num_hits').value = '300';">
-              (0 hits)
+              (9 hits) <strong style="color:green;">Success!</strong>
             </a>
           
           </p>
@@ -370,14 +376,14 @@
             <strong>2.</strong> Basically the same thing 
             (I.e., using a
              <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
-             Join Parent Query Parser</a>) but this time formulated as a filter query
-             <kbd id="brandes_parent_query_as_filter">agent_name:(georg brandes)</kbd>
-
+             Join Parent Query Parser</a>) but this time we want brandes to be sender and simonsen recipient
+             <kbd id="brandes_parent_and_simonsen_query">{!parent which="described:true"}{!edismax v="agent_name:georg AND entity_type:aut"} AND {!parent which="described:true"}{!edisimax v="agent_name:(david simonsen) AND entity_type:rcp"}</kbd>
             <a href="#form"
-             onclick="var content = document.getElementById('brandes_parent_query_as_filter').innerHTML;
+             onclick="var content = document.getElementById('brandes_parent_and_simonsen_query').innerHTML;
                       document.getElementById('solr_q').value = content;
                       console.log(content);
-                      document.getElementById('solr_fq').value = '{!parent which=&quot;described:true&quot;}described:false';
+                      document.getElementById('querytype').value = 'lucene';
+                      document.getElementById('solr_fq').value = '';
                       document.getElementById('solr_fl').value = '*,[child]';
                       document.getElementById('num_hits').value = '300';">
               (0 hits)
@@ -385,6 +391,26 @@
           
           </p>
 
+      <p>
+            <strong>3.</strong> Basically the same thing but Georg and David change roles
+            (I.e., using a
+             <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
+             Join Parent Query Parser</a>) but this time we want brandes to be recipient and simonsen sender
+             <kbd id="brandes_parent_and_simonsen_query_opposite">{!parent which="described:true"}{!edismax v="agent_name:georg AND entity_type:rcp"} AND {!parent which="described:true"}{!edisimax v="agent_name:(david simonsen) AND entity_type:aut"}</kbd>
+            <a href="#form"
+             onclick="var content = document.getElementById('brandes_parent_and_simonsen_query_opposite').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('querytype').value = 'lucene';
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+              (0 hits)
+            </a>
+          
+          </p>
+
+          
           <h4>Block Join Children Query Parser</h4>
 
           <p>Here I could have discussed
