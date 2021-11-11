@@ -357,7 +357,7 @@
             <strong>1.</strong> This was the way I had planned to search. Using
             the <a
             href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
-            Join Parent Query Parser</a> <kbd id="brandes_parent_query">{!parent which="described:true"}{!edismax v="agent_name:(georg brandes)"}</kbd>
+            Join Parent Query Parser</a> to find how many letters there are to or from Georg <kbd id="brandes_parent_query">{!parent which="described:true"}{!edismax v="agent_name:(georg brandes)"}</kbd>
 
             <a href="#form"
              onclick="var content = document.getElementById('brandes_parent_query').innerHTML;
@@ -373,7 +373,7 @@
           </p>
 
             <p>
-            <strong>2.</strong> Basically the same thing 
+            <strong>2.</strong> What letters are there from Georg to David
             (I.e., using a
              <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
              Join Parent Query Parser</a>) but this time we want brandes to be sender and simonsen recipient
@@ -386,17 +386,17 @@
                       document.getElementById('solr_fq').value = '';
                       document.getElementById('solr_fl').value = '*,[child]';
                       document.getElementById('num_hits').value = '300';">
-              (0 hits)
+              (1 hits) <strong style="color:green;">Success!</strong>
             </a>
           
           </p>
 
-      <p>
-            <strong>3.</strong> Basically the same thing but Georg and David change roles
+          <p>
+            <strong>3.</strong> Basically the same thing but Georg and David change roles (letters from David to Georg)
             (I.e., using a
              <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
              Join Parent Query Parser</a>) but this time we want brandes to be recipient and simonsen sender
-             <kbd id="brandes_parent_and_simonsen_query_opposite">{!parent which="described:true"}{!edismax v="agent_name:georg AND entity_type:rcp"} AND {!parent which="described:true"}{!edisimax v="agent_name:(david simonsen) AND entity_type:aut"}</kbd>
+             <kbd id="brandes_parent_and_simonsen_query_opposite">{!parent which="described:true"}{!edismax v="agent_name:georg AND entity_type:rcp"} AND {!parent which="described:true"}{!edismax v="agent_name:(david simonsen) AND entity_type:aut"}</kbd>
             <a href="#form"
              onclick="var content = document.getElementById('brandes_parent_and_simonsen_query_opposite').innerHTML;
                       document.getElementById('solr_q').value = content;
@@ -405,17 +405,37 @@
                       document.getElementById('solr_fq').value = '';
                       document.getElementById('solr_fl').value = '*,[child]';
                       document.getElementById('num_hits').value = '300';">
-              (0 hits)
+              (8 hits) <strong style="color:green;">Success!</strong>
             </a>
           
           </p>
 
-          
-          <h4>Block Join Children Query Parser</h4>
+             <p><strong>12.</strong> In the test corpus we have a lot of
+        more or less well dated objects. Like a manuscript completed
+        sometime between 1542 and 1544 (which is a detailed dating for
+        a 16th century manuscript). Assume we want to find mss from
+        the first half of the 16th century, i.e., 1500 - 1550:
+        
+        <kbd id="date_searches">not_before_date:[1500 TO *] AND not_after_date:[* TO 1550]</kbd>
 
-          <p>Here I could have discussed
-          the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-children-query-parser">Block
-          Join Children Query Parser</a>, but I don't do that.</p>
+        <a href="#form"
+           onclick="var content = document.getElementById('date_searches').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (1 hits)
+          </a>.
+        
+        </p>
+          
+          
+        <h4>Block Join Children Query Parser</h4>
+
+        <p>Here I could have discussed the <a
+        href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-children-query-parser">Block
+        Join Children Query Parser</a>, but I don't do that.</p>
           
 
 
