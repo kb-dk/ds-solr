@@ -410,22 +410,22 @@
           
           </p>
 
-             <p><strong>12.</strong> In the test corpus we have a lot of
-        more or less well dated objects. Like a manuscript completed
-        sometime between 1542 and 1544 (which is a detailed dating for
-        a 16th century manuscript). Assume we want to find mss from
-        the first half of the 16th century, i.e., 1500 - 1550:
+          <p><strong>4.</strong> In the test corpus we have a lot of
+          more or less well dated objects. Like a early 16th century
+          manuscript). Assume we want to find a 12th (i.e, 1100-1199)
+          century manuscript
         
-        <kbd id="date_searches">not_before_date:[1500 TO *] AND not_after_date:[* TO 1550]</kbd>
+        <kbd id="medieval_date_searches">not_before_date:[1100 TO *] AND not_after_date:[* TO 1199] AND {!parent which="described:true"}{!edismax v="agent_name:(Basilius Magnus) AND entity_type:aut"}</kbd>
 
         <a href="#form"
-           onclick="var content = document.getElementById('date_searches').innerHTML;
+           onclick="var content = document.getElementById('medieval_date_searches').innerHTML;
                     document.getElementById('solr_q').value = content;
                     console.log(content);
+                    document.getElementById('querytype').value = 'lucene';
                     document.getElementById('solr_fq').value = '';
                     document.getElementById('solr_fl').value = '*,[child]';
                     document.getElementById('num_hits').value = '300';">
-            (1 hits)
+            (1 hits) <strong style="color:green;">Success!</strong>
           </a>.
         
         </p>
