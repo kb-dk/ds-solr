@@ -429,7 +429,26 @@
           </a>.
         
         </p>
-          
+
+
+	<p>
+	  <strong>5.</strong> Phrase boosted fields, pf. This is a
+	  special feature of eDismax. The title field seems to be
+	  reasonable for that.
+        <kbd id="phrase_boosted_search">{!parent which="described:true"}{!edismax pf=title,agent_name v="title:albert"}</kbd>
+
+        <a href="#form"
+           onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('querytype').value = 'lucene';
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (1 hits) <strong style="color:green;">Success!</strong>
+          </a>.
+        
+        </p>
           
         <h4>Block Join Children Query Parser</h4>
 
