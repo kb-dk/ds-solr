@@ -159,6 +159,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="authority"   type="string" stored="true"  indexed="true" />
     
     <field name="agent_name"           type="text_da" multiValued="true"/>   <?field-description agent_name Name of an agent that has created or contributed to the material. An agent is a person or corporate body (or possibly automata) which stands in a relation to the object. Typical relators are aut, ctb, rcp, scr, trl, act and art  (author, contributor, recipient, scribe, translator, actor and artist).  ?>
+
+
+   
     
     <field name="agent_name_verbatim"  type="string" multiValued="true"/>
     <!-- Agent contributing to for the material, used for sorting.
@@ -170,6 +173,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <copyField source="author"      dest="author_verbatim"/>
 
     <field name="agent_name_sort"       type="sort_da" multiValued="true"/>
+
     <copyField source="agent_name"      dest="agent_name_sort"/>
     <copyField source="agent_name"      dest="agent_name_verbatim"/>
 
