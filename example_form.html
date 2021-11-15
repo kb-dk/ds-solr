@@ -463,7 +463,7 @@ score desc
 	<p>
 	  <strong>6.</strong>Sort test. We repeat the  phrase boosted fields fields above.
           Now we try to sort by something else
-        <kbd id="phrase_boosted_search_childfunction">childfield(title,'{!parent which="described:true"}{!edismax pf=title,agent_name v="title:from albert  to david"}') desc</kbd>
+        <kbd id="phrase_boosted_search_childfunction">{!parent which="described:true"  v="+described:false +{!func}title_sort" } desc</kbd>
 
         <a href="#form"
            onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
@@ -476,9 +476,29 @@ score desc
                     document.getElementById('solr_fq').value = '';
                     document.getElementById('solr_fl').value = '*,[child]';
                     document.getElementById('num_hits').value = '300';">
-            (Error) <strong style="color:red;">Failure!</strong>
-          </a>.
-        
+            (12 but sort no effect on result set whatsoever) <strong style="color:red;">Failure!</strong>
+            </a>.
+        </p>
+
+        <p>
+        <a href="#form"
+           onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
+                    var sort_function = document.getElementById('childfield_search_childfunction').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('querytype').value = 'lucene';
+                    document.getElementById('boolean').value = 'OR';
+                    document.getElementById('sort_by').value = sort_function;
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+ 	<kbd>sort=<span id="childfield_search_childfunction">childfield(title_sort) asc</span></kbd> Might actually work  <strong style="color:yellow;">Promising</strong>.
+            </a>. Changing asc to desc yields another order.
+            
+
+            
+
+	
         </p>
         
 
