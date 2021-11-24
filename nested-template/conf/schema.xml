@@ -144,7 +144,9 @@ daterange does not handle docValues - we might need two versions of datetime
     <!-- Free-form notes for the material. -->
     <field name="note"             type="text_da" multiValued="true"/>
 
-    <!-- Authors of the material. -->
+    <!-- Authors or creators of the material. -->
+    <field name="creator"           type="text_da" multiValued="true"/>
+    
     <field name="author"           type="text_da" multiValued="true"/>
     <!-- Authors of the material in verbatim form, used for grouping & faceting.
          Populated automatically from `author` using copyField. -->

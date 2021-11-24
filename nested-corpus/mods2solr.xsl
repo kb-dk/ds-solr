@@ -49,6 +49,67 @@
 
             <f:boolean key="described">true</f:boolean>
             <f:string key="entity_type">the_object</f:string>
+
+            <f:map key="solr_summary_record">
+              <f:string key="id">
+                <xsl:value-of select="concat($record-id,'!summary')"/>
+              </f:string>
+              <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+              <f:boolean key="described">false</f:boolean>
+              <f:string key="entity_type">solr_summary_record</f:string>
+              <f:array key="title">
+                <xsl:for-each select="m:titleInfo[@xml:lang='da']">
+                  <f:string><xsl:value-of select="normalize-space(m:title)"/></f:string>
+                </xsl:for-each>
+                <xsl:for-each select="m:titleInfo[@xml:lang='en']">
+                  <f:string><xsl:value-of select="normalize-space(m:title)"/></f:string>
+                </xsl:for-each>
+                <xsl:for-each select="m:titleInfo[not(@xml:lang='en') or not(@xml:lang='da')]">
+                  <f:string><xsl:value-of select="normalize-space(m:title)"/></f:string>
+                </xsl:for-each>
+              </f:array>
+
+              <f:array key="creator">
+                <xsl:for-each select="m:name[not(@type='cumulus')][m:role/m:roleTerm = 'art' or m:role/m:roleTerm = 'aut' or m:role/m:roleTerm = 'creator']">
+                  <f:string>
+                    <xsl:value-of select="m:namePart"/>
+                  </f:string>
+                </xsl:for-each>
+              </f:array>
+              
+              <f:array key="subject_person">
+                <xsl:for-each select="m:name[not(@type='cumulus')][not(m:role/m:roleTerm = 'art' or m:role/m:roleTerm = 'aut' or m:role/m:roleTerm = 'creator')]|m:subject/m:name">
+                  <f:string>
+                    <xsl:value-of select="m:namePart"/>
+                  </f:string>
+                </xsl:for-each>
+              </f:array>
+              
+              <f:array key="subject">
+                <xsl:for-each select="m:subject">
+                  <xsl:for-each select="m:topic|m:geographic|m:temporal|m:titleInfo|m:genre|m:hierarchicalGeographic|m:geographicCode|m:occupation">
+                    <f:string><xsl:value-of select="normalize-space(.)"/></f:string>
+                  </xsl:for-each>
+                </xsl:for-each>
+              </f:array>
+
+              <f:array key="description">
+                <xsl:for-each select="m:note">
+                  <f:string><xsl:value-of select="normalize-space(.)"/></f:string>
+                </xsl:for-each>
+                <xsl:for-each select="m:physicalDescription">
+                  <xsl:for-each select="m:form
+                                        | m:reformattingQuality
+                                        | m:internetMediaType
+                                        | m:extent
+                                        | m:digitalOrigin
+                                        | m:note[not(@type='pageOrientation')]">
+                    <f:string><xsl:value-of select="normalize-space(.)"/></f:string>
+                  </xsl:for-each>
+                </xsl:for-each>
+              </f:array>
+              
+            </f:map>
             
             <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
               <f:string key="cataloging_language">
