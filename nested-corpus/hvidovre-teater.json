@@ -3,6 +3,30 @@
     "id": "images!billed!2010!okt!billeder!object356751",
     "described": true,
     "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "images!billed!2010!okt!billeder!object356751!summary",
+      "describing": "images!billed!2010!okt!billeder!object356751",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Hvidovre Teater",
+        "Hvidovre Teater"
+      ],
+      "creator": [
+        "Seidel, Claus 1946-05-24"
+      ],
+      "subject_person": [
+        "Lind, Lane 1945-",
+        "Sandø, Waage 1943-"
+      ],
+      "subject": [],
+      "description": [
+        "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
+        "Sprittusch og raster",
+        "Klassiker",
+        "Tegning"
+      ]
+    },
     "cataloging_language": "da",
     "last_modified_by": [
       {
@@ -42,7 +66,7 @@
       "Klassiker"
     ],
     "specific_notes": {
-      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e60",
+      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e92",
       "describing": "images!billed!2010!okt!billeder!object356751",
       "described": false,
       "situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind."
@@ -67,7 +91,7 @@
     ],
     "categories": [
       {
-        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e95",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e128",
         "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
         "entity_id": "images!billed!2010!okt!billeder!subject2108",
@@ -75,7 +99,7 @@
         "subject_name_en": "Billeder"
       },
       {
-        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e106",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e139",
         "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
         "entity_id": "images!billed!2010!okt!billeder!subject2135",
@@ -83,7 +107,7 @@
         "subject_name_en": "Særudgivelser"
       },
       {
-        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e117",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e150",
         "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
         "entity_id": "images!billed!2010!okt!billeder!subject4277",
@@ -91,7 +115,7 @@
         "subject_name_en": "Seidel, Claus"
       },
       {
-        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e128",
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e161",
         "describing": "images!billed!2010!okt!billeder!object356751",
         "described": false,
         "entity_id": "images!billed!2010!okt!billeder!subject6229",
@@ -105,7 +129,7 @@
       "1987-01-31"
     ],
     "physical_description": {
-      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e147",
+      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e179",
       "describing": "images!billed!2010!okt!billeder!object356751",
       "described": false,
       "technique": "Tegning"

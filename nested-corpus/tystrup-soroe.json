@@ -3,6 +3,28 @@
     "id": "images!luftfo!2011!maj!luftfoto!object322504",
     "described": true,
     "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "images!luftfo!2011!maj!luftfoto!object322504!summary",
+      "describing": "images!luftfo!2011!maj!luftfoto!object322504",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Næblerødvej 32, Næblerød - 1936-1939 -",
+        "Næblerødvej 32, Næblerød - 1936-1939 -"
+      ],
+      "creator": [
+        "Sylvest Jensen Luftfoto"
+      ],
+      "subject_person": [],
+      "subject": [
+        "Præsteskov 17b Tystrup Jægerhytten 4250 32 Næblerødvej Fuglebjerg",
+        "Danmark, Sjælland, Sorø, Tystrup",
+        "kastrup storskov",
+        "hestekøretøj",
+        "præsteskov"
+      ],
+      "description": []
+    },
     "cataloging_language": "da",
     "last_modified_by": [
       {
@@ -48,7 +70,7 @@
     ],
     "categories": [
       {
-        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e69",
+        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e99",
         "describing": "images!luftfo!2011!maj!luftfoto!object322504",
         "described": false,
         "entity_id": "images!luftfo!2011!maj!luftfoto!subject203",
@@ -56,7 +78,7 @@
         "subject_name_en": "Luftfoto"
       },
       {
-        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e80",
+        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e110",
         "describing": "images!luftfo!2011!maj!luftfoto!object322504",
         "described": false,
         "entity_id": "images!luftfo!2011!maj!luftfoto!subject204",
@@ -64,7 +86,7 @@
         "subject_name_en": "Sylvest Jensen"
       },
       {
-        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e91",
+        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e121",
         "describing": "images!luftfo!2011!maj!luftfoto!object322504",
         "described": false,
         "entity_id": "images!luftfo!2011!maj!luftfoto!subject251",
@@ -72,7 +94,7 @@
         "subject_name_en": "NK-Serie"
       },
       {
-        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e102",
+        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e132",
         "describing": "images!luftfo!2011!maj!luftfoto!object322504",
         "described": false,
         "entity_id": "images!luftfo!2011!maj!luftfoto!subject843",
@@ -81,7 +103,7 @@
       }
     ],
     "coverage_geo_names": {
-      "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e113",
+      "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e143",
       "describing": "images!luftfo!2011!maj!luftfoto!object322504",
       "described": false,
       "area": "Præsteskov",
