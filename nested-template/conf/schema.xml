@@ -126,14 +126,14 @@ daterange does not handle docValues - we might need two versions of datetime
     <?begin-field-group title, authors etc ?>
   
     <!-- Title for the material. -->
-    <field name="title"            type="text_da"  termVectors="true"/>  <?field-description title The name given to the resource by its creator, or occasionally by its cataloger   ?>
+    <field name="title"            type="text_da"  termVectors="true" multiValued="true" />  <?field-description title The name given to the resource by its creator, or occasionally by its cataloger   ?>
     <!-- Title for the material, used for sorting.
          Populated automatically from `title`. -->
-    <field name="title_sort"       type="sort_da"/>   <?field-description title_sort ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...) ?>
-    <copyField source="title"      dest="title_sort"/>
+    <field name="title_sort"       type="sort_da" multiValued="true" />   <?field-description title_sort ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...) ?>
+    <!-- copyField source="title"      dest="title_sort" multiValued="true"/ -->
 
     <!-- Description of the material. -->
-    <field name="description"      type="text_da"/>
+    <field name="description"      type="text_da" multiValued="true"/>
     <field name="situation"        type="text_da"/>
 
     <field name="content"          type="text_da"/>
