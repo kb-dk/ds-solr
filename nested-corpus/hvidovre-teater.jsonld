@@ -4,13 +4,6 @@
 	"@type": "ComicStory",
 	"id": "images!billed!2010!okt!billeder!object356751",
 	"inLanguage": "da",
-	"dateModified": "2010-01-01",
-	"dataFeedElement": [
-	    {
-		"@type": "DataFeedItem",
-		"name": "cumulus:blo"
-	    }
-	],
 	"name":"Hvidovre Teater@da",
 	"creator": [
 	    {
