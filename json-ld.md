@@ -5,11 +5,14 @@
 * https://schema.org/Drawing
 * https://schema.org/Photograph
 * https://schema.org/Painting
+* https://schema.org/ComicStory
+* https://schema.org/ImageObject (embedded image)
 
 ## aerial photography
 
 * https://schema.org/GeoCoordinates
 * https://schema.org/geo
+* https://schema.org/Place
 
 ## book
 
@@ -24,6 +27,7 @@
 ## letters
 
 * https://schema.org/Conversation
+* https://schema.org/Message
 
 ## maps or atlases
 
