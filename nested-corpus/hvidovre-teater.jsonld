@@ -9,7 +9,8 @@
 	    {
 		"@type":"Person",
 		"url": "http://viaf.org/viaf/25276097",
-		"name": "Seidel, Claus (1946-05-24)"
+		"birthDate":"1946-05-24",
+		"name": "Seidel, Claus"
 	    }
 	],
 	"description": [
