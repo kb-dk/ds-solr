@@ -14,12 +14,13 @@
 	    }
 	],
 	"description": [
-	    "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
 	    "Sprittusch og raster",
 	    "Klassiker"
 	],
 	"about": {
 	    "@type": "TheaterEvent",
+	    "description": ["Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
+			    "Hvidovre Teater, Hvidovre; 1987; Revykomedie af Abell, Kjeld (1901-1961) dramatiker" ],
 	    "actor": [
 		{
 		    "@type": "Person",
