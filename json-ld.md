@@ -1,5 +1,11 @@
 # A MODS work-alike based on schema.org & json-ld
 
+See
+
+* [INFO on SEO and json-ld](https://www.investisdigital.com/blog/seo/walkthrough-of-structured-data-and-schema-markup-with-examples)
+* [schema.org](https://schema.org/)
+* [validator](https://search.google.com/test/rich-results)
+
 ## image
 
 * https://schema.org/Drawing
