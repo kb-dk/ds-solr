@@ -1,6 +1,6 @@
 {
     "@context": "https://schema.org",
-    "@type": "ComicStory",
+    "@type": "VisualArtwork",
     "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/da/",
     "inLanguage": "da",
     "name":"Hvidovre Teater@da",
@@ -15,7 +15,7 @@
     "creator": [
 	{
 	    "@type":"Person",
-	    "url": "http://viaf.org/viaf/25276097",
+	    "sameAs": "http://viaf.org/viaf/25276097",
 	    "birthDate":"1946-05-24",
 	    "name": "Seidel, Claus"
 	}
@@ -34,13 +34,13 @@
 	"actor": [
 	    {
 		"@type": "Person",
-		"url": "http://viaf.org/viaf/312847028",
+		"sameAs": "http://viaf.org/viaf/312847028",
 		"birthDate":"1945",
 		"name": "Lind, Lane"
 	    },
 	    {
 		"@type": "Person",
-		"url": "http://viaf.org/viaf/316745351",
+		"sameAs": "http://viaf.org/viaf/316745351",
 		"birthDate":"1943",
 		"name": "Sandø, Waage"
 	    }
@@ -55,6 +55,6 @@
     "datePublished": "1987-01-31",
     "identifier": ["Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5.",
 		   "db_claus_seidel_00459.tif",
-		   "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f"],
+		   "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f"]
 }
 
