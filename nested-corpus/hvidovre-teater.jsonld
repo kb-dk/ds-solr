@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": "ComicStory",
-    "id": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/da/",
+    "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/da/",
     "inLanguage": "da",
     "name":"Hvidovre Teater@da",
     "headline":"Hvidovre Teater@da",
@@ -56,6 +56,5 @@
     "identifier": ["Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5.",
 		   "db_claus_seidel_00459.tif",
 		   "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f"],
-    "url":"https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json"
 }
 
