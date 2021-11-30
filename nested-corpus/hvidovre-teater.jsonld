@@ -4,7 +4,7 @@
     "dataFeedElement": [
 	{
 	    "@context": "https://schema.org",
-	    "@type": "VisualArtwork",
+	    "@type": "Drawing",
 	    "id": "images!billed!2010!okt!billeder!object356751",
 	    "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/da/",
 	    "inLanguage": "da",
