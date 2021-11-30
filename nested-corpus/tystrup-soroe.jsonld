@@ -1,11 +1,14 @@
 {
-    "@context": "https://schema.org",
+    "@context": [
+	"http://schema.org/",
+	{"kb": "http://kb.dk/vocabs/"}
+    ],
     "@type": "DataFeed",
     "dataFeedElement": [
 	{
 	    "id": "images!luftfo!2011!maj!luftfoto!object322504",
 	    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/object322504",
-	    "@type": "Photograph",
+	    "@type": "VisualArtwork",
 	    "inLanguage": "da",
 	    "headline": "Næblerødvej 32, Næblerød - 1936-1939 -",
 	    "creator": [
@@ -15,17 +18,14 @@
 		    "name": "Sylvest Jensen Luftfoto"
 		}
 	    ],
-	    "keywords": [
-		"kastrup storskov",
-		"hestekøretøj",
-		"præsteskov"
-	    ],
+  
 	    "contentLocation": [
 		{
 		    "@type":"Place",
 		    "name": "Danmark, Sjælland, Sorø, Tystrup",
-		    "address": {
+		    "kb:address": {
 			"context":"http://kb.dk/dsfl/",
+			"@type": "dsfl:place",
 			"describing": "images!luftfo!2011!maj!luftfoto!object322504",
 			"area": "Præsteskov",
 			"cadastre": "17b",
@@ -40,24 +40,32 @@
 		    "longitude": "11.532704574783565"
 		}
 	    ],
-	    "category": [
-		{
+
+	    "keywords": [
+		"kastrup storskov",
+		"hestekøretøj",
+		"præsteskov",
+	    	{
 		    "id": "images!luftfo!2011!maj!luftfoto!subject203",
+		    "@type":"DefinedTerm",
 		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject203",
 		    "name": "Luftfoto"
 		},
 		{
 		    "id": "images!luftfo!2011!maj!luftfoto!subject204",
+		    "@type":"DefinedTerm",
 		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject204",
 		    "name": "Sylvest Jensen"
 		},
 		{
 		    "id": "images!luftfo!2011!maj!luftfoto!subject251",
+		    "@type":"DefinedTerm",
 		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject251",
 		    "name": "NK-Serie"
 		},
 		{
 		    "id": "images!luftfo!2011!maj!luftfoto!subject843",
+		    "@type":"DefinedTerm",
 		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject843",
 		    "name": "Hovedstaden"
 		}
@@ -70,8 +78,11 @@
 		"sylvest_nks_00950_6.tif",
 		"Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f"
 	    ],
-	    "contentUrl": [
-		"https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+	    "encoding" :  [
+		{
+		    "@type": "MediaObject",
+		    "contentUrl":"https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+		}
 	    ]
 	}
     ]
