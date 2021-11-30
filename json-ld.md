@@ -8,6 +8,7 @@ See
 
 ## image
 
+* https://schema.org/VisualArtwork
 * https://schema.org/Drawing
 * https://schema.org/Photograph
 * https://schema.org/Painting
