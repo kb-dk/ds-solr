@@ -12,6 +12,7 @@ mods_files=("albert-einstein.xml"
 	    "tystrup-soroe.xml"
 	    "homiliae-super-psalmos.xml"
 	    "work_on_logic.xml"
+	    "joergen_hansens_visebog.xml"
 	    "responsa.xml")
 
 for file in ${mods_files[@]}; do
