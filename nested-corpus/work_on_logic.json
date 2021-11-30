@@ -228,150 +228,583 @@
     ],
     "read_direction": "RTL",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00144/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00001/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00002/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00003/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00004/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00005/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00006/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00007/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00008/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00009/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00010/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00011/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00012/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00013/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00014/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00015/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00016/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00017/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00018/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00019/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00020/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00021/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00022/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00023/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00024/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00025/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00026/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00027/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00028/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00029/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00030/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00031/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00032/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00033/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00034/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00035/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00036/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00037/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00038/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00039/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00040/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00041/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00042/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00043/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00044/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00045/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00046/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00047/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00048/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00049/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00050/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00051/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00052/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00053/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00054/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00055/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00056/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00057/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00058/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00059/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00060/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00061/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00062/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00063/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00064/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00065/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00066/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00067/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00068/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00069/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00070/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00071/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00072/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00073/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00074/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00075/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00076/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00077/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00078/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00079/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00080/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00081/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00082/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00083/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00084/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00085/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00086/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00087/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00088/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00089/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00090/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00091/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00092/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00093/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00094/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00095/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00096/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00097/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00098/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00099/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00100/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00101/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00102/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00103/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00104/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00105/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00106/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00107/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00108/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00109/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00110/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00111/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00112/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00113/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00114/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00115/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00116/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00117/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00118/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00119/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00120/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00121/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00122/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00123/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00124/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00125/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00126/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00127/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00128/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00129/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00130/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00131/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00132/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00133/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00134/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00135/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00136/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00137/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00138/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00139/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00140/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00141/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00142/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00143/info.json"
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e331",
+        "title": "he|מלות ההגיון",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00144/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e336",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00001/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e339",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00002/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e342",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00003/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e345",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00004/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e348",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00005/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e351",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00006/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e354",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00007/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e357",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00008/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e360",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00009/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e363",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00010/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e367",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00011/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e370",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00012/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e373",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00013/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e376",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00014/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e379",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00015/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e382",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00016/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e385",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00017/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e388",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00018/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e391",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00019/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e394",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00020/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e397",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00021/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e401",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00022/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e404",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00023/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e407",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00024/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e410",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00025/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e413",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00026/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e416",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00027/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e419",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00028/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e422",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00029/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e425",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00030/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e428",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00031/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e431",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00032/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e435",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00033/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e438",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00034/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e441",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00035/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e444",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00036/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e447",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00037/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e450",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00038/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e453",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00039/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e456",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00040/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e459",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00041/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e462",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00042/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e465",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00043/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e469",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00044/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e472",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00045/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e475",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00046/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e478",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00047/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e481",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00048/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e484",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00049/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e487",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00050/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e490",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00051/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e493",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00052/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e496",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00053/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e499",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00054/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e503",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00055/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e506",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00056/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e509",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00057/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e512",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00058/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e515",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00059/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e518",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00060/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e521",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00061/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e524",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00062/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e527",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00063/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e530",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00064/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e533",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00065/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e537",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00066/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e540",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00067/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e543",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00068/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e546",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00069/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e549",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00070/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e552",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00071/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e555",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00072/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e558",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00073/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e561",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00074/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e564",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00075/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e567",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00076/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e571",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00077/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e574",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00078/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e577",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00079/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e580",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00080/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e583",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00081/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e586",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00082/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e589",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00083/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e592",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00084/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e595",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00085/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e598",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00086/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e601",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00087/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e605",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00088/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e608",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00089/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e611",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00090/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e614",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00091/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e617",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00092/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e620",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00093/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e623",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00094/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e626",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00095/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e629",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00096/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e632",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00097/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e635",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00098/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e639",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00099/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e642",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00100/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e645",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00101/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e648",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00102/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e651",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00103/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e654",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00104/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e657",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00105/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e660",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00106/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e663",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00107/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e666",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00108/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e669",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00109/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e673",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00110/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e676",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00111/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e679",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00112/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e682",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00113/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e685",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00114/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e688",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00115/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e691",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00116/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e694",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00117/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e697",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00118/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e700",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00119/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e703",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00120/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e707",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00121/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e710",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00122/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e713",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00123/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e716",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00124/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e719",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00125/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e722",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00126/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e725",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00127/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e728",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00128/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e731",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00129/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e734",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00130/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e737",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00131/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e741",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00132/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e744",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00133/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e747",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00134/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e750",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00135/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e753",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00136/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e756",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00137/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e759",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00138/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e762",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00139/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e765",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00140/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e768",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00141/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e771",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00142/info.json"
+      },
+      {
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e775",
+        "url": "https://kb-images.kb.dk/online_master_arkiv_5/non-archival/Manus/JUDSAM/2008/csh0035/csh0035_00143/info.json"
+      }
     ]
   }
 ]
