@@ -10,6 +10,14 @@
             "headline": [
 		"Jørgen Hansens visebog"
             ],
+	    "name":"Jørgen Hansens visebog",
+	    "image":{
+		"@type" : "imageObject",
+		"url" : "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/full/!300,/0/native.jpg",
+		"width":300,
+		"height":300
+
+	    },
 	    "publisher": [
 		{
 		    "@type" : "Organization",
