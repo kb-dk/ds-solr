@@ -1,0 +1,89 @@
+{
+    "@context": [
+	"http://schema.org/",
+	{"kb": "http://kb.dk/vocabs/"}
+    ],
+    "@type": "DataFeed",
+    "dataFeedElement": [
+	{
+	    "id": "images!luftfo!2011!maj!luftfoto!object322504",
+	    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/object322504",
+	    "@type": "VisualArtwork",
+	    "inLanguage": "da",
+	    "headline": "Næblerødvej 32, Næblerød - 1936-1939 -",
+	    "creator": [
+		{
+		    "@type":"Person",
+		    "sameAs" : "http://viaf.org/viaf/307245669",
+		    "name": "Sylvest Jensen Luftfoto"
+		}
+	    ],
+  
+	    "contentLocation": [
+		{
+		    "@type":"Place",
+		    "name": "Danmark, Sjælland, Sorø, Tystrup",
+		    "kb:address": {
+			"context":"http://kb.dk/dsfl/",
+			"@type": "dsfl:place",
+			"describing": "images!luftfo!2011!maj!luftfoto!object322504",
+			"area": "Præsteskov",
+			"cadastre": "17b",
+			"parish": "Tystrup",
+			"building": "Jægerhytten",
+			"zipcode": "4250",
+			"housenumber": "32",
+			"street": "Næblerødvej",
+			"city": "Fuglebjerg"
+		    },
+		    "latitude": "55.35492968597365",
+		    "longitude": "11.532704574783565"
+		}
+	    ],
+
+	    "keywords": [
+		"kastrup storskov",
+		"hestekøretøj",
+		"præsteskov",
+	    	{
+		    "id": "images!luftfo!2011!maj!luftfoto!subject203",
+		    "@type":"DefinedTerm",
+		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject203",
+		    "name": "Luftfoto"
+		},
+		{
+		    "id": "images!luftfo!2011!maj!luftfoto!subject204",
+		    "@type":"DefinedTerm",
+		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject204",
+		    "name": "Sylvest Jensen"
+		},
+		{
+		    "id": "images!luftfo!2011!maj!luftfoto!subject251",
+		    "@type":"DefinedTerm",
+		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject251",
+		    "name": "NK-Serie"
+		},
+		{
+		    "id": "images!luftfo!2011!maj!luftfoto!subject843",
+		    "@type":"DefinedTerm",
+		    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/subject843",
+		    "name": "Hovedstaden"
+		}
+	    ],
+	    
+	    
+	    "dateCreated": "1936-1939",
+	    "identifier": [
+		"St. Dyr.",
+		"sylvest_nks_00950_6.tif",
+		"Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f"
+	    ],
+	    "encoding" :  [
+		{
+		    "@type": "MediaObject",
+		    "contentUrl":"https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+		}
+	    ]
+	}
+    ]
+}

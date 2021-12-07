@@ -125,8 +125,14 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0030/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2678!disposable!subrecord!d3e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json"
+      },
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2678!disposable!subrecord!d3e179",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0030/info.json"
+      }
     ]
   },
   {
@@ -255,8 +261,14 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0022/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0023/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2671!disposable!subrecord!d4e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0022/info.json"
+      },
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2671!disposable!subrecord!d4e179",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0023/info.json"
+      }
     ]
   },
   {
@@ -385,7 +397,10 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0033/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2681!disposable!subrecord!d5e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0033/info.json"
+      }
     ]
   },
   {
@@ -514,7 +529,10 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0025/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2674!disposable!subrecord!d6e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0025/info.json"
+      }
     ]
   },
   {
@@ -643,7 +661,10 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0032/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2680!disposable!subrecord!d7e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0032/info.json"
+      }
     ]
   },
   {
@@ -772,8 +793,14 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0027/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0028/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2676!disposable!subrecord!d8e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0027/info.json"
+      },
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2676!disposable!subrecord!d8e179",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0028/info.json"
+      }
     ]
   },
   {
@@ -902,8 +929,14 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0020/info.json",
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0021/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2670!disposable!subrecord!d9e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0020/info.json"
+      },
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2670!disposable!subrecord!d9e179",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0021/info.json"
+      }
     ]
   },
   {
@@ -1032,7 +1065,10 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0031/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2679!disposable!subrecord!d10e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0031/info.json"
+      }
     ]
   },
   {
@@ -1161,7 +1197,10 @@
     ],
     "read_direction": "LTR",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0024/info.json"
+      {
+        "id": "letters!judsam!2011!mar!dsa!object2673!disposable!subrecord!d11e176",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0024/info.json"
+      }
     ]
   }
 ]

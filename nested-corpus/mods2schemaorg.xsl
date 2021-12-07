@@ -455,14 +455,11 @@
   </xsl:template>
   
   <xsl:template name="make_page_field">
-    <xsl:variable name="chapter" select="m:titleInfo/m:title"/>
+
     <xsl:choose>
       <xsl:when test="m:identifier[@displayLabel='iiif']">
-
         <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]">
-          <xsl:call-template name="find-pages">
-            <xsl:with-param name="chapter"><xsl:value-of select="$chapter"/></xsl:with-param>
-          </xsl:call-template>
+          <xsl:call-template name="find-pages"/>
         </xsl:for-each>
 
         <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif']]">
@@ -470,10 +467,8 @@
         </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:for-each select="m:identifier[contains(.,'.tif')]">
-          <xsl:call-template name="find-pages">
-            <xsl:with-param name="chapter"><xsl:value-of select="$chapter"/></xsl:with-param>
-          </xsl:call-template>
+          <xsl:for-each select="m:identifier[contains(.,'.tif')]">
+          <xsl:call-template name="find-pages"/>
         </xsl:for-each>
 
         <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
@@ -485,8 +480,6 @@
   </xsl:template>
   
   <xsl:template name="find-pages">
-    <xsl:param name="chapter" select="''"/>
-    
     <xsl:variable name="img">
       <xsl:choose>	 
 	<xsl:when test="./@displayLabel='iiif'">
@@ -507,26 +500,17 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-
-  
     <xsl:if test="string-length($img) &gt; 0">
-      <f:map>
-        <xsl:if test="string-length($chapter) &gt; 0">
-          <f:string key="title">
-            <xsl:value-of select="$chapter"/>
-          </f:string>
-        </xsl:if>
-        <f:string key="url">
-	  <xsl:choose>
-	    <xsl:when test="contains($img,'.json')">
-	      <xsl:value-of select="$img"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:value-of select="concat('https://kb-images.kb.dk/',$img,'/info.json')"/>
-	    </xsl:otherwise>
-	  </xsl:choose>            
-        </f:string>
-      </f:map>
+      <f:string>
+	<xsl:choose>
+	  <xsl:when test="contains($img,'.json')">
+	    <xsl:value-of select="$img"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat('https://kb-images.kb.dk/',$img,'/info.json')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </f:string>
     </xsl:if>
   </xsl:template>
 

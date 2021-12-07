@@ -101,7 +101,10 @@
     "local_identifier": "sylvest_nks_00950_6.tif",
     "doms_guid": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",
     "pages": [
-      "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+      {
+        "id": "images!luftfo!2011!maj!luftfoto!object322504!disposable!subrecord!d3e146",
+        "url": "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+      }
     ]
   }
 ]

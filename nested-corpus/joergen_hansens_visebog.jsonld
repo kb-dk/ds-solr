@@ -1,0 +1,414 @@
+{
+    "@context": "https://schema.org",
+    "@type": "DataFeed",
+    "dataFeedElement": [
+	{
+	    "id": "manus!musman!2010!dec!viser!object51196",
+	    "url":"http://www5.kb.dk/manus/musman/2010/dec/viser/object51196/da/",
+	    "@type": "Manuscript",
+	    "inLanguage": "da",
+            "headline": [
+		"Jørgen Hansens visebog"
+            ],
+	    "name":"Jørgen Hansens visebog",
+	    "image":{
+		"@type" : "imageObject",
+		"url" : "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/full/!300,/0/native.jpg",
+		"width":300,
+		"height":300
+
+	    },
+	    "publisher": [
+		{
+		    "@type" : "Organization",
+		    "name": "Dansk Folkemindesamling"
+		}
+	    ],
+	    "keywords": [
+		{
+		    "@type":"DefinedTerm",
+		    "id": "manus!musman!2010!dec!viser!subject398",
+		    "url": "http://www5.kb.dk/manus/musman/2010/dec/viser/subject398/da/",
+		    "name": "Jørgen Hansens visebog"
+		},
+		{
+		    "@type":"DefinedTerm",
+		    "id": "manus!musman!2010!dec!viser!subject6015",
+		    "url" : "http://www5.kb.dk/manus/musman/2010/dec/viser/subject6015/da/",
+		    "name": "Visebøger, håndskrevne"
+		},
+		{
+		    "id": "manus!musman!2010!dec!viser!subject6925",
+		    "@type":"DefinedTerm",
+		    "url": "http://www5.kb.dk/manus/musman/2010/dec/viser/subject6925/da/",
+		    "name": "Dansk Folkemindesamling"
+		}
+	    ],
+	    "encoding" :  [	    
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e93",
+		    "name": "Jørgen Hansens visebog",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e98",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e101",
+		    "name": "01 En vise vil jeg skrive til eder, mine venner kære",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e106",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e109",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e112",
+		    "name": "02 Gud trøste mig, som må i slavekæde",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e117",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e120",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e123",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e126",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e129",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e133",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e136",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e139",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e142",
+		    "name": "03 Elvina går til sin faders borg",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e147",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e150",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e153",
+		    "name": "04 En sang jeg vil skrive og sende til dig",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e158",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e161",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e164",
+		    "name": "05 Hr. Zinklar drog over salten hav",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e169",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e173",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e176",
+		    "name": "06 En vise for eder jeg nu fortælle vil (Strasbourgervisen)",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e181",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e184",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e187",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e190",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e193",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e196",
+		    "name": "07 I Holsten en dreng udi syvende år",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e201",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e204",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e207",
+		    "name": "08 O hør, I mine venner, hvad jeg vil fortælle",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e213",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e216",
+		    "name": "09 Dengang budskabet lød",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e221",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e224",
+		    "name": "10 Tapperhed, som alle danske ønsker lyder",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e229",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e232",
+		    "name": "11 Ser I, hvem der kommer her",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e237",
+		    "name": "12 Dengang almagtens Gud",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e242",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e245",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e248",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e251",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e255",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e258",
+		    "name": "13 Kong Hannibals søn",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e263",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e266",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e269",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e272",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e275",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e278",
+		    "name": "14 Dengang vi drog af sted",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e283",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e286",
+		    "name": "15 Da Preussen listig kom",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e291",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e295",
+		    "name": "16 Fremad march, nu jægerhornet lyder",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e300",
+		    "name": "17 Nu plager Fanden det tyske rak",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e305",
+		    "name": "18 O Karen, fra dansen nu hjem du nok må",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e310",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e313",
+		    "name": "19 Nu hisser vi vores sejl så hvide",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e318",
+		    "name": "20 Hør, du min dejlige pige",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e323",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e326",
+		    "name": "21 Da tiden mig tilbyder",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e331",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e334",
+		    "name": "22 Jeg nogengang begive vil",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e339",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e343",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/info.json"
+		},
+		{
+		    "@type": "MediaObject",
+		    "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e346",
+		    "contentUrl": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/info.json"
+		}
+	    ]
+	}
+    ]
+}
