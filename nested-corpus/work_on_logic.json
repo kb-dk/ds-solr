@@ -3,6 +3,45 @@
     "id": "manus!judsam!2009!sep!dsh!object27137",
     "described": true,
     "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "manus!judsam!2009!sep!dsh!object27137!summary",
+      "describing": "manus!judsam!2009!sep!dsh!object27137",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Milot ha-higayon",
+        "מלות ההגיון",
+        "Milot ha-higayon"
+      ],
+      "creator": [
+        "Maimonides",
+        "Moshe ben Maimon",
+        "Rambam",
+        "משה בן מימון",
+        "רמב\"ם"
+      ],
+      "subject_person": [
+        "Goldblum, J. I.",
+        "גולדבלום, ישראל איסר",
+        "Ibn Tibon, Moshe",
+        "משה אבן תיבון"
+      ],
+      "subject": [
+        "Philosophy (texts and/or commentaries)",
+        "Hebraisk",
+        "Cod. Sim. Heb. 035",
+        "Frankrig"
+      ],
+      "description": [
+        "Copy of MS in the Bibliothèque Nationale, Paris: Cod. Hebr. 673 quarto and 1201 quarto (Zotenberg, H.: Manuscrits orientaux: Catalogue des manuscrits hébreux..., 1866, pp. 105 and 201).",
+        "Work on logic",
+        "Modern Hebrew cursive script",
+        "Allony & Kupfer 1964, # 113",
+        "Paper",
+        "61 fols.",
+        "22 x 17 cm"
+      ]
+    },
     "cataloging_language": "en",
     "last_modified_by": [
       {
@@ -120,7 +159,7 @@
       "Copy of MS in the Bibliothèque Nationale, Paris: Cod. Hebr. 673 quarto and 1201 quarto (Zotenberg, H.: Manuscrits orientaux: Catalogue des manuscrits hébreux..., 1866, pp. 105 and 201)."
     ],
     "specific_notes": {
-      "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e181",
+      "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e241",
       "describing": "manus!judsam!2009!sep!dsh!object27137",
       "described": false,
       "content": "Work on logic",
@@ -135,7 +174,7 @@
     ],
     "categories": [
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e202",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e262",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject315",
@@ -143,7 +182,7 @@
         "subject_name_en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e213",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e273",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject319",
@@ -151,7 +190,7 @@
         "subject_name_en": "Language"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e224",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e284",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject320",
@@ -159,7 +198,7 @@
         "subject_name_en": "Hebrew"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e235",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e295",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject316",
@@ -167,7 +206,7 @@
         "subject_name_en": "Shelf mark"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e246",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e306",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject420",
@@ -175,7 +214,7 @@
         "subject_name_en": "Cod. Sim. Heb. 031-040"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e257",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e317",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject428",
@@ -183,7 +222,7 @@
         "subject_name_en": "Cod. Sim. Heb. 035"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e268",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e328",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject322",
@@ -191,7 +230,7 @@
         "subject_name_en": "Country of origin"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e279",
+        "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e339",
         "describing": "manus!judsam!2009!sep!dsh!object27137",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject429",
@@ -205,7 +244,7 @@
       "1866"
     ],
     "physical_description": {
-      "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e297",
+      "id": "manus!judsam!2009!sep!dsh!object27137!disposable!subrecord!d3e357",
       "describing": "manus!judsam!2009!sep!dsh!object27137",
       "described": false,
       "medium": "Paper",

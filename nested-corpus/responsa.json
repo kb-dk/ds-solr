@@ -3,6 +3,56 @@
     "id": "manus!judsam!2009!sep!dsh!object41158",
     "described": true,
     "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "manus!judsam!2009!sep!dsh!object41158!summary",
+      "describing": "manus!judsam!2009!sep!dsh!object41158",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Qovets she'elot u-tshuvot",
+        "קובץ שאלות ותשובות",
+        "Qovets she'elot u-tshuvot"
+      ],
+      "creator": [
+        "Maimonides",
+        "Moshe ben Maimon",
+        "Rambam",
+        "משה בן מימון",
+        "רמב\"ם"
+      ],
+      "subject_person": [
+        "Yehuda Mordekhai ben Yitsḥaq Mordekhai",
+        "יהודה מרדכי בן יצחק מרדכי",
+        "Alfasi, Yitsḥaq ben Ya'aqov",
+        "Migash, Yosef ben Meir",
+        "Shmuel ben Yosef ha-Nagid",
+        "Alghiani, Yitsḥaq",
+        "Moshe ben Moshe, of Broshilaish",
+        "Ibn Danan, Sa'adya bein Maimon",
+        "אלפסי, יצחק בן יעקב",
+        "מיגש, יוסף בן מאיר",
+        "שמואל בן יוסף הנגיד",
+        "אלגיאני, יצחק",
+        "משה בן משה די ברושלייש",
+        "אבן דנן, סעדיה בן מימון"
+      ],
+      "subject": [
+        "Halakhah",
+        "Hebraisk",
+        "Jødisk-arabisk",
+        "Marokko",
+        "Cod. Sim. Jud.-Arab 001"
+      ],
+      "description": [
+        "The spine of the volume is included in the digitization (before the beginning of the volume).",
+        "Responsa",
+        "North-African Hebrew cursive script",
+        "Allony & Kupfer 1964, # 206",
+        "Paper",
+        "113 fols.",
+        "29,5 x 21 cm"
+      ]
+    },
     "cataloging_language": "en",
     "last_modified_by": [
       {
@@ -200,7 +250,7 @@
       "The spine of the volume is included in the digitization (before the beginning of the volume)."
     ],
     "specific_notes": {
-      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e312",
+      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e395",
       "describing": "manus!judsam!2009!sep!dsh!object41158",
       "described": false,
       "content": "Responsa",
@@ -216,7 +266,7 @@
     ],
     "categories": [
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e335",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e418",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject315",
@@ -224,7 +274,7 @@
         "subject_name_en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e346",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e429",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject319",
@@ -232,7 +282,7 @@
         "subject_name_en": "Language"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e357",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e440",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject320",
@@ -240,7 +290,7 @@
         "subject_name_en": "Hebrew"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e368",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e451",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject423",
@@ -248,7 +298,7 @@
         "subject_name_en": "Judeo-Arabic"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e379",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e462",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject322",
@@ -256,7 +306,7 @@
         "subject_name_en": "Country of origin"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e390",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e473",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject451",
@@ -264,7 +314,7 @@
         "subject_name_en": "Marocco"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e401",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e484",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject316",
@@ -272,7 +322,7 @@
         "subject_name_en": "Shelf mark"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e412",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e495",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject543",
@@ -280,7 +330,7 @@
         "subject_name_en": "Cod. Sim. Jud.-Arab 001-007"
       },
       {
-        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e423",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e506",
         "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "entity_id": "manus!judsam!2009!sep!dsh!subject544",
@@ -296,7 +346,7 @@
       "ש\"ד"
     ],
     "physical_description": {
-      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e445",
+      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e528",
       "describing": "manus!judsam!2009!sep!dsh!object41158",
       "described": false,
       "medium": "Paper",
