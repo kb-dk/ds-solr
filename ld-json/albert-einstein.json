@@ -1,0 +1,143 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {
+      "kb": "http://kb.dk/vocabs/"
+    }
+  ],
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "id": "letters/judsam/2011/mar/dsa/object7871",
+      "described": true,
+      "entity_type": "the_object",
+      "cataloging_language": "en",
+      "kb:admin_data": {
+        "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e10",
+        "last_modified_by": [
+          {
+            "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d1e56",
+            "described": false,
+            "describing": "letters/judsam/2011/mar/dsa/object7871",
+            "language": "en",
+            "entity_type": "last-modified-by",
+            "agent_name": "cumulus:oam"
+          }
+        ],
+        "record_created": "2011-08-01",
+        "record_revised": "2013-04-16"
+      },
+      "tit": [
+        {
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_type": "title main",
+          "title": [
+            "Letter from Einstein, Albert to Simonsen, David"
+          ],
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d1e68"
+        }
+      ],
+      "aut": [
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d1e75",
+          "authority": "http://viaf.org/viaf/75121530",
+          "described": false,
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "language": "en",
+          "entity_type": "aut",
+          "agent_name": "Einstein, Albert"
+        }
+      ],
+      "rcp": [
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d1e98",
+          "authority": "http://viaf.org/viaf/54951228",
+          "described": false,
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "language": "en",
+          "entity_type": "rcp",
+          "agent_name": "Simonsen, David"
+        }
+      ],
+      "categories": [
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e75",
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_id": "letters/judsam/2011/mar/dsa/subject4",
+          "subject_name_da": "David Simonsen ArchivesEEi",
+          "subject_name_en": "David Simonsen ArchivesEEi"
+        },
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e86",
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_id": "letters/judsam/2011/mar/dsa/subject4795",
+          "subject_name_da": "E",
+          "subject_name_en": "E"
+        },
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e97",
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_id": "letters/judsam/2011/mar/dsa/subject4796",
+          "subject_name_da": "Ei",
+          "subject_name_en": "Ei"
+        },
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e108",
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_id": "letters/judsam/2011/mar/dsa/subject5",
+          "subject_name_da": "Letters to/from David SimonsenEinstein, Albert0001",
+          "subject_name_en": "Letters to/from David SimonsenEinstein, Albert0001"
+        },
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e119",
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_id": "letters/judsam/2011/mar/dsa/subject5384",
+          "subject_name_da": "Einstein, Albert",
+          "subject_name_en": "Einstein, Albert"
+        },
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e130",
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_id": "letters/judsam/2011/mar/dsa/subject5385",
+          "subject_name_da": "0001",
+          "subject_name_en": "0001"
+        },
+        {
+          "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e141",
+          "describing": "letters/judsam/2011/mar/dsa/object7871",
+          "described": false,
+          "entity_id": "letters/judsam/2011/mar/dsa/subject6",
+          "subject_name_da": "Correspondents",
+          "subject_name_en": "Correspondents"
+        }
+      ],
+      "not_after_date": "1920-06-27",
+      "not_before_date": "1920-06-27",
+      "visible_date": [
+        "1920-06-27"
+      ],
+      "physical_description": {
+        "id": "letters/judsam/2011/mar/dsa/object7871/disposable/subrecord/d3e160",
+        "describing": "letters/judsam/2011/mar/dsa/object7871",
+        "described": false,
+        "extent": "1 p."
+      },
+      "local_identifier": "dsa_eaa-ejc_0865.tif",
+      "doms_guid": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f",
+      "language": [
+        "de"
+      ],
+      "read_direction": "LTR",
+      "pages": [
+        "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
+      ]
+    }
+  ]
+}
