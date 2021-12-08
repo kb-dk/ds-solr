@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SOURCE="../nested-corpus"
+TRANSFORM="mods2solr.xsl"
+
 : ${SAXON_JAR:="/home/$USER/saxon/saxon9he.jar"}
 if [[ ! -s "$SAXON_JAR" ]]; then
     >&2 echo "$SAXON_JAR not available. Please install it from https://sourceforge.net/projects/saxon/files/Saxon-HE/"
@@ -31,8 +34,8 @@ for file in ${mods_files[@]}; do
     json=$(sed 's/.xml$/.json/' <<< "$file")
     echo " - Producing $json"
     if [ "$DEBUG_JSON" = "1" ]; then
-	$SAXON -xsl:mods2solr.xsl -s:"$file" | jq . > "$json"
+	$SAXON -xsl:"$TRANSFORM" -s:"$SOURCE/$file" | jq . > "$json"
     else
-	$SAXON -xsl:mods2solr.xsl -s:"$file" > "$json"
+	$SAXON -xsl:"$TRANSFORM" -s:"$SOURCE/$file" > "$json"
     fi
 done
