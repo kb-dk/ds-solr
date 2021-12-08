@@ -12,12 +12,20 @@
   <xsl:output method="text" />
   <!-- xsl:output method="xml" / -->
 
-  <xsl:param name="sep_string" select="'!'"/>
+  <xsl:param name="sep_string" select="'/'"/>
   
   <xsl:template match="/">
+    
     <xsl:variable name="json">
-      <f:array>
-        <xsl:for-each select="//m:mods">
+
+      <f:map>
+        <f:array key="@context">
+          <f:string>http://schema.org/</f:string>
+          <f:map><f:string key="kb">http://kb.dk/vocabs/</f:string></f:map>
+        </f:array>
+        <f:string key="@type">DataFeed</f:string>
+        <f:array  key="dataFeedElement">
+          <xsl:for-each select="//m:mods">
           <xsl:variable name="dom" select="."/>
 
           <xsl:variable name="record-id-in">
@@ -56,22 +64,24 @@
               </f:string>
             </xsl:for-each>
 
-            <xsl:for-each select="m:name[@type='cumulus' and m:role/m:roleTerm = 'last-modified-by']">
+            <f:map key="kb:admin_data">
               <f:array>
                 <xsl:attribute name="key">last_modified_by</xsl:attribute>
-                <xsl:call-template name="get-names">
-                  <xsl:with-param name="record_identifier" select="$record-id"/>
-                </xsl:call-template>
+                <xsl:for-each select="m:name[@type='cumulus' and m:role/m:roleTerm = 'last-modified-by']">
+                    <xsl:call-template name="get-names">
+                      <xsl:with-param name="record_identifier" select="$record-id"/>
+                    </xsl:call-template>
+                </xsl:for-each>
               </f:array>
-            </xsl:for-each>
+              
+              <xsl:for-each select="m:recordInfo/m:recordCreationDate">
+                <f:string key="record_created"><xsl:value-of select="."/></f:string>
+              </xsl:for-each> 
 
-            <xsl:for-each select="m:recordInfo/m:recordCreationDate">
-              <f:string key="record_created"><xsl:value-of select="."/></f:string>
-            </xsl:for-each> 
-
-            <xsl:for-each select="m:recordInfo/m:recordChangeDate">
-              <f:string key="record_revised"><xsl:value-of select="."/></f:string>
-            </xsl:for-each> 
+              <xsl:for-each select="m:recordInfo/m:recordChangeDate">
+                <f:string key="record_revised"><xsl:value-of select="."/></f:string>
+              </xsl:for-each> 
+            </f:map>
             
             <!-- basic bibliographic metadata -->
 
@@ -449,6 +459,7 @@
 
         </xsl:for-each>
       </f:array>
+      </f:map>
     </xsl:variable>
     <xsl:value-of select="f:xml-to-json($json)"/>
     <!-- xsl:copy-of select="$json"/ -->
