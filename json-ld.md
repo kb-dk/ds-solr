@@ -28,8 +28,13 @@ See
 ## manus
 
 * https://schema.org/Manuscript 
-
 (perhapps useful https://schema.org/owns)
+
+## periodicals and whatever
+
+* https://schema.org/Periodical
+* https://schema.org/Newspaper
+* https://schema.org/Article
 
 ## letters
 
@@ -46,6 +51,13 @@ See
 * https://schema.org/Person
 * https://schema.org/Organization
 
+## audo & video
 
+* https://schema.org/VideoObject
+* https://schema.org/AudioObject
+
+## Collections
+
+* https://schema.org/Collection
 
 See also [Bib.schema.org-1.0](https://www.w3.org/community/schemabibex/wiki/Bib.schema.org-1.0)
