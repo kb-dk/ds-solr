@@ -25,10 +25,16 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "קובץ שאלות ותשובות@he"
+        {
+          "@value": "קובץ שאלות ותשובות",
+          "@language": "he"
+        }
       ],
       "alternativeHeadline": [
-        "Qovets she'elot u-tshuvot@en"
+        {
+          "@value": "Qovets she'elot u-tshuvot",
+          "@language": "en"
+        }
       ],
       "scr": [
         {

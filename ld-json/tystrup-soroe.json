@@ -25,7 +25,10 @@
         "cataloging_language": "da"
       },
       "headline": [
-        "Næblerødvej 32, Næblerød - 1936-1939 -@da"
+        {
+          "@value": "Næblerødvej 32, Næblerød - 1936-1939 -",
+          "@language": "da"
+        }
       ],
       "creator": [
         {

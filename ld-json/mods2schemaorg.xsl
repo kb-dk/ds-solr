@@ -100,7 +100,10 @@
                     <xsl:for-each select="m:titleInfo[not(@type)]">
                       <xsl:variable name="xml_lang"><xsl:value-of select="@xml:lang"/></xsl:variable>
                       <xsl:for-each select="m:title">
-                        <f:string><xsl:value-of select="concat(.,'@',$xml_lang)"/></f:string>
+                        <f:map>
+                          <f:string key="@value"><xsl:value-of select="."/></f:string>
+                          <f:string key="@language"><xsl:value-of select="$xml_lang"/></f:string>
+                        </f:map>
                       </xsl:for-each>
                     </xsl:for-each>
                   </f:array>
@@ -109,7 +112,10 @@
                       <xsl:for-each select="m:titleInfo[@type]">
                         <xsl:variable name="xml_lang"><xsl:value-of select="@xml:lang"/></xsl:variable>
                         <xsl:for-each select="m:title">
-                          <f:string><xsl:value-of select="concat(.,'@',$xml_lang)"/></f:string>
+                          <f:map>
+                            <f:string key="@value"><xsl:value-of select="."/></f:string>
+                            <f:string key="@language"><xsl:value-of select="$xml_lang"/></f:string>
+                          </f:map>
                         </xsl:for-each>
                       </xsl:for-each>
                     </f:array>

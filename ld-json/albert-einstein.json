@@ -25,7 +25,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter from Einstein, Albert to Simonsen, David@"
+        {
+          "@value": "Letter from Einstein, Albert to Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {

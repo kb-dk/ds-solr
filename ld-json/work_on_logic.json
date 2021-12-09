@@ -25,10 +25,16 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "מלות ההגיון@he"
+        {
+          "@value": "מלות ההגיון",
+          "@language": "he"
+        }
       ],
       "alternativeHeadline": [
-        "Milot ha-higayon@en"
+        {
+          "@value": "Milot ha-higayon",
+          "@language": "en"
+        }
       ],
       "scr": [
         {

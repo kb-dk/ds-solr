@@ -25,7 +25,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -110,7 +113,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -195,7 +201,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter from Brandes, Georg to Simonsen, David@"
+        {
+          "@value": "Letter from Brandes, Georg to Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -279,7 +288,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -363,7 +375,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -447,7 +462,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -532,7 +550,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -617,7 +638,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {
@@ -701,7 +725,10 @@
         "cataloging_language": "en"
       },
       "headline": [
-        "Letter to Brandes, Georg from Simonsen, David@"
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": ""
+        }
       ],
       "aut": [
         {

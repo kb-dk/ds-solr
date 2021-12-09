@@ -23,7 +23,10 @@
         "cataloging_language": "da"
       },
       "headline": [
-        "Homiliae super Psalmos (etc.)@da"
+        {
+          "@value": "Homiliae super Psalmos (etc.)",
+          "@language": "da"
+        }
       ],
       "aut": [
         {
