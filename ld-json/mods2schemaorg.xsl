@@ -13,6 +13,21 @@
   <!-- xsl:output method="xml" / -->
 
   <xsl:param name="sep_string" select="'/'"/>
+
+  <xsl:variable name="roles">
+    <roles>
+      <role key="act" href="https://schema.org/actor">actor</role>
+      <role key="art" href="https://schema.org/artist ">artist</role>
+      <role key="aut" href="https://schema.org/author">author</role>
+      <role key="cre" href="https://schema.org/creator">creator</role>
+      <role key="ctb" href="https://schema.org/contributor">Contributor</role>
+      <role key="rcp" href="https://schema.org/recipient">Addressee</role>
+      <role key="scr" href="https://schema.org/contributor">Scribe</role>
+      <role key="trl" href="https://schema.org/translator">Translator</role>
+      <role key="pat" href="https://schema.org/funder">Patron</role>
+      <role key="prt" href="https://schema.org/contributor">Printer</role>
+    </roles>
+  </xsl:variable>
   
   <xsl:template match="/">
     
