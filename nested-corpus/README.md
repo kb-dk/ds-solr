@@ -60,6 +60,8 @@ There are perhaps a handfull relators in use.
 * rcp - Addressee (as in recipient of a letter)
 * scr - Scribe
 * trl - Translator
+* pat - Patron
+* prt - Printer
 
 I propose that the search user interface have three Agent role aggregations 
 
