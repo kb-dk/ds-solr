@@ -9,42 +9,27 @@
   "dataFeedElement": [
     {
       "id": "manus/musman/2010/dec/viser/object51196",
+      "url": "http://www5.kb.dk/manus/musman/2010/dec/viser/object51196/en/",
       "described": true,
       "entity_type": "the_object",
-      "cataloging_language": "da",
       "kb:admin_data": {
-        "id": "manus/musman/2010/dec/viser/object51196/disposable/subrecord/d3e10",
         "last_modified_by": [
           {
-            "id": "manus/musman/2010/dec/viser/object51196/disposable/subrecord/d1e71",
-            "described": false,
-            "describing": "manus/musman/2010/dec/viser/object51196",
             "language": "da",
             "entity_type": "last-modified-by",
-            "agent_name": "cumulus:blo"
+            "name": "cumulus:blo"
           }
-        ]
+        ],
+        "cataloging_language": "da"
       },
-      "tit": [
-        {
-          "describing": "manus/musman/2010/dec/viser/object51196",
-          "described": false,
-          "language": "da",
-          "entity_type": "title main",
-          "title": [
-            "Jørgen Hansens visebog"
-          ],
-          "id": "manus/musman/2010/dec/viser/object51196/disposable/subrecord/d1e50"
-        }
+      "headline": [
+        "Jørgen Hansens visebog@da"
       ],
       "aut": [
         {
-          "id": "manus/musman/2010/dec/viser/object51196/disposable/subrecord/d1e56",
-          "described": false,
-          "describing": "manus/musman/2010/dec/viser/object51196",
           "language": "da",
           "entity_type": "aut",
-          "agent_name": "Dansk Folkemindesamling"
+          "name": "Dansk Folkemindesamling"
         }
       ],
       "keyword": [
@@ -52,26 +37,14 @@
       ],
       "categories": [
         {
-          "id": "manus/musman/2010/dec/viser/object51196/disposable/subrecord/d3e58",
-          "describing": "manus/musman/2010/dec/viser/object51196",
-          "described": false,
-          "entity_id": "manus/musman/2010/dec/viser/subject398",
           "subject_name_da": "Jørgen Hansens visebog",
           "subject_name_en": "Jørgen Hansens visebog"
         },
         {
-          "id": "manus/musman/2010/dec/viser/object51196/disposable/subrecord/d3e69",
-          "describing": "manus/musman/2010/dec/viser/object51196",
-          "described": false,
-          "entity_id": "manus/musman/2010/dec/viser/subject6015",
           "subject_name_da": "Visebøger, håndskrevne",
           "subject_name_en": "Visebøger, håndskrevne"
         },
         {
-          "id": "manus/musman/2010/dec/viser/object51196/disposable/subrecord/d3e80",
-          "describing": "manus/musman/2010/dec/viser/object51196",
-          "described": false,
-          "entity_id": "manus/musman/2010/dec/viser/subject6925",
           "subject_name_da": "Dansk Folkemindesamling",
           "subject_name_en": "Dansk Folkemindesamling"
         }
