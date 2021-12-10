@@ -1,22 +1,21 @@
 {
-  "@context": [
-    "http://schema.org/",
-    {
-      "kb": "http://kb.dk/vocabs/"
-    }
-  ],
+  "@context": "http://schema.org/",
   "@type": "DataFeed",
   "dataFeedElement": [
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "manus/judsam/2009/sep/dsh/object41158",
       "url": "http://www5.kb.dk/manus/judsam/2009/sep/dsh/object41158/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:eja"
           }
         ],
@@ -36,104 +35,85 @@
           "@language": "en"
         }
       ],
-      "scr": [
+      "relator:scr": [
         {
           "language": "en",
-          "entity_type": "scr",
           "name": "Yehuda Mordekhai ben Yitsḥaq Mordekhai"
         },
         {
           "language": "he",
-          "entity_type": "scr",
           "name": "יהודה מרדכי בן יצחק מרדכי"
         }
       ],
-      "aut": [
+      "author": [
         {
           "language": "en",
-          "entity_type": "aut",
           "name": "Maimonides"
         },
         {
           "language": "en",
-          "entity_type": "aut",
           "name": "Moshe ben Maimon"
         },
         {
           "language": "en",
-          "entity_type": "aut",
           "name": "Rambam"
         },
         {
           "language": "he",
-          "entity_type": "aut",
           "name": "משה בן מימון"
         },
         {
           "language": "he",
-          "entity_type": "aut",
           "name": "רמב\"ם"
         }
       ],
-      "ctb": [
+      "contributor": [
         {
           "language": "en",
-          "entity_type": "ctb",
           "name": "Alfasi, Yitsḥaq ben Ya'aqov"
         },
         {
           "language": "en",
-          "entity_type": "ctb",
           "name": "Migash, Yosef ben Meir"
         },
         {
           "language": "en",
-          "entity_type": "ctb",
           "name": "Shmuel ben Yosef ha-Nagid"
         },
         {
           "language": "en",
-          "entity_type": "ctb",
           "name": "Alghiani, Yitsḥaq"
         },
         {
           "language": "en",
-          "entity_type": "ctb",
           "name": "Moshe ben Moshe, of Broshilaish"
         },
         {
           "language": "en",
-          "entity_type": "ctb",
           "name": "Ibn Danan, Sa'adya bein Maimon"
         },
         {
           "language": "he",
-          "entity_type": "ctb",
           "name": "אלפסי, יצחק בן יעקב"
         },
         {
           "language": "he",
-          "entity_type": "ctb",
           "name": "מיגש, יוסף בן מאיר"
         },
         {
           "language": "he",
-          "entity_type": "ctb",
           "name": "שמואל בן יוסף הנגיד"
         },
         {
           "language": "he",
-          "entity_type": "ctb",
           "name": "אלגיאני, יצחק"
         },
         {
           "language": "he",
-          "entity_type": "ctb",
           "name": "משה בן משה די ברושלייש"
         },
         {
           "language": "he",
-          "entity_type": "ctb",
           "name": "אבן דנן, סעדיה בן מימון"
         }
       ],

@@ -1,22 +1,21 @@
 {
-  "@context": [
-    "http://schema.org/",
-    {
-      "kb": "http://kb.dk/vocabs/"
-    }
-  ],
+  "@context": "http://schema.org/",
   "@type": "DataFeed",
   "dataFeedElement": [
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "manus/vmanus/2011/dec/ha/object71279",
       "url": "http://www5.kb.dk/manus/vmanus/2011/dec/ha/object71279/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "da",
-            "entity_type": "last-modified-by",
             "name": "cumulus:blo"
           }
         ],
@@ -28,11 +27,10 @@
           "@language": "da"
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/88967224",
           "language": "da",
-          "entity_type": "aut",
           "name": "Magnus, Basilius"
         }
       ],

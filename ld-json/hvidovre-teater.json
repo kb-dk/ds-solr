@@ -1,22 +1,21 @@
 {
-  "@context": [
-    "http://schema.org/",
-    {
-      "kb": "http://kb.dk/vocabs/"
-    }
-  ],
+  "@context": "http://schema.org/",
   "@type": "DataFeed",
   "dataFeedElement": [
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "images/billed/2010/okt/billeder/object356751",
       "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "da",
-            "entity_type": "last-modified-by",
             "name": "cumulus:blo"
           }
         ],
@@ -28,11 +27,10 @@
           "@language": "da"
         }
       ],
-      "art": [
+      "artist": [
         {
           "sameAs": "http://viaf.org/viaf/25276097",
           "language": "da",
-          "entity_type": "art",
           "name": "Seidel, Claus (1946-05-24)"
         }
       ],
@@ -46,12 +44,10 @@
       "subject": [
         {
           "sameAs": "http://viaf.org/viaf/312847028",
-          "entity_type": "act",
           "name": "Lind, Lane (1945-)"
         },
         {
           "sameAs": "http://viaf.org/viaf/316745351",
-          "entity_type": "act",
           "name": "Sandø, Waage (1943-)"
         }
       ],

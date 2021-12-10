@@ -20,12 +20,13 @@
       <role key="art" href="https://schema.org/artist ">artist</role>
       <role key="aut" href="https://schema.org/author">author</role>
       <role key="cre" href="https://schema.org/creator">creator</role>
-      <role key="ctb" href="https://schema.org/contributor">Contributor</role>
-      <role key="rcp" href="https://schema.org/recipient">Addressee</role>
-      <role key="scr" href="https://schema.org/contributor">Scribe</role>
-      <role key="trl" href="https://schema.org/translator">Translator</role>
-      <role key="pat" href="https://schema.org/funder">Patron</role>
-      <role key="prt" href="https://schema.org/contributor">Printer</role>
+      <role key="ctb" href="https://schema.org/contributor">contributor</role>
+      <role key="rcp" href="https://schema.org/recipient">recipient</role>
+      <role key="scr" href="http://id.loc.gov/vocabulary/relators/art">relator:scr</role>
+      <role key="src" href="http://id.loc.gov/vocabulary/relators/art">relator:scr</role>
+      <role key="trl" href="https://schema.org/translator">translator</role>
+      <role key="pat" href="https://schema.org/funder">funder</role>
+      <role key="prt" href="http://id.loc.gov/vocabulary/relators/art">relator:prt</role>
     </roles>
   </xsl:variable>
   
@@ -34,10 +35,7 @@
     <xsl:variable name="json">
 
       <f:map>
-        <f:array key="@context">
-          <f:string>http://schema.org/</f:string>
-          <f:map><f:string key="kb">http://kb.dk/vocabs/</f:string></f:map>
-        </f:array>
+        <f:string key="@context">http://schema.org/</f:string>
         <f:string key="@type">DataFeed</f:string>
         <f:array  key="dataFeedElement">
           <xsl:for-each select="//m:mods">
@@ -67,6 +65,15 @@
 
             <xsl:variable name="output_data">
               <f:map>
+
+                <f:array key="@context">
+		  <f:string>http://schema.org/</f:string>
+		  <f:map>
+                    <f:string key="kb">http://kb.dk/vocabs/</f:string>
+		    <f:string key="relator">https://id.loc.gov/vocabulary/relators/</f:string>
+                  </f:map>
+                </f:array>
+                
                 <!-- record identification, admin data etc  -->
 
                 <xsl:variable name="edition">
@@ -80,9 +87,6 @@
                 <f:string key="url">
                   <xsl:value-of select="concat('http://www5.kb.dk/',$record-id,'/en/')"/>
                 </f:string>
-                
-                <f:boolean key="described">true</f:boolean>
-                <f:string key="entity_type">the_object</f:string>
                 
                 <f:map key="kb:admin_data">
                   <f:array>
@@ -141,12 +145,7 @@
                   <xsl:variable name="term" select="."/>
                   <xsl:if test="not(contains($term,'last-modified-by'))">
                     <f:array>
-                      <xsl:attribute name="key">
-                        <xsl:choose>
-                          <xsl:when test=". = 'src'">scr</xsl:when>
-                          <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
-                        </xsl:choose>
-                      </xsl:attribute>
+                      <xsl:attribute name="key"><xsl:value-of select="$roles/roles/role[@key=$term]"/></xsl:attribute>
                       <xsl:for-each select="$dom//m:name[m:role/m:roleTerm = $term]">
                         <xsl:call-template name="get-names">
                           <xsl:with-param name="record_identifier" select="$record-id"/>
@@ -536,20 +535,14 @@ software.
 
   <xsl:template name="get-names">
     <xsl:param name="record_identifier"/>
+    
     <f:map>
-      <!-- xsl:call-template name="disposable-subrecord">
-        <xsl:with-param name="record_identifier" select="$record_identifier"/>
-      </xsl:call-template -->
       <xsl:if test="@authorityURI">
         <f:string key="sameAs"><xsl:value-of select="@authorityURI"/></f:string>
       </xsl:if>
       <xsl:if test="@xml:lang">
         <f:string key="language"><xsl:value-of select="@xml:lang"/></f:string>
       </xsl:if>
-      <f:string key="entity_type"><xsl:choose>
-        <xsl:when test="contains(m:role/m:roleTerm,'src')">scr</xsl:when>
-        <xsl:otherwise><xsl:value-of select="m:role/m:roleTerm"/></xsl:otherwise>
-      </xsl:choose></f:string>
       <f:string key="name">
         <xsl:for-each select="m:namePart">
           <xsl:choose>

@@ -1,22 +1,21 @@
 {
-  "@context": [
-    "http://schema.org/",
-    {
-      "kb": "http://kb.dk/vocabs/"
-    }
-  ],
+  "@context": "http://schema.org/",
   "@type": "DataFeed",
   "dataFeedElement": [
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "manus/musman/2010/dec/viser/object51196",
       "url": "http://www5.kb.dk/manus/musman/2010/dec/viser/object51196/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "da",
-            "entity_type": "last-modified-by",
             "name": "cumulus:blo"
           }
         ],
@@ -28,10 +27,9 @@
           "@language": "da"
         }
       ],
-      "aut": [
+      "author": [
         {
           "language": "da",
-          "entity_type": "aut",
           "name": "Dansk Folkemindesamling"
         }
       ],

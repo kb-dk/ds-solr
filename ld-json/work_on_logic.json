@@ -1,22 +1,21 @@
 {
-  "@context": [
-    "http://schema.org/",
-    {
-      "kb": "http://kb.dk/vocabs/"
-    }
-  ],
+  "@context": "http://schema.org/",
   "@type": "DataFeed",
   "dataFeedElement": [
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "manus/judsam/2009/sep/dsh/object27137",
       "url": "http://www5.kb.dk/manus/judsam/2009/sep/dsh/object27137/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:eja"
           }
         ],
@@ -36,54 +35,45 @@
           "@language": "en"
         }
       ],
-      "scr": [
+      "relator:scr": [
         {
           "language": "en",
-          "entity_type": "scr",
           "name": "Goldblum, J. I."
         },
         {
           "language": "he",
-          "entity_type": "scr",
           "name": "גולדבלום, ישראל איסר"
         }
       ],
-      "aut": [
+      "author": [
         {
           "language": "en",
-          "entity_type": "aut",
           "name": "Maimonides"
         },
         {
           "language": "en",
-          "entity_type": "aut",
           "name": "Moshe ben Maimon"
         },
         {
           "language": "en",
-          "entity_type": "aut",
           "name": "Rambam"
         },
         {
           "language": "he",
-          "entity_type": "aut",
           "name": "משה בן מימון"
         },
         {
           "language": "he",
-          "entity_type": "aut",
           "name": "רמב\"ם"
         }
       ],
-      "trl": [
+      "translator": [
         {
           "language": "en",
-          "entity_type": "trl",
           "name": "Ibn Tibon, Moshe"
         },
         {
           "language": "he",
-          "entity_type": "trl",
           "name": "משה אבן תיבון"
         }
       ],

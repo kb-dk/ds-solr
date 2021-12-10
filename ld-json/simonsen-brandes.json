@@ -1,22 +1,21 @@
 {
-  "@context": [
-    "http://schema.org/",
-    {
-      "kb": "http://kb.dk/vocabs/"
-    }
-  ],
+  "@context": "http://schema.org/",
   "@type": "DataFeed",
   "dataFeedElement": [
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2678",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2678/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -30,19 +29,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],
@@ -96,15 +93,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2671",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2671/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -118,19 +119,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],
@@ -184,15 +183,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2681",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2681/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -206,19 +209,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "aut",
           "name": "Brandes, Georg"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Simonsen, David"
         }
       ],
@@ -271,15 +272,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2674",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2674/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -293,19 +298,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],
@@ -358,15 +361,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2680",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2680/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -380,19 +387,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],
@@ -445,15 +450,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2676",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2676/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -467,19 +476,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],
@@ -533,15 +540,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2670",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2670/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -555,19 +566,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],
@@ -621,15 +630,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2679",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2679/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -643,19 +656,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],
@@ -708,15 +719,19 @@
       ]
     },
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object2673",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2673/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -730,19 +745,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "aut",
           "name": "Simonsen, David"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Brandes, Georg"
         }
       ],

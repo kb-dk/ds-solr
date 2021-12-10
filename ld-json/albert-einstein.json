@@ -1,22 +1,21 @@
 {
-  "@context": [
-    "http://schema.org/",
-    {
-      "kb": "http://kb.dk/vocabs/"
-    }
-  ],
+  "@context": "http://schema.org/",
   "@type": "DataFeed",
   "dataFeedElement": [
     {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
       "id": "letters/judsam/2011/mar/dsa/object7871",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object7871/en/",
-      "described": true,
-      "entity_type": "the_object",
       "kb:admin_data": {
         "last_modified_by": [
           {
             "language": "en",
-            "entity_type": "last-modified-by",
             "name": "cumulus:oam"
           }
         ],
@@ -30,19 +29,17 @@
           "@language": ""
         }
       ],
-      "aut": [
+      "author": [
         {
           "sameAs": "http://viaf.org/viaf/75121530",
           "language": "en",
-          "entity_type": "aut",
           "name": "Einstein, Albert"
         }
       ],
-      "rcp": [
+      "recipient": [
         {
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
-          "entity_type": "rcp",
           "name": "Simonsen, David"
         }
       ],
