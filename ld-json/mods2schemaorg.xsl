@@ -90,7 +90,7 @@
                 
                 <f:map key="kb:admin_data">
                   <f:array>
-                    <xsl:attribute name="key">last_modified_by</xsl:attribute>
+                    <xsl:attribute name="key">kb:last_modified_by</xsl:attribute>
                     <xsl:for-each select="m:name[@type='cumulus' and m:role/m:roleTerm = 'last-modified-by']">
                       <xsl:call-template name="get-names">
                         <xsl:with-param name="record_identifier" select="$record-id"/>
@@ -99,14 +99,14 @@
                   </f:array>
                   
                   <xsl:for-each select="m:recordInfo/m:recordCreationDate">
-                    <f:string key="record_created"><xsl:value-of select="."/></f:string>
+                    <f:string key="kb:record_created"><xsl:value-of select="."/></f:string>
                   </xsl:for-each> 
 
                   <xsl:for-each select="m:recordInfo/m:recordChangeDate">
-                    <f:string key="record_revised"><xsl:value-of select="."/></f:string>
+                    <f:string key="kb:record_revised"><xsl:value-of select="."/></f:string>
                   </xsl:for-each>
 
-                  <f:string key="cataloging_language">
+                  <f:string key="kb:cataloging_language">
                     <xsl:value-of select="$cataloging_language"/>
                   </f:string>
                   
@@ -115,30 +115,9 @@
                 <!-- basic bibliographic metadata -->
 
                 <xsl:if test="m:titleInfo/m:title">
-                  <f:array key="headline">
-                    <xsl:for-each select="m:titleInfo[not(@type)]">
-                      <xsl:variable name="xml_lang"><xsl:value-of select="@xml:lang"/></xsl:variable>
-                      <xsl:for-each select="m:title">
-                        <f:map>
-                          <f:string key="@value"><xsl:value-of select="."/></f:string>
-                          <f:string key="@language"><xsl:value-of select="$xml_lang"/></f:string>
-                        </f:map>
-                      </xsl:for-each>
-                    </xsl:for-each>
-                  </f:array>
-                  <xsl:if test="m:titleInfo/@type">
-                    <f:array key="alternativeHeadline">
-                      <xsl:for-each select="m:titleInfo[@type]">
-                        <xsl:variable name="xml_lang"><xsl:value-of select="@xml:lang"/></xsl:variable>
-                        <xsl:for-each select="m:title">
-                          <f:map>
-                            <f:string key="@value"><xsl:value-of select="."/></f:string>
-                            <f:string key="@language"><xsl:value-of select="$xml_lang"/></f:string>
-                          </f:map>
-                        </xsl:for-each>
-                      </xsl:for-each>
-                    </f:array>
-                  </xsl:if>
+                  <xsl:call-template name="get-title">
+                    <xsl:with-param name="cataloging_language" select="$cataloging_language" />
+                  </xsl:call-template>
                 </xsl:if>
                 
                 <xsl:for-each select="distinct-values(m:name/m:role/m:roleTerm)">
@@ -158,7 +137,7 @@
                 <!-- *********************** misc notes               ******************** -->
 
                 <xsl:if test="m:note[not(@type or @displayLabel)]">
-                  <f:array key="note">
+                  <f:array key="description">
                     <xsl:for-each select="m:note[not(@type or @displayLabel)]">
                       <f:string><xsl:value-of select="."/></f:string>
                     </xsl:for-each>
@@ -166,27 +145,26 @@
                 </xsl:if>
 
                 <xsl:if test="m:note[@type or @displayLabel]">
-                  <f:map key="specific_notes">
                     <xsl:for-each select="m:note[@type or @displayLabel]">
                       <f:string>
                         <xsl:attribute name="key">
                           <xsl:choose>
                             <xsl:when test="@type">
                               <xsl:choose>
-                                <xsl:when test="contains(@type,'citation/reference')">reference</xsl:when>
-                                <xsl:when test="contains( @displayLabel,'ript')">script</xsl:when>
-                                <xsl:otherwise><xsl:value-of select="my:escape_stuff(@type)"/></xsl:otherwise>
+                                <xsl:when test="contains(@type,'citation/reference')">citation</xsl:when>
+                                <xsl:when test="contains( @displayLabel,'ript')">kb:script</xsl:when>
+                                <xsl:otherwise><xsl:value-of select="concat('kb:',my:escape_stuff(@type))"/></xsl:otherwise>
                               </xsl:choose>
                             </xsl:when>
                             <xsl:otherwise>
-                              <xsl:value-of select="my:escape_stuff(@displayLabel)"/>
+                              <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/>
                             </xsl:otherwise>
                           </xsl:choose>
                         </xsl:attribute>
                         <xsl:value-of select="."/>
                       </f:string>
                     </xsl:for-each>
-                  </f:map>
+
                 </xsl:if>
 
                 <!-- *********************** Subjects, Categories etc ******************** -->
@@ -415,7 +393,7 @@ select="concat($record-id,concat($sep_string,'disposable',$sep_string,'subrecord
                 </xsl:if>
                 
                 <xsl:for-each select="m:identifier[@type='domsGuid']">
-                  <f:string key="doms_guid"><xsl:value-of select="."/></f:string>
+                  <f:string key="identifier"><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
 
                 <xsl:if test="m:language/m:languageTerm[@authority='rfc4646']">
@@ -453,7 +431,7 @@ software.
                 </xsl:for-each>
 
                 <xsl:element name="f:array">
-                  <xsl:attribute name="key">pages</xsl:attribute>
+                  <xsl:attribute name="key">encoding</xsl:attribute>
                   <xsl:for-each select="m:relatedItem[m:identifier]">
                     <xsl:call-template name="make_page_field"/>
                   </xsl:for-each>
@@ -472,30 +450,82 @@ software.
     <xsl:value-of select="f:xml-to-json($json)"/>
     <!-- xsl:copy-of select="$json"/ -->
   </xsl:template>
+
+  <xsl:template name="get-title">
+    <xsl:param name="cataloging_language"/>
+
+    <xsl:if test="m:titleInfo[not(@type)]">
+      <f:array key="headline">
+        <xsl:for-each select="m:titleInfo[not(@type)]">
+          <xsl:variable name="xml_lang">
+            <xsl:choose>
+              <xsl:when test="@xml:lang"><xsl:value-of select="@xml:lang"/></xsl:when>
+              <xsl:otherwise><xsl:value-of select="$cataloging_language"/></xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:for-each select="m:title">
+            <f:map>
+              <f:string key="@value"><xsl:value-of select="."/></f:string>
+              <f:string key="@language"><xsl:value-of select="$xml_lang"/></f:string>
+            </f:map>
+          </xsl:for-each>
+        </xsl:for-each>
+      </f:array>
+    </xsl:if>
+    <xsl:if test="m:titleInfo/@type">
+      <f:array key="alternativeHeadline">
+        <xsl:for-each select="m:titleInfo[@type]">
+          <xsl:variable name="xml_lang"><xsl:value-of select="@xml:lang"/></xsl:variable>
+          <xsl:for-each select="m:title">
+            <f:map>
+              <f:string key="@value"><xsl:value-of select="."/></f:string>
+              <f:string key="@language"><xsl:value-of select="$xml_lang"/></f:string>
+            </f:map>
+          </xsl:for-each>
+        </xsl:for-each>
+      </f:array>
+    </xsl:if>
+  </xsl:template>
   
   <xsl:template name="make_page_field">
+  
+      <xsl:choose>
+        <xsl:when test="m:identifier[@displayLabel='iiif']">
 
-    <xsl:choose>
-      <xsl:when test="m:identifier[@displayLabel='iiif']">
-        <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]">
-          <xsl:call-template name="find-pages"/>
-        </xsl:for-each>
+          <f:map>
+            <f:string key="@type">CreativeWork</f:string>
+            <xsl:call-template name="get-title"/>
+            <f:array key="url">
+              <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]">
+                <xsl:call-template name="find-pages"/>
+              </xsl:for-each>
+            </f:array>
+          </f:map>          
+          <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif']]">
+            <xsl:call-template name="make_page_field"/>
+          </xsl:for-each>
+          
+        </xsl:when>
+        <xsl:otherwise>
 
-        <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif']]">
-          <xsl:call-template name="make_page_field"/>
-        </xsl:for-each>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:for-each select="m:identifier[contains(.,'.tif')]">
-          <xsl:call-template name="find-pages"/>
-        </xsl:for-each>
+          <f:map>
+            <f:string key="@type">CreativeWork</f:string>
+            <xsl:call-template name="get-title"/>
+          
+            <f:array key="url">
+              <xsl:for-each select="m:identifier[contains(.,'.tif')]">
+                <xsl:call-template name="find-pages"/>
+              </xsl:for-each>
+            </f:array>
+          </f:map>          
 
-        <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
-          <xsl:call-template name="make_page_field"/>
-        </xsl:for-each>
-      </xsl:otherwise>
-    </xsl:choose>
-    
+          <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
+            <xsl:call-template name="make_page_field"/>
+          </xsl:for-each>
+
+        </xsl:otherwise>
+      </xsl:choose>
+
   </xsl:template>
   
   <xsl:template name="find-pages">

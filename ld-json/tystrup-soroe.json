@@ -13,15 +13,15 @@
       "id": "images/luftfo/2011/maj/luftfoto/object322504",
       "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object322504/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "da",
             "name": "cumulus:cumulus"
           }
         ],
-        "record_created": "2007-10-09",
-        "record_revised": "2016-07-28",
-        "cataloging_language": "da"
+        "kb:record_created": "2007-10-09",
+        "kb:record_revised": "2016-07-28",
+        "kb:cataloging_language": "da"
       },
       "headline": [
         {
@@ -77,9 +77,14 @@
       ],
       "shelf_mark": "St. Dyr.",
       "local_identifier": "sylvest_nks_00950_6.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+      "identifier": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+          ]
+        }
       ]
     }
   ]

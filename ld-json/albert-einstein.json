@@ -13,20 +13,20 @@
       "id": "letters/judsam/2011/mar/dsa/object7871",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object7871/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2011-08-01",
-        "record_revised": "2013-04-16",
-        "cataloging_language": "en"
+        "kb:record_created": "2011-08-01",
+        "kb:record_revised": "2013-04-16",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter from Einstein, Albert to Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -82,13 +82,18 @@
         "extent": "1 p."
       },
       "local_identifier": "dsa_eaa-ejc_0865.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f",
       "language": [
         "de"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
+          ]
+        }
       ]
     }
   ]

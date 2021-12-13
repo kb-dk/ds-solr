@@ -13,20 +13,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2678",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2678/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -82,14 +82,24 @@
         "extent": "2 pp."
       },
       "local_identifier": "dsa_bra-boer_0029.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/af930070-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/af930070-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json",
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0030/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json"
+          ]
+        },
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0030/info.json"
+          ]
+        }
       ]
     },
     {
@@ -103,20 +113,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2671",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2671/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -172,14 +182,24 @@
         "extent": "2 pp."
       },
       "local_identifier": "dsa_bra-boer_0022.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/21ddb040-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/21ddb040-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0022/info.json",
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0023/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0022/info.json"
+          ]
+        },
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0023/info.json"
+          ]
+        }
       ]
     },
     {
@@ -193,20 +213,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2681",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2681/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter from Brandes, Georg to Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -262,13 +282,18 @@
         "extent": "1 p."
       },
       "local_identifier": "dsa_bra-boer_0033.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/f32324f0-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/f32324f0-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0033/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0033/info.json"
+          ]
+        }
       ]
     },
     {
@@ -282,20 +307,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2674",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2674/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -351,13 +376,18 @@
         "extent": "1 p."
       },
       "local_identifier": "dsa_bra-boer_0025.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/61f94770-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/61f94770-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0025/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0025/info.json"
+          ]
+        }
       ]
     },
     {
@@ -371,20 +401,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2680",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2680/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -440,13 +470,18 @@
         "extent": "1 p."
       },
       "local_identifier": "dsa_bra-boer_0032.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/dcd9e210-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/dcd9e210-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0032/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0032/info.json"
+          ]
+        }
       ]
     },
     {
@@ -460,20 +495,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2676",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2676/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -529,14 +564,24 @@
         "extent": "2 pp."
       },
       "local_identifier": "dsa_bra-boer_0027.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/85e487d0-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/85e487d0-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0027/info.json",
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0028/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0027/info.json"
+          ]
+        },
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0028/info.json"
+          ]
+        }
       ]
     },
     {
@@ -550,20 +595,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2670",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2670/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -619,14 +664,24 @@
         "extent": "2 pp."
       },
       "local_identifier": "dsa_bra-boer_0020.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/0c414f30-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/0c414f30-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0020/info.json",
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0021/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0020/info.json"
+          ]
+        },
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0021/info.json"
+          ]
+        }
       ]
     },
     {
@@ -640,20 +695,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2679",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2679/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -709,13 +764,18 @@
         "extent": "1 p."
       },
       "local_identifier": "dsa_bra-boer_0031.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/c64bf510-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/c64bf510-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0031/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0031/info.json"
+          ]
+        }
       ]
     },
     {
@@ -729,20 +789,20 @@
       "id": "letters/judsam/2011/mar/dsa/object2673",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2673/en/",
       "kb:admin_data": {
-        "last_modified_by": [
+        "kb:last_modified_by": [
           {
             "language": "en",
             "name": "cumulus:oam"
           }
         ],
-        "record_created": "2010-12-23",
-        "record_revised": "2011-03-17",
-        "cataloging_language": "en"
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
       },
       "headline": [
         {
           "@value": "Letter to Brandes, Georg from Simonsen, David",
-          "@language": ""
+          "@language": "en"
         }
       ],
       "author": [
@@ -798,13 +858,18 @@
         "extent": "1 p."
       },
       "local_identifier": "dsa_bra-boer_0024.tif",
-      "doms_guid": "Uid:dk:kb:doms:2007-01/4a773670-0e89-11e0-a6d2-0016357f605f",
+      "identifier": "Uid:dk:kb:doms:2007-01/4a773670-0e89-11e0-a6d2-0016357f605f",
       "language": [
         "da"
       ],
       "read_direction": "LTR",
-      "pages": [
-        "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0024/info.json"
+      "encoding": [
+        {
+          "@type": "CreativeWork",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0024/info.json"
+          ]
+        }
       ]
     }
   ]
