@@ -15,6 +15,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:eja"
           }
@@ -37,82 +38,101 @@
       ],
       "relator:scr": [
         {
+          "@type": "Person",
           "language": "en",
           "name": "Yehuda Mordekhai ben Yitsḥaq Mordekhai"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "יהודה מרדכי בן יצחק מרדכי"
         }
       ],
       "author": [
         {
+          "@type": "Person",
           "language": "en",
           "name": "Maimonides"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Moshe ben Maimon"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Rambam"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "משה בן מימון"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "רמב\"ם"
         }
       ],
       "contributor": [
         {
+          "@type": "Person",
           "language": "en",
           "name": "Alfasi, Yitsḥaq ben Ya'aqov"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Migash, Yosef ben Meir"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Shmuel ben Yosef ha-Nagid"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Alghiani, Yitsḥaq"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Moshe ben Moshe, of Broshilaish"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Ibn Danan, Sa'adya bein Maimon"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "אלפסי, יצחק בן יעקב"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "מיגש, יוסף בן מאיר"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "שמואל בן יוסף הנגיד"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "אלגיאני, יצחק"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "משה בן משה די ברושלייש"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "אבן דנן, סעדיה בן מימון"
         }
@@ -123,14 +143,12 @@
       "kb:content": "Responsa",
       "kb:script": "North-African Hebrew cursive script",
       "citation": "Allony & Kupfer 1964, # 206",
-      "keyword": [
+      "keywords": [
         "Halakhah",
         "Hebraisk",
         "Jødisk-arabisk",
         "Marokko",
-        "Cod. Sim. Jud.-Arab 001"
-      ],
-      "categories": [
+        "Cod. Sim. Jud.-Arab 001",
         {
           "subject_name_da": "David Simonsens Håndskrifter",
           "subject_name_en": "The David Simonsen Manuscripts"

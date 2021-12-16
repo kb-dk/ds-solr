@@ -20,6 +20,7 @@
       <role key="art" href="https://schema.org/artist ">artist</role>
       <role key="aut" href="https://schema.org/author">author</role>
       <role key="cre" href="https://schema.org/creator">creator</role>
+      <role key="creator" href="https://schema.org/creator">creator</role>
       <role key="ctb" href="https://schema.org/contributor">contributor</role>
       <role key="rcp" href="https://schema.org/recipient">recipient</role>
       <role key="scr" href="http://id.loc.gov/vocabulary/relators/art">relator:scr</role>
@@ -167,95 +168,86 @@
 
                 </xsl:if>
 
-                <!-- *********************** Subjects, Categories etc ******************** -->
+                <xsl:if test="m:subject/m:hierarchicalGeographic">
+                  <f:array key="contentLocation">
+                    <f:map>
+                      <f:string key="@type">Place</f:string>
+                      <xsl:for-each select="m:subject/m:hierarchicalGeographic">
+                        <xsl:for-each select="m:area">
+                          <xsl:element name="f:string">
+                            <xsl:attribute name="key"><xsl:value-of select="@areaType"/></xsl:attribute>
+                            <xsl:value-of select="."/>
+                          </xsl:element>
+                        </xsl:for-each>
+                        <xsl:for-each select="m:citySection">
+                          <xsl:element name="f:string">
+                            <xsl:attribute name="key"><xsl:value-of select="@citySectionType"/></xsl:attribute>
+                            <xsl:value-of select="."/>
+                          </xsl:element>
+                        </xsl:for-each>
+                        <xsl:if test="m:city">
+                          <f:string key="city"><xsl:value-of select="m:city"/></f:string>
+                        </xsl:if>
+                      </xsl:for-each>
+                    </f:map>
+                  </f:array>
+                </xsl:if>
+                
+                <f:array key="keywords">
+                  <!-- *********************** Subjects, Categories etc ******************** -->
 
-                <xsl:for-each select="distinct-values(m:subject/m:name/m:role/m:roleTerm)">
+                  <xsl:for-each select="distinct-values(m:subject/m:name/m:role/m:roleTerm)">
                   <xsl:variable name="term" select="."/>
-                  <f:array>
-                    <xsl:attribute name="key">subject</xsl:attribute>
                     <xsl:for-each select="$dom//m:subject/m:name[m:role/m:roleTerm = $term]">
                       <xsl:call-template name="get-names">
                         <xsl:with-param name="record_identifier" select="$record-id"/>
                       </xsl:call-template>
                     </xsl:for-each>
-                  </f:array>
+                </xsl:for-each>
+                
+                <xsl:for-each select="distinct-values(m:subject/m:topic)">
+                  <f:string><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
 
-                <xsl:if test="m:subject/m:topic">
-                  <f:array>
-                    <xsl:attribute name="key">keyword</xsl:attribute>
-                    <xsl:for-each select="distinct-values(m:subject/m:topic)">
-                      <f:string><xsl:value-of select="."/></f:string>
-                    </xsl:for-each>
-                  </f:array>
-                </xsl:if>
-
                 <xsl:if test="m:subject/m:geographic">
-                  <f:array>
-                    <xsl:attribute name="key">location</xsl:attribute>
-                    <xsl:for-each select="distinct-values(m:subject/m:geographic)">
-                      <f:string><xsl:value-of select="."/></f:string>
-                    </xsl:for-each>
-                  </f:array>
+                  <xsl:for-each select="distinct-values(m:subject/m:geographic)">
+                    <f:string><xsl:value-of select="."/></f:string>
+                  </xsl:for-each>
                 </xsl:if>
                 
-                <f:array key="categories">
-
-                  <xsl:variable name="categories" as="xs:string *">
-                    <xsl:for-each select="m:extension/h:div">
-                      <xsl:for-each select="h:a[@href]">
-                        <xsl:sort select="@href" data-type="text" />
-                        <xsl:if test="not(contains(@href,'editions'))">
-                          <xsl:variable name="cat"><xsl:value-of
-                          select="replace(@href,'^.*subject(\d+).*$','subject$1')"/></xsl:variable>
-                          <xsl:value-of select="$cat"/>
-                        </xsl:if>
-                      </xsl:for-each>
-                    </xsl:for-each>
-                  </xsl:variable>
-
-                  <xsl:for-each select="distinct-values($categories)" >
-                    <xsl:variable name="subject"
-                                  select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'')"/>
-                    <f:map>
-                      <f:string key="subject_name_da">
-                        <xsl:for-each
-                            select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
-                          <xsl:value-of select="."/> 
-                        </xsl:for-each>
-                      </f:string>
-                      <f:string key="subject_name_en">
-                        <xsl:for-each
-                            select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
-                          <xsl:value-of select="."/> 
-                        </xsl:for-each>
-                      </f:string>
-                    </f:map>
-                  </xsl:for-each>
-                </f:array>
-
-                <xsl:if test="m:subject/m:hierarchicalGeographic">
-                  <f:map key="coverage_geo_names">
-                    <xsl:for-each select="m:subject/m:hierarchicalGeographic">
-                      <xsl:for-each select="m:area">
-                        <xsl:element name="f:string">
-                          <xsl:attribute name="key"><xsl:value-of select="@areaType"/></xsl:attribute>
-                          <xsl:value-of select="."/>
-                        </xsl:element>
-                      </xsl:for-each>
-                      <xsl:for-each select="m:citySection">
-                        <xsl:element name="f:string">
-                          <xsl:attribute name="key"><xsl:value-of select="@citySectionType"/></xsl:attribute>
-                          <xsl:value-of select="."/>
-                        </xsl:element>
-                      </xsl:for-each>
-                      <xsl:if test="m:city">
-                        <f:string key="city"><xsl:value-of select="m:city"/></f:string>
+                <xsl:variable name="categories" as="xs:string *">
+                  <xsl:for-each select="m:extension/h:div">
+                    <xsl:for-each select="h:a[@href]">
+                      <xsl:sort select="@href" data-type="text" />
+                      <xsl:if test="not(contains(@href,'editions'))">
+                        <xsl:variable name="cat"><xsl:value-of
+                        select="replace(@href,'^.*subject(\d+).*$','subject$1')"/></xsl:variable>
+                        <xsl:value-of select="$cat"/>
                       </xsl:if>
                     </xsl:for-each>
+                  </xsl:for-each>
+                </xsl:variable>
+
+                <xsl:for-each select="distinct-values($categories)" >
+                  <xsl:variable name="subject"
+                                select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'')"/>
+                  <f:map>
+                    <f:string key="subject_name_da">
+                      <xsl:for-each
+                          select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
+                        <xsl:value-of select="."/> 
+                      </xsl:for-each>
+                    </f:string>
+                    <f:string key="subject_name_en">
+                      <xsl:for-each
+                          select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
+                        <xsl:value-of select="."/> 
+                      </xsl:for-each>
+                    </f:string>
                   </f:map>
-                </xsl:if>
-                
+                </xsl:for-each>
+                </f:array>
+
                 <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
                   <xsl:if test="not(contains(.,'0.0,0.0'))">
                     <f:string key="location_coordinates"><xsl:value-of select="."/></f:string>
@@ -567,6 +559,7 @@ software.
     <xsl:param name="record_identifier"/>
     
     <f:map>
+      <f:string key="@type">Person</f:string>
       <xsl:if test="@authorityURI">
         <f:string key="sameAs"><xsl:value-of select="@authorityURI"/></f:string>
       </xsl:if>

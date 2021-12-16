@@ -15,6 +15,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -31,6 +32,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -38,12 +40,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -115,6 +118,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -131,6 +135,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -138,12 +143,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -215,6 +221,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -231,6 +238,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
@@ -238,12 +246,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -309,6 +318,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -325,6 +335,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -332,12 +343,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -403,6 +415,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -419,6 +432,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -426,12 +440,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -497,6 +512,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -513,6 +529,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -520,12 +537,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -597,6 +615,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -613,6 +632,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -620,12 +640,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -697,6 +718,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -713,6 +735,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -720,12 +743,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"
@@ -791,6 +815,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -807,6 +832,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
@@ -814,12 +840,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/4938982",
           "language": "en",
           "name": "Brandes, Georg"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "Br",
           "subject_name_en": "Br"

@@ -15,6 +15,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "da",
             "name": "cumulus:cumulus"
           }
@@ -29,21 +30,31 @@
           "@language": "da"
         }
       ],
-      "": [
+      "creator": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/307245669",
           "name": "Sylvest Jensen Luftfoto"
         }
       ],
-      "keyword": [
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "area": "Præsteskov",
+          "cadastre": "17b",
+          "parish": "Tystrup",
+          "building": "Jægerhytten",
+          "zipcode": "4250",
+          "housenumber": "32",
+          "street": "Næblerødvej",
+          "city": "Fuglebjerg"
+        }
+      ],
+      "keywords": [
         "kastrup storskov",
         "hestekøretøj",
-        "præsteskov"
-      ],
-      "location": [
-        "Danmark, Sjælland, Sorø, Tystrup"
-      ],
-      "categories": [
+        "præsteskov",
+        "Danmark, Sjælland, Sorø, Tystrup",
         {
           "subject_name_da": "Luftfoto",
           "subject_name_en": "Luftfoto"
@@ -61,16 +72,6 @@
           "subject_name_en": "Hovedstaden"
         }
       ],
-      "coverage_geo_names": {
-        "area": "Præsteskov",
-        "cadastre": "17b",
-        "parish": "Tystrup",
-        "building": "Jægerhytten",
-        "zipcode": "4250",
-        "housenumber": "32",
-        "street": "Næblerødvej",
-        "city": "Fuglebjerg"
-      },
       "location_coordinates": "55.35492968597365,11.532704574783565",
       "visible_date": [
         "1936-1939"

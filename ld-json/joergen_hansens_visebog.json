@@ -15,6 +15,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "da",
             "name": "cumulus:blo"
           }
@@ -29,14 +30,13 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "language": "da",
           "name": "Dansk Folkemindesamling"
         }
       ],
-      "keyword": [
-        "Jørgen Hansens visebog"
-      ],
-      "categories": [
+      "keywords": [
+        "Jørgen Hansens visebog",
         {
           "subject_name_da": "Jørgen Hansens visebog",
           "subject_name_en": "Jørgen Hansens visebog"

@@ -15,6 +15,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:eja"
           }
@@ -37,42 +38,51 @@
       ],
       "relator:scr": [
         {
+          "@type": "Person",
           "language": "en",
           "name": "Goldblum, J. I."
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "גולדבלום, ישראל איסר"
         }
       ],
       "author": [
         {
+          "@type": "Person",
           "language": "en",
           "name": "Maimonides"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Moshe ben Maimon"
         },
         {
+          "@type": "Person",
           "language": "en",
           "name": "Rambam"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "משה בן מימון"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "רמב\"ם"
         }
       ],
       "translator": [
         {
+          "@type": "Person",
           "language": "en",
           "name": "Ibn Tibon, Moshe"
         },
         {
+          "@type": "Person",
           "language": "he",
           "name": "משה אבן תיבון"
         }
@@ -83,13 +93,11 @@
       "kb:content": "Work on logic",
       "kb:script": "Modern Hebrew cursive script",
       "citation": "Allony & Kupfer 1964, # 113",
-      "keyword": [
+      "keywords": [
         "Philosophy (texts and/or commentaries)",
         "Hebraisk",
         "Cod. Sim. Heb. 035",
-        "Frankrig"
-      ],
-      "categories": [
+        "Frankrig",
         {
           "subject_name_da": "David Simonsens Håndskrifter",
           "subject_name_en": "The David Simonsen Manuscripts"

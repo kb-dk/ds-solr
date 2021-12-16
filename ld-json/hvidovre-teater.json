@@ -15,6 +15,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "da",
             "name": "cumulus:blo"
           }
@@ -29,6 +30,7 @@
       ],
       "artist": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/25276097",
           "language": "da",
           "name": "Seidel, Claus (1946-05-24)"
@@ -39,17 +41,17 @@
         "Klassiker"
       ],
       "kb:situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
-      "subject": [
+      "keywords": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/312847028",
           "name": "Lind, Lane (1945-)"
         },
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/316745351",
           "name": "Sandø, Waage (1943-)"
-        }
-      ],
-      "categories": [
+        },
         {
           "subject_name_da": "Billeder",
           "subject_name_en": "Billeder"

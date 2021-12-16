@@ -15,6 +15,7 @@
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
+            "@type": "Person",
             "language": "en",
             "name": "cumulus:oam"
           }
@@ -31,6 +32,7 @@
       ],
       "author": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/75121530",
           "language": "en",
           "name": "Einstein, Albert"
@@ -38,12 +40,13 @@
       ],
       "recipient": [
         {
+          "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
           "language": "en",
           "name": "Simonsen, David"
         }
       ],
-      "categories": [
+      "keywords": [
         {
           "subject_name_da": "David Simonsen ArchivesEEi",
           "subject_name_en": "David Simonsen ArchivesEEi"
