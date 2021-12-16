@@ -48,32 +48,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0005",
-          "subject_name_en": "0005"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0005"
+            },
+            {
+              "@language": "en",
+              "@value": "0005"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1916-04-12",
@@ -151,32 +214,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0002",
-          "subject_name_en": "0002"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0002"
+            },
+            {
+              "@language": "en",
+              "@value": "0002"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1915-05-18",
@@ -254,32 +380,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0009",
-          "subject_name_en": "0009"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0009"
+            },
+            {
+              "@language": "en",
+              "@value": "0009"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1927-02-19",
@@ -351,32 +540,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0004",
-          "subject_name_en": "0004"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0004"
+            },
+            {
+              "@language": "en",
+              "@value": "0004"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1915-06-23",
@@ -448,32 +700,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0008",
-          "subject_name_en": "0008"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0008"
+            },
+            {
+              "@language": "en",
+              "@value": "0008"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1920-03-25",
@@ -545,32 +860,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0006",
-          "subject_name_en": "0006"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0006"
+            },
+            {
+              "@language": "en",
+              "@value": "0006"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1916-04-14",
@@ -648,32 +1026,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0001",
-          "subject_name_en": "0001"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0001"
+            },
+            {
+              "@language": "en",
+              "@value": "0001"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1914-10-29",
@@ -751,32 +1192,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0007",
-          "subject_name_en": "0007"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0007"
+            },
+            {
+              "@language": "en",
+              "@value": "0007"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1920-03-19",
@@ -848,32 +1352,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "Br",
-          "subject_name_en": "Br"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
         },
         {
-          "subject_name_da": "Brandes, Georg",
-          "subject_name_en": "Brandes, Georg"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
         },
         {
-          "subject_name_da": "0003",
-          "subject_name_en": "0003"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0003"
+            },
+            {
+              "@language": "en",
+              "@value": "0003"
+            }
+          ]
         },
         {
-          "subject_name_da": "David Simonsen ArchivesB",
-          "subject_name_en": "David Simonsen ArchivesB"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
         },
         {
-          "subject_name_da": "B",
-          "subject_name_en": "B"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David Simonsen",
-          "subject_name_en": "Letters to/from David Simonsen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1915-05-23",

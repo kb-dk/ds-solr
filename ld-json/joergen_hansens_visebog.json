@@ -38,16 +38,43 @@
       "keywords": [
         "Jørgen Hansens visebog",
         {
-          "subject_name_da": "Jørgen Hansens visebog",
-          "subject_name_en": "Jørgen Hansens visebog"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Jørgen Hansens visebog"
+            },
+            {
+              "@language": "en",
+              "@value": "Jørgen Hansens visebog"
+            }
+          ]
         },
         {
-          "subject_name_da": "Visebøger, håndskrevne",
-          "subject_name_en": "Visebøger, håndskrevne"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Visebøger, håndskrevne"
+            },
+            {
+              "@language": "en",
+              "@value": "Visebøger, håndskrevne"
+            }
+          ]
         },
         {
-          "subject_name_da": "Dansk Folkemindesamling",
-          "subject_name_en": "Dansk Folkemindesamling"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Dansk Folkemindesamling"
+            },
+            {
+              "@language": "en",
+              "@value": "Dansk Folkemindesamling"
+            }
+          ]
         }
       ],
       "read_direction": "LTR",

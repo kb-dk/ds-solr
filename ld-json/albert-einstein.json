@@ -48,32 +48,95 @@
       ],
       "keywords": [
         {
-          "subject_name_da": "David Simonsen ArchivesEEi",
-          "subject_name_en": "David Simonsen ArchivesEEi"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesEEi"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesEEi"
+            }
+          ]
         },
         {
-          "subject_name_da": "E",
-          "subject_name_en": "E"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "E"
+            },
+            {
+              "@language": "en",
+              "@value": "E"
+            }
+          ]
         },
         {
-          "subject_name_da": "Ei",
-          "subject_name_en": "Ei"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Ei"
+            },
+            {
+              "@language": "en",
+              "@value": "Ei"
+            }
+          ]
         },
         {
-          "subject_name_da": "Letters to/from David SimonsenEinstein, Albert0001",
-          "subject_name_en": "Letters to/from David SimonsenEinstein, Albert0001"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David SimonsenEinstein, Albert0001"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David SimonsenEinstein, Albert0001"
+            }
+          ]
         },
         {
-          "subject_name_da": "Einstein, Albert",
-          "subject_name_en": "Einstein, Albert"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Einstein, Albert"
+            },
+            {
+              "@language": "en",
+              "@value": "Einstein, Albert"
+            }
+          ]
         },
         {
-          "subject_name_da": "0001",
-          "subject_name_en": "0001"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0001"
+            },
+            {
+              "@language": "en",
+              "@value": "0001"
+            }
+          ]
         },
         {
-          "subject_name_da": "Correspondents",
-          "subject_name_en": "Correspondents"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
         }
       ],
       "not_after_date": "1920-06-27",

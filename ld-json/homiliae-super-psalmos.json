@@ -45,28 +45,82 @@
         "Græsk",
         "GKS 0018 folio",
         {
-          "subject_name_da": "Græsk",
-          "subject_name_en": "Græsk"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Græsk"
+            },
+            {
+              "@language": "en",
+              "@value": "Græsk"
+            }
+          ]
         },
         {
-          "subject_name_da": "Vesterlandske håndskrifter",
-          "subject_name_en": "Vesterlandske håndskrifter"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Vesterlandske håndskrifter"
+            },
+            {
+              "@language": "en",
+              "@value": "Vesterlandske håndskrifter"
+            }
+          ]
         },
         {
-          "subject_name_da": "Sprog",
-          "subject_name_en": "Sprog"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sprog"
+            },
+            {
+              "@language": "en",
+              "@value": "Sprog"
+            }
+          ]
         },
         {
-          "subject_name_da": "GKS 0018 folio",
-          "subject_name_en": "GKS 0018 folio"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "GKS 0018 folio"
+            },
+            {
+              "@language": "en",
+              "@value": "GKS 0018 folio"
+            }
+          ]
         },
         {
-          "subject_name_da": "GKS (Gammel Kongelig Samling)",
-          "subject_name_en": "GKS (Gammel Kongelig Samling)"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "GKS (Gammel Kongelig Samling)"
+            },
+            {
+              "@language": "en",
+              "@value": "GKS (Gammel Kongelig Samling)"
+            }
+          ]
         },
         {
-          "subject_name_da": "Samlinger",
-          "subject_name_en": "Samlinger"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
         }
       ],
       "not_after_date": "1199-01-01",

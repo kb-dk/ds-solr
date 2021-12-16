@@ -56,20 +56,56 @@
         "præsteskov",
         "Danmark, Sjælland, Sorø, Tystrup",
         {
-          "subject_name_da": "Luftfoto",
-          "subject_name_en": "Luftfoto"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
         },
         {
-          "subject_name_da": "Sylvest Jensen",
-          "subject_name_en": "Sylvest Jensen"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
         },
         {
-          "subject_name_da": "NK-Serie",
-          "subject_name_en": "NK-Serie"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "NK-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "NK-Serie"
+            }
+          ]
         },
         {
-          "subject_name_da": "Hovedstaden",
-          "subject_name_en": "Hovedstaden"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hovedstaden"
+            },
+            {
+              "@language": "en",
+              "@value": "Hovedstaden"
+            }
+          ]
         }
       ],
       "location_coordinates": "55.35492968597365,11.532704574783565",

@@ -53,20 +53,56 @@
           "name": "Sandø, Waage (1943-)"
         },
         {
-          "subject_name_da": "Billeder",
-          "subject_name_en": "Billeder"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
         },
         {
-          "subject_name_da": "Særudgivelser",
-          "subject_name_en": "Særudgivelser"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Særudgivelser"
+            },
+            {
+              "@language": "en",
+              "@value": "Særudgivelser"
+            }
+          ]
         },
         {
-          "subject_name_da": "Seidel, Claus",
-          "subject_name_en": "Seidel, Claus"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Seidel, Claus"
+            },
+            {
+              "@language": "en",
+              "@value": "Seidel, Claus"
+            }
+          ]
         },
         {
-          "subject_name_da": "Bladtegninger",
-          "subject_name_en": "Bladtegninger"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Bladtegninger"
+            },
+            {
+              "@language": "en",
+              "@value": "Bladtegninger"
+            }
+          ]
         }
       ],
       "not_after_date": "1987-01-31",

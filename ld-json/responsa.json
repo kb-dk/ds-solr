@@ -150,40 +150,121 @@
         "Marokko",
         "Cod. Sim. Jud.-Arab 001",
         {
-          "subject_name_da": "David Simonsens Håndskrifter",
-          "subject_name_en": "The David Simonsen Manuscripts"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsens Håndskrifter"
+            },
+            {
+              "@language": "en",
+              "@value": "The David Simonsen Manuscripts"
+            }
+          ]
         },
         {
-          "subject_name_da": "Sprog",
-          "subject_name_en": "Language"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sprog"
+            },
+            {
+              "@language": "en",
+              "@value": "Language"
+            }
+          ]
         },
         {
-          "subject_name_da": "Hebraisk",
-          "subject_name_en": "Hebrew"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hebraisk"
+            },
+            {
+              "@language": "en",
+              "@value": "Hebrew"
+            }
+          ]
         },
         {
-          "subject_name_da": "Jødisk-arabisk",
-          "subject_name_en": "Judeo-Arabic"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Jødisk-arabisk"
+            },
+            {
+              "@language": "en",
+              "@value": "Judeo-Arabic"
+            }
+          ]
         },
         {
-          "subject_name_da": "Ophavsland",
-          "subject_name_en": "Country of origin"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Ophavsland"
+            },
+            {
+              "@language": "en",
+              "@value": "Country of origin"
+            }
+          ]
         },
         {
-          "subject_name_da": "Marokko",
-          "subject_name_en": "Marocco"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Marokko"
+            },
+            {
+              "@language": "en",
+              "@value": "Marocco"
+            }
+          ]
         },
         {
-          "subject_name_da": "Opstillingssignatur",
-          "subject_name_en": "Shelf mark"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Opstillingssignatur"
+            },
+            {
+              "@language": "en",
+              "@value": "Shelf mark"
+            }
+          ]
         },
         {
-          "subject_name_da": "Cod. Sim. Jud.-Arab 001-007",
-          "subject_name_en": "Cod. Sim. Jud.-Arab 001-007"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Cod. Sim. Jud.-Arab 001-007"
+            },
+            {
+              "@language": "en",
+              "@value": "Cod. Sim. Jud.-Arab 001-007"
+            }
+          ]
         },
         {
-          "subject_name_da": "Cod. Sim. Jud.-Arab 001",
-          "subject_name_en": "Cod. Sim. Jud.-Arab 001"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Cod. Sim. Jud.-Arab 001"
+            },
+            {
+              "@language": "en",
+              "@value": "Cod. Sim. Jud.-Arab 001"
+            }
+          ]
         }
       ],
       "not_after_date": "1544-12-31",

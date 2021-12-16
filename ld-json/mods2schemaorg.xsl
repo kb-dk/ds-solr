@@ -43,8 +43,8 @@
 
             <xsl:variable name="cataloging_language">
               <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
-                    <xsl:value-of select="."/>              
-                </xsl:for-each>
+                <xsl:value-of select="."/>              
+              </xsl:for-each>
             </xsl:variable>
             
             <xsl:variable name="dom" select="."/>
@@ -146,25 +146,25 @@
                 </xsl:if>
 
                 <xsl:if test="m:note[@type or @displayLabel]">
-                    <xsl:for-each select="m:note[@type or @displayLabel]">
-                      <f:string>
-                        <xsl:attribute name="key">
-                          <xsl:choose>
-                            <xsl:when test="@type">
-                              <xsl:choose>
-                                <xsl:when test="contains(@type,'citation/reference')">citation</xsl:when>
-                                <xsl:when test="contains( @displayLabel,'ript')">kb:script</xsl:when>
-                                <xsl:otherwise><xsl:value-of select="concat('kb:',my:escape_stuff(@type))"/></xsl:otherwise>
-                              </xsl:choose>
-                            </xsl:when>
-                            <xsl:otherwise>
-                              <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/>
-                            </xsl:otherwise>
-                          </xsl:choose>
-                        </xsl:attribute>
-                        <xsl:value-of select="."/>
-                      </f:string>
-                    </xsl:for-each>
+                  <xsl:for-each select="m:note[@type or @displayLabel]">
+                    <f:string>
+                      <xsl:attribute name="key">
+                        <xsl:choose>
+                          <xsl:when test="@type">
+                            <xsl:choose>
+                              <xsl:when test="contains(@type,'citation/reference')">citation</xsl:when>
+                              <xsl:when test="contains( @displayLabel,'ript')">kb:script</xsl:when>
+                              <xsl:otherwise><xsl:value-of select="concat('kb:',my:escape_stuff(@type))"/></xsl:otherwise>
+                            </xsl:choose>
+                          </xsl:when>
+                          <xsl:otherwise>
+                            <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/>
+                          </xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:attribute>
+                      <xsl:value-of select="."/>
+                    </f:string>
+                  </xsl:for-each>
 
                 </xsl:if>
 
@@ -197,57 +197,67 @@
                   <!-- *********************** Subjects, Categories etc ******************** -->
 
                   <xsl:for-each select="distinct-values(m:subject/m:name/m:role/m:roleTerm)">
-                  <xsl:variable name="term" select="."/>
+                    <xsl:variable name="term" select="."/>
                     <xsl:for-each select="$dom//m:subject/m:name[m:role/m:roleTerm = $term]">
                       <xsl:call-template name="get-names">
                         <xsl:with-param name="record_identifier" select="$record-id"/>
                       </xsl:call-template>
                     </xsl:for-each>
-                </xsl:for-each>
-                
-                <xsl:for-each select="distinct-values(m:subject/m:topic)">
-                  <f:string><xsl:value-of select="."/></f:string>
-                </xsl:for-each>
-
-                <xsl:if test="m:subject/m:geographic">
-                  <xsl:for-each select="distinct-values(m:subject/m:geographic)">
+                  </xsl:for-each>
+                  
+                  <xsl:for-each select="distinct-values(m:subject/m:topic)">
                     <f:string><xsl:value-of select="."/></f:string>
                   </xsl:for-each>
-                </xsl:if>
-                
-                <xsl:variable name="categories" as="xs:string *">
-                  <xsl:for-each select="m:extension/h:div">
-                    <xsl:for-each select="h:a[@href]">
-                      <xsl:sort select="@href" data-type="text" />
-                      <xsl:if test="not(contains(@href,'editions'))">
-                        <xsl:variable name="cat"><xsl:value-of
-                        select="replace(@href,'^.*subject(\d+).*$','subject$1')"/></xsl:variable>
-                        <xsl:value-of select="$cat"/>
-                      </xsl:if>
+
+                  <xsl:if test="m:subject/m:geographic">
+                    <xsl:for-each select="distinct-values(m:subject/m:geographic)">
+                      <f:string><xsl:value-of select="."/></f:string>
                     </xsl:for-each>
+                  </xsl:if>
+                  
+                  <xsl:variable name="categories" as="xs:string *">
+                    <xsl:for-each select="m:extension/h:div">
+                      <xsl:for-each select="h:a[@href]">
+                        <xsl:sort select="@href" data-type="text" />
+                        <xsl:if test="not(contains(@href,'editions'))">
+                          <xsl:variable name="cat"><xsl:value-of
+                          select="replace(@href,'^.*subject(\d+).*$','subject$1')"/></xsl:variable>
+                          <xsl:value-of select="$cat"/>
+                        </xsl:if>
+                      </xsl:for-each>
+                    </xsl:for-each>
+                  </xsl:variable>
+
+                  <xsl:for-each select="distinct-values($categories)" >
+                    <xsl:variable name="subject"
+                                  select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'')"/>
+                    <f:map>
+
+                      <f:string key="@type">DefinedTerm</f:string>
+                      <f:array key="name">
+                        <f:map>
+                          <f:string key="@language">da</f:string>
+                          <f:string key="@value">
+                            <xsl:for-each
+                                select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
+                              <xsl:value-of select="."/> 
+                            </xsl:for-each>
+                          </f:string>
+                        </f:map>
+                        <f:map>
+                          <f:string key="@language">en</f:string>
+                          <f:string key="@value">
+                            <xsl:for-each
+                                select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
+                              <xsl:value-of select="."/> 
+                            </xsl:for-each>
+                          </f:string>
+                        </f:map>
+                      </f:array>
+                    </f:map>
                   </xsl:for-each>
-                </xsl:variable>
-
-                <xsl:for-each select="distinct-values($categories)" >
-                  <xsl:variable name="subject"
-                                select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'')"/>
-                  <f:map>
-                    <f:string key="subject_name_da">
-                      <xsl:for-each
-                          select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
-                        <xsl:value-of select="."/> 
-                      </xsl:for-each>
-                    </f:string>
-                    <f:string key="subject_name_en">
-                      <xsl:for-each
-                          select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
-                        <xsl:value-of select="."/> 
-                      </xsl:for-each>
-                    </f:string>
-                  </f:map>
-                </xsl:for-each>
                 </f:array>
-
+                
                 <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
                   <xsl:if test="not(contains(.,'0.0,0.0'))">
                     <f:string key="location_coordinates"><xsl:value-of select="."/></f:string>
@@ -374,11 +384,11 @@
                         </f:string>
                         <f:string key="entity_type">collection</f:string>
                         <!-- f:string key="id">
-                          <xsl:value-of
+                             <xsl:value-of
 
 select="concat($record-id,concat($sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id()))"/>
 
-                        </f:string -->
+</f:string -->
                       </f:map>
                     </xsl:for-each>
                   </f:array>
@@ -480,43 +490,43 @@ software.
   </xsl:template>
   
   <xsl:template name="make_page_field">
-  
-      <xsl:choose>
-        <xsl:when test="m:identifier[@displayLabel='iiif']">
+    
+    <xsl:choose>
+      <xsl:when test="m:identifier[@displayLabel='iiif']">
 
-          <f:map>
-            <f:string key="@type">CreativeWork</f:string>
-            <xsl:call-template name="get-title"/>
-            <f:array key="url">
-              <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]">
-                <xsl:call-template name="find-pages"/>
-              </xsl:for-each>
-            </f:array>
-          </f:map>          
-          <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif']]">
-            <xsl:call-template name="make_page_field"/>
-          </xsl:for-each>
+        <f:map>
+          <f:string key="@type">CreativeWork</f:string>
+          <xsl:call-template name="get-title"/>
+          <f:array key="url">
+            <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]">
+              <xsl:call-template name="find-pages"/>
+            </xsl:for-each>
+          </f:array>
+        </f:map>          
+        <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif']]">
+          <xsl:call-template name="make_page_field"/>
+        </xsl:for-each>
+        
+      </xsl:when>
+      <xsl:otherwise>
+
+        <f:map>
+          <f:string key="@type">CreativeWork</f:string>
+          <xsl:call-template name="get-title"/>
           
-        </xsl:when>
-        <xsl:otherwise>
+          <f:array key="url">
+            <xsl:for-each select="m:identifier[contains(.,'.tif')]">
+              <xsl:call-template name="find-pages"/>
+            </xsl:for-each>
+          </f:array>
+        </f:map>          
 
-          <f:map>
-            <f:string key="@type">CreativeWork</f:string>
-            <xsl:call-template name="get-title"/>
-          
-            <f:array key="url">
-              <xsl:for-each select="m:identifier[contains(.,'.tif')]">
-                <xsl:call-template name="find-pages"/>
-              </xsl:for-each>
-            </f:array>
-          </f:map>          
+        <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
+          <xsl:call-template name="make_page_field"/>
+        </xsl:for-each>
 
-          <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
-            <xsl:call-template name="make_page_field"/>
-          </xsl:for-each>
-
-        </xsl:otherwise>
-      </xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>
 
   </xsl:template>
   
@@ -584,8 +594,8 @@ software.
       <xsl:choose>
         <xsl:when test="not(f:string[@key='id'])">
           <!-- f:string key="id">
-            <xsl:value-of select="concat($record_identifier,$sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id())"/>
-          </f:string -->
+               <xsl:value-of select="concat($record_identifier,$sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id())"/>
+               </f:string -->
           <xsl:apply-templates select="*">
             <xsl:with-param name="record_identifier" select="$record_identifier"/>
           </xsl:apply-templates>
@@ -601,11 +611,11 @@ software.
   </xsl:template>
 
   <!-- xsl:template name="disposable-subrecord">
-    <xsl:param name="record_identifier"/>
-    <f:string key="id">
-      <xsl:value-of select="concat($record_identifier,$sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id())"/>
-    </f:string>
-  </xsl:template -->
+       <xsl:param name="record_identifier"/>
+       <f:string key="id">
+       <xsl:value-of select="concat($record_identifier,$sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id())"/>
+       </f:string>
+       </xsl:template -->
 
   <xsl:function name="my:escape_stuff"><xsl:param name="arg"/><xsl:value-of select="replace($arg,'\s',$sep_string,'s')"/></xsl:function>
   

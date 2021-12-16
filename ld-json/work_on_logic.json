@@ -99,36 +99,108 @@
         "Cod. Sim. Heb. 035",
         "Frankrig",
         {
-          "subject_name_da": "David Simonsens Håndskrifter",
-          "subject_name_en": "The David Simonsen Manuscripts"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsens Håndskrifter"
+            },
+            {
+              "@language": "en",
+              "@value": "The David Simonsen Manuscripts"
+            }
+          ]
         },
         {
-          "subject_name_da": "Sprog",
-          "subject_name_en": "Language"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sprog"
+            },
+            {
+              "@language": "en",
+              "@value": "Language"
+            }
+          ]
         },
         {
-          "subject_name_da": "Hebraisk",
-          "subject_name_en": "Hebrew"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hebraisk"
+            },
+            {
+              "@language": "en",
+              "@value": "Hebrew"
+            }
+          ]
         },
         {
-          "subject_name_da": "Opstillingssignatur",
-          "subject_name_en": "Shelf mark"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Opstillingssignatur"
+            },
+            {
+              "@language": "en",
+              "@value": "Shelf mark"
+            }
+          ]
         },
         {
-          "subject_name_da": "Cod. Sim. Heb. 031-040",
-          "subject_name_en": "Cod. Sim. Heb. 031-040"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Cod. Sim. Heb. 031-040"
+            },
+            {
+              "@language": "en",
+              "@value": "Cod. Sim. Heb. 031-040"
+            }
+          ]
         },
         {
-          "subject_name_da": "Cod. Sim. Heb. 035",
-          "subject_name_en": "Cod. Sim. Heb. 035"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Cod. Sim. Heb. 035"
+            },
+            {
+              "@language": "en",
+              "@value": "Cod. Sim. Heb. 035"
+            }
+          ]
         },
         {
-          "subject_name_da": "Ophavsland",
-          "subject_name_en": "Country of origin"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Ophavsland"
+            },
+            {
+              "@language": "en",
+              "@value": "Country of origin"
+            }
+          ]
         },
         {
-          "subject_name_da": "Frankrig",
-          "subject_name_en": "France"
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Frankrig"
+            },
+            {
+              "@language": "en",
+              "@value": "France"
+            }
+          ]
         }
       ],
       "not_after_date": "1866-12-31",
