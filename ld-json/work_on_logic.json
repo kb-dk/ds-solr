@@ -203,11 +203,14 @@
           ]
         }
       ],
-      "not_after_date": "1866-12-31",
-      "not_before_date": "1866-01-01",
-      "visible_date": [
-        "1866"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1866-12-31",
+        "startDate": "1866-01-01",
+        "description": [
+          "1866"
+        ]
+      },
       "physical_description": {
         "medium": "Paper",
         "extent": "61 fols.",

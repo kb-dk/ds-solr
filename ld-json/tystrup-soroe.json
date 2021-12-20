@@ -109,9 +109,12 @@
         }
       ],
       "location_coordinates": "55.35492968597365,11.532704574783565",
-      "visible_date": [
-        "1936-1939"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1936-1939"
+        ]
+      },
       "shelf_mark": "St. Dyr.",
       "local_identifier": "sylvest_nks_00950_6.tif",
       "identifier": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",

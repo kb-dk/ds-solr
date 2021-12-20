@@ -105,11 +105,14 @@
           ]
         }
       ],
-      "not_after_date": "1987-01-31",
-      "not_before_date": "1987-01-31",
-      "visible_date": [
-        "1987-01-31"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1987-01-31",
+        "startDate": "1987-01-31",
+        "description": [
+          "1987-01-31"
+        ]
+      },
       "physical_description": {
         "technique": "Tegning"
       },

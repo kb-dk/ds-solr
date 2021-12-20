@@ -139,11 +139,14 @@
           ]
         }
       ],
-      "not_after_date": "1916-04-12",
-      "not_before_date": "1916-04-12",
-      "visible_date": [
-        "1916-04-12"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1916-04-12",
+        "startDate": "1916-04-12",
+        "description": [
+          "1916-04-12"
+        ]
+      },
       "physical_description": {
         "extent": "2 pp."
       },
@@ -305,11 +308,14 @@
           ]
         }
       ],
-      "not_after_date": "1915-05-18",
-      "not_before_date": "1915-05-18",
-      "visible_date": [
-        "1915-05-18"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1915-05-18",
+        "startDate": "1915-05-18",
+        "description": [
+          "1915-05-18"
+        ]
+      },
       "physical_description": {
         "extent": "2 pp."
       },
@@ -471,11 +477,14 @@
           ]
         }
       ],
-      "not_after_date": "1927-02-19",
-      "not_before_date": "1892-01-01",
-      "visible_date": [
-        "3. juni"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1927-02-19",
+        "startDate": "1892-01-01",
+        "description": [
+          "3. juni"
+        ]
+      },
       "physical_description": {
         "extent": "1 p."
       },
@@ -631,11 +640,14 @@
           ]
         }
       ],
-      "not_after_date": "1915-06-23",
-      "not_before_date": "1915-06-23",
-      "visible_date": [
-        "1915-06-23"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1915-06-23",
+        "startDate": "1915-06-23",
+        "description": [
+          "1915-06-23"
+        ]
+      },
       "physical_description": {
         "extent": "1 p."
       },
@@ -791,11 +803,14 @@
           ]
         }
       ],
-      "not_after_date": "1920-03-25",
-      "not_before_date": "1920-03-25",
-      "visible_date": [
-        "1920-03-25"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1920-03-25",
+        "startDate": "1920-03-25",
+        "description": [
+          "1920-03-25"
+        ]
+      },
       "physical_description": {
         "extent": "1 p."
       },
@@ -951,11 +966,14 @@
           ]
         }
       ],
-      "not_after_date": "1916-04-14",
-      "not_before_date": "1916-04-14",
-      "visible_date": [
-        "1916-04-14"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1916-04-14",
+        "startDate": "1916-04-14",
+        "description": [
+          "1916-04-14"
+        ]
+      },
       "physical_description": {
         "extent": "2 pp."
       },
@@ -1117,11 +1135,14 @@
           ]
         }
       ],
-      "not_after_date": "1914-10-29",
-      "not_before_date": "1914-10-29",
-      "visible_date": [
-        "1914-10-29"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1914-10-29",
+        "startDate": "1914-10-29",
+        "description": [
+          "1914-10-29"
+        ]
+      },
       "physical_description": {
         "extent": "2 pp."
       },
@@ -1283,11 +1304,14 @@
           ]
         }
       ],
-      "not_after_date": "1920-03-19",
-      "not_before_date": "1920-03-19",
-      "visible_date": [
-        "1920-03-19"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1920-03-19",
+        "startDate": "1920-03-19",
+        "description": [
+          "1920-03-19"
+        ]
+      },
       "physical_description": {
         "extent": "1 p."
       },
@@ -1443,11 +1467,14 @@
           ]
         }
       ],
-      "not_after_date": "1915-05-23",
-      "not_before_date": "1915-05-23",
-      "visible_date": [
-        "1915-05-23"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1915-05-23",
+        "startDate": "1915-05-23",
+        "description": [
+          "1915-05-23"
+        ]
+      },
       "physical_description": {
         "extent": "1 p."
       },

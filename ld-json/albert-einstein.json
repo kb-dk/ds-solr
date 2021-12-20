@@ -139,11 +139,14 @@
           ]
         }
       ],
-      "not_after_date": "1920-06-27",
-      "not_before_date": "1920-06-27",
-      "visible_date": [
-        "1920-06-27"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1920-06-27",
+        "startDate": "1920-06-27",
+        "description": [
+          "1920-06-27"
+        ]
+      },
       "physical_description": {
         "extent": "1 p."
       },

@@ -267,13 +267,16 @@
           ]
         }
       ],
-      "not_after_date": "1544-12-31",
-      "not_before_date": "1542-01-01",
-      "visible_date": [
-        "1543/1544",
-        "רצ\"ח",
-        "ש\"ד"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1544-12-31",
+        "startDate": "1542-01-01",
+        "description": [
+          "1543/1544",
+          "רצ\"ח",
+          "ש\"ד"
+        ]
+      },
       "physical_description": {
         "medium": "Paper",
         "extent": "113 fols.",

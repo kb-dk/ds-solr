@@ -123,11 +123,14 @@
           ]
         }
       ],
-      "not_after_date": "1199-01-01",
-      "not_before_date": "1100-01-01",
-      "visible_date": [
-        "1100-1199"
-      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1199-01-01",
+        "startDate": "1100-01-01",
+        "description": [
+          "1100-1199"
+        ]
+      },
       "physical_description": {
         "medium": "Pergament",
         "extent": "1 bind, 493 blade"
