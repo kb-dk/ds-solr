@@ -47,7 +47,11 @@
           "zipcode": "4250",
           "housenumber": "32",
           "street": "Næblerødvej",
-          "city": "Fuglebjerg"
+          "city": "Fuglebjerg",
+          "geo": {
+            "latitude": "55.35492968597365",
+            "longitude": "11.532704574783565"
+          }
         }
       ],
       "keywords": [

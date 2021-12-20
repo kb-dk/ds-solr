@@ -168,6 +168,9 @@
 
                 </xsl:if>
 
+
+
+                
                 <xsl:if test="m:subject/m:hierarchicalGeographic">
                   <f:array key="contentLocation">
                     <f:map>
@@ -189,7 +192,19 @@
                           <f:string key="city"><xsl:value-of select="m:city"/></f:string>
                         </xsl:if>
                       </xsl:for-each>
+                      <f:map key="geo">
+                        <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
+                          <xsl:if test="not(contains(.,'0.0,0.0'))">
+                            <f:string key="latitude"><xsl:value-of select="substring-before(.,',')"/></f:string>
+                            <f:string key="longitude"><xsl:value-of select="substring-after(.,',')"/></f:string>
+                          </xsl:if>
+                        </xsl:for-each>
+                      </f:map>
+                      
                     </f:map>
+
+
+                    
                   </f:array>
                 </xsl:if>
                 
