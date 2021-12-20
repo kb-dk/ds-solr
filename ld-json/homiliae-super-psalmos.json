@@ -137,11 +137,11 @@
       },
       "shelf_mark": "GKS 18 folio",
       "original_object_identifier": "000023762KBH01",
-      "collection": [
+      "isPartOf": [
         {
-          "title": "Håndskriftsamlingen",
-          "content": "mixed material",
-          "entity_type": "collection"
+          "@type": "Collection",
+          "headline": "Håndskriftsamlingen",
+          "description": "mixed material"
         }
       ],
       "identifier": "a1445e60-06c2-11e1-bbcf-0016357f605f",

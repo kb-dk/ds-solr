@@ -376,20 +376,14 @@
                 </xsl:for-each>
 
                 <xsl:if test="m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
-                  <f:array key="collection">
+                  <f:array key="isPartOf">
                     <xsl:for-each select="m:relatedItem[m:typeOfResource/@collection='yes']">
                       <f:map>
-                        <f:string key="title"><xsl:value-of select="m:titleInfo/m:title"/></f:string>
-                        <f:string key="content">
+                        <f:string key="@type">Collection</f:string>
+                        <f:string key="headline"><xsl:value-of select="m:titleInfo/m:title"/></f:string>
+                        <f:string key="description">
                           <xsl:value-of select="m:typeOfResource[@collection='yes']"/>
                         </f:string>
-                        <f:string key="entity_type">collection</f:string>
-                        <!-- f:string key="id">
-                             <xsl:value-of
-
-select="concat($record-id,concat($sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id()))"/>
-
-</f:string -->
                       </f:map>
                     </xsl:for-each>
                   </f:array>

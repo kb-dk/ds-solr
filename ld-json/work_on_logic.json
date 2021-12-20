@@ -217,11 +217,11 @@
         "size": "22 x 17 cm"
       },
       "shelf_mark": "Cod. Sim. Heb. 35",
-      "collection": [
+      "isPartOf": [
         {
-          "title": "The Judaica Collection: The David Simonsen Manuscripts",
-          "content": "mixed material",
-          "entity_type": "collection"
+          "@type": "Collection",
+          "headline": "The Judaica Collection: The David Simonsen Manuscripts",
+          "description": "mixed material"
         }
       ],
       "language": [
