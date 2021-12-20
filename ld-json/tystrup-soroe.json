@@ -40,14 +40,17 @@
       "contentLocation": [
         {
           "@type": "Place",
-          "area": "Præsteskov",
-          "cadastre": "17b",
-          "parish": "Tystrup",
-          "building": "Jægerhytten",
-          "zipcode": "4250",
-          "housenumber": "32",
-          "street": "Næblerødvej",
-          "city": "Fuglebjerg",
+          "address": {
+            "@type": "kb:place",
+            "kb:area": "Præsteskov",
+            "kb:cadastre": "17b",
+            "kb:parish": "Tystrup",
+            "kb:building": "Jægerhytten",
+            "kb:zipcode": "4250",
+            "kb:housenumber": "32",
+            "kb:street": "Næblerødvej",
+            "kb:city": "Fuglebjerg"
+          },
           "geo": {
             "latitude": "55.35492968597365",
             "longitude": "11.532704574783565"
