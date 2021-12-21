@@ -80,6 +80,7 @@
       "publication": {
         "@type": "PublicationEvent"
       },
+      "identifier": [],
       "read_direction": "LTR",
       "encoding": [
         {

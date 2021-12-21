@@ -135,8 +135,20 @@
         "medium": "Pergament",
         "extent": "1 bind, 493 blade"
       },
-      "shelf_mark": "GKS 18 folio",
-      "original_object_identifier": "000023762KBH01",
+      "identifier": [
+        {
+          "additionalType": "shelf_mark",
+          "@value": "GKS 18 folio"
+        },
+        {
+          "additionalType": "original_object_identifier",
+          "@value": "000023762KBH01"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "a1445e60-06c2-11e1-bbcf-0016357f605f"
+        }
+      ],
       "isPartOf": [
         {
           "@type": "Collection",
@@ -144,7 +156,6 @@
           "description": "mixed material"
         }
       ],
-      "identifier": "a1445e60-06c2-11e1-bbcf-0016357f605f",
       "language": [
         "Græsk"
       ],

@@ -150,8 +150,16 @@
       "physical_description": {
         "extent": "2 pp."
       },
-      "local_identifier": "dsa_bra-boer_0029.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/af930070-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0029.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/af930070-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -319,8 +327,16 @@
       "physical_description": {
         "extent": "2 pp."
       },
-      "local_identifier": "dsa_bra-boer_0022.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/21ddb040-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0022.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/21ddb040-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -488,8 +504,16 @@
       "physical_description": {
         "extent": "1 p."
       },
-      "local_identifier": "dsa_bra-boer_0033.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/f32324f0-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0033.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/f32324f0-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -651,8 +675,16 @@
       "physical_description": {
         "extent": "1 p."
       },
-      "local_identifier": "dsa_bra-boer_0025.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/61f94770-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0025.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/61f94770-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -814,8 +846,16 @@
       "physical_description": {
         "extent": "1 p."
       },
-      "local_identifier": "dsa_bra-boer_0032.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/dcd9e210-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0032.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/dcd9e210-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -977,8 +1017,16 @@
       "physical_description": {
         "extent": "2 pp."
       },
-      "local_identifier": "dsa_bra-boer_0027.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/85e487d0-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0027.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/85e487d0-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -1146,8 +1194,16 @@
       "physical_description": {
         "extent": "2 pp."
       },
-      "local_identifier": "dsa_bra-boer_0020.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/0c414f30-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0020.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/0c414f30-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -1315,8 +1371,16 @@
       "physical_description": {
         "extent": "1 p."
       },
-      "local_identifier": "dsa_bra-boer_0031.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/c64bf510-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0031.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/c64bf510-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],
@@ -1478,8 +1542,16 @@
       "physical_description": {
         "extent": "1 p."
       },
-      "local_identifier": "dsa_bra-boer_0024.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/4a773670-0e89-11e0-a6d2-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0024.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/4a773670-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
       "language": [
         "da"
       ],

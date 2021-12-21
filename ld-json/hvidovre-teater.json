@@ -116,9 +116,20 @@
       "physical_description": {
         "technique": "Tegning"
       },
-      "shelf_mark": "Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5.",
-      "local_identifier": "db_claus_seidel_00459.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "shelf_mark",
+          "@value": "Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5."
+        },
+        {
+          "additionalType": "local_identifier",
+          "@value": "db_claus_seidel_00459.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f"
+        }
+      ],
       "encoding": [
         {
           "@type": "CreativeWork",

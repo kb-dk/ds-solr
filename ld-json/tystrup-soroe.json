@@ -122,9 +122,20 @@
           "1936-1939"
         ]
       },
-      "shelf_mark": "St. Dyr.",
-      "local_identifier": "sylvest_nks_00950_6.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "additionalType": "local_identifier",
+          "@value": "sylvest_nks_00950_6.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f"
+        }
+      ],
       "encoding": [
         {
           "@type": "CreativeWork",

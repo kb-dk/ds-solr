@@ -379,20 +379,39 @@
                 <!-- A library object usually have a more identifiers than
                      a software developer would like -->
 
-                <xsl:if test="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
-                  <xsl:for-each select="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
-                    <f:string key="shelf_mark"><xsl:value-of select="."/></f:string>
+                <f:array key="identifier">                
+                  <xsl:if test="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
+                    <xsl:for-each select="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
+                      <f:map>
+                        <f:string key="additionalType">shelf_mark</f:string>
+                        <f:string key="@value"><xsl:value-of select="."/></f:string>
+                      </f:map>
+                    </xsl:for-each>
+                  </xsl:if>
+
+                  <xsl:for-each select="m:identifier[@type='local'][1]">
+                    <f:map>
+                      <f:string key="additionalType">local_identifier</f:string>
+                      <f:string key="@value"><xsl:value-of select="."/></f:string>
+                    </f:map>
                   </xsl:for-each>
-                </xsl:if>
 
-                <xsl:for-each select="m:identifier[@type='local'][1]">
-                  <f:string key="local_identifier"><xsl:value-of select="."/></f:string>
-                </xsl:for-each>
+                  <xsl:for-each select="m:relatedItem[@type='original']/m:identifier">
+                    <f:map>
+                      <f:string key="additionalType">original_object_identifier</f:string>
+                      <f:string key="@value"><xsl:value-of select="."/></f:string>
+                    </f:map>
+                  </xsl:for-each>
 
-                <xsl:for-each select="m:relatedItem[@type='original']/m:identifier">
-                  <f:string key="original_object_identifier"><xsl:value-of select="."/></f:string>
-                </xsl:for-each>
-
+                  <xsl:for-each select="m:identifier[@type='domsGuid']">
+                    <f:map>
+                      <f:string key="additionalType">domsGuid</f:string>
+                      <f:string key="@value"><xsl:value-of select="."/></f:string>
+                    </f:map>
+                  </xsl:for-each>
+                  
+                </f:array>
+                
                 <xsl:if test="m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
                   <f:array key="isPartOf">
                     <xsl:for-each select="m:relatedItem[m:typeOfResource/@collection='yes']">
@@ -407,9 +426,6 @@
                   </f:array>
                 </xsl:if>
                 
-                <xsl:for-each select="m:identifier[@type='domsGuid']">
-                  <f:string key="identifier"><xsl:value-of select="."/></f:string>
-                </xsl:for-each>
 
                 <xsl:if test="m:language/m:languageTerm[@authority='rfc4646']">
                   <f:array key="language">

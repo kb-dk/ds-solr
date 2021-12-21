@@ -216,7 +216,12 @@
         "extent": "61 fols.",
         "size": "22 x 17 cm"
       },
-      "shelf_mark": "Cod. Sim. Heb. 35",
+      "identifier": [
+        {
+          "additionalType": "shelf_mark",
+          "@value": "Cod. Sim. Heb. 35"
+        }
+      ],
       "isPartOf": [
         {
           "@type": "Collection",

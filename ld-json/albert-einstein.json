@@ -150,8 +150,16 @@
       "physical_description": {
         "extent": "1 p."
       },
-      "local_identifier": "dsa_eaa-ejc_0865.tif",
-      "identifier": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f",
+      "identifier": [
+        {
+          "additionalType": "local_identifier",
+          "@value": "dsa_eaa-ejc_0865.tif"
+        },
+        {
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f"
+        }
+      ],
       "language": [
         "de"
       ],

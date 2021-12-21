@@ -282,7 +282,12 @@
         "extent": "113 fols.",
         "size": "29,5 x 21 cm"
       },
-      "shelf_mark": "Cod. Sim. Jud.-Arab 1",
+      "identifier": [
+        {
+          "additionalType": "shelf_mark",
+          "@value": "Cod. Sim. Jud.-Arab 1"
+        }
+      ],
       "isPartOf": [
         {
           "@type": "Collection",
