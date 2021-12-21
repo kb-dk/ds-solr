@@ -1,0 +1,1304 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Book",
+      "id": "books/boghis/2017/dec/tryk/object11914",
+      "url": "http://www5.kb.dk/books/boghis/2017/dec/tryk/object11914/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+          "@language": "da"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Brahe [Brage], Tyge [Tycho, Tychonis, Thygo]"
+          }
+        }
+      ],
+      "description": [
+        "Tycho Brahes astronomiske opfindelser, primært instrumenter til at iagttage stjernene og planeterne med og især måle højder over horisonten og vinkeldistancer på himlen for at bestemme stjerner og planeters indbyrdes positioner.",
+        "Instrumenterne kan deles i tre grupper: 1. kvadranter og sekstanter til måling af højder og himmelretninger, 2. armiller til måling af himmellegemernes stilling i forhold til himlens ækvator og 3. sekstanter til måling af vinkeldistancen mellem to himmellegemer.",
+        "Tycho Brahes astronomiske instrumenter betød en reformation af den astronomiske videnskab, idet man nu kunne foretage langt mere nøjagtige målinger end hidtil, og på baggrund af hans observationer bestemte Kepler lovene om planeternes bevægelse om solen, og ud fra disse love fandt Newton tyngdeloven. Først ved kikkertens opfindelse nogle få år efter Tycho Brahes død blev det muligt at foretage nøjagtigere observationer.",
+        "Instrumenterne blev skabt af Tycho Brahe og hans medarbejdere fra 1570'erne til hans død i 1601, mange af dem i hans tid på øen Hven (mellem 1576 og 1597). Tycho Brahes instrumenter er alle gået til. Efter Tychos død blev instrumenterne opbevaret i en kælder, hvor de blev ødelagt under urolighederne i Prag i 1619. Den store globus endte på observatoriet på rundtårn, hvor den gik til under branden i 1728. Af anlæggene på Hven er kun få rester tilbage, men der er opført en kopi af Uranienborgs have og fundamenterne til instrumenterne på Stjerneborg kan også ses. I 1992 inviedes en ny Tycho Brahe udstilling på Tycho Brahe museet på Hven."
+      ],
+      "citation": "Danske oversættelser: Nordisk Astronomisk Tidsskrift fra årene 1933-1954 Engelske oversættelser: H. Ræder, E. Strömgren & B. Strömgren, Tycho Brahe's Description of his Instruments and Scientific Work, København 1946",
+      "keywords": [
+        "Tyskland",
+        "1551-1600",
+        "LN 432 2°",
+        "Lauge Nielsen",
+        "Danske Samlinger",
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Vesterlandske tryk"
+            },
+            {
+              "@language": "en",
+              "@value": "Vesterlandske tryk"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Trykkested (land)"
+            },
+            {
+              "@language": "en",
+              "@value": "Trykkested (land)"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Tyskland"
+            },
+            {
+              "@language": "en",
+              "@value": "Tyskland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Trykte bøger"
+            },
+            {
+              "@language": "en",
+              "@value": "Trykte bøger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Trykkeår"
+            },
+            {
+              "@language": "en",
+              "@value": "Trykkeår"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "1551-1600"
+            },
+            {
+              "@language": "en",
+              "@value": "1551-1600"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Opstillingssignatur"
+            },
+            {
+              "@language": "en",
+              "@value": "Opstillingssignatur"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Lauge Nielsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Lauge Nielsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Danske Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Danske Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "LN 432 2°"
+            },
+            {
+              "@language": "en",
+              "@value": "LN 432 2°"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1598-12-31",
+        "startDate": "1598-01-01",
+        "description": [
+          "1598"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LN 432 2°"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "original_object_identifier",
+          "@value": "x481580327"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/3393d330-c077-11dd-a051-0016357f605f"
+        }
+      ],
+      "language": [
+        "Latin"
+      ],
+      "read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": []
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_000/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_001/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_002/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_003/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_004/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_005/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_006/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_007/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_008/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_009/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_010/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_011/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_012/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_013/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_014/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_015/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_016/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_017/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_018/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_019/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_020/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_021/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_022/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_023/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_024/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_025/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_026/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_027/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_028/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_029/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_030/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_031/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_032/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_033/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_034/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_035/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_036/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_037/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_038/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_039/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_040/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_041/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_042/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_043/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_044/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_045/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_046/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_047/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_048/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_049/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_050/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_051/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_052/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_053/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_054/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_055/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_056/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_057/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_058/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_059/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_060/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_061/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_062/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_063/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_064/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_065/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_066/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_067/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_068/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_069/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_070/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_071/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_072/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_073/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_074/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_075/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_076/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_077/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_078/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_079/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_080/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_081/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_082/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_083/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_084/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_085/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_086/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_087/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_088/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "Tycho Brahe: Astronomiæ instauratæ mechanica",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_089/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
