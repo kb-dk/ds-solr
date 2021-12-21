@@ -10,14 +10,17 @@
           "relator": "https://id.loc.gov/vocabulary/relators/"
         }
       ],
+      "@type": "Message",
       "id": "letters/judsam/2011/mar/dsa/object7871",
       "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object7871/en/",
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
             "@type": "Person",
-            "language": "en",
-            "name": "cumulus:oam"
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
           }
         ],
         "kb:record_created": "2011-08-01",
@@ -34,16 +37,20 @@
         {
           "@type": "Person",
           "sameAs": "http://viaf.org/viaf/75121530",
-          "language": "en",
-          "name": "Einstein, Albert"
+          "name": {
+            "@language": "en",
+            "@value": "Einstein, Albert"
+          }
         }
       ],
       "recipient": [
         {
           "@type": "Person",
           "sameAs": "http://viaf.org/viaf/54951228",
-          "language": "en",
-          "name": "Simonsen, David"
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          }
         }
       ],
       "keywords": [
@@ -152,10 +159,12 @@
       },
       "identifier": [
         {
+          "@type": "PropertyValue",
           "additionalType": "local_identifier",
           "@value": "dsa_eaa-ejc_0865.tif"
         },
         {
+          "@type": "PropertyValue",
           "additionalType": "domsGuid",
           "@value": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f"
         }
@@ -166,7 +175,7 @@
       "read_direction": "LTR",
       "encoding": [
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
           ]

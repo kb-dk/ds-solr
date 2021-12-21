@@ -10,14 +10,17 @@
           "relator": "https://id.loc.gov/vocabulary/relators/"
         }
       ],
+      "@type": "VisualArtwork",
       "id": "images/luftfo/2011/maj/luftfoto/object322504",
       "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object322504/en/",
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
             "@type": "Person",
-            "language": "da",
-            "name": "cumulus:cumulus"
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
           }
         ],
         "kb:record_created": "2007-10-09",
@@ -34,13 +37,16 @@
         {
           "@type": "Person",
           "sameAs": "http://viaf.org/viaf/307245669",
-          "name": "Sylvest Jensen Luftfoto"
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
         }
       ],
       "contentLocation": [
         {
           "@type": "Place",
-          "address": {
+          "kb:address": {
             "@type": "kb:place",
             "kb:area": "Præsteskov",
             "kb:cadastre": "17b",
@@ -51,10 +57,8 @@
             "kb:street": "Næblerødvej",
             "kb:city": "Fuglebjerg"
           },
-          "geo": {
-            "latitude": "55.35492968597365",
-            "longitude": "11.532704574783565"
-          }
+          "latitude": "55.35492968597365",
+          "longitude": "11.532704574783565"
         }
       ],
       "keywords": [
@@ -115,7 +119,6 @@
           ]
         }
       ],
-      "location_coordinates": "55.35492968597365,11.532704574783565",
       "publication": {
         "@type": "PublicationEvent",
         "description": [
@@ -124,21 +127,24 @@
       },
       "identifier": [
         {
+          "@type": "PropertyValue",
           "additionalType": "shelf_mark",
           "@value": "St. Dyr."
         },
         {
+          "@type": "PropertyValue",
           "additionalType": "local_identifier",
           "@value": "sylvest_nks_00950_6.tif"
         },
         {
+          "@type": "PropertyValue",
           "additionalType": "domsGuid",
           "@value": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f"
         }
       ],
       "encoding": [
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
           ]

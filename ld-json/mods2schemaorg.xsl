@@ -80,6 +80,16 @@
                 <xsl:variable name="edition">
                   <xsl:value-of select="substring-before($record-id,concat($sep_string,'object'))"/>
                 </xsl:variable>
+
+                <f:string key="@type">
+                  <xsl:choose>
+                    <xsl:when test="contains($record-id,'images')">VisualArtwork</xsl:when>
+                    <xsl:when test="contains($record-id,'manus')">Manuscript</xsl:when>
+                    <xsl:when test="contains($record-id,'letters')">Message</xsl:when>
+                    <xsl:when test="contains($record-id,'books')">Book</xsl:when>
+                    <xsl:otherwise>CreativeWork</xsl:otherwise>
+                  </xsl:choose>
+                </f:string>
                 
                 <f:string key="id">
                   <xsl:value-of select="$record-id"/>
@@ -95,6 +105,7 @@
                     <xsl:for-each select="m:name[@type='cumulus' and m:role/m:roleTerm = 'last-modified-by']">
                       <xsl:call-template name="get-names">
                         <xsl:with-param name="record_identifier" select="$record-id"/>
+                        <xsl:with-param name="cataloging_language" select="$cataloging_language" />
                       </xsl:call-template>
                     </xsl:for-each>
                   </f:array>
@@ -129,6 +140,7 @@
                       <xsl:for-each select="$dom//m:name[m:role/m:roleTerm = $term]">
                         <xsl:call-template name="get-names">
                           <xsl:with-param name="record_identifier" select="$record-id"/>
+                          <xsl:with-param name="cataloging_language" select="$cataloging_language" />
                         </xsl:call-template>
                       </xsl:for-each>
                     </f:array>
@@ -175,7 +187,7 @@
                   <f:array key="contentLocation">
                     <f:map>
                       <f:string key="@type">Place</f:string>
-                      <f:map key="address">
+                      <f:map key="kb:address">
                           <f:string key="@type">kb:place</f:string>
                           <xsl:for-each select="m:subject/m:hierarchicalGeographic">
                             <xsl:for-each select="m:area">
@@ -195,14 +207,13 @@
                             </xsl:if>
                         </xsl:for-each>
                       </f:map>
-                      <f:map key="geo">
-                        <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
-                          <xsl:if test="not(contains(.,'0.0,0.0'))">
-                            <f:string key="latitude"><xsl:value-of select="substring-before(.,',')"/></f:string>
-                            <f:string key="longitude"><xsl:value-of select="substring-after(.,',')"/></f:string>
-                          </xsl:if>
-                        </xsl:for-each>
-                      </f:map>
+                      <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
+                        <xsl:if test="not(contains(.,'0.0,0.0'))">
+                          <f:string key="latitude"><xsl:value-of select="substring-before(.,',')"/></f:string>
+                          <f:string key="longitude"><xsl:value-of select="substring-after(.,',')"/></f:string>
+                        </xsl:if>
+                      </xsl:for-each>
+
                       
                     </f:map>
 
@@ -219,6 +230,7 @@
                     <xsl:for-each select="$dom//m:subject/m:name[m:role/m:roleTerm = $term]">
                       <xsl:call-template name="get-names">
                         <xsl:with-param name="record_identifier" select="$record-id"/>
+                        <xsl:with-param name="cataloging_language" select="$cataloging_language" />
                       </xsl:call-template>
                     </xsl:for-each>
                   </xsl:for-each>
@@ -276,11 +288,11 @@
                   </xsl:for-each>
                 </f:array>
                 
-                <xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
+                <!-- xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
                   <xsl:if test="not(contains(.,'0.0,0.0'))">
                     <f:string key="location_coordinates"><xsl:value-of select="."/></f:string>
                   </xsl:if>
-                </xsl:for-each>
+                </xsl:for-each -->
 
                 <!-- dating and origin -->
                 <f:map key="publication">
@@ -383,6 +395,7 @@
                   <xsl:if test="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
                     <xsl:for-each select="m:location/m:physicalLocation[@displayLabel='Shelf Mark' and not(@transliteration)]">
                       <f:map>
+                        <f:string key="@type">PropertyValue</f:string>
                         <f:string key="additionalType">shelf_mark</f:string>
                         <f:string key="@value"><xsl:value-of select="."/></f:string>
                       </f:map>
@@ -391,6 +404,7 @@
 
                   <xsl:for-each select="m:identifier[@type='local'][1]">
                     <f:map>
+                      <f:string key="@type">PropertyValue</f:string>
                       <f:string key="additionalType">local_identifier</f:string>
                       <f:string key="@value"><xsl:value-of select="."/></f:string>
                     </f:map>
@@ -398,6 +412,7 @@
 
                   <xsl:for-each select="m:relatedItem[@type='original']/m:identifier">
                     <f:map>
+                      <f:string key="@type">PropertyValue</f:string>
                       <f:string key="additionalType">original_object_identifier</f:string>
                       <f:string key="@value"><xsl:value-of select="."/></f:string>
                     </f:map>
@@ -405,6 +420,7 @@
 
                   <xsl:for-each select="m:identifier[@type='domsGuid']">
                     <f:map>
+                      <f:string key="@type">PropertyValue</f:string>
                       <f:string key="additionalType">domsGuid</f:string>
                       <f:string key="@value"><xsl:value-of select="."/></f:string>
                     </f:map>
@@ -524,7 +540,7 @@ software.
       <xsl:when test="m:identifier[@displayLabel='iiif']">
 
         <f:map>
-          <f:string key="@type">CreativeWork</f:string>
+          <f:string key="@type">MediaObject</f:string>
           <xsl:call-template name="get-title"/>
           <f:array key="url">
             <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]">
@@ -540,7 +556,7 @@ software.
       <xsl:otherwise>
 
         <f:map>
-          <f:string key="@type">CreativeWork</f:string>
+          <f:string key="@type">MediaObject</f:string>
           <xsl:call-template name="get-title"/>
           
           <f:array key="url">
@@ -596,23 +612,31 @@ software.
 
   <xsl:template name="get-names">
     <xsl:param name="record_identifier"/>
-    
+    <xsl:param name="cataloging_language"/>
     <f:map>
       <f:string key="@type">Person</f:string>
       <xsl:if test="@authorityURI">
         <f:string key="sameAs"><xsl:value-of select="@authorityURI"/></f:string>
       </xsl:if>
-      <xsl:if test="@xml:lang">
-        <f:string key="language"><xsl:value-of select="@xml:lang"/></f:string>
-      </xsl:if>
-      <f:string key="name">
-        <xsl:for-each select="m:namePart">
+      <xsl:variable name="language"><xsl:value-of select="@xml:lang"/></xsl:variable>
+      <f:map key="name">
+        <xsl:element name="f:string">
+          <xsl:attribute name="key">@language</xsl:attribute>
           <xsl:choose>
-            <xsl:when test="@type = 'date'"> (<xsl:value-of select="."/>)</xsl:when>
-            <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+            <xsl:when test="$language"><xsl:value-of select="$language"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="$cataloging_language"/></xsl:otherwise>            
           </xsl:choose>
-        </xsl:for-each>
-      </f:string>
+        </xsl:element>
+        <xsl:element name="f:string">
+          <xsl:attribute name="key">@value</xsl:attribute>
+          <xsl:for-each select="m:namePart">
+            <xsl:choose>
+              <xsl:when test="@type = 'date'"> (<xsl:value-of select="."/>)</xsl:when>
+              <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+            </xsl:choose>
+          </xsl:for-each>
+        </xsl:element>
+      </f:map>
     </f:map>
   </xsl:template>
 

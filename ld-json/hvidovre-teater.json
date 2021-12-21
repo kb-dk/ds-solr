@@ -10,14 +10,17 @@
           "relator": "https://id.loc.gov/vocabulary/relators/"
         }
       ],
+      "@type": "VisualArtwork",
       "id": "images/billed/2010/okt/billeder/object356751",
       "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/en/",
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
             "@type": "Person",
-            "language": "da",
-            "name": "cumulus:blo"
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
           }
         ],
         "kb:cataloging_language": "da"
@@ -32,8 +35,10 @@
         {
           "@type": "Person",
           "sameAs": "http://viaf.org/viaf/25276097",
-          "language": "da",
-          "name": "Seidel, Claus (1946-05-24)"
+          "name": {
+            "@language": "da",
+            "@value": "Seidel, Claus (1946-05-24)"
+          }
         }
       ],
       "description": [
@@ -45,12 +50,18 @@
         {
           "@type": "Person",
           "sameAs": "http://viaf.org/viaf/312847028",
-          "name": "Lind, Lane (1945-)"
+          "name": {
+            "@language": "",
+            "@value": "Lind, Lane (1945-)"
+          }
         },
         {
           "@type": "Person",
           "sameAs": "http://viaf.org/viaf/316745351",
-          "name": "Sandø, Waage (1943-)"
+          "name": {
+            "@language": "",
+            "@value": "Sandø, Waage (1943-)"
+          }
         },
         {
           "@type": "DefinedTerm",
@@ -118,21 +129,24 @@
       },
       "identifier": [
         {
+          "@type": "PropertyValue",
           "additionalType": "shelf_mark",
           "@value": "Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5."
         },
         {
+          "@type": "PropertyValue",
           "additionalType": "local_identifier",
           "@value": "db_claus_seidel_00459.tif"
         },
         {
+          "@type": "PropertyValue",
           "additionalType": "domsGuid",
           "@value": "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f"
         }
       ],
       "encoding": [
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json"
           ]

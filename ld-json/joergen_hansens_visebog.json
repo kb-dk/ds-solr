@@ -10,14 +10,17 @@
           "relator": "https://id.loc.gov/vocabulary/relators/"
         }
       ],
+      "@type": "Manuscript",
       "id": "manus/musman/2010/dec/viser/object51196",
       "url": "http://www5.kb.dk/manus/musman/2010/dec/viser/object51196/en/",
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
             "@type": "Person",
-            "language": "da",
-            "name": "cumulus:blo"
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
           }
         ],
         "kb:cataloging_language": "da"
@@ -31,8 +34,10 @@
       "author": [
         {
           "@type": "Person",
-          "language": "da",
-          "name": "Dansk Folkemindesamling"
+          "name": {
+            "@language": "da",
+            "@value": "Dansk Folkemindesamling"
+          }
         }
       ],
       "keywords": [
@@ -84,7 +89,7 @@
       "read_direction": "LTR",
       "encoding": [
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "Jørgen Hansens visebog",
@@ -96,13 +101,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "01 En vise vil jeg skrive til eder, mine venner kære",
@@ -114,19 +119,19 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "02 Gud trøste mig, som må i slavekæde",
@@ -138,55 +143,55 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "03 Elvina går til sin faders borg",
@@ -198,19 +203,19 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "04 En sang jeg vil skrive og sende til dig",
@@ -222,19 +227,19 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "05 Hr. Zinklar drog over salten hav",
@@ -246,19 +251,19 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "06 En vise for eder jeg nu fortælle vil (Strasbourgervisen)",
@@ -270,37 +275,37 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "07 I Holsten en dreng udi syvende år",
@@ -312,19 +317,19 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "08 O hør, I mine venner, hvad jeg vil fortælle",
@@ -336,13 +341,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "09 Dengang budskabet lød",
@@ -354,13 +359,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "10 Tapperhed, som alle danske ønsker lyder",
@@ -372,13 +377,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "11 Ser I, hvem der kommer her",
@@ -390,7 +395,7 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "12 Dengang almagtens Gud",
@@ -402,37 +407,37 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "13 Kong Hannibals søn",
@@ -444,37 +449,37 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "14 Dengang vi drog af sted",
@@ -486,13 +491,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "15 Da Preussen listig kom",
@@ -504,13 +509,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "16 Fremad march, nu jægerhornet lyder",
@@ -522,7 +527,7 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "17 Nu plager Fanden det tyske rak",
@@ -534,7 +539,7 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "18 O Karen, fra dansen nu hjem du nok må",
@@ -546,13 +551,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "19 Nu hisser vi vores sejl så hvide",
@@ -564,7 +569,7 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "20 Hør, du min dejlige pige",
@@ -576,13 +581,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "21 Da tiden mig tilbyder",
@@ -594,13 +599,13 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "headline": [
             {
               "@value": "22 Jeg nogengang begive vil",
@@ -612,19 +617,19 @@
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/info.json"
           ]
         },
         {
-          "@type": "CreativeWork",
+          "@type": "MediaObject",
           "url": [
             "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/info.json"
           ]
