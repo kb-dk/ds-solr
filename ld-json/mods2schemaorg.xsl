@@ -465,14 +465,21 @@
                     Arabic written using Hebrew script. We have all these
                     in our collections.
 
-We have all these in our digital collections. However,
-around 2005-2010 someone decided that the staff doing
-the digitization cannot learn to recognize RTL or LTR
-objects, so a lot of texts has been digitized in what
-was claimed to be the "logical" direction, namely LTR.
-Instead of correcting the data we have done this in
-software.
-                -->                          
+                    We have all these in our digital
+                    collections. However, around 2005-2010 someone
+                    decided that the staff doing the digitization
+                    cannot learn to recognize RTL or LTR objects, so a
+                    lot of texts has been digitized in what was
+                    claimed to be the "logical" direction, namely LTR.
+                    Instead of correcting the data we have done this
+                    in software.
+
+                -->
+
+                <!-- kb:read_direction is in a kb namespace because
+                     there isn't any corresponding element or anything
+                     in schema.org -->
+                
                 <xsl:for-each select="m:physicalDescription/m:note[@type='pageOrientation'][1]">
                   <f:string key="kb:read_direction"><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
