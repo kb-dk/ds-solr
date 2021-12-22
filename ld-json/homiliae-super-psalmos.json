@@ -164,7 +164,7 @@
           "description": "mixed material"
         }
       ],
-      "language": [
+      "inLanguage": [
         "Græsk"
       ],
       "kb:read_direction": "LTR",

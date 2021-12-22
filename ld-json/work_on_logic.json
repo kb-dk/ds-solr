@@ -251,7 +251,7 @@
           "description": "mixed material"
         }
       ],
-      "language": [
+      "inLanguage": [
         "he"
       ],
       "kb:read_direction": "RTL",

@@ -177,7 +177,7 @@
           "@value": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f"
         }
       ],
-      "language": [
+      "inLanguage": [
         "de"
       ],
       "kb:read_direction": "LTR",
