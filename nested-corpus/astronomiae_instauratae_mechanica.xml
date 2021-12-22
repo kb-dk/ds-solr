@@ -22,7 +22,7 @@
     <md:titleInfo xmlns:mix="http://www.loc.gov/mix/v10" xml:lang="da">
       <md:title>Tycho Brahe: Astronomiæ instauratæ mechanica</md:title>
     </md:titleInfo>
-    <md:name xmlns:mix="http://www.loc.gov/mix/v10" type="personal" xml:lang="da">
+    <md:name authorityURI="http://viaf.org/viaf/73850627"  xmlns:mix="http://www.loc.gov/mix/v10" type="personal" xml:lang="da">
       <md:namePart>Brahe [Brage], Tyge [Tycho, Tychonis, Thygo]</md:namePart>
       <md:role>
         <md:roleTerm type="code">aut</md:roleTerm>
