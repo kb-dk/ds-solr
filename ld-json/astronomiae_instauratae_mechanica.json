@@ -34,6 +34,7 @@
       "author": [
         {
           "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/73850627",
           "name": {
             "@language": "da",
             "@value": "Brahe [Brage], Tyge [Tycho, Tychonis, Thygo]"
