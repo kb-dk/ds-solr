@@ -651,11 +651,17 @@
         </xsl:element>
       </f:map>
       <xsl:if test="t:residence">
-        <f:array key="location">
+        <xsl:element name="f:array">
+          <xsl:attribute name="key">
+            <xsl:choose>
+              <xsl:when test="contains(@type,'corporate')">location</xsl:when>
+              <xsl:otherwise>homeLocation</xsl:otherwise>
+            </xsl:choose>
+          </xsl:attribute>
           <xsl:for-each select="t:residence/*">
             <f:string><xsl:value-of select="."/></f:string>
           </xsl:for-each>
-        </f:array>
+        </xsl:element>
       </xsl:if>
     </f:map>
   </xsl:template>
