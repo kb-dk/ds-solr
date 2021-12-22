@@ -121,6 +121,7 @@
         "Frankrig",
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject315",
           "name": [
             {
               "@language": "da",
@@ -134,6 +135,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject319",
           "name": [
             {
               "@language": "da",
@@ -147,6 +149,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject320",
           "name": [
             {
               "@language": "da",
@@ -160,6 +163,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject316",
           "name": [
             {
               "@language": "da",
@@ -173,6 +177,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject420",
           "name": [
             {
               "@language": "da",
@@ -186,6 +191,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject428",
           "name": [
             {
               "@language": "da",
@@ -199,6 +205,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject322",
           "name": [
             {
               "@language": "da",
@@ -212,6 +219,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject429",
           "name": [
             {
               "@language": "da",

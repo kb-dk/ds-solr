@@ -192,6 +192,7 @@
         "Cod. Sim. Jud.-Arab 001",
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject315",
           "name": [
             {
               "@language": "da",
@@ -205,6 +206,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject319",
           "name": [
             {
               "@language": "da",
@@ -218,6 +220,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject320",
           "name": [
             {
               "@language": "da",
@@ -231,6 +234,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject423",
           "name": [
             {
               "@language": "da",
@@ -244,6 +248,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject322",
           "name": [
             {
               "@language": "da",
@@ -257,6 +262,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject451",
           "name": [
             {
               "@language": "da",
@@ -270,6 +276,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject316",
           "name": [
             {
               "@language": "da",
@@ -283,6 +290,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject543",
           "name": [
             {
               "@language": "da",
@@ -296,6 +304,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/judsam/2009/sep/dsh/subject544",
           "name": [
             {
               "@language": "da",

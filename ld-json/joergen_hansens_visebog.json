@@ -44,6 +44,7 @@
         "Jørgen Hansens visebog",
         {
           "@type": "DefinedTerm",
+          "id": "manus/musman/2010/dec/viser/subject398",
           "name": [
             {
               "@language": "da",
@@ -57,6 +58,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/musman/2010/dec/viser/subject6015",
           "name": [
             {
               "@language": "da",
@@ -70,6 +72,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/musman/2010/dec/viser/subject6925",
           "name": [
             {
               "@language": "da",

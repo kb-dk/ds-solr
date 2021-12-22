@@ -68,6 +68,7 @@
         "Danmark, Sjælland, Sorø, Tystrup",
         {
           "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
           "name": [
             {
               "@language": "da",
@@ -81,6 +82,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
           "name": [
             {
               "@language": "da",
@@ -94,6 +96,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject251",
           "name": [
             {
               "@language": "da",
@@ -107,6 +110,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject843",
           "name": [
             {
               "@language": "da",
