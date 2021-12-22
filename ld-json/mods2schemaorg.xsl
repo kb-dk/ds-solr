@@ -649,14 +649,14 @@
             </xsl:choose>
           </xsl:for-each>
         </xsl:element>
-        <xsl:if test="t:residence">
-          <f:array key="location">
-            <xsl:for-each select="t:residence/*">
-              <f:string><xsl:value-of select="."/></f:string>
-            </xsl:for-each>
-          </f:array>
-        </xsl:if>
       </f:map>
+      <xsl:if test="t:residence">
+        <f:array key="location">
+          <xsl:for-each select="t:residence/*">
+            <f:string><xsl:value-of select="."/></f:string>
+          </xsl:for-each>
+        </f:array>
+      </xsl:if>
     </f:map>
   </xsl:template>
 

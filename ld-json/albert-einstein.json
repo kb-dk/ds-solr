@@ -39,12 +39,12 @@
           "sameAs": "http://viaf.org/viaf/75121530",
           "name": {
             "@language": "en",
-            "@value": "Einstein, Albert",
-            "location": [
-              "de",
-              "Berlin"
-            ]
-          }
+            "@value": "Einstein, Albert"
+          },
+          "location": [
+            "de",
+            "Berlin"
+          ]
         }
       ],
       "recipient": [
@@ -53,12 +53,12 @@
           "sameAs": "http://viaf.org/viaf/54951228",
           "name": {
             "@language": "en",
-            "@value": "Simonsen, David",
-            "location": [
-              "dk",
-              "København"
-            ]
-          }
+            "@value": "Simonsen, David"
+          },
+          "location": [
+            "dk",
+            "København"
+          ]
         }
       ],
       "keywords": [
