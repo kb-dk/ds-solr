@@ -169,9 +169,7 @@
           "1916-04-12"
         ]
       },
-      "physical_description": {
-        "extent": "2 pp."
-      },
+      "numberOfPages": "2 pp.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -370,9 +368,7 @@
           "1915-05-18"
         ]
       },
-      "physical_description": {
-        "extent": "2 pp."
-      },
+      "numberOfPages": "2 pp.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -571,9 +567,7 @@
           "3. juni"
         ]
       },
-      "physical_description": {
-        "extent": "1 p."
-      },
+      "numberOfPages": "1 p.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -766,9 +760,7 @@
           "1915-06-23"
         ]
       },
-      "physical_description": {
-        "extent": "1 p."
-      },
+      "numberOfPages": "1 p.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -961,9 +953,7 @@
           "1920-03-25"
         ]
       },
-      "physical_description": {
-        "extent": "1 p."
-      },
+      "numberOfPages": "1 p.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1156,9 +1146,7 @@
           "1916-04-14"
         ]
       },
-      "physical_description": {
-        "extent": "2 pp."
-      },
+      "numberOfPages": "2 pp.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1357,9 +1345,7 @@
           "1914-10-29"
         ]
       },
-      "physical_description": {
-        "extent": "2 pp."
-      },
+      "numberOfPages": "2 pp.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1558,9 +1544,7 @@
           "1920-03-19"
         ]
       },
-      "physical_description": {
-        "extent": "1 p."
-      },
+      "numberOfPages": "1 p.",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1753,9 +1737,7 @@
           "1915-05-23"
         ]
       },
-      "physical_description": {
-        "extent": "1 p."
-      },
+      "numberOfPages": "1 p.",
       "identifier": [
         {
           "@type": "PropertyValue",

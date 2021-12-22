@@ -142,10 +142,8 @@
           "1100-1199"
         ]
       },
-      "physical_description": {
-        "medium": "Pergament",
-        "extent": "1 bind, 493 blade"
-      },
+      "material": "Pergament",
+      "numberOfPages": "1 bind, 493 blade",
       "identifier": [
         {
           "@type": "PropertyValue",

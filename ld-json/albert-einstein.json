@@ -169,9 +169,7 @@
           "1920-06-27"
         ]
       },
-      "physical_description": {
-        "extent": "1 p."
-      },
+      "numberOfPages": "1 p.",
       "identifier": [
         {
           "@type": "PropertyValue",

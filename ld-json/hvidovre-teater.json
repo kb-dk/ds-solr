@@ -128,9 +128,7 @@
           "1987-01-31"
         ]
       },
-      "physical_description": {
-        "technique": "Tegning"
-      },
+      "artMedium": "Tegning",
       "identifier": [
         {
           "@type": "PropertyValue",

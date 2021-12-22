@@ -168,9 +168,7 @@
           "1923-09-05"
         ]
       },
-      "physical_description": {
-        "extent": "2 pp."
-      },
+      "numberOfPages": "2 pp.",
       "identifier": [
         {
           "@type": "PropertyValue",
