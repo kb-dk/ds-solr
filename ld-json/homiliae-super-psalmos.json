@@ -51,6 +51,7 @@
         "GKS 0018 folio",
         {
           "@type": "DefinedTerm",
+          "id": "manus/vmanus/2011/dec/ha/subject1513",
           "name": [
             {
               "@language": "da",
@@ -64,6 +65,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/vmanus/2011/dec/ha/subject898",
           "name": [
             {
               "@language": "da",
@@ -77,6 +79,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/vmanus/2011/dec/ha/subject902",
           "name": [
             {
               "@language": "da",
@@ -90,6 +93,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/vmanus/2011/dec/ha/subject1550",
           "name": [
             {
               "@language": "da",
@@ -103,6 +107,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/vmanus/2011/dec/ha/subject6603",
           "name": [
             {
               "@language": "da",
@@ -116,6 +121,7 @@
         },
         {
           "@type": "DefinedTerm",
+          "id": "manus/vmanus/2011/dec/ha/subject899",
           "name": [
             {
               "@language": "da",

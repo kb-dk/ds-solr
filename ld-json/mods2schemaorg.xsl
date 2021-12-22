@@ -264,13 +264,14 @@
                     <f:map>
 
                       <f:string key="@type">DefinedTerm</f:string>
+                      <f:string key="id"><xsl:value-of select="concat(substring-before($record-id,'object'),$subject)"/></f:string>
                       <f:array key="name">
                         <f:map>
                           <f:string key="@language">da</f:string>
                           <f:string key="@value">
                             <xsl:for-each
                                 select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
-                              <xsl:value-of select="."/> 
+                              <xsl:value-of select="."/>
                             </xsl:for-each>
                           </f:string>
                         </f:map>
@@ -279,7 +280,7 @@
                           <f:string key="@value">
                             <xsl:for-each
                                 select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
-                              <xsl:value-of select="."/> 
+                              <xsl:value-of select="."/>
                             </xsl:for-each>
                           </f:string>
                         </f:map>
