@@ -348,7 +348,7 @@
                               | m:extent
                               | m:digitalOrigin
                               | m:note[not(@type='pageOrientation')]]">
-                  <f:map key="physical_description">
+
                     <xsl:for-each select="m:physicalDescription">
                       <xsl:variable name="label">
                         <xsl:choose>
@@ -356,26 +356,29 @@
                           <xsl:otherwise>
                             <xsl:choose>
                               <xsl:when test="@type"><xsl:value-of select="@type"/></xsl:when>
-                              <xsl:otherwise></xsl:otherwise>
+                              <xsl:otherwise><xsl:value-of select="local-name(.)"/></xsl:otherwise>
                             </xsl:choose>
                           </xsl:otherwise>
                         </xsl:choose>
                       </xsl:variable>
-                      
+
                       <xsl:for-each select="m:form
                                             | m:reformattingQuality
                                             | m:internetMediaType
                                             | m:extent
                                             | m:digitalOrigin
                                             | m:note[not(@type='pageOrientation')]">
-
+                        <xsl:message><xsl:value-of select="local-name(.)"/>=<xsl:value-of select="."/></xsl:message>
                         <f:string>
                           <xsl:attribute name="key">
                             <xsl:choose>
-                              <xsl:when test="string-length($label) &gt; 0"><xsl:value-of select="my:escape_stuff(lower-case($label))"/></xsl:when>
+                              <xsl:when test="string-length($label) &gt; 0">
+                                <xsl:value-of select="my:escape_stuff(lower-case($label))"/>
+                              </xsl:when>
                               <xsl:otherwise>
                                 <xsl:choose>
-                                  <xsl:when test="@type"><xsl:value-of select="my:escape_stuff(lower-case(@type))"/></xsl:when>
+                                  <xsl:when test="@type">
+                                  <xsl:value-of select="my:escape_stuff(lower-case(@type))"/></xsl:when>
                                   <xsl:otherwise><xsl:value-of select="my:escape_stuff(lower-case(local-name(.)))"/></xsl:otherwise>
                                 </xsl:choose>
                               </xsl:otherwise>
@@ -386,7 +389,7 @@
 
                       </xsl:for-each>
                     </xsl:for-each>
-                  </f:map>
+
                 </xsl:if>
 
                 <!-- A library object usually have a more identifiers than
@@ -696,7 +699,17 @@
        </f:string>
        </xsl:template -->
 
-  <xsl:function name="my:escape_stuff"><xsl:param name="arg"/><xsl:value-of select="replace($arg,'\s',$sep_string,'s')"/></xsl:function>
+  <xsl:function name="my:escape_stuff">
+    <xsl:param name="arg"/>
+    <xsl:choose>
+      <xsl:when test="contains($arg,'medium')">material</xsl:when>
+      <xsl:when test="contains($arg,'extent')">numberOfPages</xsl:when>
+      <xsl:when test="contains($arg,'physicaldescription')">artMedium</xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="replace($arg,'\s',$sep_string,'s')"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
   
   <xsl:template match="*|@*">
     <xsl:param name="record_identifier"/>

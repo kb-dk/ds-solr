@@ -240,11 +240,9 @@
           "1866"
         ]
       },
-      "physical_description": {
-        "medium": "Paper",
-        "extent": "61 fols.",
-        "size": "22 x 17 cm"
-      },
+      "material": "Paper",
+      "numberOfPages": "61 fols.",
+      "size": "22 x 17 cm",
       "identifier": [
         {
           "@type": "PropertyValue",
