@@ -39,12 +39,12 @@
           "sameAs": "http://viaf.org/viaf/136661698",
           "name": {
             "@language": "en",
-            "@value": "Dansk Medicinsk-Historisk Selskab",
-            "location": [
-              "dk",
-              "København"
-            ]
-          }
+            "@value": "Dansk Medicinsk-Historisk Selskab"
+          },
+          "location": [
+            "dk",
+            "København"
+          ]
         }
       ],
       "recipient": [
@@ -52,12 +52,12 @@
           "@type": "Person",
           "name": {
             "@language": "en",
-            "@value": "Simonsen, David",
-            "location": [
-              "dk",
-              "København"
-            ]
-          }
+            "@value": "Simonsen, David"
+          },
+          "location": [
+            "dk",
+            "København"
+          ]
         }
       ],
       "keywords": [
