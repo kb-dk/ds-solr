@@ -341,7 +341,7 @@
         "he",
         "jrb-Hebr"
       ],
-      "read_direction": "RTL",
+      "kb:read_direction": "RTL",
       "encoding": [
         {
           "@type": "MediaObject",
