@@ -23,6 +23,7 @@ DEBUG_JSON=1
 
 mods_files=("albert-einstein.xml"
 	    "astronomiae_instauratae_mechanica.xml"
+	    "medicinsk-historisk-selskab.xml"
 	    "hvidovre-teater.xml"
 	    "simonsen-brandes.xml"
 	    "tystrup-soroe.xml"

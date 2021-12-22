@@ -614,7 +614,12 @@ software.
     <xsl:param name="record_identifier"/>
     <xsl:param name="cataloging_language"/>
     <f:map>
-      <f:string key="@type">Person</f:string>
+      <f:string key="@type">
+        <xsl:choose>
+          <xsl:when test="contains(@type,'corporate')">Organization</xsl:when>
+          <xsl:otherwise>Person</xsl:otherwise>
+        </xsl:choose>
+      </f:string>
       <xsl:if test="@authorityURI">
         <f:string key="sameAs"><xsl:value-of select="@authorityURI"/></f:string>
       </xsl:if>
@@ -636,6 +641,13 @@ software.
             </xsl:choose>
           </xsl:for-each>
         </xsl:element>
+        <xsl:if test="t:residence">
+          <f:array key="location">
+            <xsl:for-each select="t:residence/*">
+              <f:string><xsl:value-of select="."/></f:string>
+            </xsl:for-each>
+          </f:array>
+        </xsl:if>
       </f:map>
     </f:map>
   </xsl:template>

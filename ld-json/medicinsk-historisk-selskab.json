@@ -11,8 +11,8 @@
         }
       ],
       "@type": "Message",
-      "id": "letters/judsam/2011/mar/dsa/object7871",
-      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object7871/en/",
+      "id": "letters/judsam/2011/mar/dsa/object5654",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object5654/en/",
       "kb:admin_data": {
         "kb:last_modified_by": [
           {
@@ -23,26 +23,26 @@
             }
           }
         ],
-        "kb:record_created": "2011-08-01",
-        "kb:record_revised": "2013-04-16",
+        "kb:record_created": "2011-05-09",
+        "kb:record_revised": "2011-05-26",
         "kb:cataloging_language": "en"
       },
       "headline": [
         {
-          "@value": "Letter from Einstein, Albert to Simonsen, David",
+          "@value": "Letter from Dansk Medicinsk-Historisk Selskab to Simonsen, David",
           "@language": "en"
         }
       ],
       "author": [
         {
-          "@type": "Person",
-          "sameAs": "http://viaf.org/viaf/75121530",
+          "@type": "Organization",
+          "sameAs": "http://viaf.org/viaf/136661698",
           "name": {
             "@language": "en",
-            "@value": "Einstein, Albert",
+            "@value": "Dansk Medicinsk-Historisk Selskab",
             "location": [
-              "de",
-              "Berlin"
+              "dk",
+              "København"
             ]
           }
         }
@@ -50,7 +50,6 @@
       "recipient": [
         {
           "@type": "Person",
-          "sameAs": "http://viaf.org/viaf/54951228",
           "name": {
             "@language": "en",
             "@value": "Simonsen, David",
@@ -67,11 +66,11 @@
           "name": [
             {
               "@language": "da",
-              "@value": "David Simonsen ArchivesEEi"
+              "@value": "D"
             },
             {
               "@language": "en",
-              "@value": "David Simonsen ArchivesEEi"
+              "@value": "D"
             }
           ]
         },
@@ -80,11 +79,11 @@
           "name": [
             {
               "@language": "da",
-              "@value": "E"
+              "@value": "Da"
             },
             {
               "@language": "en",
-              "@value": "E"
+              "@value": "Da"
             }
           ]
         },
@@ -93,11 +92,11 @@
           "name": [
             {
               "@language": "da",
-              "@value": "Ei"
+              "@value": "Dansk Medicinsk-Historisk Selskab"
             },
             {
               "@language": "en",
-              "@value": "Ei"
+              "@value": "Dansk Medicinsk-Historisk Selskab"
             }
           ]
         },
@@ -106,11 +105,11 @@
           "name": [
             {
               "@language": "da",
-              "@value": "Letters to/from David SimonsenEinstein, Albert0001"
+              "@value": "0003"
             },
             {
               "@language": "en",
-              "@value": "Letters to/from David SimonsenEinstein, Albert0001"
+              "@value": "0003"
             }
           ]
         },
@@ -119,11 +118,11 @@
           "name": [
             {
               "@language": "da",
-              "@value": "Einstein, Albert"
+              "@value": "David Simonsen Archives"
             },
             {
               "@language": "en",
-              "@value": "Einstein, Albert"
+              "@value": "David Simonsen Archives"
             }
           ]
         },
@@ -132,11 +131,11 @@
           "name": [
             {
               "@language": "da",
-              "@value": "0001"
+              "@value": "Letters to/from David Simonsen"
             },
             {
               "@language": "en",
-              "@value": "0001"
+              "@value": "Letters to/from David Simonsen"
             }
           ]
         },
@@ -156,36 +155,42 @@
       ],
       "publication": {
         "@type": "PublicationEvent",
-        "endDate": "1920-06-27",
-        "startDate": "1920-06-27",
+        "endDate": "1923-09-05",
+        "startDate": "1923-09-05",
         "description": [
-          "1920-06-27"
+          "1923-09-05"
         ]
       },
       "physical_description": {
-        "extent": "1 p."
+        "extent": "2 pp."
       },
       "identifier": [
         {
           "@type": "PropertyValue",
           "additionalType": "local_identifier",
-          "@value": "dsa_eaa-ejc_0865.tif"
+          "@value": "dsa_daa-deb_0278.tif"
         },
         {
           "@type": "PropertyValue",
           "additionalType": "domsGuid",
-          "@value": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f"
+          "@value": "Uid:dk:kb:doms:2007-01/6e97b8a0-861f-11e0-8f27-0016357f605f"
         }
       ],
       "language": [
-        "de"
+        "da"
       ],
       "read_direction": "LTR",
       "encoding": [
         {
           "@type": "MediaObject",
           "url": [
-            "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0278/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0279/info.json"
           ]
         }
       ]
