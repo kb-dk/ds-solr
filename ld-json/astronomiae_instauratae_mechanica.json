@@ -210,7 +210,7 @@
           "@value": "Uid:dk:kb:doms:2007-01/3393d330-c077-11dd-a051-0016357f605f"
         }
       ],
-      "language": [
+      "inLanguage": [
         "Latin"
       ],
       "kb:read_direction": "LTR",

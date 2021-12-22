@@ -444,7 +444,7 @@
                 
 
                 <xsl:if test="m:language/m:languageTerm[@authority='rfc4646']">
-                  <f:array key="language">
+                  <f:array key="inLanguage">
                     <xsl:for-each select="m:language/m:languageTerm[@authority='rfc4646']">
                       <f:string><xsl:value-of select="."/></f:string>
                     </xsl:for-each>
