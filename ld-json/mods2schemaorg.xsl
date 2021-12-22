@@ -474,7 +474,7 @@ Instead of correcting the data we have done this in
 software.
                 -->                          
                 <xsl:for-each select="m:physicalDescription/m:note[@type='pageOrientation'][1]">
-                  <f:string key="read_direction"><xsl:value-of select="."/></f:string>
+                  <f:string key="kb:read_direction"><xsl:value-of select="."/></f:string>
                 </xsl:for-each>
 
                 <xsl:element name="f:array">

@@ -86,7 +86,7 @@
         "@type": "PublicationEvent"
       },
       "identifier": [],
-      "read_direction": "LTR",
+      "kb:read_direction": "LTR",
       "encoding": [
         {
           "@type": "MediaObject",
