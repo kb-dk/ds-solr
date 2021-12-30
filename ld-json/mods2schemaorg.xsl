@@ -179,9 +179,6 @@
                   </xsl:for-each>
 
                 </xsl:if>
-
-
-
                 
                 <xsl:if test="m:subject/m:hierarchicalGeographic">
                   <f:array key="contentLocation">
@@ -733,13 +730,6 @@
       </xsl:choose>
     </f:map>
   </xsl:template>
-
-  <!-- xsl:template name="disposable-subrecord">
-       <xsl:param name="record_identifier"/>
-       <f:string key="id">
-       <xsl:value-of select="concat($record_identifier,$sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id())"/>
-       </f:string>
-       </xsl:template -->
 
   <xsl:function name="my:escape_stuff">
     <xsl:param name="arg"/>
