@@ -129,6 +129,9 @@
           "1936-1939"
         ]
       },
+      "about": {
+        "name": ""
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
