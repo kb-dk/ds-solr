@@ -346,6 +346,9 @@
 
                 <xsl:if test="./m:relatedItem[@type='event'] or m:note[@type='situation']">
                   <f:map key="about">
+
+                    <f:string key="@type">Event</f:string>
+                    
                     <f:string key="name">
                       <xsl:for-each select="./m:note[@type='situation']">
                         <xsl:value-of select="."/>
