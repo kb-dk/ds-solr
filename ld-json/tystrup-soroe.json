@@ -130,6 +130,7 @@
         ]
       },
       "about": {
+        "@type": "Event",
         "name": ""
       },
       "identifier": [
