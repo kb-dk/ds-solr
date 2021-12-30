@@ -129,6 +129,7 @@
         ]
       },
       "about": {
+        "@type": "Event",
         "name": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
         "description": [
           "Revykomedie af Abell, Kjeld (1901-1961) dramatiker"
