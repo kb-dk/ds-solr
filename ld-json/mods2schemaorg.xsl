@@ -158,7 +158,7 @@
                 </xsl:if>
 
                 <xsl:if test="m:note[@type or @displayLabel]">
-                  <xsl:for-each select="m:note[@type or @displayLabel]">
+                  <xsl:for-each select="m:note[@type or @displayLabel and not(contains(@type,'situation'))]">
                     <f:string>
                       <xsl:attribute name="key">
                         <xsl:choose>
