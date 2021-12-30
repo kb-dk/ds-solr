@@ -222,7 +222,45 @@
                   </f:array>
                 </xsl:if>
                 
-                <f:array key="keywords">
+                <f:array key="about">
+
+                  <xsl:if test="./m:relatedItem[@type='event'] or m:note[@type='situation']">
+                    <f:map>
+
+                      <f:string key="@type">Event</f:string>
+                      
+                      <f:string key="name">
+                        <xsl:for-each select="./m:note[@type='situation']">
+                          <xsl:value-of select="."/>
+                        </xsl:for-each>
+                      </f:string>
+
+                      <xsl:for-each select="./m:relatedItem[@type='event']">
+                        <xsl:if test="./m:note">
+                          <f:array key="description">
+                            <xsl:for-each select="./m:note">
+                              <f:string><xsl:value-of select="."/></f:string>
+                            </xsl:for-each>
+                          </f:array>
+                        </xsl:if>
+
+                        <xsl:for-each select="m:originInfo">
+                          <f:string key="dateIssued">
+                            <xsl:value-of select="m:dateIssued"/>
+                          </f:string>
+                          <f:string key="location">
+                            <xsl:value-of select="m:place/m:placeTerm"/>
+                          </f:string>
+                        </xsl:for-each>
+                        
+                      </xsl:for-each>
+                      
+                    </f:map>
+                    
+                  </xsl:if>
+
+
+                  
                   <!-- *********************** Subjects, Categories etc ******************** -->
 
                   <xsl:for-each select="distinct-values(m:subject/m:name/m:role/m:roleTerm)">
@@ -340,44 +378,8 @@
                     </f:array>
                   </xsl:if>
                 </f:map>
+
                 <!-- physical description and the like -->
-
-
-
-                <xsl:if test="./m:relatedItem[@type='event'] or m:note[@type='situation']">
-                  <f:map key="about">
-
-                    <f:string key="@type">Event</f:string>
-                    
-                    <f:string key="name">
-                      <xsl:for-each select="./m:note[@type='situation']">
-                        <xsl:value-of select="."/>
-                      </xsl:for-each>
-                    </f:string>
-
-                    <xsl:for-each select="./m:relatedItem[@type='event']">
-                      <xsl:if test="./m:note">
-                        <f:array key="description">
-                          <xsl:for-each select="./m:note">
-                            <f:string><xsl:value-of select="."/></f:string>
-                          </xsl:for-each>
-                        </f:array>
-                      </xsl:if>
-
-                      <xsl:for-each select="m:originInfo">
-                        <f:string key="dateIssued">
-                          <xsl:value-of select="m:dateIssued"/>
-                        </f:string>
-                        <f:string key="location">
-                          <xsl:value-of select="m:place/m:placeTerm"/>
-                        </f:string>
-                      </xsl:for-each>
-                      
-                    </xsl:for-each>
-                    
-                  </f:map>
-                  
-                </xsl:if>
                 
                 <xsl:if test="m:physicalDescription[m:form
                               | m:reformattingQuality

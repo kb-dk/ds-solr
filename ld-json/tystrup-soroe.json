@@ -61,7 +61,11 @@
           "longitude": "11.532704574783565"
         }
       ],
-      "keywords": [
+      "about": [
+        {
+          "@type": "Event",
+          "name": ""
+        },
         "kastrup storskov",
         "hestekøretøj",
         "præsteskov",
@@ -128,10 +132,6 @@
         "description": [
           "1936-1939"
         ]
-      },
-      "about": {
-        "@type": "Event",
-        "name": ""
       },
       "identifier": [
         {
