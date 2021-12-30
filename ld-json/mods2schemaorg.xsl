@@ -245,7 +245,10 @@
                         </xsl:if>
 
                         <xsl:for-each select="m:originInfo">
-                          <f:string key="dateIssued">
+                          <f:string key="startDate">
+                            <xsl:value-of select="m:dateIssued"/>
+                          </f:string>
+                          <f:string key="endDate">
                             <xsl:value-of select="m:dateIssued"/>
                           </f:string>
                           <f:string key="location">
