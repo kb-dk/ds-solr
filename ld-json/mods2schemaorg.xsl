@@ -430,15 +430,20 @@
                           <xsl:attribute name="key">
                             <xsl:value-of select="$the_field"/>
                           </xsl:attribute>
-                          <xsl:if test="contains($the_field,'xtent')">
-                            <f:string key="@type">QuantitativeValue</f:string>
-                            <f:string key="unitText">
-                              <xsl:choose>
-                                <xsl:when test="matches(.,'^.*(fol|blad).*$')">folios</xsl:when>
-                                <xsl:otherwise>pages</xsl:otherwise>
-                              </xsl:choose>
-                            </f:string>
-                          </xsl:if>
+                          <xsl:choose>
+                            <xsl:when test="contains($the_field,'xtent')">
+                              <f:string key="@type">QuantitativeValue</f:string>
+                              <f:string key="unitText">
+                                <xsl:choose>
+                                  <xsl:when test="matches(.,'^.*(fol|blad).*$')">folios</xsl:when>
+                                  <xsl:otherwise>pages</xsl:otherwise>
+                                </xsl:choose>
+                              </f:string>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <f:string key="@type">QuantitativeValue</f:string>
+                            </xsl:otherwise>
+                          </xsl:choose>
 
                           <f:string key="@value">
                             <xsl:choose>
