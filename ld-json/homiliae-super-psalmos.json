@@ -143,6 +143,7 @@
         ]
       },
       "material": {
+        "@type": "QuantitativeValue",
         "@value": "Pergament"
       },
       "materialExtent": {

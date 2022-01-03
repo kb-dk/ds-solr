@@ -328,6 +328,7 @@
         ]
       },
       "material": {
+        "@type": "QuantitativeValue",
         "@value": "Paper"
       },
       "materialExtent": {
@@ -336,6 +337,7 @@
         "@value": "113 fols."
       },
       "size": {
+        "@type": "QuantitativeValue",
         "@value": "29,5 x 21 cm"
       },
       "identifier": [
