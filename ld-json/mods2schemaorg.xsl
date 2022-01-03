@@ -431,6 +431,7 @@
                             <xsl:value-of select="$the_field"/>
                           </xsl:attribute>
                           <xsl:if test="contains($the_field,'xtent')">
+                            <f:string key="@type">QuantitativeValue</f:string>
                             <f:string key="unitText">
                               <xsl:choose>
                                 <xsl:when test="matches(.,'^.*(fol|blad).*$')">folios</xsl:when>

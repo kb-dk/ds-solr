@@ -244,6 +244,7 @@
         "@value": "Paper"
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "folios",
         "@value": "61 fols."
       },

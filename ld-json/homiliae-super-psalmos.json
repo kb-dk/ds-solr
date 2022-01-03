@@ -146,6 +146,7 @@
         "@value": "Pergament"
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "folios",
         "@value": "1 bind, 493 blade"
       },
