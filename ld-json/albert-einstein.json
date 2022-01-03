@@ -169,7 +169,10 @@
           "1920-06-27"
         ]
       },
-      "numberOfPages": "1 p.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "1 p."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
