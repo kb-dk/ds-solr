@@ -170,6 +170,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "2 pp."
       },
@@ -372,6 +373,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "2 pp."
       },
@@ -574,6 +576,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "1 p."
       },
@@ -770,6 +773,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "1 p."
       },
@@ -966,6 +970,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "1 p."
       },
@@ -1162,6 +1167,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "2 pp."
       },
@@ -1364,6 +1370,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "2 pp."
       },
@@ -1566,6 +1573,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "1 p."
       },
@@ -1762,6 +1770,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "1 p."
       },

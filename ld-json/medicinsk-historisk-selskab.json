@@ -169,6 +169,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "2 pp."
       },

@@ -170,6 +170,7 @@
         ]
       },
       "materialExtent": {
+        "@type": "QuantitativeValue",
         "unitText": "pages",
         "@value": "1 p."
       },
