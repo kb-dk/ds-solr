@@ -241,7 +241,7 @@
         ]
       },
       "material": {
-        "@type": "QuantitativeValue",
+        "@type": "Product",
         "@value": "Paper"
       },
       "materialExtent": {

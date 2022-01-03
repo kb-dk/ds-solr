@@ -139,7 +139,7 @@
         ]
       },
       "artMedium": {
-        "@type": "QuantitativeValue",
+        "@type": "Product",
         "@value": "Tegning"
       },
       "identifier": [

@@ -441,7 +441,14 @@
                               </f:string>
                             </xsl:when>
                             <xsl:otherwise>
-                              <f:string key="@type">QuantitativeValue</f:string>
+                              <xsl:choose>
+                                <xsl:when test="$the_field='size'">
+                                  <f:string key="@type">QuantitativeValue</f:string>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                  <f:string key="@type">Product</f:string>
+                                </xsl:otherwise>
+                              </xsl:choose>
                             </xsl:otherwise>
                           </xsl:choose>
 
