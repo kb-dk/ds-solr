@@ -327,9 +327,16 @@
           "ש\"ד"
         ]
       },
-      "material": "Paper",
-      "numberOfPages": "113 fols.",
-      "size": "29,5 x 21 cm",
+      "material": {
+        "@value": "Paper"
+      },
+      "materialExtent": {
+        "unitText": "folios",
+        "@value": "113 fols."
+      },
+      "size": {
+        "@value": "29,5 x 21 cm"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",

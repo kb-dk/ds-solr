@@ -142,8 +142,13 @@
           "1100-1199"
         ]
       },
-      "material": "Pergament",
-      "numberOfPages": "1 bind, 493 blade",
+      "material": {
+        "@value": "Pergament"
+      },
+      "materialExtent": {
+        "unitText": "folios",
+        "@value": "1 bind, 493 blade"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",

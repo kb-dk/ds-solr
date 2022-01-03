@@ -169,7 +169,10 @@
           "1916-04-12"
         ]
       },
-      "numberOfPages": "2 pp.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -368,7 +371,10 @@
           "1915-05-18"
         ]
       },
-      "numberOfPages": "2 pp.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -567,7 +573,10 @@
           "3. juni"
         ]
       },
-      "numberOfPages": "1 p.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "1 p."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -760,7 +769,10 @@
           "1915-06-23"
         ]
       },
-      "numberOfPages": "1 p.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "1 p."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -953,7 +965,10 @@
           "1920-03-25"
         ]
       },
-      "numberOfPages": "1 p.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "1 p."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1146,7 +1161,10 @@
           "1916-04-14"
         ]
       },
-      "numberOfPages": "2 pp.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1345,7 +1363,10 @@
           "1914-10-29"
         ]
       },
-      "numberOfPages": "2 pp.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1544,7 +1565,10 @@
           "1920-03-19"
         ]
       },
-      "numberOfPages": "1 p.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "1 p."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1737,7 +1761,10 @@
           "1915-05-23"
         ]
       },
-      "numberOfPages": "1 p.",
+      "materialExtent": {
+        "unitText": "pages",
+        "@value": "1 p."
+      },
       "identifier": [
         {
           "@type": "PropertyValue",

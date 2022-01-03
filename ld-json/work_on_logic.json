@@ -240,9 +240,16 @@
           "1866"
         ]
       },
-      "material": "Paper",
-      "numberOfPages": "61 fols.",
-      "size": "22 x 17 cm",
+      "material": {
+        "@value": "Paper"
+      },
+      "materialExtent": {
+        "unitText": "folios",
+        "@value": "61 fols."
+      },
+      "size": {
+        "@value": "22 x 17 cm"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",

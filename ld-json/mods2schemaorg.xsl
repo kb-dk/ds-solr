@@ -159,20 +159,23 @@
 
                 <xsl:if test="m:note[@type or @displayLabel]">
                   <xsl:for-each select="m:note[@type or @displayLabel and not(contains(@type,'situation'))]">
+                    <xsl:variable name="the_field">
+                      <xsl:choose>
+                        <xsl:when test="@type">
+                          <xsl:choose>
+                            <xsl:when test="contains(@type,'citation/reference')">citation</xsl:when>
+                            <xsl:when test="contains( @displayLabel,'ript')">kb:script</xsl:when>
+                            <xsl:otherwise><xsl:value-of select="concat('kb:',my:escape_stuff(@type))"/></xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/>eeeh<xsl:value-of select="generate-id(.)"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:variable>
                     <f:string>
                       <xsl:attribute name="key">
-                        <xsl:choose>
-                          <xsl:when test="@type">
-                            <xsl:choose>
-                              <xsl:when test="contains(@type,'citation/reference')">citation</xsl:when>
-                              <xsl:when test="contains( @displayLabel,'ript')">kb:script</xsl:when>
-                              <xsl:otherwise><xsl:value-of select="concat('kb:',my:escape_stuff(@type))"/></xsl:otherwise>
-                            </xsl:choose>
-                          </xsl:when>
-                          <xsl:otherwise>
-                            <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/>
-                          </xsl:otherwise>
-                        </xsl:choose>
+                        <xsl:value-of select="$the_field"/>
                       </xsl:attribute>
                       <xsl:value-of select="."/>
                     </f:string>
@@ -407,10 +410,9 @@
                                             | m:extent
                                             | m:digitalOrigin
                                             | m:note[not(@type='pageOrientation')]">
-                        <xsl:message><xsl:value-of select="local-name(.)"/>=<xsl:value-of select="."/></xsl:message>
-                        <f:string>
-                          <xsl:attribute name="key">
-                            <xsl:choose>
+
+                        <xsl:variable name="the_field">
+                           <xsl:choose>
                               <xsl:when test="string-length($label) &gt; 0">
                                 <xsl:value-of select="my:escape_stuff(lower-case($label))"/>
                               </xsl:when>
@@ -421,12 +423,39 @@
                                   <xsl:otherwise><xsl:value-of select="my:escape_stuff(lower-case(local-name(.)))"/></xsl:otherwise>
                                 </xsl:choose>
                               </xsl:otherwise>
-                            </xsl:choose>
+                           </xsl:choose>
+                        </xsl:variable>
+                        
+                        <f:map>
+                          <xsl:attribute name="key">
+                            <xsl:value-of select="$the_field"/>
                           </xsl:attribute>
-                          <xsl:value-of select="."/>
-                        </f:string>
+                          <xsl:if test="contains($the_field,'xtent')">
+                            <f:string key="unitText">
+                              <xsl:choose>
+                                <xsl:when test="matches(.,'^.*(fol|blad).*$')">folios</xsl:when>
+                                <xsl:otherwise>pages</xsl:otherwise>
+                              </xsl:choose>
+                            </f:string>
+                          </xsl:if>
+
+                          <f:string key="@value">
+                            <xsl:choose>
+                              <xsl:when test="contains($the_field,'xtent')">
+                                <!-- xsl:value-of select="replace(.,'^.*(\d+).*$','$1')"/ -->
+                                <xsl:value-of select="."/>
+                              </xsl:when>
+                              <xsl:otherwise>
+                                <xsl:value-of select="."/>
+                              </xsl:otherwise>
+                            </xsl:choose>
+                          </f:string>
+                        </f:map>
 
                       </xsl:for-each>
+
+
+                      
                     </xsl:for-each>
 
                 </xsl:if>
@@ -735,7 +764,7 @@
     <xsl:param name="arg"/>
     <xsl:choose>
       <xsl:when test="contains($arg,'medium')">material</xsl:when>
-      <xsl:when test="contains($arg,'extent')">numberOfPages</xsl:when>
+      <xsl:when test="contains($arg,'extent')">materialExtent<!-- numberOfPages--></xsl:when>
       <xsl:when test="contains($arg,'physicaldescription')">artMedium</xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="replace($arg,'\s',$sep_string,'s')"/>
