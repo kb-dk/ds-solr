@@ -778,7 +778,7 @@
     <xsl:choose>
       <xsl:when test="contains($arg,'medium')">material</xsl:when>
       <xsl:when test="contains($arg,'extent')">materialExtent<!-- numberOfPages--></xsl:when>
-      <xsl:when test="contains($arg,'physicaldescription')">artMedium</xsl:when>
+      <xsl:when test="contains($arg,'physicaldescription')">material</xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="replace($arg,'\s',$sep_string,'s')"/>
       </xsl:otherwise>
