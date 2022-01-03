@@ -24,11 +24,12 @@ See
 ## book
 
 * https://schema.org/Book
+(perhapps useful https://schema.org/materialExtent)
 
 ## manus
 
 * https://schema.org/Manuscript 
-(perhapps useful https://schema.org/owns)
+(perhapps useful https://schema.org/owns, https://schema.org/materialExtent)
 
 ## periodicals and whatever
 
