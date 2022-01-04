@@ -136,8 +136,8 @@
       ],
       "publication": {
         "@type": "PublicationEvent",
-        "endDate": "1100-1199",
-        "startDate": "1100-1199",
+        "endDate": "1199-01-01",
+        "startDate": "1100-01-01",
         "description": [
           "1100-1199"
         ]
