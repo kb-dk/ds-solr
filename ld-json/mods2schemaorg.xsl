@@ -364,6 +364,13 @@
                         </f:string>
                       </xsl:for-each>
                     </xsl:when>
+                    <xsl:when test="m:originInfo/m:dateCreated">
+                      <xsl:for-each select="m:originInfo/m:dateCreated">
+                        <f:string key="startDate">
+                          <xsl:value-of select="."/>
+                        </f:string>
+                      </xsl:for-each>
+                    </xsl:when>
                     <xsl:otherwise>
                       <xsl:if test="processing-instruction('cobject_not_before')">
                         <f:string key="startDate">
