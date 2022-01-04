@@ -224,7 +224,7 @@
                 
                 <f:array key="about">
 
-                  <xsl:if test="./m:relatedItem[@type='event'] or m:note[@type='situation']">
+                  <xsl:if test="./m:relatedItem[@type='event']/node() or m:note[@type='situation']/node()">
                     <f:map>
 
                       <f:string key="@type">Event</f:string>
