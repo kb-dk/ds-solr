@@ -345,8 +345,8 @@
                           <xsl:value-of select="."/>
                       </xsl:for-each>
                     </xsl:when>
-                     <xsl:when test="m:originInfo/m:dateCreated">
-                       <xsl:for-each select="m:originInfo/m:dateCreated">
+                     <xsl:when test="m:dateCreated/@t:notAfter">
+                       <xsl:for-each select="m:dateCreated/@t:notAfter">
                            <xsl:value-of select="."/>
                        </xsl:for-each>
                      </xsl:when>
@@ -365,13 +365,8 @@
                             <xsl:value-of select="."/>
                         </xsl:for-each>
                       </xsl:when>
-                      <xsl:when test="m:originInfo/m:dateCreated">
-                        <xsl:for-each select="m:originInfo/m:dateCreated">
-                            <xsl:value-of select="."/>
-                        </xsl:for-each>
-                      </xsl:when>
-                      <xsl:when test="m:dateCreated">
-                        <xsl:for-each select="m:dateCreated">
+                      <xsl:when test="m:dateCreated/@t:notBefore">
+                        <xsl:for-each select="m:dateCreated/@t:notBefore">
                             <xsl:value-of select="."/>
                         </xsl:for-each>
                       </xsl:when>
@@ -383,7 +378,13 @@
                     </xsl:choose>
                   </xsl:variable>
 
-                  <xsl:if test="$to_date/string() or $from_date/string()">
+                  <xsl:variable name="visible_date">
+                    <xsl:for-each select="m:originInfo/m:dateCreated|m:dateCreated">
+                      <xsl:value-of select="."/>
+                    </xsl:for-each>
+                  </xsl:variable>
+                  
+                  <xsl:if test="$visible_date/string() or $to_date/string() or $from_date/string()">
                     <f:map key="publication">
                       <f:string key="@type">PublicationEvent</f:string>
 
@@ -394,12 +395,12 @@
                       <xsl:if test="$from_date/string()">
                         <f:string key="startDate"><xsl:value-of select="$from_date"/></f:string>
                       </xsl:if>
-                      
-                      <f:array key="description">
-                        <xsl:for-each select="m:originInfo/m:dateCreated">
-                          <f:string><xsl:value-of select="."/></f:string>
-                        </xsl:for-each>
-                      </f:array>
+
+                      <xsl:if test="$visible_date/string()">
+                        <f:array key="description">
+                          <f:string><xsl:value-of select="$visible_date"/></f:string>
+                        </f:array>
+                      </xsl:if>
 
                     </f:map>
                   </xsl:if>
