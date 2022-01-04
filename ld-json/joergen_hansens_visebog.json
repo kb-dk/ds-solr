@@ -85,9 +85,6 @@
           ]
         }
       ],
-      "publication": {
-        "@type": "PublicationEvent"
-      },
       "identifier": [],
       "kb:read_direction": "LTR",
       "encoding": [
