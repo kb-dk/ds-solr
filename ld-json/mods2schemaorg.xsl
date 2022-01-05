@@ -106,6 +106,7 @@
                       <xsl:call-template name="get-names">
                         <xsl:with-param name="record_identifier" select="$record-id"/>
                         <xsl:with-param name="cataloging_language" select="$cataloging_language" />
+                        <xsl:with-param name="agent_type" select="'Person'" />
                       </xsl:call-template>
                     </xsl:for-each>
                   </f:array>
@@ -721,11 +722,25 @@
   <xsl:template name="get-names">
     <xsl:param name="record_identifier"/>
     <xsl:param name="cataloging_language"/>
+    <xsl:param name="agent_type" select="''" />
+
+    <xsl:variable name="inferred_originator_type">
+      <xsl:choose>
+        <xsl:when test="$agent_type"><xsl:value-of select="$agent_type"/></xsl:when>
+        <xsl:otherwise>
+          <xsl:choose>
+            <xsl:when test="contains($record_identifier,'pamphlets')">Organization</xsl:when>
+            <xsl:otherwise>Person</xsl:otherwise>
+          </xsl:choose>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    
     <f:map>
       <f:string key="@type">
         <xsl:choose>
           <xsl:when test="contains(@type,'corporate')">Organization</xsl:when>
-          <xsl:otherwise>Person</xsl:otherwise>
+          <xsl:otherwise><xsl:value-of select="$inferred_originator_type"/></xsl:otherwise>
         </xsl:choose>
       </f:string>
       <xsl:if test="@authorityURI">
