@@ -1,0 +1,475 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Book",
+      "id": "books/ortsam/2011/mar/ostryk/object60024",
+      "url": "http://www5.kb.dk/books/ortsam/2011/mar/ostryk/object60024/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:blp"
+            }
+          }
+        ],
+        "kb:record_created": "2011-03-04",
+        "kb:record_revised": "2011-03-22",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "چهل طوطى",
+          "@language": "fa"
+        }
+      ],
+      "alternativeHeadline": [
+        {
+          "@value": "Čehel ṭūṭī",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "en",
+            "@value": "Anonymous"
+          }
+        }
+      ],
+      "relator:prt": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "fa",
+            "@value": "استاذ الماهر مشهدى خداداد طهرانى"
+          }
+        }
+      ],
+      "contributor": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "fa",
+            "@value": "محمد على (litographed text)"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "en",
+            "@value": "'Alī Reẓā (illustrator)"
+          }
+        }
+      ],
+      "description": [
+        "The text is an adaption of Ṭ̣uṭī-nāmeh, a collection of fables. Litographed text by محمد على."
+      ],
+      "kb:content": "Fairy-tale",
+      "kb:script": "Ta'līq script",
+      "about": [
+        "Fairy-tale",
+        "Cod. Pers. A.C. 101",
+        {
+          "@type": "DefinedTerm",
+          "id": "books/ortsam/2011/mar/ostryk/subject832",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Orientalsk Samling: Tidlige tryk"
+            },
+            {
+              "@language": "en",
+              "@value": "Oriental Collection: Early Prints"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "books/ortsam/2011/mar/ostryk/subject833",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Cod. Pers. A.C. 101"
+            },
+            {
+              "@language": "en",
+              "@value": "Cod. Pers. A.C. 101"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1912-12-31",
+        "startDate": "1912-01-01",
+        "description": [
+          "1912",
+          "Ṣafar 1330 H"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Paper"
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "folios",
+        "@value": "24 fols."
+      },
+      "size": {
+        "@type": "QuantitativeValue",
+        "@value": "21.5 x 16.9 x 0.2 cm"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Cod. Pers. AC. 101"
+        }
+      ],
+      "isPartOf": [
+        {
+          "@type": "Collection",
+          "headline": "The Oriental Collection",
+          "description": "mixed material"
+        }
+      ],
+      "inLanguage": [
+        "fa"
+      ],
+      "kb:read_direction": "RTL",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "headline": [
+            {
+              "@value": "fa|چهل طوطى",
+              "@language": "da"
+            }
+          ],
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_052/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_001/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_002/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_003/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_004/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_005/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_006/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_007/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_008/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_009/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_010/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_011/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_012/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_013/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_014/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_015/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_016/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_017/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_018/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_019/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_020/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_021/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_022/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_023/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_024/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_025/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_026/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_027/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_028/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_029/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_030/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_031/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_032/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_033/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_034/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_035/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_036/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_037/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_038/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_039/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_040/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_041/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_042/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_043/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_044/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_045/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_046/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_047/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_048/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_049/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_050/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_051/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

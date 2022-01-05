@@ -33,6 +33,8 @@ mods_files=("albert-einstein.xml"
 	    "john-rosforth-johnson.xml"
 	    "greenland-topographic-collection.xml"
 	    "chinese-manuscripts.xml"
+	    "dansk-folkeparti.xml"
+	    "tuti-nameh.xml"
 	    "responsa.xml")
 
 for file in ${mods_files[@]}; do
