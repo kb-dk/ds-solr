@@ -380,7 +380,7 @@
 
                   <xsl:variable name="visible_date">
                     <xsl:for-each select="m:originInfo/m:dateCreated|m:dateCreated">
-                      <xsl:value-of select="."/>
+                      <f:string><xsl:value-of select="."/></f:string>
                     </xsl:for-each>
                   </xsl:variable>
                   
@@ -397,9 +397,7 @@
                       </xsl:if>
 
                       <xsl:if test="$visible_date/string()">
-                        <f:array key="description">
-                          <f:string><xsl:value-of select="$visible_date"/></f:string>
-                        </f:array>
+                        <f:array key="description"><xsl:copy-of select="$visible_date"/></f:array>
                       </xsl:if>
 
                     </f:map>
