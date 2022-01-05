@@ -331,12 +331,6 @@
                   </xsl:for-each>
                 </f:array>
                 
-                <!-- xsl:for-each select="m:subject/m:cartographics/m:coordinates[1]">
-                  <xsl:if test="not(contains(.,'0.0,0.0'))">
-                    <f:string key="location_coordinates"><xsl:value-of select="."/></f:string>
-                  </xsl:if>
-                </xsl:for-each -->
-
                 <!-- dating and origin -->
              
                   <xsl:variable name="to_date">
