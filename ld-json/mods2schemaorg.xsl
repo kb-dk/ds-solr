@@ -164,12 +164,13 @@
                         <xsl:when test="@type">
                           <xsl:choose>
                             <xsl:when test="contains(@type,'citation/reference')">citation</xsl:when>
-                            <xsl:when test="contains( @displayLabel,'ript')">kb:script</xsl:when>
+                            <xsl:when test="matches( @displayLabel,'ript$')">kb:script</xsl:when>
+                            <xsl:when test="contains( @displayLabel,'ript:')">kb:scriptDetail</xsl:when>
                             <xsl:otherwise><xsl:value-of select="concat('kb:',my:escape_stuff(@type))"/></xsl:otherwise>
                           </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/>eeeh<xsl:value-of select="generate-id(.)"/>
+                          <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/><xsl:value-of select="generate-id(.)"/>
                         </xsl:otherwise>
                       </xsl:choose>
                     </xsl:variable>
