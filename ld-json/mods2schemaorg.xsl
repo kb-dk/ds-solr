@@ -178,7 +178,7 @@
                           </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel))"/><xsl:value-of select="generate-id(.)"/>
+                          <xsl:value-of select="concat('kb:',my:escape_stuff(@displayLabel),generate-id(.))"/>
                         </xsl:otherwise>
                       </xsl:choose>
                     </xsl:variable>
