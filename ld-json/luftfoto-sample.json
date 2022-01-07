@@ -1,0 +1,5233 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1262327",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1262327/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "- 1990 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Landinspektørernes Luftfoto Opmåling"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Karlstrup By",
+            "kb:parish": "Karlstrup Sogn",
+            "kb:zipcode": "2690",
+            "kb:street": "Tåstrupvej, Silovej, Cementvej, E20",
+            "kb:city": "Karlslunde"
+          },
+          "latitude": "55.54676631676876",
+          "longitude": "12.213836216187728"
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Solrød Strand",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject430",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "LLO"
+            },
+            {
+              "@language": "en",
+              "@value": "LLO"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject962",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sjælland"
+            },
+            {
+              "@language": "en",
+              "@value": "Sjælland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1990"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LGV"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "LLOXXXX-90_2417.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/5feb68d0-456b-11e7-a93a-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object182167",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object182167/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:record_created": "2012-11-26",
+        "kb:record_revised": "2012-12-19",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Højrupgyden 11 - Overgård - 1988 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Ariel/Dansk Luftfoto"
+          }
+        }
+      ],
+      "description": [
+        "hæst"
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Langsted",
+            "kb:cadastre": "8g, Langsted By, Verninge",
+            "kb:parish": "Verninge",
+            "kb:building": "Overgaard",
+            "kb:zipcode": "5690",
+            "kb:housenumber": "11",
+            "kb:street": "Højrupgyden",
+            "kb:city": "Tommerup"
+          },
+          "latitude": "55.275639204972784",
+          "longitude": "10.17756274969461"
+        }
+      ],
+      "about": [
+        "Højrupgyden 11, Langsted, 5690 Tommerup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject234",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Ariel"
+            },
+            {
+              "@language": "en",
+              "@value": "Ariel"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1988"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "A088673_13.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/7ed57800-49ba-11e2-b40f-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_12/non-archival/Maps/FYNLUFTFOTO/Ariel/A088673/A088673_13/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object934059",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object934059/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:Luftfoto import"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "- 1979 - Søllested",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "RAF"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:zipcode": "4920",
+            "kb:city": "Søllested"
+          },
+          "latitude": "54.79784398538909",
+          "longitude": "11.27188948205563"
+        }
+      ],
+      "about": [
+        "Danmark, Lolland, Søllested",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject270",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "RAF"
+            },
+            {
+              "@language": "en",
+              "@value": "RAF"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject371",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Lolland-Falster"
+            },
+            {
+              "@language": "en",
+              "@value": "Lolland-Falster"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1979"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "RA-V39C005611_120.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/7064d290-9da1-11e6-a51d-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0000/934/059/RA-V39C005611_120/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object142941",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object142941/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:ihrs"
+            }
+          }
+        ],
+        "kb:record_created": "2012-08-21",
+        "kb:record_revised": "2012-09-28",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Skovvej 1 - 1958 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Odense Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Bred",
+            "kb:cadastre": "6as, Bred By, Vissenbjerg",
+            "kb:parish": "Vissenbjerg",
+            "kb:zipcode": "5492",
+            "kb:housenumber": "1",
+            "kb:street": "Skovvej",
+            "kb:city": "Vissenbjerg"
+          },
+          "latitude": "55.37832556132885",
+          "longitude": "10.09971279127454"
+        }
+      ],
+      "about": [
+        "Skovvej 1, Bred, 5492 Vissenbjerg",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject213",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Odense Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Odense Luftfoto"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1958"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "OD02769_006.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/92b40fa0-0994-11e2-a3c8-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_12/non-archival/Maps/FYNLUFTFOTO/Odense/OD02769/OD02769_006/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object159139",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object159139/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:record_created": "2012-10-23",
+        "kb:record_revised": "2012-11-02",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Skovmarkvej 20 - 1957 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "description": [
+        "Kontrolleret 07-07-2014. Korrekt serie, men ingen ejer- eller adresseoplysninger bag på prøvebilledet. Muligvis fejlarkiveret."
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Skovmark",
+            "kb:cadastre": "1gs Vrå Hgd",
+            "kb:parish": "Ajstrup",
+            "kb:zipcode": "9382",
+            "kb:housenumber": "20",
+            "kb:street": "Skovmarkvej",
+            "kb:city": "Tylstrup"
+          },
+          "latitude": "57.20110940790931",
+          "longitude": "9.916326778597863"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Tylstrup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1957"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H09557_034.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/f1a688f0-24e5-11e2-8c71-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_12/non-archival/Maps/FYNLUFTFOTO/H-serien/H09557/H09557_034/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1498564",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1498564/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:Luftfoto import"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Scankort"
+          }
+        }
+      ],
+      "about": [
+        "Danmark, Amager",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject443",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Scankort"
+            },
+            {
+              "@language": "en",
+              "@value": "Scankort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject965",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hovedstaden"
+            },
+            {
+              "@language": "en",
+              "@value": "Hovedstaden"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1995"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LGV"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "SCK163-95B_0065.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/a3047890-d3b5-11e7-967a-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/498/564/SCK163-95B_0065/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object665713",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object665713/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:dikk"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Vester Bøgebjergvej 64 - 1955 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "description": [
+        "en lille test"
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Vester Bøgebjerg, Kulhuse",
+            "kb:cadastre": "2b, V. Bøgebjerg By, Boeslunde",
+            "kb:parish": "Boeslunde",
+            "kb:zipcode": "4220",
+            "kb:housenumber": "64",
+            "kb:street": "Vester Bøgebjergvej",
+            "kb:city": "Korsør"
+          },
+          "latitude": "55.29732318916679",
+          "longitude": "11.214568018913269"
+        }
+      ],
+      "about": [
+        "Vester Bøgebjergvej 64, Vester Bøgebjerg, 4220 Korsør",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject434",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sjælland"
+            },
+            {
+              "@language": "en",
+              "@value": "Sjælland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1955"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H06233_004.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/2b949260-0321-11e6-bbd5-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Danmark/H-serien/H06233/H06233_004/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object518206",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object518206/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:mamw"
+            }
+          }
+        ],
+        "kb:record_created": "2015-05-27",
+        "kb:record_revised": "2015-06-23",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Husby Præstegård - 1954",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "description": [
+        "Set fra syd."
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:": "Husby Præstegård"
+          },
+          "latitude": "56.2620440973189",
+          "longitude": "8.183178305625916"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Ulfborg, Husby",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject424",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Midtjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Midtjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1954"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H05017_014.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/e6f4ca10-0ee5-11e5-b18a-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Danmark/H-serien/H05017/H05017_014/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1613487",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1613487/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:micd"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Nørtorupvej 17 - Bisgaard - 1948-1952 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Hjortdal",
+            "kb:cadastre": "12a, V. Svenstrup By, Hjortdal",
+            "kb:parish": "Hjortdal",
+            "kb:building": "Bisgård",
+            "kb:zipcode": "9690",
+            "kb:housenumber": "17",
+            "kb:street": "Nørtorupvej",
+            "kb:city": "Fjerritslev"
+          },
+          "latitude": "57.13267611256655",
+          "longitude": "9.358860268718736"
+        }
+      ],
+      "about": [
+        "Nørtorupvej 17, Hjortdal, 9690 Fjerritslev",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1948-1952"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_BL09-A1_126_029.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/86454c30-49ca-11e8-a77f-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/613/487/AAL_BL09-A1_126_029/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1868628",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1868628/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Gøttrupvej 90 - 1955 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Gøttruphave",
+            "kb:cadastre": "7i",
+            "kb:parish": "Gøttrup",
+            "kb:zipcode": "9690",
+            "kb:housenumber": "90",
+            "kb:street": "Gøttrupvej",
+            "kb:city": "Fjerritslev"
+          },
+          "latitude": "57.0808342875973",
+          "longitude": "9.20969365142535"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Fjerritslev, Gøttrup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject381",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1955"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H05569_001.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/439c0010-1bd2-11e9-a539-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/868/628/H05569_001/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1551848",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1551848/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "- 1999 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Scankort"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Pedersborg By",
+            "kb:parish": "Pedersborg Sogn",
+            "kb:zipcode": "4180",
+            "kb:street": "Elmebjergvej, Kalundborgvej, [E20]",
+            "kb:city": "Sorø"
+          },
+          "latitude": "55.4642584200699",
+          "longitude": "11.565943704070156"
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Sorø",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject443",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Scankort"
+            },
+            {
+              "@language": "en",
+              "@value": "Scankort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject487",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sjælland"
+            },
+            {
+              "@language": "en",
+              "@value": "Sjælland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1999"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LGV"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "SCK115-99A_1879.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/51f28eb0-2739-11e8-88d7-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/551/848/SCK115-99A_1879/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1865534",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1865534/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Smedjegård - 1955 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Thorupholme",
+            "kb:cadastre": "6",
+            "kb:parish": "Vester Thorup",
+            "kb:building": "Smedjegård",
+            "kb:housenumber": "253",
+            "kb:street": "Thorupholmevej"
+          },
+          "latitude": "57.08512243245263",
+          "longitude": "9.111678600311281"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, V. Thorup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject381",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1955"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H05922_014.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/d560b340-1bac-11e9-a4d9-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/865/534/H05922_014/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object66751",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object66751/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:sebn"
+            }
+          }
+        ],
+        "kb:record_created": "2011-03-23",
+        "kb:record_revised": "2011-04-05",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "- 1939 - Bækholm, Tommerup Stby.",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:parish": "Orte",
+            "kb:building": "Bækholm",
+            "kb:zipcode": "5560",
+            "kb:housenumber": "19",
+            "kb:street": "Brændholtvej",
+            "kb:city": "Aarup"
+          },
+          "latitude": "55.34477499943108",
+          "longitude": "10.134186217307956"
+        }
+      ],
+      "about": [
+        "Danmark, Fyn,",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject205",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Optagelser af landbrugsejendomme i S/H fra 1938-1950 Optagelser af landbrugsejendomme i S/H fra 1938-1950"
+            },
+            {
+              "@language": "en",
+              "@value": "Optagelser af landbrugsejendomme i S/H fra 1938-1950 Optagelser af landbrugsejendomme i S/H fra 1938-1950"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1939"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "L0700_11.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/f161fa40-5f99-11e0-9128-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_10/non-archival/Maps/FYNLUFTFOTO/L0700_11/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1869800",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1869800/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Gøttruphavevej 91- 1955 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Gøttruphave",
+            "kb:cadastre": "20c",
+            "kb:parish": "Gøttrup",
+            "kb:zipcode": "9690",
+            "kb:housenumber": "91",
+            "kb:street": "Gøttruphavevej",
+            "kb:city": "Fjerritslev"
+          },
+          "latitude": "57.07580201650403",
+          "longitude": "9.221654554955615"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Fjerritslev, Gøttrup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject381",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1955"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H05568_039.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/45531e90-1bd5-11e9-9505-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/869/800/H05568_039/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1551966",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1551966/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Scankort"
+          }
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Sorø",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject443",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Scankort"
+            },
+            {
+              "@language": "en",
+              "@value": "Scankort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject487",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sjælland"
+            },
+            {
+              "@language": "en",
+              "@value": "Sjælland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1999"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LGV"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "SCK115-99A_1894.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/2aecdd00-273b-11e8-be0c-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/551/966/SCK115-99A_1894/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2232482",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2232482/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grishauge - 1963 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Klim Odde",
+            "kb:cadastre": "34",
+            "kb:parish": "Klim",
+            "kb:building": "Grishauge",
+            "kb:housenumber": "105",
+            "kb:street": "Oddevej"
+          },
+          "latitude": "57.08299445533202",
+          "longitude": "9.165387143317615"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Klim",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1963"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_02429_033.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/42418030-fb5d-11e9-bfc1-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/232/482/AAL_02429_033/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object269613",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object269613/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:ihrs"
+            }
+          }
+        ],
+        "kb:record_created": "2013-07-31",
+        "kb:record_revised": "2013-10-03",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Uglebjerg - 1973-04-30",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Aerokort"
+          }
+        }
+      ],
+      "about": [
+        "Danmark, Langeland, Bastemose og Uglebjerg",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject266",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aerokort"
+            },
+            {
+              "@language": "en",
+              "@value": "Aerokort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject303",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Fyn"
+            },
+            {
+              "@language": "en",
+              "@value": "Fyn"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1973"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AEK73-7314_493y.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/787d7c70-0a2e-11e3-a328-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Aerokort/AEK73-7314_493-506/AEK73-7314_493y/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object688112",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object688112/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:soni"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Dalsgård, Trællerup - 1957 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Herslev By",
+            "kb:cadastre": "9a",
+            "kb:parish": "Herslev Sogn",
+            "kb:zipcode": "4000",
+            "kb:housenumber": "14",
+            "kb:street": "Herslevvej",
+            "kb:city": "Roskilde"
+          },
+          "latitude": "55.66022621412576",
+          "longitude": "11.975502669811249"
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Roskilde",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject434",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sjælland"
+            },
+            {
+              "@language": "en",
+              "@value": "Sjælland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1957"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H09253_037c.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/f028d4c0-1220-11e6-885e-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Danmark/H-serien/H09253/H09253_037c/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1323970",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1323970/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:Luftfoto import"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "- 1995 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Scankort"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Sengeløse By",
+            "kb:parish": "Sengeløse Sogn",
+            "kb:zipcode": "2630",
+            "kb:street": "Holbækmotorvejen, Sengeløsevej",
+            "kb:city": "Taastrup"
+          },
+          "latitude": "55.66439497081627",
+          "longitude": "12.286192301891123"
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Høje Taastrup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject443",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Scankort"
+            },
+            {
+              "@language": "en",
+              "@value": "Scankort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject965",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hovedstaden"
+            },
+            {
+              "@language": "en",
+              "@value": "Hovedstaden"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1995"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LGV"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "SC7820-95R_0175.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/d64c5f80-7512-11e7-928c-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/323/970/SC7820-95R_0175/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object409805",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object409805/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:dikk"
+            }
+          }
+        ],
+        "kb:record_created": "2014-08-19",
+        "kb:record_revised": "2014-08-27",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kloster - 1959 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "description": [
+        "Aksel Birkedal Nielsen Anna Marie Nielsen:"
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Kloster",
+            "kb:parish": "Ny Sogn",
+            "kb:building": "Ny Hus i 1986",
+            "kb:zipcode": "6950",
+            "kb:housenumber": "1",
+            "kb:street": "Vestervang",
+            "kb:city": "Ringkøbing"
+          },
+          "latitude": "56.12495065911428",
+          "longitude": "8.177184922758318"
+        }
+      ],
+      "about": [
+        "Kloster",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject243",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "B-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject364",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Midtjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Midtjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1959"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "B06095_015.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/642b8af0-2da0-11e4-9dfe-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Danmark/B-serien/B06095/B06095_015/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object269621",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object269621/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:ihrs"
+            }
+          }
+        ],
+        "kb:record_created": "2013-07-31",
+        "kb:record_revised": "2013-10-03",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Bastemose - 1973-04-30",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Aerokort"
+          }
+        }
+      ],
+      "about": [
+        "Østerhuse og Bastemose. Danmark, Fyn, Langeland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject266",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aerokort"
+            },
+            {
+              "@language": "en",
+              "@value": "Aerokort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject303",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Fyn"
+            },
+            {
+              "@language": "en",
+              "@value": "Fyn"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1973"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AEK73-7314_502y.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/fa30e330-0a31-11e3-a328-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Aerokort/AEK73-7314_493-506/AEK73-7314_502y/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1865482",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1865482/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Thistedvej 188 - 1955 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Klim Kjær",
+            "kb:cadastre": "18c",
+            "kb:parish": "Klim",
+            "kb:zipcode": "9690",
+            "kb:housenumber": "188",
+            "kb:street": "Thistedvej",
+            "kb:city": "Fjerritslev"
+          },
+          "latitude": "57.09203032413503",
+          "longitude": "9.205974342500435"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Klim",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject381",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1955"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H06002_004.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/1708fa60-1bac-11e9-8fb0-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/865/482/H06002_004/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object920575",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object920575/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:Luftfoto import"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Geoplan"
+          }
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Ølsted",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject262",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Geoplan"
+            },
+            {
+              "@language": "en",
+              "@value": "Geoplan"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject374",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hovedstaden"
+            },
+            {
+              "@language": "en",
+              "@value": "Hovedstaden"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1989"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "GP0002A-89_172.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/889526f0-98a9-11e6-957b-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0000/920/575/GP0002A-89_172/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1612072",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1612072/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:micd"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Tranum Engevej 154 - 1948-1952 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Tranum Enge",
+            "kb:cadastre": "Alfred Nielsen",
+            "kb:parish": "Tranum",
+            "kb:zipcode": "9460",
+            "kb:housenumber": "154",
+            "kb:street": "Tranum Engevej",
+            "kb:city": "Brovst"
+          },
+          "latitude": "57.139384937938466",
+          "longitude": "9.559024560420893"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Tranum Enge",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1948-1952"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_BL09-A1_019_027.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/1da70140-49c1-11e8-895f-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/612/072/AAL_BL09-A1_019_027/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2295045",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2295045/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kollerup Strandvej 11 - 1963 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Brøndum",
+            "kb:cadastre": "6b",
+            "kb:parish": "Kollerup",
+            "kb:housenumber": "11",
+            "kb:street": "Kollerup Strandvej"
+          },
+          "latitude": "57.10187681485335",
+          "longitude": "9.266672741784513"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Kollerup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1963"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_02434_010.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/681e6060-3803-11ea-ab70-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/295/045/AAL_02434_010/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2294954",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2294954/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kollerup Strandvej 19 - 1963 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Brøndum",
+            "kb:cadastre": "2b",
+            "kb:parish": "Kollerup",
+            "kb:housenumber": "19",
+            "kb:street": "Kollerup Strandvej"
+          },
+          "latitude": "57.10549259820269",
+          "longitude": "9.265648126602175"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Kollerup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1963"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_02434_008.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/21a2dbc0-3803-11ea-871a-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/294/954/AAL_02434_008/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2193925",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2193925/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:mcha"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Hjortdalvej 33 - Hjortdalgaard - 1954 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:cadastre": "4",
+            "kb:parish": "Hjortdal",
+            "kb:building": "Hjortdalgård",
+            "kb:zipcode": "9690",
+            "kb:housenumber": "33",
+            "kb:street": "Hjortdalvej",
+            "kb:city": "Fjerritslev"
+          },
+          "latitude": "57.12818088312285",
+          "longitude": "9.333674255975405"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Hjortdal",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1954"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_00415_032.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/f2ba8e50-e6f1-11e9-8c6b-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/193/925/AAL_00415_032/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object738754",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object738754/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:mamw"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Svend Andersen"
+          }
+        }
+      ],
+      "about": [
+        "Danmark, Langeland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject822",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Svend Andersen"
+            },
+            {
+              "@language": "en",
+              "@value": "Svend Andersen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject921",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Fyn"
+            },
+            {
+              "@language": "en",
+              "@value": "Fyn"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1950-1954"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "SA00079_001.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/41b84a00-0de4-11e6-8c81-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Danmark/SvendAndersen/SA00001-00199/SA00079_001/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2193764",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2193764/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:mcha"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Havvejen 49 - 1954 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Thorup Strand",
+            "kb:cadastre": "7a",
+            "kb:parish": "V. Thorup",
+            "kb:zipcode": "9690",
+            "kb:housenumber": "49",
+            "kb:street": "Havvejen",
+            "kb:city": "Fjerritslev"
+          },
+          "latitude": "57.13510112315683",
+          "longitude": "9.142068028450014"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, V. Thorup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1954"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_00417_032.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/786d3300-e6f1-11e9-8f77-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/193/764/AAL_00417_032/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1554170",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1554170/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "- 1999 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Scankort"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Ordrup By / Allindelille By",
+            "kb:parish": "St. Tåstrup Sogn / Haraldsted Sogn",
+            "kb:zipcode": "4370",
+            "kb:street": "Mølleskovvej",
+            "kb:city": "Store Merløse"
+          },
+          "latitude": "55.5332848917247",
+          "longitude": "11.735599549167574"
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Holbæk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject443",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Scankort"
+            },
+            {
+              "@language": "en",
+              "@value": "Scankort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject487",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sjælland"
+            },
+            {
+              "@language": "en",
+              "@value": "Sjælland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1999"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LGV"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "SCK117-99_1008.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/b11b8620-2753-11e8-81d5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/554/170/SCK117-99_1008/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2211282",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2211282/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Gøttrupvej 399 - 1963 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:cadastre": "43c",
+            "kb:parish": "Gøttrup",
+            "kb:housenumber": "399",
+            "kb:street": "Gøttrupvej"
+          },
+          "latitude": "57.0407038056521",
+          "longitude": "9.216965924749331"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Gøttrup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1963"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_02416_006.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/e7400780-f551-11e9-bcc9-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/211/282/AAL_02416_006/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2296048",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2296048/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Østerkærvej 28 - 1963 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Klim Kær",
+            "kb:cadastre": "17b",
+            "kb:parish": "Klim",
+            "kb:housenumber": "28",
+            "kb:street": "Østerkærvej"
+          },
+          "latitude": "57.09397128449943",
+          "longitude": "9.196822638126113"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Klim",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1963"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_02434_044.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/7f7f2660-3806-11ea-b3f9-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/296/048/AAL_02434_044/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1735031",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1735031/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Østergård - 1952 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Vrå",
+            "kb:parish": "Vrå",
+            "kb:building": "Østergård",
+            "kb:zipcode": "9760",
+            "kb:housenumber": "50",
+            "kb:street": "Smidstrupvej",
+            "kb:city": "Vrå"
+          },
+          "latitude": "57.36424671802769",
+          "longitude": "9.93329851634521"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Vrå",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject381",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1952"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H02308_007.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/8b40a1f0-9d0b-11e8-8983-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/735/031/H02308_007/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1352227",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1352227/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:Luftfoto import"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Løkkensvej 894 - Nørregaard - 1946 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "description": [
+        "Vittrup"
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Skøttrup",
+            "kb:cadastre": "15a, Skøttrup By, Børglum",
+            "kb:parish": "Børglum",
+            "kb:building": "Nørregård",
+            "kb:zipcode": "9480",
+            "kb:housenumber": "894",
+            "kb:street": "Løkkensvej",
+            "kb:city": "Løkken"
+          },
+          "latitude": "57.38522801332378",
+          "longitude": "9.758976101875305"
+        }
+      ],
+      "about": [
+        "Løkkensvej 894, Skøttrup, 9480 Løkken",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject205",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "L-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "L-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject905",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1946"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "L01399_013.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/d2b2cfe0-895c-11e7-9d4b-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/352/227/L01399_013/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object1498544",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object1498544/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:Luftfoto import"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Scankort"
+          }
+        }
+      ],
+      "about": [
+        "Danmark, Amager",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject443",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Scankort"
+            },
+            {
+              "@language": "en",
+              "@value": "Scankort"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject965",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hovedstaden"
+            },
+            {
+              "@language": "en",
+              "@value": "Hovedstaden"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1995"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "LGV"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "SCK163-95B_0060.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/88122000-d3b5-11e7-9ec1-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/498/544/SCK163-95B_0060/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object356396",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object356396/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:ihrs"
+            }
+          }
+        ],
+        "kb:record_created": "2014-04-03",
+        "kb:record_revised": "2014-05-14",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kvissel - 1971-05-07 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Landinspektørernes Luftfoto Opmåling"
+          }
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Kvissel",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject430",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "LLO"
+            },
+            {
+              "@language": "en",
+              "@value": "LLO"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject482",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Kattegat"
+            },
+            {
+              "@language": "en",
+              "@value": "Kattegat"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1971"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "LL0252-71_7385.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/1f8e0540-cb20-11e3-873f-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Kattegat/LLO/LL0252-71/LL0252-71_7385/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object241530",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object241530/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:record_created": "2013-04-22",
+        "kb:record_revised": "2013-05-04",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Højgård - 1990 - Veflinge Stormark",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Ariel/Dansk Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:building": "Højgård",
+            "kb:zipcode": "5471",
+            "kb:housenumber": "24",
+            "kb:street": "Stormarken",
+            "kb:city": "Søndersø"
+          },
+          "latitude": "55.48651458445065",
+          "longitude": "10.188611865750772"
+        }
+      ],
+      "about": [
+        "Danmark, Fyn, Veflinge, Stormarken 24",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject234",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Ariel"
+            },
+            {
+              "@language": "en",
+              "@value": "Ariel"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1990"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "A90033_p_024.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/2312fd60-b4ba-11e2-9acb-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Ariel/A90033_p/A90033_p_024/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object2232267",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object2232267/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Fuglskærvej 24 - 1963 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Aalborg Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:cadastre": "52b",
+            "kb:parish": "Gøttrup",
+            "kb:housenumber": "24",
+            "kb:street": "Fuglskærvej"
+          },
+          "latitude": "57.06397404040208",
+          "longitude": "9.183808571324505"
+        }
+      ],
+      "about": [
+        "Danmark, Jylland, Gøttrup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject209",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Aalborg Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Aalborg Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject547",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Nordjylland"
+            },
+            {
+              "@language": "en",
+              "@value": "Nordjylland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1963"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "KBP7"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "AAL_02429_016.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/96af61b0-fb5c-11e9-ae4a-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0002/232/267/AAL_02429_016/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object66887",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object66887/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:sebn"
+            }
+          }
+        ],
+        "kb:record_created": "2011-03-23",
+        "kb:record_revised": "2011-04-05",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "- 1939 - Ørslund, Bregnemose",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:building": "Ørslund"
+          },
+          "latitude": "55.285276258471384",
+          "longitude": "10.165765941983182"
+        }
+      ],
+      "about": [
+        "Danmark, Fyn, Bregnemose, Assensvej 317 - 5690 Tommerup -",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject205",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Optagelser af landbrugsejendomme i S/H fra 1938-1950 Optagelser af landbrugsejendomme i S/H fra 1938-1950"
+            },
+            {
+              "@language": "en",
+              "@value": "Optagelser af landbrugsejendomme i S/H fra 1938-1950 Optagelser af landbrugsejendomme i S/H fra 1938-1950"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1939"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "L0703_32.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/79d1a5a0-5fa5-11e0-9128-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_10/non-archival/Maps/FYNLUFTFOTO/L0703_32/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object685453",
+      "url": "http://www5.kb.dk/images/luftfo/2011/maj/luftfoto/object685453/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:dikk"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Hovedvejen 19, Langvad - 1957 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Glim",
+            "kb:cadastre": "4c",
+            "kb:parish": "Glim",
+            "kb:zipcode": "4000",
+            "kb:housenumber": "19",
+            "kb:street": "Hovedvejen",
+            "kb:city": "Roskilde"
+          },
+          "latitude": "55.60125680167769",
+          "longitude": "12.024691687656388"
+        }
+      ],
+      "about": [
+        "Danmark, Sjælland, Glim",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject206",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "H-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "H-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject434",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sjælland"
+            },
+            {
+              "@language": "en",
+              "@value": "Sjælland"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1957"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "N112"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "H08964_029.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/7dad3130-1071-11e6-8bc1-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Maps/FYNLUFTFOTO/Danmark/H-serien/H08964/H08964_029/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
