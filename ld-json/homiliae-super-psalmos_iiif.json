@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/manus/vmanus/2011/dec/ha/object71279/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/homiliae-super-psalmos_iiif.json",
   "label": {
     "da": [
       "Homiliae super Psalmos (etc.)"

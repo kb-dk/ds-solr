@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object5654/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/medicinsk-historisk-selskab_iiif.json",
   "label": {
     "en": [
       "Letter from Dansk Medicinsk-Historisk Selskab to Simonsen, David"

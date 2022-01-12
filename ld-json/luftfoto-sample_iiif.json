@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/object1262327",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/luftfoto-sample_iiif.json",
   "label": {
     "da": [
       "- 1990 -"

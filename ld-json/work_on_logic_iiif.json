@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/manus/judsam/2009/sep/dsh/object27137/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/work_on_logic_iiif.json",
   "label": {
     "he": [
       "מלות ההגיון"

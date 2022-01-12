@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/pamphlets/dasmaa/2008/feb/partiprogrammer/object87126/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/dansk-folkeparti_iiif.json",
   "label": {
     "da": [
       "Det vil vi gøre for gamle Danmark ..."

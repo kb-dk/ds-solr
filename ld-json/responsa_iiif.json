@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/manus/judsam/2009/sep/dsh/object41158/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/responsa_iiif.json",
   "label": {
     "he": [
       "קובץ שאלות ותשובות"

@@ -72,14 +72,15 @@
           </xsl:variable>
 
           <f:string key="id">
-            <xsl:choose>
+            <xsl:value-of select="concat($base_uri,'/',$result_object)"/>
+            <!-- xsl:choose>
               <xsl:when test="contains($record-id,'luftfo')">
                 <xsl:value-of select="concat('http://www5.kb.dk/danmarksetfraluften/',$record-id)"/>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="concat('http://www5.kb.dk/',$record-id,'/en/')"/>
               </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose -->
           </f:string>
 
           <xsl:call-template name="get-title">
