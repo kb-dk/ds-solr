@@ -13,23 +13,23 @@
   "items": [
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/info.json",
       "height": 5302,
       "width": 4860,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -40,7 +40,7 @@
                 "width": 4860,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417",
+                    "id": "https://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
