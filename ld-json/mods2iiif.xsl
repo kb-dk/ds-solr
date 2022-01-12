@@ -227,8 +227,8 @@
                 <xsl:copy-of select="$resolution"/>
                 <f:array key="service">
                   <f:map>
-                    <f:string key="id"><xsl:value-of select="$id_string"/></f:string>
-                    <f:string key="type">ImageService3</f:string>
+                    <f:string key="id"><xsl:value-of select="substring-before($id_string,'/info.json')"/></f:string>
+                    <f:string key="type">ImageService2</f:string>
                     <f:string key="profile">level1</f:string>
                   </f:map>
                 </f:array>

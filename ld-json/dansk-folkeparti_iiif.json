@@ -45,8 +45,8 @@
                 "width": 1640,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_01/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_01",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -91,8 +91,8 @@
                 "width": 1640,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_02/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_02",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -137,8 +137,8 @@
                 "width": 1640,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_03/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_03",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -183,8 +183,8 @@
                 "width": 1640,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_04/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_04",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]

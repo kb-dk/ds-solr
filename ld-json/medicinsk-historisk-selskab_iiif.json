@@ -40,8 +40,8 @@
                 "width": 1499,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0278/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0278",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -81,8 +81,8 @@
                 "width": 1499,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0279/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0279",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
