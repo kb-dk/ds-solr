@@ -2,10 +2,65 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json",
     {
+      "schema": "http://schema.org/",
       "kb": "http://kb.dk/vocabs/",
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
   "@type": "Manifest",
-  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/dansk-folkeparti_iiif.json"
+  "id": "http://www5.kb.dk/pamphlets/dasmaa/2008/feb/partiprogrammer/object87126/en/",
+  "label": {
+    "da": [
+      "Det vil vi gøre for gamle Danmark ..."
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Det vil vi gøre for gamle Danmark ..."
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_01/info.json",
+      "height": 4660,
+      "width": 1640
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Det vil vi gøre for gamle Danmark ..."
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_02/info.json",
+      "height": 4660,
+      "width": 1640
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Det vil vi gøre for gamle Danmark ..."
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_03/info.json",
+      "height": 4660,
+      "width": 1640
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Det vil vi gøre for gamle Danmark ..."
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_04/info.json",
+      "height": 4660,
+      "width": 1640
+    }
+  ]
 }

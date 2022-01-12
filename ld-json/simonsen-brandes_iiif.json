@@ -2,10 +2,33 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json",
     {
+      "schema": "http://schema.org/",
       "kb": "http://kb.dk/vocabs/",
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
   "@type": "Manifest",
-  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/simonsen-brandes_iiif.json"
+  "id": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2678/en/",
+  "label": {
+    "en": [
+      "Letter to Brandes, Georg from Simonsen, David"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json",
+      "height": 4320,
+      "width": 3409
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0030/info.json",
+      "height": 4320,
+      "width": 3409
+    }
+  ]
 }

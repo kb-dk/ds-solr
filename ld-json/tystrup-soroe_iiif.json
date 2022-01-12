@@ -2,10 +2,27 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json",
     {
+      "schema": "http://schema.org/",
       "kb": "http://kb.dk/vocabs/",
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
   "@type": "Manifest",
-  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/tystrup-soroe_iiif.json"
+  "id": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/object322504",
+  "label": {
+    "da": [
+      "Næblerødvej 32, Næblerød - 1936-1939 -"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json",
+      "height": 8126,
+      "width": 10921
+    }
+  ]
 }
