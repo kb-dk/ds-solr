@@ -32,47 +32,62 @@
   </xsl:variable>
   
   <xsl:template match="/">
-    
     <xsl:variable name="json">
 
-      <f:map>
-        <f:string key="@context">http://schema.org/</f:string>
-        <f:string key="@type">DataFeed</f:string>
-        <f:array  key="dataFeedElement">
-          <xsl:for-each select="//m:mods">
+      <!-- The Manifest if for one object, the source files here are
+           sometimes containing multiple. We choose the first for
+           the time being.  -->
 
-            <xsl:variable name="cataloging_language">
-              <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
-                <xsl:value-of select="."/>              
-              </xsl:for-each>
-            </xsl:variable>
-            
-            <xsl:variable name="dom" select="."/>
+      <xsl:for-each select="//m:mods[1]">
 
-            <xsl:variable name="record-id-in">
-              <xsl:choose>
-                <xsl:when test="processing-instruction('cobject_id')">
-                  <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="replace(m:recordInfo/m:recordIdentifier,'^/','')"/>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
+        <f:map>
+          <f:array key="@context">
+            <f:string>http://iiif.io/api/presentation/3/context.json</f:string>
+            <f:map>
+              <f:string key="kb">http://kb.dk/vocabs/</f:string>
+              <f:string key="relator">https://id.loc.gov/vocabulary/relators/</f:string>
+            </f:map>
+          </f:array>
+          <f:string key="@type">Manifest</f:string>                
 
-            <xsl:variable name="record-id">
-              <xsl:value-of select="replace($record-id-in,'/',$sep_string,'s')"/>
-            </xsl:variable>
+          <xsl:variable name="dom" select="."/>
 
-            <xsl:variable name="output_data">
-              <f:map>
+          <xsl:variable name="record-id-in">
+            <xsl:choose>
+              <xsl:when test="processing-instruction('cobject_id')">
+                <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="replace(m:recordInfo/m:recordIdentifier,'^/','')"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
 
-              </f:map>
-            </xsl:variable>
-          </xsl:for-each>
-        </f:array>
-      </f:map>
+          <xsl:variable name="record-id">
+            <xsl:value-of select="replace($record-id-in,'/',$sep_string,'s')"/>
+          </xsl:variable>
+
+          <xsl:variable name="cataloging_language">
+            <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
+              <xsl:value-of select="."/>              
+            </xsl:for-each>
+          </xsl:variable>
+
+          <f:string key="id">
+            <xsl:choose>
+              <xsl:when test="contains($record-id,'luftfo')">
+                <xsl:value-of select="concat('http://www5.kb.dk/danmarksetfraluften/',$record-id)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="concat('http://www5.kb.dk/',$record-id,'/en/')"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </f:string>
+          
+        </f:map>
+      </xsl:for-each>
     </xsl:variable>
+    
     <xsl:value-of select="f:xml-to-json($json)"/>
     <!-- xsl:copy-of select="$json"/ -->
   </xsl:template>
