@@ -1,12 +1,5 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/3/context.json",
-    {
-      "schema": "http://schema.org/",
-      "kb": "http://kb.dk/vocabs/",
-      "relator": "https://id.loc.gov/vocabulary/relators/"
-    }
-  ],
+  "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
   "id": "http://www5.kb.dk/books/ortsam/2011/mar/ostryk/object60024/en/",
   "label": {
