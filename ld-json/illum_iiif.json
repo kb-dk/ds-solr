@@ -27,7 +27,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_001/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_001/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_001/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_001/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_001/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -38,7 +66,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_002/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_002/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_002/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_002/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_002/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -49,7 +105,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_003/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_003/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_003/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_003/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_003/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -60,7 +144,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_004/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_004/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_004/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_004/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_004/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -71,7 +183,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_005/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_005/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_005/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_005/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_005/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -82,7 +222,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_006/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_006/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_006/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_006/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_006/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -93,7 +261,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_007/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_007/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_007/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_007/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_007/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -104,7 +300,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_008/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_008/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_008/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_008/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_008/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -115,7 +339,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_009/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_009/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_009/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_009/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_009/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -126,7 +378,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_010/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_010/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_010/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_010/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_010/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -137,7 +417,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_011/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_011/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_011/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_011/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_011/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -148,7 +456,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_012/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_012/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_012/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_012/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_012/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -159,7 +495,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_013/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_013/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_013/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_013/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_013/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -170,7 +534,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_014/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_014/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_014/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_014/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_014/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -181,7 +573,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_015/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_015/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_015/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_015/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_015/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -192,7 +612,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_016/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_016/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_016/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_016/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_016/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -203,7 +651,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_017/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_017/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_017/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_017/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_017/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -214,7 +690,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_018/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_018/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_018/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_018/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_018/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -225,7 +729,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_019/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_019/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_019/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_019/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_019/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -236,7 +768,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_020/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_020/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_020/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_020/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_020/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -247,7 +807,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_021/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_021/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_021/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_021/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_021/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -258,7 +846,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_022/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_022/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_022/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_022/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_022/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -269,7 +885,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_023/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_023/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_023/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_023/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_023/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -280,7 +924,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_024/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_024/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_024/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_024/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_024/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -291,7 +963,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_025/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_025/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_025/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_025/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_025/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -302,7 +1002,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_026/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_026/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_026/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_026/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_026/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -313,7 +1041,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_027/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_027/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_027/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_027/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_027/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -324,7 +1080,35 @@
       },
       "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_028/info.json",
       "height": 4614,
-      "width": 3071
+      "width": 3071,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_028/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_028/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_028/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 4614,
+                "width": 3071,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_028/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

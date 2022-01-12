@@ -27,13 +27,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -44,19 +100,103 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -67,55 +207,307 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -126,19 +518,103 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -149,19 +625,103 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -172,19 +732,103 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -195,37 +839,205 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -236,19 +1048,103 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -259,13 +1155,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -276,13 +1228,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -293,13 +1301,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -310,7 +1374,35 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -321,37 +1413,205 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -362,37 +1622,205 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -403,13 +1831,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -420,13 +1904,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -437,7 +1977,35 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -448,7 +2016,35 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -459,13 +2055,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -476,7 +2128,35 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -487,13 +2167,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -504,13 +2240,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -521,25 +2313,137 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/info.json",
       "height": 3312,
-      "width": 2080
+      "width": 2080,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 3312,
+                "width": 2080,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
