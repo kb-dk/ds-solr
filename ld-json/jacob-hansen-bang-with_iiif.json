@@ -1,12 +1,5 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/3/context.json",
-    {
-      "schema": "http://schema.org/",
-      "kb": "http://kb.dk/vocabs/",
-      "relator": "https://id.loc.gov/vocabulary/relators/"
-    }
-  ],
+  "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
   "id": "http://www5.kb.dk/pamphlets/dasmaa/2012/jul/smaatryk/object107080/en/",
   "label": {

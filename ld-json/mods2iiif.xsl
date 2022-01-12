@@ -44,14 +44,8 @@
       <xsl:for-each select="//m:mods[1]">
 
         <f:map>
-          <f:array key="@context">
-            <f:string>http://iiif.io/api/presentation/3/context.json</f:string>
-            <f:map>
-              <f:string key="schema">http://schema.org/</f:string>
-              <f:string key="kb">http://kb.dk/vocabs/</f:string>
-              <f:string key="relator">https://id.loc.gov/vocabulary/relators/</f:string>
-            </f:map>
-          </f:array>
+          <f:string key="@context">http://iiif.io/api/presentation/3/context.json</f:string>
+
           <f:string key="type">Manifest</f:string>                
 
           <xsl:variable name="dom" select="."/>

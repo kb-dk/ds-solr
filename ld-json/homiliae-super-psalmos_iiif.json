@@ -1,12 +1,5 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/3/context.json",
-    {
-      "schema": "http://schema.org/",
-      "kb": "http://kb.dk/vocabs/",
-      "relator": "https://id.loc.gov/vocabulary/relators/"
-    }
-  ],
+  "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
   "id": "http://www5.kb.dk/manus/vmanus/2011/dec/ha/object71279/en/",
   "label": {
