@@ -7,7 +7,7 @@
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
-  "@type": "Manifest",
+  "type": "Manifest",
   "id": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object7871/en/",
   "label": {
     "en": [
@@ -19,29 +19,29 @@
   ],
   "items": [
     {
-      "@type": "Canvas",
+      "type": "Canvas",
       "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json",
       "height": 3297,
       "width": 2118,
       "items": [
         {
           "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/page",
-          "@type": "AnnotationPage",
+          "type": "AnnotationPage",
           "items": [
             {
               "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/annotation",
-              "@type": "Annotation",
+              "type": "Annotation",
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/full/!1225,/0/default.jpg",
-                "@type": "Image",
+                "type": "Image",
                 "format": "image/jpeg",
                 "height": 3297,
                 "width": 2118,
                 "service": [
                   {
                     "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json",
-                    "@type": "ImageService3",
+                    "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]

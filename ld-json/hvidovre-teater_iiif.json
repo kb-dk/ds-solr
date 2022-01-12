@@ -7,7 +7,7 @@
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
-  "@type": "Manifest",
+  "type": "Manifest",
   "id": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/en/",
   "label": {
     "da": [
@@ -19,29 +19,29 @@
   ],
   "items": [
     {
-      "@type": "Canvas",
+      "type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json",
       "height": 5734,
       "width": 6117,
       "items": [
         {
           "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/page",
-          "@type": "AnnotationPage",
+          "type": "AnnotationPage",
           "items": [
             {
               "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/annotation",
-              "@type": "Annotation",
+              "type": "Annotation",
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/full/!1225,/0/default.jpg",
-                "@type": "Image",
+                "type": "Image",
                 "format": "image/jpeg",
                 "height": 5734,
                 "width": 6117,
                 "service": [
                   {
                     "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json",
-                    "@type": "ImageService3",
+                    "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
