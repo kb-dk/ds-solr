@@ -22,7 +22,35 @@
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484/info.json",
       "height": 1163,
-      "width": 2079
+      "width": 2079,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 1163,
+                "width": 2079,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

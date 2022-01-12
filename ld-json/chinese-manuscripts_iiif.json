@@ -27,229 +27,1293 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_40/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_40/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_40/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_40/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_40/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_01/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_01/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_01/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_01/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_01/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_02/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_02/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_02/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_02/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_02/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_03/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_03/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_03/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_03/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_03/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_04/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_04/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_04/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_04/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_04/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_05/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_05/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_05/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_05/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_05/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_06/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_06/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_06/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_06/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_06/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_07/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_07/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_07/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_07/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_07/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_08/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_08/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_08/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_08/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_08/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_09/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_09/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_09/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_09/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_09/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_10/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_10/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_10/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_10/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_10/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_11/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_11/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_11/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_11/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_11/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_12/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_12/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_12/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_12/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_12/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_13/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_13/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_13/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_13/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_13/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_14/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_14/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_14/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_14/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_14/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_15/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_15/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_15/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_15/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_15/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_16/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_16/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_16/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_16/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_16/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_17/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_17/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_17/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_17/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_17/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_18/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_18/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_18/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_18/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_18/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_19/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_19/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_19/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_19/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_19/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_20/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_20/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_20/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_20/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_20/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_21/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_21/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_21/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_21/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_21/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_22/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_22/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_22/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_22/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_22/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_23/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_23/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_23/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_23/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_23/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_24/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_24/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_24/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_24/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_24/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_25/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_25/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_25/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_25/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_25/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_26/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_26/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_26/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_26/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_26/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_27/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_27/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_27/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_27/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_27/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_28/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_28/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_28/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_28/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_28/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_29/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_29/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_29/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_29/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_29/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_30/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_30/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_30/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_30/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_30/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_31/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_31/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_31/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_31/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_31/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_32/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_32/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_32/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_32/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_32/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_33/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_33/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_33/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_33/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_33/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_34/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_34/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_34/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_34/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_34/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_35/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_35/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_35/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_35/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_35/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_36/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_36/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_36/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_36/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_36/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_37/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_37/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_37/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_37/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_37/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
@@ -260,13 +1324,69 @@
       },
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_38/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_38/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_38/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_38/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_38/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     },
     {
       "@type": "Canvas",
       "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_39/info.json",
       "height": 2415,
-      "width": 3245
+      "width": 3245,
+      "items": [
+        {
+          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_39/page",
+          "@type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_39/annotation",
+              "@type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_39/full/!1225,/0/default.jpg",
+                "@type": "Image",
+                "format": "image/jpeg",
+                "height": 2415,
+                "width": 3245,
+                "service": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_9/non-archival/Manus/ORTSAM/2010/okt/oa102-2010-7_ms/oa102-2010-7_ms_39/info.json",
+                    "@type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

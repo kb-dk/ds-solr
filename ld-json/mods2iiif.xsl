@@ -168,6 +168,12 @@
           <f:string key="@type">Canvas</f:string>
           <xsl:call-template name="get-title"/>
 
+          <xsl:variable name="id_string">
+            <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]|m:identifier[contains(.,'.tif')]">
+              <xsl:call-template name="find-pages"/>
+            </xsl:for-each>
+          </xsl:variable>
+          
           <f:string>
             <xsl:attribute name="key">id</xsl:attribute>
             <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]|m:identifier[contains(.,'.tif')]">
@@ -176,7 +182,10 @@
           </f:string>
 
           <xsl:copy-of select="$resolution"/>
-          
+          <xsl:call-template name="make_hierarchy">
+            <xsl:with-param name="resolution" select="$resolution"/>
+            <xsl:with-param name="id_string" select="$id_string"/>
+          </xsl:call-template>
         </f:map>
     </xsl:if>
     
@@ -194,6 +203,39 @@
     
   </xsl:template>
 
+  <xsl:template name="make_hierarchy">
+    <xsl:param name="resolution" select="''"/>
+    <xsl:param name="id_string"  select="''"/>    
+    <f:array key="items">
+      <f:map>
+        <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/page')"/></f:string>
+
+        <f:string key="@type">AnnotationPage</f:string>
+        <f:array key="items">
+          <f:map>
+            <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/annotation')"/></f:string>
+
+            <f:string key="@type">Annotation</f:string>
+            <f:string key="motivation">painting</f:string>
+            <f:map key="body">
+                <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/full/!1225,/0/default.jpg')"/></f:string>
+                <f:string key="@type">Image</f:string>
+                <f:string key="format">image/jpeg</f:string>
+                <xsl:copy-of select="$resolution"/>
+                <f:array key="service">
+                  <f:map>
+                    <f:string key="id"><xsl:value-of select="$id_string"/></f:string>
+                    <f:string key="@type">ImageService3</f:string>
+                    <f:string key="profile">level1</f:string>
+                  </f:map>
+                </f:array>
+            </f:map>
+            <f:string key="target">https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1</f:string>
+          </f:map>
+        </f:array>
+      </f:map>
+    </f:array>
+  </xsl:template>
     
   <xsl:template name="find-pages">
 
