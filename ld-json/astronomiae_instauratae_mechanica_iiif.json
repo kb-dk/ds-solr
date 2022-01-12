@@ -27,6 +27,13 @@
               "motivation": "painting",
               "body": {
                 "id": "/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -66,6 +73,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_000/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_000/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -105,6 +119,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_001/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_001/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -144,6 +165,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_002/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_002/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -183,6 +211,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_003/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_003/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -222,6 +257,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_004/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_004/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -261,6 +303,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_005/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_005/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -300,6 +349,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_006/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_006/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -339,6 +395,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_007/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_007/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -378,6 +441,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_008/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_008/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -417,6 +487,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_009/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_009/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -456,6 +533,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_010/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_010/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -495,6 +579,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_011/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_011/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -534,6 +625,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_012/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_012/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -573,6 +671,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_013/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_013/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -612,6 +717,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_014/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_014/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -651,6 +763,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_015/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_015/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -690,6 +809,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_016/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_016/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -729,6 +855,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_017/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_017/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -768,6 +901,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_018/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_018/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -807,6 +947,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_019/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_019/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -846,6 +993,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_020/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_020/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -885,6 +1039,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_021/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_021/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -924,6 +1085,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_022/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_022/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -963,6 +1131,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_023/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_023/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1002,6 +1177,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_024/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_024/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1041,6 +1223,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_025/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_025/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1080,6 +1269,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_026/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_026/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1119,6 +1315,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_027/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_027/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1158,6 +1361,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_028/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_028/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1197,6 +1407,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_029/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_029/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1236,6 +1453,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_030/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_030/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1275,6 +1499,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_031/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_031/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1314,6 +1545,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_032/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_032/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1353,6 +1591,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_033/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_033/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1392,6 +1637,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_034/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_034/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1431,6 +1683,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_035/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_035/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1470,6 +1729,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_036/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_036/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1509,6 +1775,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_037/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_037/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1548,6 +1821,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_038/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_038/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1587,6 +1867,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_039/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_039/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1626,6 +1913,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_040/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_040/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1665,6 +1959,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_041/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_041/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1704,6 +2005,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_042/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_042/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1743,6 +2051,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_043/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_043/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1782,6 +2097,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_044/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_044/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1821,6 +2143,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_045/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_045/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1860,6 +2189,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_046/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_046/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1899,6 +2235,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_047/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_047/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1938,6 +2281,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_048/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_048/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -1977,6 +2327,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_049/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_049/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2016,6 +2373,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_050/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_050/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2055,6 +2419,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_051/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_051/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2094,6 +2465,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_052/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_052/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2133,6 +2511,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_053/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_053/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2172,6 +2557,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_054/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_054/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2211,6 +2603,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_055/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_055/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2250,6 +2649,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_056/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_056/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2289,6 +2695,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_057/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_057/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2328,6 +2741,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_058/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_058/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2367,6 +2787,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_059/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_059/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2406,6 +2833,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_060/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_060/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2445,6 +2879,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_061/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_061/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2484,6 +2925,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_062/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_062/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2523,6 +2971,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_063/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_063/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2562,6 +3017,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_064/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_064/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2601,6 +3063,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_065/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_065/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2640,6 +3109,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_066/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_066/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2679,6 +3155,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_067/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_067/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2718,6 +3201,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_068/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_068/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2757,6 +3247,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_069/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_069/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2796,6 +3293,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_070/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_070/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2835,6 +3339,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_071/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_071/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2874,6 +3385,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_072/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_072/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2913,6 +3431,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_073/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_073/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2952,6 +3477,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_074/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_074/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -2991,6 +3523,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_075/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_075/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3030,6 +3569,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_076/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_076/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3069,6 +3615,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_077/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_077/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3108,6 +3661,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_078/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_078/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3147,6 +3707,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_079/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_079/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3186,6 +3753,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_080/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_080/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3225,6 +3799,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_081/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_081/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3264,6 +3845,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_082/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_082/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3303,6 +3891,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_083/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_083/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3342,6 +3937,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_084/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_084/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3381,6 +3983,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_085/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_085/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3420,6 +4029,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_086/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_086/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3459,6 +4075,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_087/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_087/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3498,6 +4121,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_088/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_088/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,
@@ -3537,6 +4167,13 @@
               "motivation": "painting",
               "body": {
                 "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_089/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/HA/TB_LN432/LN_432_2_089/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3609,

@@ -27,6 +27,13 @@
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3297,

@@ -32,6 +32,13 @@
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_01/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_01/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4660,
@@ -71,6 +78,13 @@
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_02/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_02/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4660,
@@ -110,6 +124,13 @@
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_03/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_03/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4660,
@@ -149,6 +170,13 @@
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_04/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2013/dec/parti_ww1_mm/df_06_2013/df_06_2013_04/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4660,
