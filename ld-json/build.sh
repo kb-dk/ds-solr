@@ -44,12 +44,14 @@ mods_files=("albert-einstein.xml"
 for file in ${mods_files[@]}; do
     json=$(sed 's/.xml$/.json/' <<< "$file")
     iiif=$(sed 's/.xml$/_iiif.json/' <<< "$file")
+    iiif_param1="base_uri=https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json"
+    iiif_param2="result_object=$iiif"
     echo " - Producing $json & $iiif"
     if [ "$DEBUG_JSON" = "1" ]; then
 	$SAXON -xsl:"$TRANSFORM_TO_SCHEMAORG" -s:"$SOURCE/$file" | jq . > "$json"
-	$SAXON -xsl:"$TRANSFORM_TO_IIIF" -s:"$SOURCE/$file" | jq . > "$iiif"
+	$SAXON -xsl:"$TRANSFORM_TO_IIIF" -s:"$SOURCE/$file" "$iiif_param1" "$iiif_param2" | jq . > "$iiif"
     else
 	$SAXON -xsl:"$TRANSFORM_TO_SCHEMAORG" -s:"$SOURCE/$file" > "$json"
-	$SAXON -xsl:"$TRANSFORM_TO_IIIF" -s:"$SOURCE/$file" > "$iiif"
+	$SAXON -xsl:"$TRANSFORM_TO_IIIF" -s:"$SOURCE/$file" "$iiif_param1" "$iiif_param2" > "$iiif"
     fi
 done

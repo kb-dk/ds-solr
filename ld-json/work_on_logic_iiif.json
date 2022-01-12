@@ -1,0 +1,11 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json",
+    {
+      "kb": "http://kb.dk/vocabs/",
+      "relator": "https://id.loc.gov/vocabulary/relators/"
+    }
+  ],
+  "@type": "Manifest",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/work_on_logic_iiif.json"
+}

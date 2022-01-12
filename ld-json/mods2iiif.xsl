@@ -12,7 +12,9 @@
   <xsl:output method="text" />
   <!-- xsl:output method="xml" / -->
 
-  <xsl:param name="sep_string" select="'/'"/>
+  <xsl:param name="sep_string"    select="'/'"/>
+  <xsl:param name="result_object" select="'result_object'"/>
+  <xsl:param name="base_uri"      select="'base_uri'"/>
 
   <xsl:variable name="roles">
     <roles>
@@ -74,14 +76,8 @@
           </xsl:variable>
 
           <f:string key="id">
-            <xsl:choose>
-              <xsl:when test="contains($record-id,'luftfo')">
-                <xsl:value-of select="concat('http://www5.kb.dk/danmarksetfraluften/',$record-id)"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="concat('http://www5.kb.dk/',$record-id,'/en/')"/>
-              </xsl:otherwise>
-            </xsl:choose>
+            <xsl:value-of
+                select="concat($base_uri,'/',$result_object)"/>
           </f:string>
           
         </f:map>
