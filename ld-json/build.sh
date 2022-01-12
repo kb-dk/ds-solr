@@ -1,7 +1,8 @@
 #!/bin/bash
 
 SOURCE="../nested-corpus"
-TRANSFORM="mods2schemaorg.xsl"
+TRANSFORM_TO_SCHEMAORG="mods2schemaorg.xsl"
+TRANSFORM_TO_IIIF="mods2iiif.xsl"
 
 : ${SAXON_JAR:="/home/$USER/saxon/saxon9he.jar"}
 if [[ ! -s "$SAXON_JAR" ]]; then
@@ -42,10 +43,13 @@ mods_files=("albert-einstein.xml"
 
 for file in ${mods_files[@]}; do
     json=$(sed 's/.xml$/.json/' <<< "$file")
-    echo " - Producing $json"
+    iiif=$(sed 's/.xml$/_iiif.json/' <<< "$file")
+    echo " - Producing $json & $iiif"
     if [ "$DEBUG_JSON" = "1" ]; then
-	$SAXON -xsl:"$TRANSFORM" -s:"$SOURCE/$file" | jq . > "$json"
+	$SAXON -xsl:"$TRANSFORM_TO_SCHEMAORG" -s:"$SOURCE/$file" | jq . > "$json"
+	$SAXON -xsl:"$TRANSFORM_TO_IIIF" -s:"$SOURCE/$file" | jq . > "$iiif"
     else
-	$SAXON -xsl:"$TRANSFORM" -s:"$SOURCE/$file" > "$json"
+	$SAXON -xsl:"$TRANSFORM_TO_SCHEMAORG" -s:"$SOURCE/$file" > "$json"
+	$SAXON -xsl:"$TRANSFORM_TO_IIIF" -s:"$SOURCE/$file" > "$iiif"
     fi
 done
