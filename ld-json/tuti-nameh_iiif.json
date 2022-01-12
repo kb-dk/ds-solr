@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/books/ortsam/2011/mar/ostryk/object60024/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/tuti-nameh_iiif.json",
   "label": {
     "fa": [
       "چهل طوطى"

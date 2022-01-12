@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/pamphlets/dasmaa/2012/jul/smaatryk/object107080/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/jacob-hansen-bang-with_iiif.json",
   "label": {
     "da": [
       "Kontorchef Withs samling af scrapbøger : 1881"

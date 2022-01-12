@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/images/billed/2010/okt/billeder/object307721/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/greenland-topographic-collection_iiif.json",
   "label": {
     "da": [
       "Træskærerarbejde"

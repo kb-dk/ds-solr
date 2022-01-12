@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/books/boghis/2017/dec/tryk/object11914/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/astronomiae_instauratae_mechanica_iiif.json",
   "label": {
     "da": [
       "Tycho Brahe: Astronomiæ instauratæ mechanica"

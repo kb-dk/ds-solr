@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2678/en/",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/simonsen-brandes_iiif.json",
   "label": {
     "en": [
       "Letter to Brandes, Georg from Simonsen, David"
