@@ -40,8 +40,8 @@
                 "width": 2079,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]

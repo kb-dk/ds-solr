@@ -40,8 +40,8 @@
                 "width": 10921,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]

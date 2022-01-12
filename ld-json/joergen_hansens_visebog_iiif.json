@@ -45,8 +45,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -86,8 +86,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -132,8 +132,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -173,8 +173,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -214,8 +214,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -260,8 +260,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -301,8 +301,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -342,8 +342,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -383,8 +383,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -424,8 +424,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -465,8 +465,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -506,8 +506,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -547,8 +547,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -588,8 +588,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -634,8 +634,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -675,8 +675,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -716,8 +716,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -762,8 +762,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -803,8 +803,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -844,8 +844,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -890,8 +890,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -931,8 +931,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -972,8 +972,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1018,8 +1018,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1059,8 +1059,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1100,8 +1100,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1141,8 +1141,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1182,8 +1182,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1223,8 +1223,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1269,8 +1269,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1310,8 +1310,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1351,8 +1351,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1397,8 +1397,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1438,8 +1438,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1484,8 +1484,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1525,8 +1525,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1571,8 +1571,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1612,8 +1612,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1658,8 +1658,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1704,8 +1704,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1745,8 +1745,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1786,8 +1786,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1827,8 +1827,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1868,8 +1868,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1909,8 +1909,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1955,8 +1955,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1996,8 +1996,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2037,8 +2037,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2078,8 +2078,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2119,8 +2119,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2160,8 +2160,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2206,8 +2206,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2247,8 +2247,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2293,8 +2293,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2334,8 +2334,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2380,8 +2380,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2426,8 +2426,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2472,8 +2472,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2513,8 +2513,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2559,8 +2559,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2605,8 +2605,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2646,8 +2646,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2692,8 +2692,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2733,8 +2733,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2779,8 +2779,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2820,8 +2820,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2861,8 +2861,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2902,8 +2902,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]

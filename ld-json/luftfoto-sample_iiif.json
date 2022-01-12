@@ -40,8 +40,8 @@
                 "width": 4860,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/info.json",
-                    "type": "ImageService3",
+                    "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]

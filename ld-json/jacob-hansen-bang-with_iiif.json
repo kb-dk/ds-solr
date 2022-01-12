@@ -45,8 +45,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_001/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_001",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -91,8 +91,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_002/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_002",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -137,8 +137,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_003/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_003",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -183,8 +183,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_004/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_004",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -229,8 +229,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_005/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_005",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -275,8 +275,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_006/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_006",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -321,8 +321,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_007/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_007",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -367,8 +367,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_008/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_008",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -413,8 +413,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_009/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_009",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -459,8 +459,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_010/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_010",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -505,8 +505,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_011/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_011",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -551,8 +551,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_012/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_012",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -597,8 +597,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_013/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_013",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -643,8 +643,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_014/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_014",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -689,8 +689,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_015/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_015",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -735,8 +735,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_016/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_016",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -781,8 +781,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_017/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_017",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -827,8 +827,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_018/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_018",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -873,8 +873,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_019/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_019",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -919,8 +919,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_020/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_020",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -965,8 +965,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_021/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_021",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1011,8 +1011,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_022/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_022",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1057,8 +1057,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_023/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_023",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1103,8 +1103,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_024/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_024",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1149,8 +1149,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_025/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_025",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1195,8 +1195,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_026/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_026",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1241,8 +1241,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_027/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_027",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1287,8 +1287,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_028/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_028",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1333,8 +1333,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_029/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_029",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1379,8 +1379,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_030/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_030",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1425,8 +1425,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_031/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_031",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1471,8 +1471,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_032/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_032",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1517,8 +1517,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_033/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_033",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1563,8 +1563,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_034/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_034",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1609,8 +1609,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_035/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_035",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1655,8 +1655,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_036/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_036",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1701,8 +1701,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_037/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_037",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1747,8 +1747,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_038/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_038",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1793,8 +1793,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_039/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_039",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1839,8 +1839,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_040/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_040",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1885,8 +1885,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_041/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_041",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1931,8 +1931,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_042/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_042",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1977,8 +1977,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_043/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_043",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2023,8 +2023,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_044/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_044",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2069,8 +2069,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_045/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_045",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2115,8 +2115,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_046/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_046",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2161,8 +2161,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_047/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_047",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2207,8 +2207,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_048/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_048",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2253,8 +2253,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_049/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_049",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2299,8 +2299,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_050/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_050",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2345,8 +2345,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_051/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_051",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2391,8 +2391,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_052/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_052",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2437,8 +2437,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_053/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_053",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2483,8 +2483,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_054/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_054",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2529,8 +2529,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_055/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_055",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2575,8 +2575,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_056/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_056",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2621,8 +2621,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_057/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_057",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2667,8 +2667,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_058/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_058",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2713,8 +2713,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_059/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_059",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2759,8 +2759,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_060/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_060",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2805,8 +2805,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_061/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_061",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2851,8 +2851,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_062/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_062",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2897,8 +2897,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_063/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_063",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2943,8 +2943,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_064/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_064",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2989,8 +2989,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_065/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_065",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3035,8 +3035,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_066/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_066",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3081,8 +3081,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_067/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_067",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3127,8 +3127,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_068/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_068",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3173,8 +3173,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_069/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_069",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3219,8 +3219,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_070/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_070",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3265,8 +3265,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_071/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_071",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3311,8 +3311,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_072/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_072",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3357,8 +3357,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_073/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_073",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3403,8 +3403,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_074/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_074",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3449,8 +3449,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_075/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_075",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3495,8 +3495,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_076/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_076",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3541,8 +3541,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_077/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_077",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3587,8 +3587,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_078/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_078",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3633,8 +3633,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_079/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_079",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3679,8 +3679,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_080/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_080",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3725,8 +3725,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_081/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_081",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3771,8 +3771,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_082/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_082",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3817,8 +3817,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_083/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_083",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3863,8 +3863,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_084/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_084",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3909,8 +3909,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_085/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_085",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3955,8 +3955,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_086/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_086",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4001,8 +4001,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_087/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_087",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4047,8 +4047,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_088/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_088",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4093,8 +4093,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_089/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_089",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4139,8 +4139,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_090/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_090",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4185,8 +4185,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_091/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_091",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4231,8 +4231,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_092/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_092",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4277,8 +4277,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_093/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_093",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4323,8 +4323,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_094/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_094",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4369,8 +4369,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_095/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_095",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4415,8 +4415,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_096/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_096",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4461,8 +4461,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_097/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_097",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4507,8 +4507,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_098/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_098",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4553,8 +4553,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_099/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_099",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4599,8 +4599,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_100/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_100",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4645,8 +4645,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_101/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_101",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4691,8 +4691,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_102/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_102",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4737,8 +4737,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_103/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_103",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4783,8 +4783,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_104/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_104",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4829,8 +4829,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_105/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_105",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4875,8 +4875,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_106/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_106",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4921,8 +4921,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_107/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_107",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4967,8 +4967,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_108/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_108",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5013,8 +5013,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_109/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_109",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5059,8 +5059,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_110/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_110",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5105,8 +5105,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_111/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_111",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5151,8 +5151,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_112/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_112",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5197,8 +5197,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_113/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_113",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5243,8 +5243,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_114/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_114",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5289,8 +5289,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_115/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_115",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5335,8 +5335,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_116/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_116",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5381,8 +5381,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_117/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_117",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5427,8 +5427,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_118/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_118",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5473,8 +5473,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_119/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_119",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5519,8 +5519,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_120/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_120",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5565,8 +5565,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_121/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_121",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5611,8 +5611,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_122/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_122",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5657,8 +5657,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_123/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_123",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5703,8 +5703,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_124/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_124",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5749,8 +5749,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_125/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_125",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5795,8 +5795,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_126/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_126",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5841,8 +5841,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_127/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_127",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5887,8 +5887,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_128/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_128",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5933,8 +5933,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_129/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_129",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5979,8 +5979,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_130/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_130",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6025,8 +6025,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_131/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_131",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6071,8 +6071,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_132/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_132",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6117,8 +6117,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_133/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_133",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6163,8 +6163,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_134/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_134",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6209,8 +6209,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_135/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_135",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6255,8 +6255,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_136/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_136",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6301,8 +6301,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_137/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_137",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6347,8 +6347,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_138/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_138",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6393,8 +6393,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_139/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_139",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6439,8 +6439,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_140/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_140",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6485,8 +6485,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_141/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_141",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6531,8 +6531,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_142/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_142",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6577,8 +6577,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_143/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_143",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6623,8 +6623,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_144/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_144",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6669,8 +6669,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_145/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_145",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6715,8 +6715,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_146/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_146",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6761,8 +6761,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_147/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_147",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6807,8 +6807,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_148/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_148",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6853,8 +6853,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_149/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_149",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6899,8 +6899,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_150/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_150",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6945,8 +6945,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_151/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_151",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6991,8 +6991,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_152/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_152",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7037,8 +7037,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_153/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_153",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7083,8 +7083,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_154/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_154",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7129,8 +7129,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_155/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_155",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7175,8 +7175,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_156/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_156",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7221,8 +7221,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_157/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_157",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7267,8 +7267,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_158/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_158",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7313,8 +7313,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_159/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_159",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7359,8 +7359,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_160/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_160",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7405,8 +7405,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_161/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_161",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7451,8 +7451,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_162/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_162",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7497,8 +7497,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_163/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_163",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7543,8 +7543,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_164/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_164",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7589,8 +7589,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_165/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_165",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7635,8 +7635,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_166/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_166",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7681,8 +7681,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_167/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_167",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7727,8 +7727,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_168/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_168",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7773,8 +7773,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_169/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_169",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7819,8 +7819,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_170/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_170",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7865,8 +7865,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_171/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_171",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7911,8 +7911,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_172/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_172",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7957,8 +7957,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_173/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_173",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8003,8 +8003,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_174/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_174",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8049,8 +8049,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_175/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_175",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8095,8 +8095,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_176/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_176",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8141,8 +8141,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_177/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_177",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8187,8 +8187,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_178/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_178",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8233,8 +8233,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_179/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_179",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8279,8 +8279,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_180/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_180",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8325,8 +8325,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_181/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_181",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8371,8 +8371,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_182/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_182",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8417,8 +8417,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_183/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_183",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8463,8 +8463,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_184/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_184",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8509,8 +8509,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_185/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_185",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8555,8 +8555,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_186/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_186",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8601,8 +8601,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_187/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_187",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8647,8 +8647,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_188/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_188",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8693,8 +8693,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_189/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_189",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8739,8 +8739,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_190/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_190",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8785,8 +8785,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_191/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_191",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8831,8 +8831,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_192/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_192",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8877,8 +8877,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_193/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_193",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8923,8 +8923,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_194/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_194",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8969,8 +8969,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_195/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_195",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9015,8 +9015,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_196/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_196",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9061,8 +9061,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_197/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_197",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9107,8 +9107,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_198/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_198",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9153,8 +9153,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_199/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_199",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9199,8 +9199,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_200/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_200",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9245,8 +9245,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_201/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_201",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9291,8 +9291,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_202/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_202",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9337,8 +9337,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_203/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_203",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9383,8 +9383,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_204/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_204",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9429,8 +9429,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_205/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_205",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9475,8 +9475,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_206/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_206",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9521,8 +9521,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_207/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_207",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9567,8 +9567,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_208/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_208",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9613,8 +9613,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_209/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_209",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9659,8 +9659,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_210/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_210",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9705,8 +9705,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_211/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_211",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9751,8 +9751,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_212/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_212",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9797,8 +9797,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_213/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_213",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9843,8 +9843,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_214/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_214",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9889,8 +9889,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_215/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_215",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9935,8 +9935,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_216/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_216",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9981,8 +9981,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_217/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_217",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -10027,8 +10027,8 @@
                 "width": 2737,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_218/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_218",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]

@@ -48,8 +48,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0236/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0236",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -89,8 +89,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0001/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0001",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -130,8 +130,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0002/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0002",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -171,8 +171,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0003/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0003",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -212,8 +212,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0004/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0004",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -253,8 +253,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0005/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0005",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -294,8 +294,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0006/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0006",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -335,8 +335,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0007/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0007",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -376,8 +376,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0008/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0008",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -417,8 +417,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0009/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0009",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -458,8 +458,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0010/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0010",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -499,8 +499,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0011/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0011",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -540,8 +540,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0012/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0012",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -581,8 +581,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0013/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0013",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -622,8 +622,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0014/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0014",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -663,8 +663,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0015/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0015",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -704,8 +704,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0016/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0016",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -745,8 +745,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0017/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0017",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -786,8 +786,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0018/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0018",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -827,8 +827,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0019/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0019",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -868,8 +868,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0020/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0020",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -909,8 +909,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0021/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0021",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -950,8 +950,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0022/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0022",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -991,8 +991,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0023/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0023",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1032,8 +1032,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0024/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0024",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1073,8 +1073,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0025/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0025",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1114,8 +1114,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0026/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0026",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1155,8 +1155,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0027/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0027",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1196,8 +1196,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0028/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0028",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1237,8 +1237,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0029/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0029",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1278,8 +1278,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0030/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0030",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1319,8 +1319,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0031/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0031",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1360,8 +1360,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0032/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0032",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1401,8 +1401,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0033/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0033",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1442,8 +1442,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0034/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0034",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1483,8 +1483,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0035/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0035",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1524,8 +1524,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0036/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0036",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1565,8 +1565,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0037/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0037",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1606,8 +1606,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0038/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0038",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1647,8 +1647,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0039/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0039",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1688,8 +1688,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0040/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0040",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1729,8 +1729,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0041/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0041",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1770,8 +1770,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0042/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0042",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1811,8 +1811,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0043/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0043",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1852,8 +1852,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0044/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0044",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1893,8 +1893,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0045/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0045",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1934,8 +1934,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0046/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0046",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -1975,8 +1975,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0047/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0047",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2016,8 +2016,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0048/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0048",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2057,8 +2057,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0049/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0049",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2098,8 +2098,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0050/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0050",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2139,8 +2139,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0051/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0051",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2180,8 +2180,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0052/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0052",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2221,8 +2221,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0053/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0053",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2262,8 +2262,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0054/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0054",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2303,8 +2303,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0055/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0055",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2344,8 +2344,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0056/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0056",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2385,8 +2385,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0057/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0057",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2426,8 +2426,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0058/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0058",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2467,8 +2467,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0059/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0059",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2508,8 +2508,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0060/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0060",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2549,8 +2549,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0061/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0061",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2590,8 +2590,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0062/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0062",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2631,8 +2631,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0063/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0063",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2672,8 +2672,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0064/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0064",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2713,8 +2713,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0065/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0065",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2754,8 +2754,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0066/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0066",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2795,8 +2795,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0067/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0067",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2836,8 +2836,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0068/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0068",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2877,8 +2877,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0069/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0069",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2918,8 +2918,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0070/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0070",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -2959,8 +2959,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0071/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0071",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3000,8 +3000,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0072/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0072",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3041,8 +3041,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0073/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0073",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3082,8 +3082,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0074/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0074",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3123,8 +3123,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0075/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0075",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3164,8 +3164,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0076/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0076",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3205,8 +3205,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0077/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0077",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3246,8 +3246,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0078/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0078",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3287,8 +3287,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0079/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0079",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3328,8 +3328,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0080/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0080",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3369,8 +3369,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0081/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0081",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3410,8 +3410,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0082/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0082",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3451,8 +3451,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0083/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0083",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3492,8 +3492,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0084/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0084",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3533,8 +3533,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0085/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0085",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3574,8 +3574,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0086/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0086",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3615,8 +3615,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0087/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0087",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3656,8 +3656,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0088/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0088",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3697,8 +3697,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0089/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0089",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3738,8 +3738,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0090/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0090",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3779,8 +3779,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0091/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0091",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3820,8 +3820,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0092/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0092",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3861,8 +3861,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0093/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0093",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3902,8 +3902,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0094/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0094",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3943,8 +3943,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0095/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0095",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -3984,8 +3984,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0096/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0096",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4025,8 +4025,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0097/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0097",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4066,8 +4066,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0098/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0098",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4107,8 +4107,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0099/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0099",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4148,8 +4148,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0100/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0100",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4189,8 +4189,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0101/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0101",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4230,8 +4230,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0102/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0102",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4271,8 +4271,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0103/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0103",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4312,8 +4312,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0104/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0104",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4353,8 +4353,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0105/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0105",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4394,8 +4394,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0106/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0106",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4435,8 +4435,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0107/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0107",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4476,8 +4476,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0108/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0108",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4517,8 +4517,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0109/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0109",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4558,8 +4558,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0110/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0110",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4599,8 +4599,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0111/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0111",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4640,8 +4640,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0112/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0112",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4681,8 +4681,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0113/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0113",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4722,8 +4722,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0114/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0114",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4763,8 +4763,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0115/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0115",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4804,8 +4804,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0116/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0116",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4845,8 +4845,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0117/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0117",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4886,8 +4886,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0118/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0118",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4927,8 +4927,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0119/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0119",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -4968,8 +4968,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0120/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0120",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5009,8 +5009,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0121/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0121",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5050,8 +5050,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0122/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0122",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5091,8 +5091,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0123/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0123",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5132,8 +5132,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0124/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0124",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5173,8 +5173,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0125/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0125",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5214,8 +5214,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0126/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0126",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5255,8 +5255,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0127/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0127",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5296,8 +5296,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0128/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0128",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5337,8 +5337,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0129/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0129",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5378,8 +5378,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0130/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0130",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5419,8 +5419,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0131/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0131",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5460,8 +5460,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0132/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0132",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5501,8 +5501,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0133/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0133",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5542,8 +5542,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0134/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0134",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5583,8 +5583,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0135/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0135",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5624,8 +5624,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0136/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0136",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5665,8 +5665,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0137/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0137",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5706,8 +5706,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0138/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0138",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5747,8 +5747,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0139/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0139",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5788,8 +5788,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0140/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0140",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5829,8 +5829,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0141/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0141",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5870,8 +5870,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0142/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0142",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5911,8 +5911,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0143/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0143",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5952,8 +5952,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0144/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0144",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -5993,8 +5993,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0145/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0145",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6034,8 +6034,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0146/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0146",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6075,8 +6075,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0147/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0147",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6116,8 +6116,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0148/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0148",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6157,8 +6157,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0149/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0149",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6198,8 +6198,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0150/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0150",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6239,8 +6239,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0151/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0151",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6280,8 +6280,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0152/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0152",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6321,8 +6321,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0153/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0153",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6362,8 +6362,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0154/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0154",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6403,8 +6403,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0155/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0155",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6444,8 +6444,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0156/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0156",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6485,8 +6485,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0157/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0157",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6526,8 +6526,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0158/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0158",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6567,8 +6567,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0159/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0159",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6608,8 +6608,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0160/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0160",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6649,8 +6649,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0161/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0161",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6690,8 +6690,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0162/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0162",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6731,8 +6731,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0163/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0163",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6772,8 +6772,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0164/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0164",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6813,8 +6813,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0165/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0165",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6854,8 +6854,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0166/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0166",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6895,8 +6895,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0167/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0167",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6936,8 +6936,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0168/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0168",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -6977,8 +6977,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0169/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0169",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7018,8 +7018,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0170/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0170",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7059,8 +7059,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0171/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0171",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7100,8 +7100,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0172/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0172",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7141,8 +7141,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0173/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0173",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7182,8 +7182,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0174/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0174",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7223,8 +7223,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0175/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0175",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7264,8 +7264,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0176/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0176",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7305,8 +7305,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0177/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0177",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7346,8 +7346,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0178/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0178",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7387,8 +7387,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0179/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0179",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7428,8 +7428,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0180/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0180",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7469,8 +7469,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0181/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0181",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7510,8 +7510,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0182/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0182",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7551,8 +7551,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0183/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0183",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7592,8 +7592,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0184/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0184",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7633,8 +7633,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0185/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0185",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7674,8 +7674,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0186/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0186",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7715,8 +7715,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0187/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0187",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7756,8 +7756,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0188/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0188",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7797,8 +7797,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0189/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0189",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7838,8 +7838,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0190/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0190",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7879,8 +7879,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0191/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0191",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7920,8 +7920,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0192/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0192",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -7961,8 +7961,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0193/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0193",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8002,8 +8002,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0194/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0194",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8043,8 +8043,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0195/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0195",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8084,8 +8084,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0196/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0196",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8125,8 +8125,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0197/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0197",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8166,8 +8166,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0198/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0198",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8207,8 +8207,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0199/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0199",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8248,8 +8248,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0200/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0200",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8289,8 +8289,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0201/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0201",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8330,8 +8330,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0202/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0202",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8371,8 +8371,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0203/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0203",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8412,8 +8412,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0204/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0204",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8453,8 +8453,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0205/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0205",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8494,8 +8494,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0206/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0206",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8535,8 +8535,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0207/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0207",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8576,8 +8576,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0208/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0208",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8617,8 +8617,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0209/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0209",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8658,8 +8658,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0210/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0210",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8699,8 +8699,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0211/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0211",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8740,8 +8740,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0212/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0212",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8781,8 +8781,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0213/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0213",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8822,8 +8822,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0214/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0214",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8863,8 +8863,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0215/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0215",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8904,8 +8904,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0216/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0216",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8945,8 +8945,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0217/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0217",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -8986,8 +8986,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0218/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0218",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9027,8 +9027,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0219/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0219",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9068,8 +9068,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0220/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0220",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9109,8 +9109,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0221/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0221",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9150,8 +9150,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0222/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0222",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9191,8 +9191,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0223/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0223",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9232,8 +9232,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0224/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0224",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9273,8 +9273,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0225/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0225",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9314,8 +9314,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0226/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0226",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9355,8 +9355,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0227/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0227",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9396,8 +9396,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0228/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0228",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9437,8 +9437,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0229/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0229",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9478,8 +9478,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0230/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0230",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9519,8 +9519,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0231/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0231",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9560,8 +9560,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0232/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0232",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9601,8 +9601,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0233/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0233",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9642,8 +9642,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0234/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0234",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9683,8 +9683,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0235/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0235",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9724,8 +9724,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0237/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0237",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
@@ -9765,8 +9765,8 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0237a/info.json",
-                    "type": "ImageService3",
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Manus/JUDSAM/2009/apr/csja0001/csja0001_0237a",
+                    "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
