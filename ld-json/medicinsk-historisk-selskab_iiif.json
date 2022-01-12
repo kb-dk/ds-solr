@@ -27,6 +27,13 @@
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0278/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0278/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2271,
@@ -61,6 +68,13 @@
               "motivation": "painting",
               "body": {
                 "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0279/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0279/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2271,

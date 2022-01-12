@@ -213,7 +213,15 @@
             <f:string key="type">Annotation</f:string>
             <f:string key="motivation">painting</f:string>
             <f:map key="body">
-                <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/full/!1225,/0/default.jpg')"/></f:string>
+              <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/full/!1225,/0/default.jpg')"/></f:string>
+
+              <f:array key="thumbnail">
+                <f:map>
+                  <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/full/!225,/0/default.jpg')"/></f:string>
+                  <f:string key="format">image/jpeg</f:string>
+                <f:string key="type">Image</f:string>
+                </f:map>
+              </f:array>
                 <f:string key="type">Image</f:string>
                 <f:string key="format">image/jpeg</f:string>
                 <xsl:copy-of select="$resolution"/>
