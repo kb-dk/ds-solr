@@ -52,7 +52,7 @@
               <f:string key="relator">https://id.loc.gov/vocabulary/relators/</f:string>
             </f:map>
           </f:array>
-          <f:string key="@type">Manifest</f:string>                
+          <f:string key="type">Manifest</f:string>                
 
           <xsl:variable name="dom" select="."/>
 
@@ -138,9 +138,9 @@
   <xsl:template name="get-title">
     <xsl:param name="cataloging_language"/>
 
-    <xsl:if test="m:titleInfo[not(@type)]">
+    <xsl:if test="m:titleInfo[not(type)]">
       <f:map key="label">
-        <xsl:for-each select="m:titleInfo[not(@type)]">
+        <xsl:for-each select="m:titleInfo[not(type)]">
           <xsl:variable name="xml_lang">
             <xsl:choose>
               <xsl:when test="@xml:lang"><xsl:value-of select="@xml:lang"/></xsl:when>
@@ -165,7 +165,7 @@
     <xsl:if test="m:identifier[string()]">
 
         <f:map>
-          <f:string key="@type">Canvas</f:string>
+          <f:string key="type">Canvas</f:string>
           <xsl:call-template name="get-title"/>
 
           <xsl:variable name="id_string">
@@ -189,13 +189,13 @@
         </f:map>
     </xsl:if>
     
-    <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif'][string()]]">
+    <xsl:for-each select="m:relatedItem[type='constituent'][m:identifier[@displayLabel='iiif'][string()]]">
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
       </xsl:call-template>
     </xsl:for-each>
 
-    <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
+    <xsl:for-each select="m:relatedItem[type='constituent'][m:identifier[contains(.,'.tif')]]">
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
       </xsl:call-template>
@@ -210,22 +210,22 @@
       <f:map>
         <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/page')"/></f:string>
 
-        <f:string key="@type">AnnotationPage</f:string>
+        <f:string key="type">AnnotationPage</f:string>
         <f:array key="items">
           <f:map>
             <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/annotation')"/></f:string>
 
-            <f:string key="@type">Annotation</f:string>
+            <f:string key="type">Annotation</f:string>
             <f:string key="motivation">painting</f:string>
             <f:map key="body">
                 <f:string key="id"><xsl:value-of select="concat(substring-before($id_string,'/info.json'),'/full/!1225,/0/default.jpg')"/></f:string>
-                <f:string key="@type">Image</f:string>
+                <f:string key="type">Image</f:string>
                 <f:string key="format">image/jpeg</f:string>
                 <xsl:copy-of select="$resolution"/>
                 <f:array key="service">
                   <f:map>
                     <f:string key="id"><xsl:value-of select="$id_string"/></f:string>
-                    <f:string key="@type">ImageService3</f:string>
+                    <f:string key="type">ImageService3</f:string>
                     <f:string key="profile">level1</f:string>
                   </f:map>
                 </f:array>
