@@ -2,10 +2,338 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json",
     {
+      "schema": "http://schema.org/",
       "kb": "http://kb.dk/vocabs/",
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
   "@type": "Manifest",
-  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/tuti-nameh_iiif.json"
+  "id": "http://www5.kb.dk/books/ortsam/2011/mar/ostryk/object60024/en/",
+  "label": {
+    "fa": [
+      "چهل طوطى"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "fa|چهل طوطى"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_052/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_001/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_002/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_003/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_004/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_005/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_006/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_007/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_008/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_009/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_010/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_011/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_012/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_013/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_014/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_015/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_016/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_017/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_018/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_019/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_020/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_021/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_022/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_023/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_024/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_025/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_026/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_027/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_028/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_029/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_030/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_031/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_032/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_033/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_034/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_035/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_036/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_037/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_038/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_039/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_040/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_041/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_042/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_043/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_044/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_045/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_046/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_047/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_048/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_049/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_050/info.json",
+      "height": 3312,
+      "width": 2080
+    },
+    {
+      "@type": "Canvas",
+      "id": "https://kb-images.kb.dk/online_master_arkiv/non-archival/Manus/ORTSAM/2011/mar/codpersac101/codpersac101_051/info.json",
+      "height": 3312,
+      "width": 2080
+    }
+  ]
 }

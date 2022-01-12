@@ -2,10 +2,2419 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json",
     {
+      "schema": "http://schema.org/",
       "kb": "http://kb.dk/vocabs/",
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
   "@type": "Manifest",
-  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/jacob-hansen-bang-with_iiif.json"
+  "id": "http://www5.kb.dk/pamphlets/dasmaa/2012/jul/smaatryk/object107080/en/",
+  "label": {
+    "da": [
+      "Kontorchef Withs samling af scrapbøger : 1881"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_001/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_002/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_003/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_004/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_005/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_006/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_007/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_008/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_009/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_010/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_011/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_012/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_013/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_014/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_015/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_016/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_017/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_018/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_019/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_020/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_021/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_022/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_023/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_024/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_025/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_026/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_027/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_028/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_029/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_030/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_031/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_032/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_033/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_034/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_035/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_036/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_037/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_038/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_039/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_040/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_041/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_042/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_043/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_044/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_045/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_046/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_047/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_048/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_049/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_050/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_051/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_052/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_053/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_054/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_055/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_056/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_057/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_058/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_059/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_060/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_061/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_062/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_063/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_064/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_065/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_066/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_067/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_068/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_069/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_070/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_071/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_072/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_073/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_074/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_075/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_076/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_077/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_078/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_079/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_080/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_081/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_082/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_083/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_084/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_085/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_086/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_087/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_088/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_089/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_090/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_091/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_092/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_093/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_094/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_095/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_096/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_097/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_098/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_099/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_100/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_101/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_102/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_103/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_104/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_105/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_106/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_107/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_108/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_109/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_110/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_111/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_112/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_113/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_114/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_115/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_116/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_117/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_118/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_119/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_120/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_121/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_122/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_123/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_124/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_125/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_126/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_127/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_128/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_129/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_130/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_131/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_132/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_133/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_134/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_135/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_136/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_137/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_138/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_139/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_140/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_141/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_142/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_143/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_144/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_145/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_146/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_147/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_148/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_149/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_150/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_151/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_152/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_153/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_154/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_155/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_156/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_157/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_158/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_159/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_160/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_161/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_162/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_163/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_164/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_165/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_166/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_167/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_168/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_169/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_170/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_171/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_172/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_173/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_174/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_175/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_176/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_177/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_178/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_179/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_180/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_181/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_182/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_183/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_184/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_185/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_186/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_187/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_188/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_189/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_190/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_191/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_192/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_193/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_194/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_195/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_196/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_197/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_198/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_199/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_200/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_201/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_202/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_203/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_204/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_205/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_206/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_207/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_208/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_209/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_210/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_211/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_212/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_213/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_214/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_215/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_216/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_217/info.json",
+      "height": 4112,
+      "width": 2737
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Kontorchef Withs samling af scrapbøger : 1881"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2015/Kontorchef_Withs_scrapboeger/with_1881/with_1881_218/info.json",
+      "height": 4112,
+      "width": 2737
+    }
+  ]
 }

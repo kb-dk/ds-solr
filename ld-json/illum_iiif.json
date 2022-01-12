@@ -2,10 +2,329 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json",
     {
+      "schema": "http://schema.org/",
       "kb": "http://kb.dk/vocabs/",
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
   "@type": "Manifest",
-  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/illum_iiif.json"
+  "id": "http://www5.kb.dk/pamphlets/dasmaa/2008/feb/daellsvarehus/object100774/en/",
+  "label": {
+    "da": [
+      "Svaleposten : Nu tændes julelysene hos Illum"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_001/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_002/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_003/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_004/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_005/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_006/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_007/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_008/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_009/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_010/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_011/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_012/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_013/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_014/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_015/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_016/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_017/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_018/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_019/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_020/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_021/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_022/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_023/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_024/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_025/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_026/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_027/info.json",
+      "height": 4614,
+      "width": 3071
+    },
+    {
+      "@type": "Canvas",
+      "label": {
+        "da": [
+          "Svaleposten : Nu tændes julelysene hos Illum"
+        ]
+      },
+      "id": "https://kb-images.kb.dk/online_master_arkiv_3/non-archival/Pamphlets/DASMAA/2014/Illum/Svaleposten/sva3/sva_3_028/info.json",
+      "height": 4614,
+      "width": 3071
+    }
+  ]
 }

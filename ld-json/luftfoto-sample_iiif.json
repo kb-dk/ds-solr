@@ -2,10 +2,27 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json",
     {
+      "schema": "http://schema.org/",
       "kb": "http://kb.dk/vocabs/",
       "relator": "https://id.loc.gov/vocabulary/relators/"
     }
   ],
   "@type": "Manifest",
-  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/luftfoto-sample_iiif.json"
+  "id": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/object1262327",
+  "label": {
+    "da": [
+      "- 1990 -"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "@type": "Canvas",
+      "id": "http://kb-images.kb.dk/DAMJP2/DAM/LuftfotoOM/0001/262/327/LLOXXXX-90_2417/info.json",
+      "height": 5302,
+      "width": 4860
+    }
+  ]
 }
