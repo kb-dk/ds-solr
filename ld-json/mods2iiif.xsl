@@ -189,13 +189,13 @@
         </f:map>
     </xsl:if>
     
-    <xsl:for-each select="m:relatedItem[type='constituent'][m:identifier[@displayLabel='iiif'][string()]]">
+    <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif'][string()]]">
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
       </xsl:call-template>
     </xsl:for-each>
 
-    <xsl:for-each select="m:relatedItem[type='constituent'][m:identifier[contains(.,'.tif')]]">
+    <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
       </xsl:call-template>
