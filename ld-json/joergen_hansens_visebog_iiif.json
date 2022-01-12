@@ -18,23 +18,23 @@
           "Jørgen Hansens visebog"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -45,7 +45,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_001",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -59,23 +59,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -86,7 +86,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_002",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -105,23 +105,23 @@
           "01 En vise vil jeg skrive til eder, mine venner kære"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -132,7 +132,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_003",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -146,23 +146,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -173,7 +173,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_004",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -187,23 +187,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -214,7 +214,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_005",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -233,23 +233,23 @@
           "02 Gud trøste mig, som må i slavekæde"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -260,7 +260,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_006",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -274,23 +274,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -301,7 +301,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_007",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -315,23 +315,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -342,7 +342,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_008",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -356,23 +356,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -383,7 +383,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_009",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -397,23 +397,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -424,7 +424,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_010",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -438,23 +438,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -465,7 +465,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_011",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -479,23 +479,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -506,7 +506,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_012",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -520,23 +520,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -547,7 +547,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_013",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -561,23 +561,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -588,7 +588,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_014",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -607,23 +607,23 @@
           "03 Elvina går til sin faders borg"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -634,7 +634,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_015",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -648,23 +648,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -675,7 +675,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_016",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -689,23 +689,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -716,7 +716,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_017",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -735,23 +735,23 @@
           "04 En sang jeg vil skrive og sende til dig"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -762,7 +762,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_018",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -776,23 +776,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -803,7 +803,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_019",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -817,23 +817,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -844,7 +844,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_020",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -863,23 +863,23 @@
           "05 Hr. Zinklar drog over salten hav"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -890,7 +890,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_021",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -904,23 +904,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -931,7 +931,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_022",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -945,23 +945,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -972,7 +972,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_023",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -991,23 +991,23 @@
           "06 En vise for eder jeg nu fortælle vil (Strasbourgervisen)"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1018,7 +1018,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_024",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1032,23 +1032,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1059,7 +1059,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_025",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1073,23 +1073,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1100,7 +1100,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_026",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1114,23 +1114,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1141,7 +1141,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_027",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1155,23 +1155,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1182,7 +1182,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_028",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1196,23 +1196,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1223,7 +1223,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_029",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1242,23 +1242,23 @@
           "07 I Holsten en dreng udi syvende år"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1269,7 +1269,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_030",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1283,23 +1283,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1310,7 +1310,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_031",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1324,23 +1324,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1351,7 +1351,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_032",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1370,23 +1370,23 @@
           "08 O hør, I mine venner, hvad jeg vil fortælle"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1397,7 +1397,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_033",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1411,23 +1411,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1438,7 +1438,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_034",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1457,23 +1457,23 @@
           "09 Dengang budskabet lød"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1484,7 +1484,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_035",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1498,23 +1498,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1525,7 +1525,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_036",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1544,23 +1544,23 @@
           "10 Tapperhed, som alle danske ønsker lyder"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1571,7 +1571,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_037",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1585,23 +1585,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1612,7 +1612,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_038",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1631,23 +1631,23 @@
           "11 Ser I, hvem der kommer her"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1658,7 +1658,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_039",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1677,23 +1677,23 @@
           "12 Dengang almagtens Gud"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1704,7 +1704,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_040",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1718,23 +1718,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1745,7 +1745,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_041",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1759,23 +1759,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1786,7 +1786,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_042",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1800,23 +1800,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1827,7 +1827,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_043",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1841,23 +1841,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1868,7 +1868,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_044",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1882,23 +1882,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1909,7 +1909,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_045",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1928,23 +1928,23 @@
           "13 Kong Hannibals søn"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1955,7 +1955,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_046",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -1969,23 +1969,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -1996,7 +1996,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_047",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2010,23 +2010,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2037,7 +2037,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_048",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2051,23 +2051,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2078,7 +2078,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_049",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2092,23 +2092,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2119,7 +2119,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_050",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2133,23 +2133,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2160,7 +2160,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_051",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2179,23 +2179,23 @@
           "14 Dengang vi drog af sted"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2206,7 +2206,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_052",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2220,23 +2220,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2247,7 +2247,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_053",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2266,23 +2266,23 @@
           "15 Da Preussen listig kom"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2293,7 +2293,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_054",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2307,23 +2307,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2334,7 +2334,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_055",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2353,23 +2353,23 @@
           "16 Fremad march, nu jægerhornet lyder"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2380,7 +2380,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_056",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2399,23 +2399,23 @@
           "17 Nu plager Fanden det tyske rak"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2426,7 +2426,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_057",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2445,23 +2445,23 @@
           "18 O Karen, fra dansen nu hjem du nok må"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2472,7 +2472,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_058",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2486,23 +2486,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2513,7 +2513,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_059",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2532,23 +2532,23 @@
           "19 Nu hisser vi vores sejl så hvide"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2559,7 +2559,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_060",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2578,23 +2578,23 @@
           "20 Hør, du min dejlige pige"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2605,7 +2605,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_061",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2619,23 +2619,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2646,7 +2646,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_062",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2665,23 +2665,23 @@
           "21 Da tiden mig tilbyder"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2692,7 +2692,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_063",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2706,23 +2706,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2733,7 +2733,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_064",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2752,23 +2752,23 @@
           "22 Jeg nogengang begive vil"
         ]
       },
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2779,7 +2779,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_065",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2793,23 +2793,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2820,7 +2820,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_066",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2834,23 +2834,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2861,7 +2861,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_067",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
@@ -2875,23 +2875,23 @@
     },
     {
       "type": "Canvas",
-      "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/info.json",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/info.json",
       "height": 3312,
       "width": 2080,
       "items": [
         {
-          "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/page",
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/annotation",
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/full/!1225,/0/default.jpg",
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/full/!1225,/0/default.jpg",
                 "thumbnail": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/full/!225,/0/default.jpg",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068/full/!225,/0/default.jpg",
                     "format": "image/jpeg",
                     "type": "Image"
                   }
@@ -2902,7 +2902,7 @@
                 "width": 2080,
                 "service": [
                   {
-                    "id": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068",
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_5/non-archival/Manus/VMANUS/2009/jun/dfs_1883_17/dfs_1883_17_068",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
