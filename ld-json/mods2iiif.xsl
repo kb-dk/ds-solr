@@ -70,7 +70,7 @@
               <xsl:value-of select="."/>              
             </xsl:for-each>
           </xsl:variable>
-
+          
           <f:string key="id">
             <xsl:value-of select="concat($base_uri,'/',$result_object)"/>
           </f:string>
@@ -83,6 +83,13 @@
             <f:string>paged</f:string>
           </f:array>
 
+          <f:string key="viewingDirection">
+            <xsl:choose>
+              <xsl:when test="contains(m:physicalDescription/m:note[@type='pageOrientation'][1],'RTL')">right-to-left</xsl:when>
+              <xsl:otherwise>left-to-right</xsl:otherwise>
+            </xsl:choose>
+          </f:string>
+          
           <xsl:variable name="resolution">
             <f:number key="height">
               <xsl:choose>

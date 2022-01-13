@@ -13,6 +13,7 @@
   "behavior": [
     "paged"
   ],
+  "viewingDirection": "right-to-left",
   "items": [
     {
       "type": "Canvas",
