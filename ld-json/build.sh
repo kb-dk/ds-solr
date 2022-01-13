@@ -41,6 +41,8 @@ mods_files=("albert-einstein.xml"
 	    "jacob-hansen-bang-with.xml"
 	    "responsa.xml")
 
+# mods_files=("responsa.xml")
+
 for file in ${mods_files[@]}; do
     json=$(sed 's/.xml$/.json/' <<< "$file")
     iiif=$(sed 's/.xml$/_iiif.json/' <<< "$file")
