@@ -89,6 +89,13 @@
               <xsl:otherwise>left-to-right</xsl:otherwise>
             </xsl:choose>
           </f:string>
+
+          <xsl:variable name="sort_order">
+            <xsl:choose>
+              <xsl:when test="contains(m:physicalDescription/m:note[@type='pageOrientation'][1],'RTL')">descending</xsl:when>
+              <xsl:otherwise>ascending</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
           
           <xsl:variable name="resolution">
             <f:number key="height">
@@ -113,11 +120,13 @@
 
           <xsl:element name="f:array">
             <xsl:attribute name="key">items</xsl:attribute>
-            <xsl:for-each select="m:relatedItem[m:identifier]">
-              <xsl:call-template name="make_page_field">
-                <xsl:with-param name="resolution" select="$resolution"/>
-              </xsl:call-template>
-            </xsl:for-each>
+              <xsl:for-each select="m:relatedItem[m:identifier]">
+                <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
+                <xsl:call-template name="make_page_field">
+                  <xsl:with-param name="resolution" select="$resolution"/>
+                  <xsl:with-param name="sort_order" select="$sort_order"/>
+                </xsl:call-template>
+              </xsl:for-each>
           </xsl:element>
 
           
@@ -155,7 +164,7 @@
 
   <xsl:template name="make_page_field">
     <xsl:param name="resolution" select="''"/>
-    
+    <xsl:param name="sort_order" select="'ascending'"/>    
     <xsl:if test="m:identifier[string()]">
 
         <f:map>
@@ -184,12 +193,14 @@
     </xsl:if>
     
     <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif'][string()]]">
+      <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
       </xsl:call-template>
     </xsl:for-each>
 
     <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
+      <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
       </xsl:call-template>
