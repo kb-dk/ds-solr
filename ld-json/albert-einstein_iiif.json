@@ -3,9 +3,7 @@
   "type": "Manifest",
   "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/albert-einstein_iiif.json",
   "label": {
-    "en": [
-      "Letter from Einstein, Albert to Simonsen, David"
-    ]
+    "en": []
   },
   "behavior": [
     "paged"

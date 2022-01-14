@@ -82,7 +82,8 @@
           </f:string>
 
           <xsl:call-template name="get-title">
-            <xsl:with-param name="cataloging_language" select="$cataloging_language"/> 
+            <xsl:with-param name="cataloging_language" select="$cataloging_language"/>
+            <xsl:with-param name="dom"                 select="$dom"/> 
           </xsl:call-template>
 
           <f:array key="behavior">
@@ -147,20 +148,27 @@
 
   <xsl:template name="get-title">
     <xsl:param name="cataloging_language"/>
-
+    <xsl:param name="dom"  />
+    <!-- xsl:variable name="dom" select="."/ -->
+    
     <xsl:if test="m:titleInfo[not(type)]">
       <f:map key="label">
-        <xsl:for-each select="m:titleInfo[not(type)]">
-          <xsl:variable name="xml_lang">
+        <xsl:variable name="languages" as="xs:string *">
+          <xsl:for-each select="m:titleInfo[not(type)]">
             <xsl:choose>
-              <xsl:when test="@xml:lang"><xsl:value-of select="@xml:lang"/></xsl:when>
+              <xsl:when test="@xml:lang"><xsl:value-of select="@xml:lang/string()"/></xsl:when>
               <xsl:otherwise><xsl:value-of select="$cataloging_language"/></xsl:otherwise>
             </xsl:choose>
-          </xsl:variable>
+          </xsl:for-each>
+        </xsl:variable>
+        <xsl:for-each select="distinct-values($languages)" >
+          <xsl:variable name="xml_lang" select="."/>
           <xsl:element name="f:array">
             <xsl:attribute name="key"><xsl:value-of select="$xml_lang"/></xsl:attribute>
-            <xsl:for-each select="m:title">
-              <f:string><xsl:value-of select="."/></f:string>
+            <xsl:for-each select="$dom/m:titleInfo[@xml:lang=$xml_lang]">            
+              <xsl:for-each select="m:title">
+                <f:string><xsl:value-of select="."/></f:string>
+              </xsl:for-each>
             </xsl:for-each>
           </xsl:element>
         </xsl:for-each>
@@ -177,7 +185,9 @@
     <xsl:if test="m:identifier[string()]">
         <f:map>
           <f:string key="type">Canvas</f:string>
-          <xsl:call-template name="get-title"/>
+          <xsl:call-template name="get-title">
+            <xsl:with-param name="dom"  select="$dom"/>
+          </xsl:call-template>
 
           <xsl:variable name="id_string">
             <xsl:for-each select="m:identifier[@displayLabel='iiif'][string()]|m:identifier[contains(.,'.tif')]">

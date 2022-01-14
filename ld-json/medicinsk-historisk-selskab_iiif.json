@@ -3,9 +3,7 @@
   "type": "Manifest",
   "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/medicinsk-historisk-selskab_iiif.json",
   "label": {
-    "en": [
-      "Letter from Dansk Medicinsk-Historisk Selskab to Simonsen, David"
-    ]
+    "en": []
   },
   "behavior": [
     "paged"
