@@ -3,9 +3,7 @@
   "type": "Manifest",
   "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/simonsen-brandes_iiif.json",
   "label": {
-    "en": [
-      "Letter to Brandes, Georg from Simonsen, David"
-    ]
+    "en": []
   },
   "behavior": [
     "paged"
