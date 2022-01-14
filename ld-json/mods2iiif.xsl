@@ -7,6 +7,7 @@
                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                xmlns:mix="http://www.loc.gov/mix/v10"
                xmlns:my="urn:my"
+               exclude-result-prefixes="m t h xs xsl mix my"
                version="3.0">
 
   
@@ -33,15 +34,20 @@
       <role key="prt" href="http://id.loc.gov/vocabulary/relators/art">relator:prt</role>
     </roles>
   </xsl:variable>
-  
+
+
   <xsl:template match="/">
+    <xsl:apply-templates select="rss/channel/item[1]/m:mods|m:modsCollection/m:mods[1]"/>
+  </xsl:template>
+
+
+  
+  <xsl:template match="m:mods">
     <xsl:variable name="json">
 
       <!-- The Manifest if for one object, the source files here are
            sometimes containing multiple. We choose the first for
            the time being.  -->
-
-      <xsl:for-each select="//m:mods[1]">
 
         <f:map>
           <f:string key="@context">http://iiif.io/api/presentation/3/context.json</f:string>
@@ -66,7 +72,7 @@
           </xsl:variable>
 
           <xsl:variable name="cataloging_language">
-            <xsl:for-each select="m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
+            <xsl:for-each select="$dom/m:recordInfo/m:languageOfCataloging/m:languageTerm[1]">
               <xsl:value-of select="."/>              
             </xsl:for-each>
           </xsl:variable>
@@ -120,18 +126,19 @@
 
           <xsl:element name="f:array">
             <xsl:attribute name="key">items</xsl:attribute>
-              <xsl:for-each select="m:relatedItem[m:identifier]">
+              <xsl:for-each select="$dom/m:relatedItem[m:identifier]">
                 <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
                 <xsl:call-template name="make_page_field">
                   <xsl:with-param name="resolution" select="$resolution"/>
                   <xsl:with-param name="sort_order" select="$sort_order"/>
+                  <xsl:with-param name="dom"        select="$dom"/>
                 </xsl:call-template>
               </xsl:for-each>
           </xsl:element>
 
           
         </f:map>
-      </xsl:for-each>
+
     </xsl:variable>
     
     <xsl:value-of select="f:xml-to-json($json)" />
@@ -164,9 +171,10 @@
 
   <xsl:template name="make_page_field">
     <xsl:param name="resolution" select="''"/>
-    <xsl:param name="sort_order" select="'ascending'"/>    
-    <xsl:if test="m:identifier[string()]">
+    <xsl:param name="sort_order" select="'ascending'"/>
+    <xsl:param name="dom"        select="''"/>
 
+    <xsl:if test="m:identifier[string()]">
         <f:map>
           <f:string key="type">Canvas</f:string>
           <xsl:call-template name="get-title"/>
@@ -192,17 +200,19 @@
         </f:map>
     </xsl:if>
     
-    <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif'][string()]]">
+    <xsl:for-each select="./m:relatedItem[@type='constituent'][m:identifier[@displayLabel='iiif'][string()]]">
       <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
+        <xsl:with-param name="dom" select="."/>
       </xsl:call-template>
     </xsl:for-each>
 
-    <xsl:for-each select="m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
+    <xsl:for-each select="./m:relatedItem[@type='constituent'][m:identifier[contains(.,'.tif')]]">
       <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
       <xsl:call-template name="make_page_field">
         <xsl:with-param name="resolution" select="$resolution"/>
+        <xsl:with-param name="dom" select="."/>
       </xsl:call-template>
     </xsl:for-each>
     
