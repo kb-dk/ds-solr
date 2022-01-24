@@ -18,13 +18,13 @@ department at Royal Library, Copenhagen, DK.</m:name>
             <md:title>Boethius, Consolatio Philosophiae</md:title>
           </md:titleInfo>
           <md:name xml:lang="dan">
-            <md:partName>GKS 1911 4°</md:partName>
+            <md:namePart>GKS 1911 4°</md:namePart>
             <md:role>
               <md:roleTerm>author</md:roleTerm>
             </md:role>
           </md:name>
           <md:name xml:lang="eng">
-            <md:partName>GKS 1911 4°</md:partName>
+            <md:namePart>GKS 1911 4°</md:namePart>
             <md:role>
               <md:roleTerm>author</md:roleTerm>
             </md:role>
