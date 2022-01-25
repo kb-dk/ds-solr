@@ -46,7 +46,7 @@ mods_files=("albert-einstein.xml"
 # mods_files=("john-rosforth-johnson.xml")
 
 
-ISMETS="'/m:mets/@OBJID'"
+ISMETS="/m:mets/@OBJID"
 
 for file in ${mods_files[@]}; do
    
@@ -56,10 +56,11 @@ for file in ${mods_files[@]}; do
     iiif_param1="base_uri=https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json"
     iiif_param2="result_object=$iiif"
 
-    mets=$(xpath -q -e $ISMETS "$SOURCE/$file" )
-
+    METS=$(xpath -q -e "$ISMETS" "$SOURCE/$file" )
+    echo "$METS"
     if [ "$DEBUG_JSON" = "1" ]; then
-	if [ $mets ]; then
+	
+	if [[ "$METS" == *manus* ]]; then
 	    $SAXON -xsl:"$TRANSFORM_METS_TO_IIIF" -s:"$SOURCE/$file" "$iiif_param1" "$iiif_param2" | jq . > "$iiif"
 	else
 	    $SAXON -xsl:"$TRANSFORM_TO_SCHEMAORG" -s:"$SOURCE/$file" | jq . > "$json"
