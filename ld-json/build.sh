@@ -43,7 +43,7 @@ mods_files=("albert-einstein.xml"
     "tystrup-soroe.xml"
     "work_on_logic.xml")
 
-# mods_files=("john-rosforth-johnson.xml")
+mods_files=("boethius-consolatio-philosophiae.xml")
 
 
 ISMETS="/m:mets/@OBJID"
@@ -57,9 +57,8 @@ for file in ${mods_files[@]}; do
     iiif_param2="result_object=$iiif"
 
     METS=$(xpath -q -e "$ISMETS" "$SOURCE/$file" )
-    echo "$METS"
+
     if [ "$DEBUG_JSON" = "1" ]; then
-	
 	if [[ "$METS" == *manus* ]]; then
 	    $SAXON -xsl:"$TRANSFORM_METS_TO_IIIF" -s:"$SOURCE/$file" "$iiif_param1" "$iiif_param2" | jq . > "$iiif"
 	else
