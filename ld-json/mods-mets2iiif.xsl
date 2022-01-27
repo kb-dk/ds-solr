@@ -7,12 +7,13 @@
                xmlns:xs="http://www.w3.org/2001/XMLSchema"
                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                xmlns:mix="http://www.loc.gov/mix/v10"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
                xmlns:my="urn:my"
-               exclude-result-prefixes="m t h xs xsl mix my"
+               exclude-result-prefixes="m md t h xs xsl mix my xlink"
                version="3.0">
 
   
-  <xsl:output method="text" />
+  <xsl:output method="text"/>
   <!-- xsl:output method="xml" / -->
 
   <xsl:param name="sep_string"    select="'/'"/>
@@ -50,7 +51,8 @@
 
         <f:string key="type">Manifest</f:string>                
 
-        <xsl:apply-templates select="m:METS/m:structMap"/>
+      
+        <xsl:apply-templates select="m:mets/m:structMap[@type='physical']"/>
         
       </f:map>
 
@@ -62,19 +64,34 @@
   </xsl:template>
 
   <xsl:template match="m:structMap">
+
+    <xsl:variable name="mid" select="m:div/@DMDID"/>
+    <xsl:apply-templates select="$dom//m:dmdSec[@ID=$mid]//md:mods"/>
+
+    <xsl:element name="f:array">
+      <xsl:attribute name="key">items</xsl:attribute>
+      <xsl:apply-templates select="m:div"/>
+    </xsl:element>
+  
+  </xsl:template>
+  
+  <xsl:template match="m:div">
+    <f:map>
+      <xsl:variable name="fileid"><xsl:value-of select="m:fptr/@FILEID"/></xsl:variable>
+      <xsl:if test="$dom//m:file[@ID=$fileid]/m:FLocat/@xlink:href">
+        <xsl:element name="f:array">
+          <xsl:attribute name="key">items</xsl:attribute>
+          <f:string>
+            <xsl:value-of select="$dom//m:file[@ID=$fileid]/m:FLocat/@xlink:href"/>
+          </f:string>
+        </xsl:element>
+      </xsl:if>
+    </f:map>
     <xsl:apply-templates select="m:div"/>
   </xsl:template>
-
-  <xsl:template match="m:structMap/m:div">
-
-  </xsl:template>
-
-  <xsl:template match="m:div">
-
-  </xsl:template>
-
   
   <xsl:template match="md:mods">
+
     <xsl:variable name="record-id-in">
       <xsl:choose>
         <xsl:when test="processing-instruction('cobject_id')">
@@ -90,11 +107,7 @@
       <xsl:value-of select="replace($record-id-in,'/',$sep_string,'s')"/>
     </xsl:variable>
 
-    <xsl:variable name="cataloging_language">
-      <xsl:for-each select="$dom/md:recordInfo/md:languageOfCataloging/md:languageTerm[1]">
-        <xsl:value-of select="."/>              
-      </xsl:for-each>
-    </xsl:variable>
+    <xsl:variable name="cataloging_language">eng</xsl:variable>
     
     <f:string key="id">
       <xsl:value-of select="concat($base_uri,'/',$result_object)"/>
@@ -102,7 +115,7 @@
 
     <xsl:call-template name="get-title">
       <xsl:with-param name="cataloging_language" select="$cataloging_language"/>
-      <xsl:with-param name="dom"                 select="$dom"/> 
+      <xsl:with-param name="dom"                 select="."/> 
     </xsl:call-template>
 
     <f:array key="behavior">
@@ -116,45 +129,6 @@
       </xsl:choose>
     </f:string>
 
-    <xsl:variable name="sort_order">
-      <xsl:choose>
-        <xsl:when test="contains(md:physicalDescription/md:note[@type='pageOrientation'][1],'RTL')">descending</xsl:when>
-        <xsl:otherwise>ascending</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    
-    <xsl:variable name="resolution">
-      <f:number key="height">
-        <xsl:choose>
-          <xsl:when test="md:extension/mix:mix/mix:BasicImageInformation/mix:BasicImageCharacteristics/mix:imageHeight">
-            <xsl:value-of
-                select="md:extension/mix:mix/mix:BasicImageInformation/mix:BasicImageCharacteristics/mix:imageHeight"/>
-          </xsl:when>
-          <xsl:otherwise>3312</xsl:otherwise>
-        </xsl:choose>
-      </f:number>
-      <f:number key="width">
-        <xsl:choose>
-          <xsl:when test="md:extension/mix:mix/mix:BasicImageInformation/mix:BasicImageCharacteristics/mix:imageWidth">
-            <xsl:value-of
-                select="md:extension/mix:mix/mix:BasicImageInformation/mix:BasicImageCharacteristics/mix:imageWidth"/>
-          </xsl:when>
-          <xsl:otherwise>2080</xsl:otherwise>
-        </xsl:choose>
-      </f:number>
-    </xsl:variable>
-
-    <xsl:element name="f:array">
-      <xsl:attribute name="key">items</xsl:attribute>
-      <xsl:for-each select="$dom/md:relatedItem[md:identifier]">
-        <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
-        <xsl:call-template name="make_page_field">
-          <xsl:with-param name="resolution" select="$resolution"/>
-          <xsl:with-param name="sort_order" select="$sort_order"/>
-          <xsl:with-param name="dom"        select="$dom"/>
-        </xsl:call-template>
-      </xsl:for-each>
-    </xsl:element>
 
   </xsl:template>
 
@@ -162,37 +136,43 @@
     <xsl:param name="cataloging_language"/>
     <xsl:param name="dom"  />
     <!-- xsl:variable name="dom" select="."/ -->
-    
-    <xsl:if test="md:titleInfo[not(type)]">
-      <f:map key="label">
-        <xsl:variable name="languages" as="xs:string *">
-          <xsl:for-each select="md:titleInfo[not(type)]">
-            <xsl:choose>
-              <xsl:when test="@xml:lang"><xsl:value-of select="@xml:lang/string()"/></xsl:when>
-              <xsl:otherwise><xsl:value-of select="$cataloging_language"/></xsl:otherwise>
-            </xsl:choose>
-          </xsl:for-each>
-        </xsl:variable>
-        <xsl:for-each select="distinct-values($languages)" >
-          <xsl:variable name="xml_lang" select="."/>
-          <xsl:element name="f:array">
-            <xsl:attribute name="key"><xsl:value-of select="$xml_lang"/></xsl:attribute>
-            <xsl:for-each select="$dom/md:titleInfo[@xml:lang=$xml_lang]">            
-              <xsl:for-each select="md:title">
-                <f:string><xsl:value-of select="."/></f:string>
-              </xsl:for-each>
+
+    <xsl:choose>
+      <xsl:when test="md:titleInfo[not(type)]">
+        <f:map key="label">
+          <xsl:variable name="languages" as="xs:string *">
+            <xsl:for-each select="md:titleInfo[not(type)]">
+              <xsl:choose>
+                <xsl:when test="@xml:lang"><xsl:value-of select="@xml:lang/string()"/></xsl:when>
+                <xsl:otherwise><xsl:value-of select="$cataloging_language"/></xsl:otherwise>
+              </xsl:choose>
             </xsl:for-each>
-          </xsl:element>
-        </xsl:for-each>
-      </f:map>
-    </xsl:if>
- 
+          </xsl:variable>
+          <xsl:for-each select="distinct-values($languages)" >
+            <xsl:variable name="xml_lang" select="."/>
+            <xsl:element name="f:array">
+              <xsl:attribute name="key"><xsl:value-of select="$xml_lang"/></xsl:attribute>
+              <xsl:for-each select="$dom/md:titleInfo[@xml:lang=$xml_lang]">            
+                <xsl:for-each select="md:title">
+                  <f:string><xsl:value-of select="."/></f:string>
+                </xsl:for-each>
+              </xsl:for-each>
+            </xsl:element>
+          </xsl:for-each>
+        </f:map>
+      </xsl:when>
+      <xsl:otherwise>
+      </xsl:otherwise>
+    </xsl:choose>
+    
   </xsl:template>
 
   <xsl:template name="make_page_field">
-    <xsl:param name="resolution" select="''"/>
-    <xsl:param name="sort_order" select="'ascending'"/>
+    <!-- xsl:param name="resolution" select="''"/ -->
     <xsl:param name="dom"        select="''"/>
+
+
+
 
     <xsl:if test="md:identifier[string()]">
         <f:map>
@@ -213,35 +193,13 @@
               <xsl:call-template name="find-pages"/>
             </xsl:for-each>
           </f:string>
-
-          <xsl:copy-of select="$resolution"/>
-          <xsl:call-template name="make_hierarchy">
-            <xsl:with-param name="resolution" select="$resolution"/>
-            <xsl:with-param name="id_string" select="$id_string"/>
-          </xsl:call-template>
+        
         </f:map>
     </xsl:if>
-    
-    <xsl:for-each select="./md:relatedItem[@type='constituent'][md:identifier[@displayLabel='iiif'][string()]]">
-      <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
-      <xsl:call-template name="make_page_field">
-        <xsl:with-param name="resolution" select="$resolution"/>
-        <xsl:with-param name="dom" select="."/>
-      </xsl:call-template>
-    </xsl:for-each>
-
-    <xsl:for-each select="./md:relatedItem[@type='constituent'][md:identifier[contains(.,'.tif')]]">
-      <xsl:sort select="position()" data-type="number" order="{$sort_order}"/>
-      <xsl:call-template name="make_page_field">
-        <xsl:with-param name="resolution" select="$resolution"/>
-        <xsl:with-param name="dom" select="."/>
-      </xsl:call-template>
-    </xsl:for-each>
     
   </xsl:template>
 
   <xsl:template name="make_hierarchy">
-    <xsl:param name="resolution" select="''"/>
     <xsl:param name="id_string"  select="''"/>    
     <f:array key="items">
       <f:map>
@@ -266,7 +224,7 @@
               </f:array>
                 <f:string key="type">Image</f:string>
                 <f:string key="format">image/jpeg</f:string>
-                <xsl:copy-of select="$resolution"/>
+                <!-- xsl:copy-of select="$resolution"/ -->
                 <f:array key="service">
                   <f:map>
                     <f:string key="id"><xsl:value-of select="substring-before($id_string,'/info.json')"/></f:string>
