@@ -12,6 +12,9 @@ if [[ -s "cloud.conf" ]]; then
     source "cloud.conf"     # Local overrides
 fi
 pushd ${BASH_SOURCE%/*} > /dev/null
+if [[ -s "cloud.conf" ]]; then
+    source "cloud.conf"     # Project overrides
+fi
 source general.conf
 : ${CLOUD:=`pwd`/cloud}
 : ${SOLR:="$HOST:$SOLR_BASE_PORT/solr"}
