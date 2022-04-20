@@ -36,6 +36,7 @@ daterange does not handle docValues - we might need two versions of datetime
     <?begin-field-group SOLR id, other identifiers and related fields ?>
     
     <field name="id"  type="string" stored="true"  indexed="true"  multiValued="false" required="true" />
+    <field name="url"          type="string"/> <?field-description URL for the material this document is describing ?>
 
     <!-- the one below is basically the same as _nest_parent_ -->
 
