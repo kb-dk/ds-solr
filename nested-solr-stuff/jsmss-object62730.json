@@ -1,0 +1,132 @@
+[
+  {
+    "id": "manus!judsam!2010!maj!jsmss!object62730",
+    "described": true,
+    "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "manus!judsam!2010!maj!jsmss!object62730!summary",
+      "describing": "manus!judsam!2010!maj!jsmss!object62730",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Third Copenhagen Hispano Portugese Bible (Cod. Heb. 7-9)",
+        "Tanakh: Ketuvim",
+        "תנ\"ך - כתובים",
+        "Third Copenhagen Hispano Portugese Bible (Cod. Heb. 7-9)",
+        "תורה נביאים וכתובים",
+        "Tanakh: Ketuvim"
+      ],
+      "creator": [],
+      "subject_person": [],
+      "subject": [
+        "Bible",
+        "Hebraisk",
+        "Spanien",
+        "Cod. Heb. 009"
+      ],
+      "description": [
+        "Incomplete. Acquired for the The Royal Library by F. C. von Haven in 1762 (The Arabian Journey 1761-1767; for more information, see <www.kb.dk/da/nb/samling/js/CN/CH7-9.html>).",
+        "The Scriptures (Ps. 10,14b - Est. 10,3)",
+        "Square Sefardi script",
+        "Micrography; illuminations (for details, see IJA)",
+        "Index of Jewish Art: iconographical index of Hebrew illuminated manuscripts; vol. 5: Illuminated manuscripts of the Copenhagen Collection at the Royal Library, Copenhagen / by Bezalel Narkiss and Gabrielle sed-Rajna.- [Copenhagen]: The Royal Danish Academy of Sciences and Letters; [Jerusalem]: The Center for Jewish Art, The Hebrew University Jerusalem, 1994, cards no. 144-170.",
+        "Parchment",
+        "66 fols.",
+        "25 x 20 cm (app.)"
+      ]
+    },
+    "cataloging_language": "en",
+    "last_modified_by": [
+      {
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e49",
+        "described": false,
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
+        "language": "en",
+        "entity_type": "last-modified-by",
+        "agent_name": "cumulus:eja"
+      }
+    ],
+    "record_created": "2011-05-05",
+    "record_revised": "2011-05-25",
+    "tit": [
+      {
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
+        "described": false,
+        "language": "he",
+        "entity_type": "title main",
+        "title": [
+          "תנ\"ך - כתובים"
+        ],
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e24"
+      },
+      {
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
+        "described": false,
+        "language": "en",
+        "entity_type": "title alternative",
+        "title": [
+          "Third Copenhagen Hispano Portugese Bible (Cod. Heb. 7-9)"
+        ],
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e30"
+      },
+      {
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
+        "described": false,
+        "language": "he",
+        "entity_type": "title alternative",
+        "title": [
+          "תורה נביאים וכתובים"
+        ],
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e36"
+      },
+      {
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
+        "described": false,
+        "language": "en",
+        "entity_type": "title transcribed",
+        "title": [
+          "Tanakh: Ketuvim"
+        ],
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e43"
+      }
+    ],
+    "note": [
+      "Incomplete. Acquired for the The Royal Library  by F. C. von Haven in 1762 (The Arabian Journey 1761-1767; for more information, see <www.kb.dk/da/nb/samling/js/CN/CH7-9.html>)."
+    ],
+    "specific_notes": {
+      "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e138",
+      "describing": "manus!judsam!2010!maj!jsmss!object62730",
+      "described": false,
+      "content": "The Scriptures (Ps. 10,14b - Est. 10,3)",
+      "Script": "Square Sefardi script",
+      "Script: detail": "Micrography; illuminations (for details, see IJA)",
+      "reference": "Index of Jewish Art: iconographical index of Hebrew illuminated manuscripts; vol. 5: Illuminated manuscripts of the Copenhagen Collection at the Royal Library, Copenhagen / by Bezalel Narkiss and Gabrielle sed-Rajna.- [Copenhagen]: The Royal Danish Academy of Sciences and Letters; [Jerusalem]: The Center for Jewish Art, The Hebrew University Jerusalem, 1994, cards no. 144-170."
+    },
+    "keyword": [
+      "Bible",
+      "Hebraisk",
+      "Spanien",
+      "Cod. Heb. 009"
+    ],
+    "categories": [],
+    "not_after_date": "1492-02-02",
+    "not_before_date": "1450-01-01",
+    "visible_date": [
+      "1450/1492-02-02"
+    ],
+    "physical_description": {
+      "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e169",
+      "describing": "manus!judsam!2010!maj!jsmss!object62730",
+      "described": false,
+      "medium": "Parchment",
+      "extent": "66 fols.",
+      "size": "25 x 20 cm (app.)"
+    },
+    "shelf_mark": "Cod. Heb. 9",
+    "language": [
+      "he"
+    ],
+    "read_direction": "RTL",
+    "pages": []
+  }
+]
