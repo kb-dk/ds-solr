@@ -76,17 +76,17 @@
   </xsl:template>
   
   <xsl:template match="m:div">
-    <f:map>
-      <xsl:variable name="fileid"><xsl:value-of select="m:fptr/@FILEID"/></xsl:variable>
-      <xsl:if test="$dom//m:file[@ID=$fileid]/m:FLocat/@xlink:href">
+    <xsl:variable name="fileid"><xsl:value-of select="m:fptr/@FILEID"/></xsl:variable>
+    <xsl:if test="$dom//m:file[@ID=$fileid]/m:FLocat/@xlink:href">
+      <f:map>
         <xsl:element name="f:array">
           <xsl:attribute name="key">items</xsl:attribute>
           <f:string>
             <xsl:value-of select="$dom//m:file[@ID=$fileid]/m:FLocat/@xlink:href"/>
           </f:string>
         </xsl:element>
-      </xsl:if>
-    </f:map>
+      </f:map>
+    </xsl:if>
     <xsl:apply-templates select="m:div"/>
   </xsl:template>
   
