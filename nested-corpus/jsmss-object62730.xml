@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:mods xmlns:md="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+  <md:identifier type="uri">http://www.kb.dk/manus/judsam/2010/maj/jsmss/object62730/en/</md:identifier>
+  <md:recordInfo xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:languageOfCataloging>
+      <md:languageTerm authority="rfc4646">en</md:languageTerm>
+    </md:languageOfCataloging>
+    <md:recordIdentifier>/manus/judsam/2010/maj/jsmss/object62730</md:recordIdentifier>
+    <md:recordCreationDate encoding="w3cdtf">2011-05-05</md:recordCreationDate>
+    <md:recordChangeDate encoding="w3cdtf">2011-05-25</md:recordChangeDate>
+  </md:recordInfo>
+  <md:titleInfo xmlns:t="http://www.tei-c.org/ns/1.0" xml:lang="he">
+    <md:title>תנ"ך - כתובים</md:title>
+  </md:titleInfo>
+  <md:titleInfo xmlns:t="http://www.tei-c.org/ns/1.0" type="alternative" xml:lang="en">
+    <md:title>Third Copenhagen Hispano Portugese Bible (Cod. Heb. 7-9)</md:title>
+  </md:titleInfo>
+  <md:titleInfo xmlns:t="http://www.tei-c.org/ns/1.0" type="alternative" xml:lang="he">
+    <md:title>תורה נביאים וכתובים</md:title>
+  </md:titleInfo>
+  <md:titleInfo xmlns:t="http://www.tei-c.org/ns/1.0" type="transcribed" xml:lang="en">
+    <md:title>Tanakh: Ketuvim</md:title>
+  </md:titleInfo>
+  <md:name xmlns:t="http://www.tei-c.org/ns/1.0" type="cumulus" xml:lang="en">
+    <md:namePart>cumulus:eja</md:namePart>
+    <md:role>
+      <md:roleTerm type="text">last-modified-by</md:roleTerm>
+    </md:role>
+  </md:name>
+  <md:note xmlns:t="http://www.tei-c.org/ns/1.0" xml:lang="en">Incomplete. Acquired for the The Royal Library  by F. C. von Haven in 1762 (The Arabian Journey 1761-1767; for more information, see &lt;www.kb.dk/da/nb/samling/js/CN/CH7-9.html&gt;).</md:note>
+  <md:note xmlns:t="http://www.tei-c.org/ns/1.0" type="content" xml:lang="en">The Scriptures (Ps. 10,14b - Est. 10,3)</md:note>
+  <md:subject xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:topic xml:lang="en">Bible</md:topic>
+  </md:subject>
+  <md:subject xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:topic xlink:href="#756">Hebraisk</md:topic>
+  </md:subject>
+  <md:subject xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:topic xlink:href="#858">Spanien</md:topic>
+  </md:subject>
+  <md:subject xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:topic xlink:href="#859">Cod. Heb. 009</md:topic>
+  </md:subject>
+  <md:identifier xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="image" type="uri">http://www.kb.dk/imageService/online_master_arkiv_6/non-archival/Manus/JUDSAM/2011/mar/Cod_Heb_09/Cod_heb_9-142.jpg</md:identifier>
+  <md:identifier xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="thumbnail" type="uri">http://www.kb.dk/imageService/w150/h150/online_master_arkiv_6/non-archival/Manus/JUDSAM/2011/mar/Cod_Heb_09/Cod_heb_9-142.jpg</md:identifier>
+  <md:physicalDescription xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="Medium">
+    <md:note type="additional physical form">Parchment</md:note>
+  </md:physicalDescription>
+  <md:physicalDescription xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="Extent">
+    <md:extent>66 fols.</md:extent>
+  </md:physicalDescription>
+  <md:physicalDescription xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="Size">
+    <md:extent>25 x 20 cm (app.)</md:extent>
+  </md:physicalDescription>
+  <md:physicalDescription xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:note type="pageOrientation">RTL</md:note>
+  </md:physicalDescription>
+  <md:typeOfResource xmlns:t="http://www.tei-c.org/ns/1.0" manuscript="yes">
+text
+</md:typeOfResource>
+  <md:language xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:languageTerm authority="rfc4646" type="code">he</md:languageTerm>
+  </md:language>
+  <md:note xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="Script" type="additional physical form" xml:lang="en">Square Sefardi script</md:note>
+  <md:note xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="Script: detail" type="additional physical form" xml:lang="en">Micrography; illuminations (for details, see IJA)</md:note>
+  <md:originInfo xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:dateCreated encoding="w3cdtf" t:notAfter="1492-02-02" t:notBefore="1450-01-01">1450/1492-02-02</md:dateCreated>
+    <md:place>
+      <md:placeTerm type="text">[s.l.]</md:placeTerm>
+    </md:place>
+    <md:place>
+      <md:placeTerm authority="iso3166" type="code">es</md:placeTerm>
+    </md:place>
+  </md:originInfo>
+  <md:location xmlns:t="http://www.tei-c.org/ns/1.0">
+    <md:physicalLocation displayLabel="Shelf Mark">Cod. Heb. 9</md:physicalLocation>
+    <md:physicalLocation displayLabel="Shelf Mark" transliteration="rex">Cod. Heb. IX</md:physicalLocation>
+  </md:location>
+  <md:note xmlns:t="http://www.tei-c.org/ns/1.0" displayLabel="Selected references" type="citation/reference">Index of Jewish Art: iconographical index of Hebrew illuminated manuscripts; vol. 5: Illuminated manuscripts of the Copenhagen Collection at the Royal Library, Copenhagen / by Bezalel Narkiss and Gabrielle sed-Rajna.- [Copenhagen]: The Royal Danish Academy of Sciences and Letters; [Jerusalem]: The Center for Jewish Art, The Hebrew University Jerusalem, 1994, cards no. 144-170.</md:note>
+</md:mods>
