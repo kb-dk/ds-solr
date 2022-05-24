@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE="../nested-corpus"
-TRANSFORM="mods2solr.xsl"
+TRANSFORM="mods2schemaorg.xsl"
 
 : ${SAXON_JAR:="/home/$USER/saxon/saxon9he.jar"}
 if [[ ! -s "$SAXON_JAR" ]]; then
