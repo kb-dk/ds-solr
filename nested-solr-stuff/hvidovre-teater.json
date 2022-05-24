@@ -138,10 +138,7 @@
     "local_identifier": "db_claus_seidel_00459.tif",
     "doms_guid": "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f",
     "pages": [
-      {
-        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e193",
-        "url": "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json"
-      }
+      "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json"
     ]
   }
 ]
