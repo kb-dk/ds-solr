@@ -13,8 +13,20 @@
   <!-- xsl:output method="xml" / -->
 
   <xsl:param name="sep_string" select="'!'"/>
+  <xsl:param name="record_identifier" select="''"/>
+  <xsl:param name="debug_params" select="''"/>
+  <xsl:param name="collection_identifier" select="''"/>
   
   <xsl:template match="/">
+
+    <xsl:if test="$record_identifier and $debug_params">
+      <xsl:message>Using  <xsl:value-of select="$record_identifier"/></xsl:message>
+    </xsl:if>
+    
+    <xsl:if test="count(//m:mods) &gt; 1 and $record_identifier">
+      <xsl:message terminate="yes">Fatal: We were passed one single record_identifier but have multiple records.</xsl:message>
+    </xsl:if>
+    
     <xsl:variable name="json">
       <f:array>
         <xsl:for-each select="//m:mods">
@@ -22,11 +34,16 @@
 
           <xsl:variable name="record-id-in">
             <xsl:choose>
-              <xsl:when test="processing-instruction('cobject_id')">
-                <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
-              </xsl:when>
+              <xsl:when test="$record_identifier"><xsl:value-of select="$record_identifier"/></xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="replace(m:recordInfo/m:recordIdentifier,'^/','')"/>
+                <xsl:choose>
+                  <xsl:when test="processing-instruction('cobject_id')">
+                    <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="replace(m:recordInfo/m:recordIdentifier,'^/','')"/>
+                  </xsl:otherwise>
+                </xsl:choose>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
