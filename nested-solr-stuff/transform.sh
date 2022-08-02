@@ -1,6 +1,7 @@
 #!/bin/bash
 
 : ${INPUT:="$1"}
+: ${USE_ID:="$2"}
 : ${XSLT:="mods2solr.xsl"}
 
 : ${SAXON_JAR:="/home/$USER/saxon/saxon9he.jar"}
@@ -27,9 +28,12 @@ if [[ ! -s "$XSLT" ]]; then
     echo "Usage: ./transform.sh <inputfile>"
     exit 2
 fi
-
+use_id=''
+if [ $USE_ID ]; then
+    use_id="record_identifier=$USE_ID"
+fi
 
 # set to 1 if you want to prettyprint you json
 
 #json=$(sed 's/.xml$/.json/' <<< "$file")
-$SAXON -xsl:"$XSLT" -s:"$INPUT" | jq .
+$SAXON -xsl:"$XSLT" -s:"$INPUT" $use_id | jq .
