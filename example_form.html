@@ -485,7 +485,7 @@ score desc
             </a>.
         </p>
 
-        <p><strong>7.</strong> childfield() function seems OK!!!!
+        <p><strong>7.</strong> childfield() function seems OK!!!! No, it's broken here
         <a href="#form"
            onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
                     var sort_function = document.getElementById('childfield_search_childfunction').innerHTML;
@@ -497,7 +497,7 @@ score desc
                     document.getElementById('solr_fq').value = '';
                     document.getElementById('solr_fl').value = '*,[child]';
                     document.getElementById('num_hits').value = '300';">
- 	<kbd>sort=<span id="childfield_search_childfunction">childfield(title_sort) asc</span></kbd> Might actually work  <strong style="color:yellow;">Promising</strong>.
+ 	<kbd>sort=<span id="childfield_search_childfunction">childfield(title_sort) asc</span></kbd> Might actually work  <strong style="color:red;">Failure</strong>.
             </a>. Changing asc to desc yields another order.
             
 
