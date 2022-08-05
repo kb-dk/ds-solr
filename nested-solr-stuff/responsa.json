@@ -1,11 +1,11 @@
 [
   {
-    "id": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+    "id": "manus!judsam!2009!sep!dsh!object41158",
     "described": true,
     "entity_type": "the_object",
     "solr_summary_record": {
-      "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!summary",
-      "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+      "id": "manus!judsam!2009!sep!dsh!object41158!summary",
+      "describing": "manus!judsam!2009!sep!dsh!object41158",
       "described": false,
       "entity_type": "solr_summary_record",
       "title": [
@@ -56,9 +56,9 @@
     "cataloging_language": "en",
     "last_modified_by": [
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e303",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e303",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:eja"
@@ -68,39 +68,39 @@
     "record_revised": "2009-07-31",
     "tit": [
       {
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "language": "he",
         "entity_type": "title main",
         "title": [
           "קובץ שאלות ותשובות"
         ],
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e57"
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e57"
       },
       {
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
         "language": "en",
         "entity_type": "title transcribed",
         "title": [
           "Qovets she'elot u-tshuvot"
         ],
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e63"
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e63"
       }
     ],
     "scr": [
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e70",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e70",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "scr",
         "agent_name": "Yehuda Mordekhai ben Yitsḥaq Mordekhai"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e82",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e82",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "scr",
         "agent_name": "יהודה מרדכי בן יצחק מרדכי"
@@ -108,41 +108,41 @@
     ],
     "aut": [
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e94",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e94",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Maimonides"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e106",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e106",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Moshe ben Maimon"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e118",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e118",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "aut",
         "agent_name": "Rambam"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e130",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e130",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "aut",
         "agent_name": "משה בן מימון"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e143",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e143",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "aut",
         "agent_name": "רמב\"ם"
@@ -150,97 +150,97 @@
     ],
     "ctb": [
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e155",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e155",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Alfasi, Yitsḥaq ben Ya'aqov"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e167",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e167",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Migash, Yosef ben Meir"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e179",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e179",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Shmuel ben Yosef ha-Nagid"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e191",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e191",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Alghiani, Yitsḥaq"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e203",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e203",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Moshe ben Moshe, of Broshilaish"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e216",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e216",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "en",
         "entity_type": "ctb",
         "agent_name": "Ibn Danan, Sa'adya bein Maimon"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e228",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e228",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "אלפסי, יצחק בן יעקב"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e240",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e240",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "מיגש, יוסף בן מאיר"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e252",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e252",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "שמואל בן יוסף הנגיד"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e264",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e264",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "אלגיאני, יצחק"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e276",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e276",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "משה בן משה די ברושלייש"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e289",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e289",
         "described": false,
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "language": "he",
         "entity_type": "ctb",
         "agent_name": "אבן דנן, סעדיה בן מימון"
@@ -250,8 +250,8 @@
       "The spine of the volume is included in the digitization (before the beginning of the volume)."
     ],
     "specific_notes": {
-      "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e395",
-      "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e395",
+      "describing": "manus!judsam!2009!sep!dsh!object41158",
       "described": false,
       "content": "Responsa",
       "script": "North-African Hebrew cursive script",
@@ -266,74 +266,74 @@
     ],
     "categories": [
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e418",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e418",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject315",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject315",
         "subject_name_da": "David Simonsens Håndskrifter",
         "subject_name_en": "The David Simonsen Manuscripts"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e429",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e429",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject319",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject319",
         "subject_name_da": "Sprog",
         "subject_name_en": "Language"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e440",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e440",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject320",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject320",
         "subject_name_da": "Hebraisk",
         "subject_name_en": "Hebrew"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e451",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e451",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject423",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject423",
         "subject_name_da": "Jødisk-arabisk",
         "subject_name_en": "Judeo-Arabic"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e462",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e462",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject322",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject322",
         "subject_name_da": "Ophavsland",
         "subject_name_en": "Country of origin"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e473",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e473",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject451",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject451",
         "subject_name_da": "Marokko",
         "subject_name_en": "Marocco"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e484",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e484",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject316",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject316",
         "subject_name_da": "Opstillingssignatur",
         "subject_name_en": "Shelf mark"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e495",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e495",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject543",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject543",
         "subject_name_da": "Cod. Sim. Jud.-Arab 001-007",
         "subject_name_en": "Cod. Sim. Jud.-Arab 001-007"
       },
       {
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e506",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e506",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "entity_id": "subject544",
+        "entity_id": "manus!judsam!2009!sep!dsh!subject544",
         "subject_name_da": "Cod. Sim. Jud.-Arab 001",
         "subject_name_en": "Cod. Sim. Jud.-Arab 001"
       }
@@ -346,8 +346,8 @@
       "ש\"ד"
     ],
     "physical_description": {
-      "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d3e528",
-      "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+      "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d3e528",
+      "describing": "manus!judsam!2009!sep!dsh!object41158",
       "described": false,
       "medium": "Paper",
       "extent": "113 fols.",
@@ -359,9 +359,9 @@
         "title": "The Judaica Collection: The David Simonsen Manuscripts",
         "content": "mixed material",
         "entity_type": "collection",
-        "describing": "5bb81323-78a8-45f8-8631-f78ee1251d02",
+        "describing": "manus!judsam!2009!sep!dsh!object41158",
         "described": false,
-        "id": "5bb81323-78a8-45f8-8631-f78ee1251d02!disposable!subrecord!d1e536"
+        "id": "manus!judsam!2009!sep!dsh!object41158!disposable!subrecord!d1e536"
       }
     ],
     "language": [

@@ -41,7 +41,7 @@ for file in ${mods_files[@]}; do
     
     use_id=''
     if [ "$USE_UUID" = "uuid" ]; then
-	use_id="record_identifier=`uuidgen`"
+	use_id=" collection_identifier=qwertycollection collection_type=quertyquerty record_identifier=`uuidgen` "
 	echo "$use_id"
     fi
 

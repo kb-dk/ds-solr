@@ -16,6 +16,7 @@
   <xsl:param name="record_identifier" select="''"/>
   <xsl:param name="debug_params" select="''"/>
   <xsl:param name="collection_identifier" select="''"/>
+  <xsl:param name="collection_type" select="''"/>
   
   <xsl:template match="/">
 
@@ -453,7 +454,8 @@
               <f:string key="original_object_identifier"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
-            <xsl:if test="m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
+            <xsl:if test="$collection_identifier or
+                          m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
               <f:array key="collection">
                 <xsl:for-each select="m:relatedItem[m:typeOfResource/@collection='yes']">
                   <f:map>
@@ -466,12 +468,40 @@
                     <f:boolean key="described">false</f:boolean>
                     <f:string key="id">
                       <xsl:value-of
-
-                          select="concat($record-id,concat($sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id()))"/>
+                          select="concat($record-id,
+                                         concat($sep_string,
+                                                'disposable',
+                                                 $sep_string,
+                                                 'subrecord',
+                                                 $sep_string,
+                                                 generate-id()))"/>
+                    </f:string>
+                  </f:map>
+                </xsl:for-each>
+                <xsl:if test="$collection_identifier">
+                  <f:map>
+                    <f:string key="title"><xsl:value-of select="$collection_identifier"/></f:string>
+                    <xsl:if test="$collection_type">
+                      <f:string key="content">
+                        <xsl:value-of select="$collection_type"/>
+                      </f:string>
+                    </xsl:if>
+                    <f:string key="entity_type">collection</f:string>
+                    <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                    <f:boolean key="described">false</f:boolean>
+                    <f:string key="id">
+                      <xsl:value-of
+                          select="concat($collection_identifier,
+                                  concat($sep_string,
+                                         'disposable',
+                                          $sep_string,
+                                          'subrecord',
+                                          $sep_string,
+                                          generate-id()))"/>
 
                     </f:string>
                   </f:map>
-              </xsl:for-each>
+                </xsl:if>
               </f:array>
             </xsl:if>
             

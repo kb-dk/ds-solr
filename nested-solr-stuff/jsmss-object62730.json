@@ -1,11 +1,11 @@
 [
   {
-    "id": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+    "id": "manus!judsam!2010!maj!jsmss!object62730",
     "described": true,
     "entity_type": "the_object",
     "solr_summary_record": {
-      "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!summary",
-      "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+      "id": "manus!judsam!2010!maj!jsmss!object62730!summary",
+      "describing": "manus!judsam!2010!maj!jsmss!object62730",
       "described": false,
       "entity_type": "solr_summary_record",
       "title": [
@@ -38,9 +38,9 @@
     "cataloging_language": "en",
     "last_modified_by": [
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d1e53",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e53",
         "described": false,
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "language": "en",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:eja"
@@ -50,52 +50,52 @@
     "record_revised": "2011-05-25",
     "tit": [
       {
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
         "language": "he",
         "entity_type": "title main",
         "title": [
           "תנ\"ך - כתובים"
         ],
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d1e26"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e26"
       },
       {
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
         "language": "en",
         "entity_type": "title alternative",
         "title": [
           "Third Copenhagen Hispano Portugese Bible (Cod. Heb. 7-9)"
         ],
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d1e32"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e32"
       },
       {
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
         "language": "he",
         "entity_type": "title alternative",
         "title": [
           "תורה נביאים וכתובים"
         ],
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d1e39"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e39"
       },
       {
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
         "language": "en",
         "entity_type": "title transcribed",
         "title": [
           "Tanakh: Ketuvim"
         ],
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d1e45"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e45"
       }
     ],
     "note": [
       "Incomplete. Acquired for the The Royal Library by F. C. von Haven in 1762 (The Arabian Journey 1761-1767; for more information, see <www.kb.dk/da/nb/samling/js/CN/CH7-9.html>)."
     ],
     "specific_notes": {
-      "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e138",
-      "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+      "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e138",
+      "describing": "manus!judsam!2010!maj!jsmss!object62730",
       "described": false,
       "content": "The Scriptures (Ps. 10,14b - Est. 10,3)",
       "script": "Square Sefardi script",
@@ -110,74 +110,74 @@
     ],
     "categories": [
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e162",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e162",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject748",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject748",
         "subject_name_da": "Judaistisk Samling: Håndskrifter",
         "subject_name_en": "Judaica Collection: Manuscripts"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e173",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e173",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject755",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject755",
         "subject_name_da": "Sprog",
         "subject_name_en": "Language"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e184",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e184",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject756",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject756",
         "subject_name_da": "Hebraisk",
         "subject_name_en": "Hebrew"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e195",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e195",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject749",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject749",
         "subject_name_da": "Ophavsland",
         "subject_name_en": "Country of origin"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e206",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e206",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject858",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject858",
         "subject_name_da": "Spanien",
         "subject_name_en": "Spain"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e217",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e217",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject751",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject751",
         "subject_name_da": "Opstillingssignatur",
         "subject_name_en": "Opstillingssignatur"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e228",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e228",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject752",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject752",
         "subject_name_da": "Cod. Heb. 001-046",
         "subject_name_en": "Cod. Heb. 001-046"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e239",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e239",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject856",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject856",
         "subject_name_da": "Cod. Heb. 001-010",
         "subject_name_en": "Cod. Heb. 001-010"
       },
       {
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e250",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e250",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "entity_id": "subject859",
+        "entity_id": "manus!judsam!2010!maj!jsmss!subject859",
         "subject_name_da": "Cod. Heb. 009",
         "subject_name_en": "Cod. Heb. 009"
       }
@@ -188,8 +188,8 @@
       "1450/1492-02-02"
     ],
     "physical_description": {
-      "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d3e268",
-      "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+      "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d3e268",
+      "describing": "manus!judsam!2010!maj!jsmss!object62730",
       "described": false,
       "medium": "Parchment",
       "extent": "66 fols.",
@@ -201,9 +201,9 @@
         "title": "The Judaica Collection",
         "content": "mixed material",
         "entity_type": "collection",
-        "describing": "0b18063e-1f77-41d9-99a3-858324ff16e2",
+        "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "id": "0b18063e-1f77-41d9-99a3-858324ff16e2!disposable!subrecord!d1e253"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e253"
       }
     ],
     "language": [

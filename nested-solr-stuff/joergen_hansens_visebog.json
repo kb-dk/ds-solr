@@ -1,11 +1,11 @@
 [
   {
-    "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+    "id": "manus!musman!2010!dec!viser!object51196",
     "described": true,
     "entity_type": "the_object",
     "solr_summary_record": {
-      "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca!summary",
-      "describing": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+      "id": "manus!musman!2010!dec!viser!object51196!summary",
+      "describing": "manus!musman!2010!dec!viser!object51196",
       "described": false,
       "entity_type": "solr_summary_record",
       "title": [
@@ -24,9 +24,9 @@
     "cataloging_language": "da",
     "last_modified_by": [
       {
-        "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca!disposable!subrecord!d1e71",
+        "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d1e71",
         "described": false,
-        "describing": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+        "describing": "manus!musman!2010!dec!viser!object51196",
         "language": "da",
         "entity_type": "last-modified-by",
         "agent_name": "cumulus:blo"
@@ -34,21 +34,21 @@
     ],
     "tit": [
       {
-        "describing": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+        "describing": "manus!musman!2010!dec!viser!object51196",
         "described": false,
         "language": "da",
         "entity_type": "title main",
         "title": [
           "Jørgen Hansens visebog"
         ],
-        "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca!disposable!subrecord!d1e50"
+        "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d1e50"
       }
     ],
     "aut": [
       {
-        "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca!disposable!subrecord!d1e56",
+        "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d1e56",
         "described": false,
-        "describing": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+        "describing": "manus!musman!2010!dec!viser!object51196",
         "language": "da",
         "entity_type": "aut",
         "agent_name": "Dansk Folkemindesamling"
@@ -59,26 +59,26 @@
     ],
     "categories": [
       {
-        "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca!disposable!subrecord!d3e79",
-        "describing": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+        "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e79",
+        "describing": "manus!musman!2010!dec!viser!object51196",
         "described": false,
-        "entity_id": "subject398",
+        "entity_id": "manus!musman!2010!dec!viser!subject398",
         "subject_name_da": "Jørgen Hansens visebog",
         "subject_name_en": "Jørgen Hansens visebog"
       },
       {
-        "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca!disposable!subrecord!d3e90",
-        "describing": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+        "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e90",
+        "describing": "manus!musman!2010!dec!viser!object51196",
         "described": false,
-        "entity_id": "subject6015",
+        "entity_id": "manus!musman!2010!dec!viser!subject6015",
         "subject_name_da": "Visebøger, håndskrevne",
         "subject_name_en": "Visebøger, håndskrevne"
       },
       {
-        "id": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca!disposable!subrecord!d3e101",
-        "describing": "66990e5b-b614-46d6-a6a8-eb687ac8f4ca",
+        "id": "manus!musman!2010!dec!viser!object51196!disposable!subrecord!d3e101",
+        "describing": "manus!musman!2010!dec!viser!object51196",
         "described": false,
-        "entity_id": "subject6925",
+        "entity_id": "manus!musman!2010!dec!viser!subject6925",
         "subject_name_da": "Dansk Folkemindesamling",
         "subject_name_en": "Dansk Folkemindesamling"
       }
