@@ -1,11 +1,13 @@
 {
-    "@context": [
-	"http://schema.org/",
-	{"kb": "http://kb.dk/vocabs/"}
-    ],
+    "@context": "http://schema.org/",
     "@type": "DataFeed",
     "dataFeedElement": [
 	{
+	    "@context": [
+		"http://schema.org/",
+		{"kb": "http://kb.dk/vocabs/"},
+		{"relators":"https://id.loc.gov/vocabulary/relators/"}
+	    ],
 	    "id": "images!luftfo!2011!maj!luftfoto!object322504",
 	    "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/object322504",
 	    "@type": "VisualArtwork",

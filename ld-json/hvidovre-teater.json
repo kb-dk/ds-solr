@@ -1,0 +1,172 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object356751",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Hvidovre Teater",
+          "@language": "da"
+        }
+      ],
+      "artist": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/25276097",
+          "name": {
+            "@language": "da",
+            "@value": "Seidel, Claus (1946-05-24)"
+          }
+        }
+      ],
+      "description": [
+        "Sprittusch og raster",
+        "Klassiker"
+      ],
+      "kb:situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
+      "about": [
+        {
+          "@type": "Event",
+          "name": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
+          "description": [
+            "Revykomedie af Abell, Kjeld (1901-1961) dramatiker"
+          ],
+          "startDate": "1987",
+          "endDate": "1987",
+          "location": "Hvidovre Teater, Hvidovre"
+        },
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/312847028",
+          "name": {
+            "@language": "",
+            "@value": "Lind, Lane (1945-)"
+          }
+        },
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/316745351",
+          "name": {
+            "@language": "",
+            "@value": "Sandø, Waage (1943-)"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2135",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Særudgivelser"
+            },
+            {
+              "@language": "en",
+              "@value": "Særudgivelser"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject4277",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Seidel, Claus"
+            },
+            {
+              "@language": "en",
+              "@value": "Seidel, Claus"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject6229",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Bladtegninger"
+            },
+            {
+              "@language": "en",
+              "@value": "Bladtegninger"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1987-01-31",
+        "startDate": "1987-01-31",
+        "description": [
+          "1987-01-31"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Tegning"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "db_claus_seidel_00459.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

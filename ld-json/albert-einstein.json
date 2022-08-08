@@ -1,0 +1,203 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object7871",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object7871/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2011-08-01",
+        "kb:record_revised": "2013-04-16",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter from Einstein, Albert to Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/75121530",
+          "name": {
+            "@language": "en",
+            "@value": "Einstein, Albert"
+          },
+          "homeLocation": [
+            "de",
+            "Berlin"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesEEi"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesEEi"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4795",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "E"
+            },
+            {
+              "@language": "en",
+              "@value": "E"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4796",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Ei"
+            },
+            {
+              "@language": "en",
+              "@value": "Ei"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David SimonsenEinstein, Albert0001"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David SimonsenEinstein, Albert0001"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5384",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Einstein, Albert"
+            },
+            {
+              "@language": "en",
+              "@value": "Einstein, Albert"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5385",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0001"
+            },
+            {
+              "@language": "en",
+              "@value": "0001"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1920-06-27",
+        "startDate": "1920-06-27",
+        "description": [
+          "1920-06-27"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "1 p."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_eaa-ejc_0865.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/11d64f10-bc2e-11e0-a487-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "de"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_7/non-archival/Letters/judsam/2010/jan/dsa/eaa-ejc/dsa_eaa-ejc_0865/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

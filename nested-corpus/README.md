@@ -52,14 +52,18 @@ by its relator code. Hence
 
 There are perhaps a handfull relators in use.
 
-* act - actor
-* art - artist (in this example a cartoonist)
-* aut - author
-* creator - a general originator role
-* ctb - Contributor
-* rcp - Addressee (as in recipient of a letter)
-* scr - Scribe
-* trl - Translator
+|marc relator/synonym| meaning |schema.org|
+|:----|:------|:-----|
+| act | actor | https://schema.org/actor |
+| art | artist (in this example a cartoonist) | https://schema.org/artist |
+| aut | author | https://schema.org/author |
+| cre / creator | a general originator role | https://schema.org/creator |
+| ctb | Contributor | https://schema.org/contributor |
+| rcp | Addressee (as in recipient of a letter) |https://schema.org/recipient|
+| scr | Scribe | no good mapping  https://schema.org/contributor |
+| trl | Translator |https://schema.org/translator|
+| pat | Patron | https://schema.org/funder |
+| prt | Printer | no good mapping https://schema.org/contributor |
 
 I propose that the search user interface have three Agent role aggregations 
 
