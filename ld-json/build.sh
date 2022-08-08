@@ -1,9 +1,11 @@
 #!/bin/bash
 
 SOURCE="../nested-corpus"
+
 TRANSFORM_TO_SCHEMAORG="mods2schemaorg.xsl"
 TRANSFORM_TO_IIIF="mods2iiif.xsl"
 TRANSFORM_METS_TO_IIIF="mods-mets2iiif.xsl"
+
 
 : ${SAXON_JAR:="/home/$USER/saxon/saxon9he.jar"}
 if [[ ! -s "$SAXON_JAR" ]]; then
