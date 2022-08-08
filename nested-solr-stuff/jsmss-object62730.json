@@ -38,7 +38,7 @@
     "cataloging_language": "en",
     "last_modified_by": [
       {
-        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e84",
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e53",
         "described": false,
         "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "language": "en",
@@ -57,7 +57,7 @@
         "title": [
           "תנ\"ך - כתובים"
         ],
-        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e57"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e26"
       },
       {
         "describing": "manus!judsam!2010!maj!jsmss!object62730",
@@ -67,7 +67,7 @@
         "title": [
           "Third Copenhagen Hispano Portugese Bible (Cod. Heb. 7-9)"
         ],
-        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e63"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e32"
       },
       {
         "describing": "manus!judsam!2010!maj!jsmss!object62730",
@@ -77,7 +77,7 @@
         "title": [
           "תורה נביאים וכתובים"
         ],
-        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e70"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e39"
       },
       {
         "describing": "manus!judsam!2010!maj!jsmss!object62730",
@@ -87,7 +87,7 @@
         "title": [
           "Tanakh: Ketuvim"
         ],
-        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e76"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e45"
       }
     ],
     "note": [
@@ -203,7 +203,7 @@
         "entity_type": "collection",
         "describing": "manus!judsam!2010!maj!jsmss!object62730",
         "described": false,
-        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e284"
+        "id": "manus!judsam!2010!maj!jsmss!object62730!disposable!subrecord!d1e253"
       }
     ],
     "language": [

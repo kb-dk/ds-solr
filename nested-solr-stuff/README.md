@@ -93,6 +93,21 @@ Two pieces software have been written:
   checking. It is for making the resulting JSON debuggable. Available
   as standard module for most linux distros.
   
+* mods2saxon.xsl can read parameters for setting a the record id, which is useful if it isn't passed along inside the the MODS.
+  Note that it assumes that the passed parameter is a scalar, whereas the XML may contain many records in a
+``` 
+  <modsCollection> ... </modsCollection>.
+``` 
+When using the `record_identifier` parameter, the xsl throws an exception if there are multiple records in the same file. I.e., there is a 
+
+```
+    <xsl:if test="count(//m:mods) &gt; 1 and $record_identifier">
+      <xsl:message terminate="yes">Fatal: We were passed one single record_identifier but have multiple records.</xsl:message>
+    </xsl:if>
+```
+
+I.e., saxon will terminate.
+
 No attempts has been made to transform the TEI letter stuff. I can do that at a later stage.
 
 ### Cumulus categories

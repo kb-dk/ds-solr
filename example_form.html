@@ -11,7 +11,7 @@
       <div style="width:30%; float:left;">
         <h3>Form</h3>
         
-        <form id="search_form" target="_null_"  action="http://localhost:10007/solr/ds/select">
+        <form id="search_form" target="_null_"  action="http://devel11.statsbiblioteket.dk:10007/solr/ds/select">
           <dl>
             <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><textarea id="solr_q" name="q"  cols="30" rows="10">agent_name:albert</textarea></dd>
             <dt>Filter Query (fq)</dt>
@@ -46,7 +46,7 @@
               <select id="querytype" name="defType">
                 <option value="edismax">edismax</option>
                 <option value="dismax">dismax</option>
-                <option value="lucene">lucene</option>
+                <option selected="selected" value="lucene">lucene</option>
               </select>
             </dd>
 
@@ -458,8 +458,8 @@ score desc
                     document.getElementById('solr_fq').value = '';
                     document.getElementById('solr_fl').value = '*,[child]';
                     document.getElementById('num_hits').value = '300';">
-            (1 hits) <strong style="color:yellow;">Possible success!</strong>
-          </a>.
+            (1 hits) <strong style="color:red;">Failure!</strong>
+          </a>. (A long dirty exception).
 
           Not sure the sorting is reasonable.
           
@@ -485,7 +485,7 @@ score desc
             </a>.
         </p>
 
-        <p><strong>7.</strong> childfield() function seems OK!!!!
+        <p><strong>7.</strong> childfield() function seems OK!!!! No, it's broken here
         <a href="#form"
            onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
                     var sort_function = document.getElementById('childfield_search_childfunction').innerHTML;
@@ -497,7 +497,7 @@ score desc
                     document.getElementById('solr_fq').value = '';
                     document.getElementById('solr_fl').value = '*,[child]';
                     document.getElementById('num_hits').value = '300';">
- 	<kbd>sort=<span id="childfield_search_childfunction">childfield(title_sort) asc</span></kbd> Might actually work  <strong style="color:yellow;">Promising</strong>.
+ 	<kbd>sort=<span id="childfield_search_childfunction">childfield(title_sort) asc</span></kbd> Might actually work  <strong style="color:red;">Failure</strong>.
             </a>. Changing asc to desc yields another order.
             
 

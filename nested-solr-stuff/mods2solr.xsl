@@ -13,8 +13,21 @@
   <!-- xsl:output method="xml" / -->
 
   <xsl:param name="sep_string" select="'!'"/>
+  <xsl:param name="record_identifier" select="''"/>
+  <xsl:param name="debug_params" select="''"/>
+  <xsl:param name="collection_identifier" select="''"/>
+  <xsl:param name="collection_type" select="''"/>
   
   <xsl:template match="/">
+
+    <xsl:if test="$record_identifier and $debug_params">
+      <xsl:message>Using  <xsl:value-of select="$record_identifier"/></xsl:message>
+    </xsl:if>
+    
+    <xsl:if test="count(//m:mods) &gt; 1 and $record_identifier">
+      <xsl:message terminate="yes">Fatal: We were passed one single record_identifier but have multiple records.</xsl:message>
+    </xsl:if>
+    
     <xsl:variable name="json">
       <f:array>
         <xsl:for-each select="//m:mods">
@@ -22,11 +35,16 @@
 
           <xsl:variable name="record-id-in">
             <xsl:choose>
-              <xsl:when test="processing-instruction('cobject_id')">
-                <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
-              </xsl:when>
+              <xsl:when test="$record_identifier"><xsl:value-of select="$record_identifier"/></xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="replace(m:recordInfo/m:recordIdentifier,'^/','')"/>
+                <xsl:choose>
+                  <xsl:when test="processing-instruction('cobject_id')">
+                    <xsl:value-of select="replace(processing-instruction('cobject_id'),'^/','')"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="replace(m:recordInfo/m:recordIdentifier,'^/','')"/>
+                  </xsl:otherwise>
+                </xsl:choose>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
@@ -436,7 +454,8 @@
               <f:string key="original_object_identifier"><xsl:value-of select="."/></f:string>
             </xsl:for-each>
 
-            <xsl:if test="m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
+            <xsl:if test="$collection_identifier or
+                          m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
               <f:array key="collection">
                 <xsl:for-each select="m:relatedItem[m:typeOfResource/@collection='yes']">
                   <f:map>
@@ -449,12 +468,40 @@
                     <f:boolean key="described">false</f:boolean>
                     <f:string key="id">
                       <xsl:value-of
-
-                          select="concat($record-id,concat($sep_string,'disposable',$sep_string,'subrecord',$sep_string,generate-id()))"/>
+                          select="concat($record-id,
+                                         concat($sep_string,
+                                                'disposable',
+                                                 $sep_string,
+                                                 'subrecord',
+                                                 $sep_string,
+                                                 generate-id()))"/>
+                    </f:string>
+                  </f:map>
+                </xsl:for-each>
+                <xsl:if test="$collection_identifier">
+                  <f:map>
+                    <f:string key="title"><xsl:value-of select="$collection_identifier"/></f:string>
+                    <xsl:if test="$collection_type">
+                      <f:string key="content">
+                        <xsl:value-of select="$collection_type"/>
+                      </f:string>
+                    </xsl:if>
+                    <f:string key="entity_type">collection</f:string>
+                    <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
+                    <f:boolean key="described">false</f:boolean>
+                    <f:string key="id">
+                      <xsl:value-of
+                          select="concat($collection_identifier,
+                                  concat($sep_string,
+                                         'disposable',
+                                          $sep_string,
+                                          'subrecord',
+                                          $sep_string,
+                                          generate-id()))"/>
 
                     </f:string>
                   </f:map>
-              </xsl:for-each>
+                </xsl:if>
               </f:array>
             </xsl:if>
             
