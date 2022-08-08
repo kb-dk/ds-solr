@@ -1,0 +1,57 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/hvidovre-teater_iiif.json",
+  "label": {
+    "da": [
+      "Hvidovre Teater"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "type": "Canvas",
+      "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json",
+      "height": 5734,
+      "width": 6117,
+      "items": [
+        {
+          "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/full/!1225,/0/default.jpg",
+                "thumbnail": [
+                  {
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/full/!225,/0/default.jpg",
+                    "format": "image/jpeg",
+                    "type": "Image"
+                  }
+                ],
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5734,
+                "width": 6117,
+                "service": [
+                  {
+                    "id": "https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

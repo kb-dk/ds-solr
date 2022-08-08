@@ -1,0 +1,5093 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object307721",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object307721/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Træskærerarbejde",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "neg. 146110"
+      ],
+      "about": [
+        "Grønland,",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland 8°, Diverse kunst og arkæologi"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT133484.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/4dc2e130-80fc-11e6-a08e-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133484/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object307723",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object307723/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Træskærerarbejde",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "neg. 146110"
+      ],
+      "about": [
+        "Grønland,",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland 8°, Diverse kunst og arkæologi"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT133485.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/73b14490-80fc-11e6-a08e-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133485/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object307724",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object307724/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Træfigur i folkedragt",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "neg. 146110"
+      ],
+      "about": [
+        "Grønland,",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland 8°, Diverse kunst og arkæologi"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT129048.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/87d49a30-80fc-11e6-a08e-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT129048/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object307725",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object307725/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kranium",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Bengtsson, Sophus (10.5.1874-4.1946) fotograf"
+          }
+        }
+      ],
+      "description": [
+        "neg. 146110"
+      ],
+      "about": [
+        "Grønland,",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1900-1946"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland 8°, Diverse kunst og arkæologi"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT133486.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/9b1fb840-80fc-11e6-a08e-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BILLED/Migrering/DT19/DT19Pix/DT133486/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50181",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50181/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "lejr",
+        "telte",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511167.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/a7a0ac20-e34f-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511167/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50184",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50184/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "hav",
+        "fjeld",
+        "Is",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511170-03.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/1401ba80-e350-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511170-03/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50183",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50183/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "sø",
+        "fjeld",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511170-02.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/f115e8c0-e34f-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511170-02/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50188",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50188/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "sø",
+        "gletscher",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511175.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/9eb8bed0-e350-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511175/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object5039",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object5039/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kirken og Lægens Bolig ved Iacobshavn i Nord Grönland",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Rudolph, Emilie Nicoline Caroline (28.10.1816-5.5.1852) tegner"
+          }
+        }
+      ],
+      "description": [
+        "koloreret",
+        "DT131162"
+      ],
+      "about": [
+        "Ilulissat",
+        "Grønland, Jacobshavn",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1847"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Grafik"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Den Topografiske Samling. Grønland 4to. Grønland, Jakobshavn, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "046297.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/9d07e340-717f-11e0-82d7-002185371280"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/samlingsbilleder/1000/046297/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object5041",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object5041/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kolonien Holstensborg i Sydgrønland",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "DT126724"
+      ],
+      "about": [
+        "Grønland, Holstensborg",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Tegning"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 2°, Holstensborg"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "000846.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/9d1b1d20-717f-11e0-82d7-002185371280"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/samlingsbilleder/1000/000846/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object11367",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object11367/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Julianehåb forsamlingshus",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "Interiør",
+        "Grønland, Julianehåb, forsamlingshuset",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "160692.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/c8d4d9a0-7180-11e0-82d7-002185371280"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/samlingsbilleder/2429/160692/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object17733",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object17733/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Nûk - Godthaab",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Møller, Lars Peter Silas Mathæus (9.1.1842-21.1.1926) bogtrykker, redaktør, tegner, xylograf, fotograf"
+          }
+        }
+      ],
+      "description": [
+        "neg. 56352",
+        "DT129998"
+      ],
+      "about": [
+        "Topografi",
+        "Grønland, Godthåb prospekter",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1870-1879"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Grafik"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 4°, Godthåb prospekter, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "0565352.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/dc559130-7181-11e0-82d7-002185371280"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_4/non-archival/samlingsbilleder/4075/0565352/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50189",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50189/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "Gletscher",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511178.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/c22b4cc0-e350-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511178/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object5021",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object5021/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Nyherrnhut kirke",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "DT127167"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 9"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "500675.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/9c41ad10-717f-11e0-82d7-002185371280"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/samlingsbilleder/1000/500675/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object11499",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object11499/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:blo"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Holger Danske i Arsukfjorden",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Carl Stenders Kunstforlag (1888-1995)"
+          }
+        }
+      ],
+      "description": [
+        "neg. 26000-27514",
+        "DT129310"
+      ],
+      "about": [
+        "Skib",
+        "Grønland, Arsuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1888-1995"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 4°, Arsuk, 3"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "027514.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/cf69b9c0-7180-11e0-82d7-002185371280"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/samlingsbilleder/3229/027514/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50182",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50182/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "sø",
+        "fjeld",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511170-01.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/cc4ddcf0-e34f-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511170-01/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50185",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50185/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "gletscher",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511171-01.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/367c2cd0-e350-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511171-01/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50186",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50186/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "gletscher",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511171-02.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/57150de0-e350-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511171-02/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object50187",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object50187/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Grønland",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "fjeld",
+        "Grønland",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "511171-03.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/7ca54bb0-e350-11de-963b-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_8/non-archival/samlingsbilleder/KOB/2009/511171-03/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414525",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414525/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Knæene ved Godhavn",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 9"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127063.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "7cce8f70-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/525/DT127063/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414526",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414526/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Angmagssætfangst ved Godhavn. Folkeliv",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 14"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127085.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "7dde78d0-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/526/DT127085/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414527",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414527/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Elmquists Spand. Hundeslæde",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 13"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127081.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "7f0aeae0-1548-11e7-a7b8-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/527/DT127081/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414528",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414528/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Hvalfangersluppen ved Godhavn",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 14"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127087.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "808fb620-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/528/DT127087/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414529",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414529/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Fra Godthaab 1904-05",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "190?"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127089.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "81e4bed0-1548-11e7-a7b8-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/529/DT127089/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414530",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414530/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Udsigt fra inspektørvarden mod Kolonien med storis",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127091.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "81db48f0-1548-11e7-8f00-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/530/DT127091/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414531",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414531/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Angmagssætfangst ved Godhavn",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 14"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127086.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "8321f9c0-1548-11e7-a7b8-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/531/DT127086/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414533",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414533/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "En ugssuk parteres. Folkeliv",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 13"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127083.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "84ddb380-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/533/DT127083/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414532",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414532/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Prospekt",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "postkort"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127093.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "83d9b100-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/532/DT127093/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414534",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414534/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Blæsedalen ved Godhavn",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 11"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127072.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "85c9c130-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/534/DT127072/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414536",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414536/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kolonien Godthaab",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Schou jun., Max (Albert) (16.10.1878-20.7.1944) fotograf"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede, No. 388"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1902"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127090.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "87096d20-1548-11e7-a7b8-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/536/DT127090/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414535",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414535/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Prospekt",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "postkort"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127094.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "86921a40-1548-11e7-a7b8-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/535/DT127094/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414537",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414537/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kolonien Godthaab, 1922",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "postkort"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1922"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127095.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "87f7ebd0-1548-11e7-baa7-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/537/DT127095/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414538",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414538/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Godthaab",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Budtz Müller & Co."
+          }
+        },
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Müller, Bertel Christian Budtz (26.12.1837-30.12.1884) fotograf"
+          }
+        }
+      ],
+      "description": [
+        "fotografisk gengivelse af tegning"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1863-1900"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127099.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "88b918f0-1548-11e7-baa7-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/538/DT127099/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414539",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414539/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Godthaab",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Lynge, Kr."
+          }
+        }
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1920"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127097.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "899bb0c0-1548-11e7-baa7-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/539/DT127097/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414540",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414540/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kolonien Godthaab fra oven",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "postkort"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127096.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "8b3f75b0-1548-11e7-baa7-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/540/DT127096/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414542",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414542/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Merkut. Sofie Wæwer",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "da",
+            "@value": "Elfelt, Lars Peter (1.1.1866-18.2.1931) hoffotograf, filminstruktør"
+          }
+        }
+      ],
+      "description": [
+        "stereoskopbillede"
+      ],
+      "about": [
+        "Grønland, Godhavn",
+        "Grønland, Qeqertarsuaq",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1866-1931"
+        ]
+      },
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godhavn, 14"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127088.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "8c64e2e0-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/542/DT127088/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414541",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414541/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Prospekt",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 2"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127102.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "8baf9ca0-1548-11e7-bac5-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/541/DT127102/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414543",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414543/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Prospekt",
+          "@language": "da"
+        }
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 2"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127100.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "8cb85a10-1548-11e7-baa7-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/543/DT127100/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414544",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414544/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Kolonien Godthaab, Sydgrönland",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "neg. 199690"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 2"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127106.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "8ddb5640-1548-11e7-8f00-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/544/DT127106/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/billed/2010/okt/billeder/object414545",
+      "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object414545/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:medh"
+            }
+          }
+        ],
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Prospekt",
+          "@language": "da"
+        }
+      ],
+      "description": [
+        "postkort"
+      ],
+      "about": [
+        "Grønland, Godthaab",
+        "Grønland, Nuuk",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2108",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Billeder"
+            },
+            {
+              "@language": "en",
+              "@value": "Billeder"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject2109",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Samlinger"
+            },
+            {
+              "@language": "en",
+              "@value": "Samlinger"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5708",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Grønland"
+            },
+            {
+              "@language": "en",
+              "@value": "Grønland"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/billed/2010/okt/billeder/subject5786",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Topografisk samling"
+            },
+            {
+              "@language": "en",
+              "@value": "Topografisk samling"
+            }
+          ]
+        }
+      ],
+      "material": {
+        "@type": "Product",
+        "@value": "Fotografi"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "Billedsamlingen. Topografisk samling, Grønland, 8°, Godthaab, 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "DT127092.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "8ee8f5b0-1548-11e7-8f00-00505688346e"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "http://kb-images.kb.dk/DAMJP2/DAM/Samlingsbilleder/0000/414/545/DT127092/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

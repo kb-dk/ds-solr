@@ -1,0 +1,159 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "VisualArtwork",
+      "id": "images/luftfo/2011/maj/luftfoto/object322504",
+      "url": "http://www5.kb.dk/danmarksetfraluften/images/luftfo/2011/maj/luftfoto/object322504",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "da",
+              "@value": "cumulus:cumulus"
+            }
+          }
+        ],
+        "kb:record_created": "2007-10-09",
+        "kb:record_revised": "2016-07-28",
+        "kb:cataloging_language": "da"
+      },
+      "headline": [
+        {
+          "@value": "Næblerødvej 32, Næblerød - 1936-1939 -",
+          "@language": "da"
+        }
+      ],
+      "creator": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/307245669",
+          "name": {
+            "@language": "",
+            "@value": "Sylvest Jensen Luftfoto"
+          }
+        }
+      ],
+      "contentLocation": [
+        {
+          "@type": "Place",
+          "kb:address": {
+            "@type": "kb:place",
+            "kb:area": "Præsteskov",
+            "kb:cadastre": "17b",
+            "kb:parish": "Tystrup",
+            "kb:building": "Jægerhytten",
+            "kb:zipcode": "4250",
+            "kb:housenumber": "32",
+            "kb:street": "Næblerødvej",
+            "kb:city": "Fuglebjerg"
+          },
+          "latitude": "55.35492968597365",
+          "longitude": "11.532704574783565"
+        }
+      ],
+      "about": [
+        "kastrup storskov",
+        "hestekøretøj",
+        "præsteskov",
+        "Danmark, Sjælland, Sorø, Tystrup",
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject203",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Luftfoto"
+            },
+            {
+              "@language": "en",
+              "@value": "Luftfoto"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject204",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Sylvest Jensen"
+            },
+            {
+              "@language": "en",
+              "@value": "Sylvest Jensen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject251",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "NK-Serie"
+            },
+            {
+              "@language": "en",
+              "@value": "NK-Serie"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "images/luftfo/2011/maj/luftfoto/subject843",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Hovedstaden"
+            },
+            {
+              "@language": "en",
+              "@value": "Hovedstaden"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "description": [
+          "1936-1939"
+        ]
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "shelf_mark",
+          "@value": "St. Dyr."
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "sylvest_nks_00950_6.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/d5ca3d60-8344-11df-8554-0016357f605f"
+        }
+      ],
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/samlingsbilleder/sylvest/nks/sylvest_nks_00950_6/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

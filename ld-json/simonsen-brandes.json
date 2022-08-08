@@ -1,0 +1,1803 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2678",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2678/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1958",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0005"
+            },
+            {
+              "@language": "en",
+              "@value": "0005"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1916-04-12",
+        "startDate": "1916-04-12",
+        "description": [
+          "1916-04-12"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0029.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/af930070-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0029/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0030/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2671",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2671/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "Taarbæk"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1954",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0002"
+            },
+            {
+              "@language": "en",
+              "@value": "0002"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1915-05-18",
+        "startDate": "1915-05-18",
+        "description": [
+          "1915-05-18"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0022.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/21ddb040-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0022/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0023/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2681",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2681/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter from Brandes, Georg to Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1961",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0009"
+            },
+            {
+              "@language": "en",
+              "@value": "0009"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1927-02-19",
+        "startDate": "1892-01-01",
+        "description": [
+          "3. juni"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "1 p."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0033.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/f32324f0-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0033/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2674",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2674/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "Taarbæk"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1956",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0004"
+            },
+            {
+              "@language": "en",
+              "@value": "0004"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1915-06-23",
+        "startDate": "1915-06-23",
+        "description": [
+          "1915-06-23"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "1 p."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0025.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/61f94770-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0025/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2680",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2680/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1960",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0008"
+            },
+            {
+              "@language": "en",
+              "@value": "0008"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1920-03-25",
+        "startDate": "1920-03-25",
+        "description": [
+          "1920-03-25"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "1 p."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0032.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/dcd9e210-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0032/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2676",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2676/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1957",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0006"
+            },
+            {
+              "@language": "en",
+              "@value": "0006"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1916-04-14",
+        "startDate": "1916-04-14",
+        "description": [
+          "1916-04-14"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0027.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/85e487d0-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0027/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0028/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2670",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2670/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1953",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0001"
+            },
+            {
+              "@language": "en",
+              "@value": "0001"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1914-10-29",
+        "startDate": "1914-10-29",
+        "description": [
+          "1914-10-29"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0020.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/0c414f30-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0020/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0021/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2679",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2679/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1959",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0007"
+            },
+            {
+              "@language": "en",
+              "@value": "0007"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1920-03-19",
+        "startDate": "1920-03-19",
+        "description": [
+          "1920-03-19"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "1 p."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0031.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/c64bf510-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0031/info.json"
+          ]
+        }
+      ]
+    },
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object2673",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object2673/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2010-12-23",
+        "kb:record_revised": "2011-03-17",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter to Brandes, Georg from Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/54951228",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "Taarbæk"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "sameAs": "http://viaf.org/viaf/4938982",
+          "name": {
+            "@language": "en",
+            "@value": "Brandes, Georg"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1925",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Br"
+            },
+            {
+              "@language": "en",
+              "@value": "Br"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1952",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Brandes, Georg"
+            },
+            {
+              "@language": "en",
+              "@value": "Brandes, Georg"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject1955",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0003"
+            },
+            {
+              "@language": "en",
+              "@value": "0003"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen ArchivesB"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen ArchivesB"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject49",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "B"
+            },
+            {
+              "@language": "en",
+              "@value": "B"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1915-05-23",
+        "startDate": "1915-05-23",
+        "description": [
+          "1915-05-23"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "1 p."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_bra-boer_0024.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/4a773670-0e89-11e0-a6d2-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv/non-archival/Letters/judsam/2010/jan/dsa/bra-boer/dsa_bra-boer_0024/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "https://raw.githubusercontent.com/kb-dk/ds-solr/iiif-presentation/ld-json/boethius-consolatio-philosophiae_iiif.json",
+  "label": {
+    "dan": [
+      "Boethius, Consolatio Philosophiae"
+    ],
+    "eng": [
+      "Boethius, Consolatio Philosophiae"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_002.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_002.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_003.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_003.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_004.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_004.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_005.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_005.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_006.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_006.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_007.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_007.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_008.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_008.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_009.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_009.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_010.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_010.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_011.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_011.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_012.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_012.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_013.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_013.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_014.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_014.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_015.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_015.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_016.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_016.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_017.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_017.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_018.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_018.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_019.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_019.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_020.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_020.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_021.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_021.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_022.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_022.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_023.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_023.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_024.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_024.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_025.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_025.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_026.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_026.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_027.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_027.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_028.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_028.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_029.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_029.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_030.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_030.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_031.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_031.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_032.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_032.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_033.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_033.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_034.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_034.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_035.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_035.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_036.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_036.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_037.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_037.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_038.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_038.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_039.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_039.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_040.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_040.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_041.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_041.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_042.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_042.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_043.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_043.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_044.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_044.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_045.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_045.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_046.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_046.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_047.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_047.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_048.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_048.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_049.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_049.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_050.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_050.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_051.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_051.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_052.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_052.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_053.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_053.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_054.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_054.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_055.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_055.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_056.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_056.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_057.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_057.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_058.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_058.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_059.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_059.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_060.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_060.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_061.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_061.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_062.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_062.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_063.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_063.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_064.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_064.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_065.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_065.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_066.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_066.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_067.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_067.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_068.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_068.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_069.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_069.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_070.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_070.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_071.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_071.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_072.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_072.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_073.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_073.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_074.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_074.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_075.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_075.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_076.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_076.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_077.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_077.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_078.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_078.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_079.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_079.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_080.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_080.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_081.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_081.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_082.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_082.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_083.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_083.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_084.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_084.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_085.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_085.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_087.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_087.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_001.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_001.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_086.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_086.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_088.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_088.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_089.jpg"
+      ]
+    },
+    {
+      "items": [
+        "http://img.kb.dk/ha/manus/gks1911/gks1911_089.jpg"
+      ]
+    }
+  ]
+}
