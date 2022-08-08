@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE="../nested-corpus"
-TRANSFORM="mods2solr.xsl"
+TRANSFORM="mods2summary-solr.xsl"
 
 : ${USE_UUID:="$1"}
 
