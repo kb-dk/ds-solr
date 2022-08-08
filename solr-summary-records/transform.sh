@@ -2,7 +2,7 @@
 
 : ${INPUT:="$1"}
 : ${USE_ID:="$2"}
-: ${XSLT:="mods2solr.xsl"}
+: ${XSLT:="mods2summary-solr.xsl"}
 
 : ${SAXON_JAR:="/home/$USER/saxon/saxon9he.jar"}
 SAXON="java -jar "$SAXON_JAR" --suppressXsltNamespaceCheck:on  "
