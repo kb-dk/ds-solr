@@ -64,8 +64,6 @@
               <f:string key="id">
                 <xsl:value-of select="$record-id"/>
               </f:string>
-              
-              <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
 
               <f:array key="title">
                 <xsl:for-each select="distinct-values(m:titleInfo/m:title)">
@@ -143,19 +141,20 @@
                     <xsl:for-each select="h:a[@href]">
                       <xsl:sort select="@href" data-type="text" />
                       <xsl:if test="not(contains(@href,'editions'))">
-                        <xsl:variable name="cat"><xsl:value-of
-                        select="replace(@href,'^.*subject(\d+).*$','subject$1')"/></xsl:variable>
-                        <xsl:value-of select="$cat"/>
+                        <!-- xsl:variable name="cat"><xsl:value-of
+                        select="replace(@href,'^.*subject(\d+).*$','subject$1')"/></xsl:variable -->
+                        <!-- xsl:value-of select="$cat"/ -->
+                        <xsl:value-of select="."/>
                       </xsl:if>
                     </xsl:for-each>
                   </xsl:for-each>
                 </xsl:variable>
 
                 <xsl:for-each select="distinct-values($categories)" >
-                  <xsl:variable name="subject"
-                                select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'')"/>
+                  <!-- xsl:variable name="subject"
+                                select="concat(replace(.,'(.*/sub)([^/]+)','sub$2'),'')"/ -->
                   
-                  <f:string>
+                  <!-- f:string>
                     <xsl:for-each
                         select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='da'])">
                       <xsl:value-of select="."/> 
@@ -165,7 +164,9 @@
                     <xsl:for-each
                         select="distinct-values($dom//h:a[contains(@href,$subject) and @xml:lang='en'])">
                       <xsl:value-of select="."/> 
-                    </xsl:for-each>
+                    </xsl:for-each -->
+                  <f:string>
+                    <xsl:value-of select="."/>
                   </f:string>
 
                 </xsl:for-each>
@@ -250,7 +251,7 @@
                 <xsl:when test="m:relatedItem[m:typeOfResource/@collection='yes']/m:titleInfo/m:title">
 
                   <xsl:for-each select="m:relatedItem[m:typeOfResource/@collection='yes'][1]">
-                    <f:string key="collection_title"><xsl:value-of select="m:titleInfo/m:title"/></f:string>
+                    <f:string key="collection"><xsl:value-of select="m:titleInfo/m:title"/></f:string>
                     <f:string key="collection_content">
                       <xsl:value-of select="m:typeOfResource[@collection='yes']"/>
                     </f:string>
@@ -284,18 +285,18 @@
                 </f:array>
               </xsl:if>
               
-              <!--
-                  This is perhaps not obvious: Normally text is stored
-                  in the order it is to be read. However, from the point
-                  of view of people used to read western languages (LTR
-                  scripts) it might seem odd click on a left-arrow to
-                  get next page, but that is the way people reading
-                  Chinese, Arabic and Hebrew thinks (RTL scripts). And
-                  that is true for languages using those scripts, like
-                  Persian (using Arabic script) and Yiddish and Ladino
-                  using Hebrew script. Judeo-Arabic is a dialect of
-                  Arabic written using Hebrew script. We have all these
-                  in our collections.
+<!--
+This is perhaps not obvious: Normally text is stored
+in the order it is to be read. However, from the point
+of view of people used to read western languages (LTR
+scripts) it might seem odd click on a left-arrow to
+get next page, but that is the way people reading
+Chinese, Arabic and Hebrew thinks (RTL scripts). And
+that is true for languages using those scripts, like
+Persian (using Arabic script) and Yiddish and Ladino
+using Hebrew script. Judeo-Arabic is a dialect of
+Arabic written using Hebrew script. We have all these
+in our collections.
 
 We have all these in our digital
 collections. However, around 2005-2010 someone
@@ -304,7 +305,7 @@ learn to recognize RTL or LTR objects, so a lot of
 texts has been digitized in what was claimed to be
 the "logical" direction, namely LTR.  Instead of
 correcting the data we have done this in software.
-              -->
+-->
               
               <xsl:for-each select="m:physicalDescription/m:note[@type='pageOrientation'][1]">
                 <f:string key="read_direction"><xsl:value-of select="."/></f:string>
@@ -414,34 +415,6 @@ correcting the data we have done this in software.
     </xsl:if>
   </xsl:template>
 
-  <xsl:template name="get-names">
-    <xsl:param name="record_identifier"/>
-    <f:map>
-      <xsl:call-template name="disposable-subrecord">
-        <xsl:with-param name="record_identifier" select="$record_identifier"/>
-      </xsl:call-template>
-      <xsl:if test="@authorityURI">
-        <f:string key="authority"><xsl:value-of select="@authorityURI"/></f:string>
-      </xsl:if>
-      <f:boolean key="described">false</f:boolean>
-      <f:string key="describing"><xsl:value-of select="$record_identifier"/></f:string>
-      <xsl:if test="@xml:lang">
-        <f:string key="language"><xsl:value-of select="@xml:lang"/></f:string>
-      </xsl:if>
-      <f:string key="entity_type"><xsl:choose>
-        <xsl:when test="contains(m:role/m:roleTerm,'src')">scr</xsl:when>
-        <xsl:otherwise><xsl:value-of select="m:role/m:roleTerm"/></xsl:otherwise>
-      </xsl:choose></f:string>
-      <f:string key="agent_name">
-        <xsl:for-each select="m:namePart">
-          <xsl:choose>
-            <xsl:when test="@type = 'date'"> (<xsl:value-of select="."/>)</xsl:when>
-            <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
-          </xsl:choose>
-        </xsl:for-each>
-      </f:string>
-    </f:map>
-  </xsl:template>
 
   <xsl:template match="f:map">
     <xsl:param name="record_identifier"/>

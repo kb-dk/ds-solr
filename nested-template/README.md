@@ -20,12 +20,14 @@
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|id|string|true|true||true||
+|id|string|true|true|false|true||
+|url|string||||||
 |describing|string|true|true|||contains the id of the root document being described in a child document. See [root and \_nest\_parent\_ above](#internal-fields)|
 |described|boolean|true|true|||is a boolean which is true if the document is a root doc, false otherwise|
 |entity\_id|string|true|true|||is a string used as a kind of classification code|
 |entity\_type|string|true|true|||is the name of (or related to) the pseudo field containing the child document|
 |collection|string|true|true|||the name of the collection from which the material originated, such as _Dansk Vestindien_|
+|collection\_content|string|true|true|||Brief description of the content of a collection, such as _mixed material_|
 |local\_identifier|string|true|||false|contains a human usable id that can help a curator to identify which digital object is at hand and make it retrievable from a curatorial object store, like Cumulus|
 |record\_name|string|||||supposedly a synonym for local_identifier|
 |shelf\_mark|text\_da|true|true|||the location of an original physical object in the Library's stocks|
@@ -63,14 +65,15 @@
       
 | field  | type | stored | indexed | multiValued | required | description |
 |:-------|:--------|:-------|:------|:------|:--------|:--------|
-|title|text\_da|||||The name given to the resource by its creator, or occasionally by its cataloger|
-|title\_sort|sort\_da|||||ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
-|description|text\_da||||||
+|title|text\_da|||true||The name given to the resource by its creator, or occasionally by its cataloger|
+|title\_sort|sort\_da|||true||ideally the title in a form suitable for sorting, like lower case and with leading determinate and indeterminate particles removed (a, an, the, den, det, en, et, ett ...)|
+|description|text\_da|||true|||
 |situation|text\_da||||||
 |content|text\_da||||||
 |subject\_name\_en|text\_da||||||
 |subject\_name\_da|text\_da||||||
 |note|text\_da|||true|||
+|creator|text\_da|||true|||
 |author|text\_da|||true|||
 |author\_verbatim|string|||true|||
 |authority|string|true|true||||
@@ -185,7 +188,8 @@
 |technique|text\_da|true|true||||
 |medium|text\_da|true|true||||
 |medium\_verbatim|string|true|true||||
-|script|text\_da|||||The script used in a text.|
+|script|text\_da|||||The script used in a text.The script used in a text, detailed version.|
+|script\_detail|text\_da||||||
 |extent|string|true|true|||the number of pages of the object. Images scanned from photographs usually have two pages; and both are scanned but extent are only used for stuff with more than two pages 😉.|
 |size|string|true|true|||the size of the objects as in widht x height, octavo or quarto or whatever.|
 |pages|string|||true||In Cph we encode a list of URIs to the IIIF server.|
