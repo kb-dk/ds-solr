@@ -68,14 +68,8 @@
               <f:string key="describing"><xsl:value-of select="$record-id"/></f:string>
 
               <f:array key="title">
-                <xsl:for-each select="m:titleInfo[@xml:lang='da']">
-                  <f:string><xsl:value-of select="normalize-space(m:title)"/></f:string>
-                </xsl:for-each>
-                <xsl:for-each select="m:titleInfo[@xml:lang='en']">
-                  <f:string><xsl:value-of select="normalize-space(m:title)"/></f:string>
-                </xsl:for-each>
-                <xsl:for-each select="m:titleInfo[not(@xml:lang='en') or not(@xml:lang='da')]">
-                  <f:string><xsl:value-of select="normalize-space(m:title)"/></f:string>
+                <xsl:for-each select="distinct-values(m:titleInfo/m:title)">
+                  <f:string><xsl:value-of select="normalize-space(.)"/></f:string>
                 </xsl:for-each>
               </f:array>
 
