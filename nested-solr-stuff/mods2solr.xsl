@@ -274,7 +274,7 @@
               </f:array>
             </xsl:if>
             
-            <f:array key="categories">
+            <f:array key="category_struct">
 
               <xsl:variable name="categories" as="xs:string *">
                 <xsl:for-each select="m:extension/h:div">
