@@ -3,12 +3,12 @@
 pushd ${BASH_SOURCE%/*} > /dev/null
 cd ..
 
-curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @nested-solr-stuff/albert-einstein.json
-curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @nested-solr-stuff/simonsen-brandes.json
-curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @nested-solr-stuff/hvidovre-teater.json
-curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @nested-solr-stuff/tystrup-soroe.json
-curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @nested-solr-stuff/responsa.json
-curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @nested-solr-stuff/work_on_logic.json
-curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @nested-solr-stuff/homiliae-super-psalmos.json
+curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @solr-summary-records/albert-einstein.json
+curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @solr-summary-records/simonsen-brandes.json
+curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @solr-summary-records/hvidovre-teater.json
+curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @solr-summary-records/tystrup-soroe.json
+curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @solr-summary-records/responsa.json
+curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @solr-summary-records/work_on_logic.json
+curl "http://localhost:10007/solr/ds/update?commit=true" -H "Content-Type: application/json" --data-binary @solr-summary-records/homiliae-super-psalmos.json
 
 popd > /dev/null
