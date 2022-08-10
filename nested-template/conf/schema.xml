@@ -49,6 +49,8 @@ daterange does not handle docValues - we might need two versions of datetime
     <field name="collection"  type="string"  stored="true"  indexed="true" /> <?field-description collection the name of the collection from which the material originated, such as _Dansk Vestindien_ ?>
 
     <field name="collection_content"  type="string"  stored="true"  indexed="true" /> <?field-description collection_content Brief description of the content of a collection, such as _mixed material_ ?>
+
+    <field name="categories"  type="string"  stored="true" multiValued="true"  indexed="true" /> <?field-description categories the name of the categories from used in Cumulus ?>
     
     <field name="local_identifier" type="string" stored="true" required="false" /> <?field-description local_identifier contains a human usable id that can help a curator to identify which digital object is at hand and make it retrievable from a curatorial object store, like Cumulus ?>
 
