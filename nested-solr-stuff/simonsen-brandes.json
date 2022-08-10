@@ -68,7 +68,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2678!disposable!subrecord!d3e97",
         "describing": "letters!judsam!2011!mar!dsa!object2678",
@@ -217,7 +217,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2671!disposable!subrecord!d4e97",
         "describing": "letters!judsam!2011!mar!dsa!object2671",
@@ -366,7 +366,7 @@
         "agent_name": "Simonsen, David"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2681!disposable!subrecord!d5e97",
         "describing": "letters!judsam!2011!mar!dsa!object2681",
@@ -514,7 +514,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2674!disposable!subrecord!d6e97",
         "describing": "letters!judsam!2011!mar!dsa!object2674",
@@ -662,7 +662,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2680!disposable!subrecord!d7e97",
         "describing": "letters!judsam!2011!mar!dsa!object2680",
@@ -810,7 +810,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2676!disposable!subrecord!d8e97",
         "describing": "letters!judsam!2011!mar!dsa!object2676",
@@ -959,7 +959,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2670!disposable!subrecord!d9e97",
         "describing": "letters!judsam!2011!mar!dsa!object2670",
@@ -1108,7 +1108,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2679!disposable!subrecord!d10e97",
         "describing": "letters!judsam!2011!mar!dsa!object2679",
@@ -1256,7 +1256,7 @@
         "agent_name": "Brandes, Georg"
       }
     ],
-    "categories": [
+    "category_struct": [
       {
         "id": "letters!judsam!2011!mar!dsa!object2673!disposable!subrecord!d11e97",
         "describing": "letters!judsam!2011!mar!dsa!object2673",
