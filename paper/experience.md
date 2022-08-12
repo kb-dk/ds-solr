@@ -1,8 +1,13 @@
 # Nested data and the SOLR search engine
 
+> Are passions, then, the Pagans of the soul?
+> Reason alone baptized? alone ordain'd
+> To touch things sacred?
+> (Edward Young -- 1683-1765)
+
 ## Introduction
 
-The Royal Danish Library has been using the SOLR
+The Royal Danish Library has been using the Solr
 (https://solr.apache.org/) search engine for at least a decade. Almost
 all projects that need some search facilities are using it. A Swiss
 army knife for searching in small as well as well as big data sets. A
@@ -10,9 +15,9 @@ trusty tool that provide many advantages to the alternative to use a
 relational database management system (RDBMS) when working with
 resource discovery systems.
 
-At the first SOLR workshop I participated the teacher reiterated over
-and over again that SOLR is a search engine, not a data management
-tool. Although SOLR can Create, Retrieve, Update and Delete
+At the first Solr workshop I participated the teacher reiterated over
+and over again that Solr is a search engine, not a data management
+tool. Although Solr can Create, Retrieve, Update and Delete
 ([CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete))
 documents, the transactions cannot really be characterized as having
 Atomicity, Consistency, Isolation and Durability
@@ -74,13 +79,28 @@ origin of existentialism. In the former case you actually look for
 Kierkegaard in the author field, in the latter case you look for him
 in subject field.
 
+![Enten - eller cover page](http://kb-images.kb.dk/public/sks/ee1/ill_k1/full/full/0/native.jpg)
+
 ## Encoding and indexing
 
+Assume we are about to add metadata on _Enten - eller_ by _Søren
+Kierkegaard_ to a Solr index. What we get with that book might may
+contain the data below. The example is encoded in a format called [Metadata
+Object Description Schema](https://www.loc.gov/standards/mods/). Note
+that the namespace prefix `md` stands for the URI
+`http://www.loc.gov/mods/v3`
 
-
+The work has a `title` and `name`. The name has a `role` (`aut` as in
+author) and parts like family, given and date, which in turn has a
+birt date and death date. As a matter of fact, the name on the book cover wasn't Søren, but Victor Eremita (Victorious hermit), a telling 
 
 
 ```
+  <md:titleInfo>
+    <md:title>Enten - eller</md:title>
+	<md:subTitle>Et livsfragment</md:subTitle>
+  </md:titleInfo>
+
   <md:name displayLabel="Author"
            type="personal"
            authorityURI="https://viaf.org/viaf/7392250/"
