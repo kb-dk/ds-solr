@@ -34,7 +34,10 @@
         <md:titleInfo xmlns:m="http://www.loc.gov/mods/v3" xmlns:mix="http://www.loc.gov/mix/v10">
           <md:title>Letter from Einstein, Albert to Simonsen, David</md:title>
         </md:titleInfo>
-        <md:name displayLabel="Sender" type="personal" authorityURI="http://viaf.org/viaf/75121530"  xml:lang="en">
+        <md:name displayLabel="Sender"
+                 type="personal"
+                 authorityURI="http://viaf.org/viaf/75121530"
+                 xml:lang="en">
           <md:namePart>Einstein, Albert</md:namePart>
           <md:role>
             <md:roleTerm type="code">aut</md:roleTerm>

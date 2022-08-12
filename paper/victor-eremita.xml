@@ -14,6 +14,7 @@
   
   <md:titleInfo xmlns:m="http://www.loc.gov/mods/v3" xmlns:mix="http://www.loc.gov/mix/v10">
     <md:title>Enten - eller</md:title>
+    <md:subTitle>Et livsfragment</md:subTitle>
   </md:titleInfo>
 
   <md:name displayLabel="Author"
