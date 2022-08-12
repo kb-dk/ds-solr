@@ -4,7 +4,7 @@
 
 The Royal Danish Library has been using the SOLR
 (https://solr.apache.org/) search engine for at least a decade. Almost
-all projects that need some search facilities is using it. A Swiss
+all projects that need some search facilities are using it. A Swiss
 army knife for searching in small as well as well as big data sets. A
 trusty tool that provide many advantages to the alternative to use a
 relational database management system (RDBMS) when working with
@@ -24,12 +24,12 @@ In a library we encounter data with much more structure than simple
 packages of attributes and values, but also much less structure than what
 you expect from data in [database normal
 form](https://en.wikipedia.org/wiki/Database_normalization). Bibliographical
-data may for instance describe texts that
+data may *for instance* describe texts that
 
-* have one or more titles
-* have more than one author
-* each author may have dates of birth and death 
-* each of them may have an affiliation 
+* have one or more titles, each having different type (main title, sub-title, trascribed title, uniform title to iterate some of the possible ones)
+* may have one or more authors
+* each of which may have dates of birth and death 
+* and an affiliation 
 
 If we were using a RDBMS, the data on persons could be stored in one
 database table, the titles in another and there could be a third table
@@ -37,10 +37,14 @@ keeping track (through foreign keys) of each persons relations to the
 works to which they've contributed. Someone made the illustrations,
 someone else wrote the texts. A third one made the graphical design.
 
+For a portrait photograph we have one person being the photographer,
+and another being the subject. The data on the subject can be as
+important as the data on the artist.
+
 These data are important. For instance the dates are used for
 distinguishing between people with the same name. (The digital phone
 book krak.dk lists 43 now living persons named _Søren Kierkegaard_,
-while _the philosopher_ died 1855). Another use case is how to decide
+while _the philosopher_ died 1855). An import use case is how to decide
 whether a given object is free from copyright or not, such as when the
 originator has been dead for more than 75 years.
 
@@ -63,12 +67,36 @@ order or retrieve the object.
 
 If we grossly simplify the process, a user might be up to one of two
 things: (1) Finding a given reference or (2) Finding information on a
-topic. See these two as endpoints on a scale. You may look for a
+given topic. See these two as endpoints on a scale. You may look for a
 particular book Enten - Eller (Either/Or) by Kierkegaard or you might
 be interested in the role of this philosopher in your study of the
 origin of existentialism. In the former case you actually look for
 Kierkegaard in the author field, in the latter case you look for him
 in subject field.
 
-## How to cope
+## Encoding and indexing
 
+
+
+
+
+```
+  <md:name displayLabel="Author"
+           type="personal"
+           authorityURI="https://viaf.org/viaf/7392250/"
+           xml:lang="en">
+    <md:namePart type="family">Kierkegaard</md:namePart>
+    <md:namePart type="given">Søren</md:namePart>
+    <md:namePart type="date">1813/1855</md:namePart>
+    <md:alternativeName altType="pseudonym">
+      <md:namePart>Victor Eremita</md:namePart>
+      <md:description>“Victorious hermit,” general editor of
+      Either/Or, who also appears in the first part of its sequel,
+      Stages on Life’s Way. Also the author of the satirical article
+      “A Word of Thanks to Professor Heiberg.”</md:description>
+    </md:alternativeName>
+    <md:role>
+      <md:roleTerm type="code">aut</md:roleTerm>
+    </md:role>
+  </md:name>
+```
