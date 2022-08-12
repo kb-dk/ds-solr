@@ -31,8 +31,8 @@ you expect from data in [database normal
 form](https://en.wikipedia.org/wiki/Database_normalization). Bibliographical
 data may *for instance* describe texts that
 
-* have one or more titles, each having different type (main title, sub-title, trascribed title, uniform title to iterate some of the possible ones)
-* may have one or more authors
+* have one or more titles, each having different type (main title, subtitle, transcribed title, uniform title to iterate some of the frequently used ones)
+* may have one or more authors that may be persons or organizations
 * each of which may have dates of birth and death 
 * and an affiliation 
 
@@ -56,7 +56,7 @@ originator has been dead for more than 75 years.
 Add to this that there are many more complications, like we may have
 multiple copies of a given title and that each copy may belong to different
 collections with very different provenance. For historical objects we
-may even have a manuscript in the manuscript and rare books department
+may even have a manuscript in the manuscript and rare books collections
 and a modern pocket book in the open stocks.
 
 The role of the data are to enable library patrons and service users
@@ -71,29 +71,26 @@ it presents many fields that will enable users to decide whether to
 order or retrieve the object.
 
 If we grossly simplify the process, a user might be up to one of two
-things: (1) Finding a given reference or (2) Finding information on a
-given topic. See these two as endpoints on a scale. You may look for a
-particular book Enten - Eller (Either/Or) by Kierkegaard or you might
-be interested in the role of this philosopher in your study of the
-origin of existentialism. In the former case you actually look for
-Kierkegaard in the author field, in the latter case you look for him
-in subject field.
+things: (1) Finding or resolving a given reference, i.e., the right
+object, perhaps the right edition. Or (2) Finding information on a
+given topic. See these two as endpoints on a scale.
+
+You may look for a particular book Enten - Eller (Either/Or) by
+Kierkegaard (1843) or you might be interested in the role of this
+philosopher in your study of the origin of existentialism. In the
+former case you actually look for Kierkegaard in the author field, in
+the latter case you look for him in subject field.
 
 ![Enten - eller cover page](http://kb-images.kb.dk/public/sks/ee1/ill_k1/full/full/0/native.jpg)
 
-## Encoding and indexing
+## Encoding, indexing and using
 
 Assume we are about to add metadata on _Enten - eller_ by _Søren
-Kierkegaard_ to a Solr index. What we get with that book might may
-contain the data below. The example is encoded in a format called [Metadata
-Object Description Schema](https://www.loc.gov/standards/mods/). Note
-that the namespace prefix `md` stands for the URI
-`http://www.loc.gov/mods/v3`
-
-The work has a `title` and `name`. The name has a `role` (`aut` as in
-author) and parts like family, given and date, which in turn has a
-birt date and death date. As a matter of fact, the name on the book cover wasn't Søren, but Victor Eremita (Victorious hermit), a telling 
-
+Kierkegaard_ into a Solr index. What we get for that book might 
+contain the data below. The example is encoded in a format called
+[Metadata Object Description
+Schema](https://www.loc.gov/standards/mods/). Note that the namespace
+prefix `md` stands for the URI `http://www.loc.gov/mods/v3`
 
 ```
   <md:titleInfo>
@@ -119,4 +116,22 @@ birt date and death date. As a matter of fact, the name on the book cover wasn't
       <md:roleTerm type="code">aut</md:roleTerm>
     </md:role>
   </md:name>
+  
+  <md:originInfo>
+    <md:dateCreated>1843</md:dateCreated>
+    <md:publisher>Universitetsboghandler C. A. Reitzel</md:publisher>
+  </md:originInfo>
+  
 ```
+
+The work has a `title` and `name`. The name has a `role` (`aut` as in
+author) and parts like family (Kierkegaard), given (Søren) and a date
+(1813/1855 which is ISO's way to express a [date range](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/date/), i.e., the years
+between which the philosopher was alive. His _Fragment of Life_.)
+
+To get the birth and death dates you have to parse a string. As a
+matter of fact, the name on the book cover wasn't Søren Kierkegaard,
+but Victor Eremita (Victorious hermit), encoded as an
+alternativeName. A telling pseudonym of the author of The Seducer's
+Diary. [Søren was good at pseudonyms](https://www.reddit.com/r/philosophy/comments/1n2opm/a_whos_who_of_kierkegaards_formidable_army_of/).
+
