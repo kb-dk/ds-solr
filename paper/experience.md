@@ -1,7 +1,9 @@
 # Nested data and the SOLR search engine
 
 > Are passions, then, the Pagans of the soul?
+>
 > Reason alone baptized? alone ordain'd
+>
 > To touch things sacred?
 > (Edward Young -- 1683-1765)
 
