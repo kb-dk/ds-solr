@@ -95,7 +95,7 @@ prefix `md` stands for the URI `http://www.loc.gov/mods/v3`
 ```
   <md:titleInfo>
     <md:title>Enten - eller</md:title>
-	<md:subTitle>Et livsfragment</md:subTitle>
+    <md:subTitle>Et livsfragment</md:subTitle>
   </md:titleInfo>
 
   <md:name displayLabel="Author"
@@ -134,4 +134,15 @@ matter of fact, the name on the book cover wasn't Søren Kierkegaard,
 but Victor Eremita (Victorious hermit), encoded as an
 alternativeName. A telling pseudonym of the author of The Seducer's
 Diary. [Søren was good at pseudonyms](https://www.reddit.com/r/philosophy/comments/1n2opm/a_whos_who_of_kierkegaards_formidable_army_of/).
+
+Now we've identified a lot of possible fields to use, for cataloging
+and for information retrieval. They have perfectly reasonable use
+cases, and all of them are used in everyday library practice, so how
+do I get them into my Solr index?
+
+We have tried to put such records into Solr. The attempt was
+successful. In the rest of this paper I will outline how we did that,
+learn you a bit on how to use such an index and finally why decided
+not to implement it.
+
 
