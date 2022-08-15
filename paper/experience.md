@@ -124,10 +124,13 @@ prefix `md` stands for the URI `http://www.loc.gov/mods/v3`
   
 ```
 
-The work has a `title` and `name`. The name has a `role` (`aut` as in
+This is a fake record I created for the purpose of this paper.  The
+work has a `title` and `name`. The name has a `role` (`aut` as in
 author) and parts like family (Kierkegaard), given (Søren) and a date
-(1813/1855 which is ISO's way to express a [date range](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/date/), i.e., the years
-between which the philosopher was alive. His _Fragment of Life_.)
+(1813/1855 which is ISO's way to express a [date
+range](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/date/),
+i.e., the years between which the philosopher was alive. His _Fragment
+of Life_.)
 
 To get the birth and death dates you have to parse a string. As a
 matter of fact, the name on the book cover wasn't Søren Kierkegaard,
@@ -146,6 +149,60 @@ We have tried to put such records into Solr. The attempt was
 successful. In the rest of this paper I will outline how we did that,
 learn you a bit on how to use such an index and finally why decided
 not to implement it.
+
+In our experiments we transformed MODS records to nested Solr records,
+such as the record below.
+
+
+```
+[
+  {
+    "id": "https://example.org/record",
+    "described": true,
+    "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "https://example.org/record!summary",
+      "describing": "https://example.org/record",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Enten - eller"
+      ],
+      "creator": [
+        "Kierkegaard Søren 1813/1855"
+      ]
+    },
+    "cataloging_language": "en",
+    "record_created": "2022-08-12",
+    "tit": [
+      {
+        "describing": "https://example.org/record",
+        "described": false,
+        "entity_type": "title main",
+        "title": [
+          "Enten - eller"
+        ],
+        "id": "https://example.org/record!disposable!subrecord!d1e21"
+      }
+    ],
+    "aut": [
+      {
+        "id": "https://example.org/record!disposable!subrecord!d1e30",
+        "authority": "https://viaf.org/viaf/7392250/",
+        "described": false,
+        "describing": "https://example.org/record",
+        "language": "en",
+        "entity_type": "aut",
+        "agent_name": "KierkegaardSøren (1813/1855)"
+      }
+    ],
+    "visible_date": [
+      "1843"
+    ],
+  }
+]
+
+```
 
 If you are familiar with the workings of Solr, you know that the
 datamodel (if I may label it as such) used is configured in a file
