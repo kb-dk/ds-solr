@@ -138,12 +138,21 @@ but Victor Eremita (Victorious hermit), encoded as an
 alternativeName. A telling pseudonym of the author of The Seducer's
 Diary. [Søren was good at pseudonyms](https://www.reddit.com/r/philosophy/comments/1n2opm/a_whos_who_of_kierkegaards_formidable_army_of/).
 
+The `<md:role> ... </md:role>` permits the cataloger to encode that a
+person called _Søren_ has the `aut` relation to the work. Library of
+Congress have listed [houndreds of such
+relators](https://www.loc.gov/marc/relators/relacode.html). Actually,
+each of those could be seen as a field. The thing is that even in a
+large bibliographic database there would be very few records where
+_Data manager_ (`dtm`), _Former owner_ (`fmo`) and
+_Librettist_ (`lbt`) would contain any data.
+
 Now we've identified a lot of possible fields to use, for cataloging
 and for information retrieval. They have perfectly reasonable use
 cases, and all of them are used in everyday library practice, so how
 do I get them into my Solr index?
 
-# The attempt
+## The attempt
 
 We have tried to put such records into Solr. The attempt was
 successful. In the rest of this paper I will outline how we did that,
@@ -151,7 +160,7 @@ learn you a bit on how to use such an index and finally why decided
 not to implement it.
 
 In our experiments we transformed MODS records to nested Solr records,
-such as the record below.
+such as the record below, which is transformed from my fake record above.
 
 
 ```
@@ -160,18 +169,6 @@ such as the record below.
     "id": "https://example.org/record",
     "described": true,
     "entity_type": "the_object",
-    "solr_summary_record": {
-      "id": "https://example.org/record!summary",
-      "describing": "https://example.org/record",
-      "described": false,
-      "entity_type": "solr_summary_record",
-      "title": [
-        "Enten - eller"
-      ],
-      "creator": [
-        "Kierkegaard Søren 1813/1855"
-      ]
-    },
     "cataloging_language": "en",
     "record_created": "2022-08-12",
     "tit": [
@@ -193,7 +190,7 @@ such as the record below.
         "describing": "https://example.org/record",
         "language": "en",
         "entity_type": "aut",
-        "agent_name": "KierkegaardSøren (1813/1855)"
+        "agent_name": "Kierkegaard Søren (1813/1855)"
       }
     ],
     "visible_date": [
@@ -223,6 +220,96 @@ the former of which is of the following type:
 
 See the [Indexing Nested Child Documents](https://solr.apache.org/guide/8_1/indexing-nested-documents.html).
 
+The nested indexing works since the indexer stores an xpath like
+entity for each record, making it possible track which Solr document
+which is parent and which document which is child which is the
+parent. That info is in the `_nest_path_` field and Solr does that
+automatically whenever it starts a new document inside a parent one.
+
+You will get that information back from the server if you add a Solr
+field list argument (fl) at search time
+
+```
+fl=*,[child]
+```
+That is straight forward. The problem is then to make Solr search in
+the child documents and return the parent or root document.
+
+```
+{!parent which="described:true"}{!edismax v="agent_name:(Kierkegaard Søren) AND entity_type:aut"}
+AND
+{!parent which="described:true"}{!edismax v="title:(Enten - eller) AND entity_type:tit"}
+```
+
+The constructs `{!parent ... }` and `{!edismax ... }` are socalled
+local paraters in a Solr request. The former specifies that we want
+Solr to return parent documents such the described:true, the latter
+tells Solr we want the author to be Søren and title to be Enten -
+eller. Now we can reasonably easy search and retrieve information on
+the _Etcher_ (`etr`) and _Dancer_ (`dnc`), when applicable.
 
 
+## The user problems
 
+
+I hope I've been able to convince you that the fairly complicated
+metadata structures used in libraries are useful for patrons and
+staff. They were not invented for giving software developers gray hair
+and age prematurely. Also, it is legitimate use case to be able to
+identify the etchers and dancers.
+
+However:
+
+* We do, however, know that users at of our resources are not very
+  good at using fields. An interface allowing you to search
+  portraiture subjects is very specialized use case. So is the use
+  case to be able to search for senders and recipients of letters.
+  
+* People do search for word in a title, but they do not search for _A
+  life fragment_ separate from _Either/or_. Likewise they not
+  particulary interested in making a difference between _Enten -
+  eller_ and _Either/or_. If they search for the latter they
+  presumably want an English translation, but when studying a detailed
+  presentation they are almost certainly interested to know that
+  Either/or is actually a translation.
+  
+You know, each performance of _Весна священная_ (AKA The Rite of
+Spring) has a conductor, director and choregrapher and a lot of
+dancers, obviously in addition to _Стравинский, Игорь Фёдорович_ (AKA
+Igor Stravinsky, the composer). I could go on here. You could add from your own
+experience.
+
+To make a useful service we have to aggregate data into reasonable
+headlines. _[Dublin Core Metadata
+Initiative](https://www.dublincore.org/)_ has actually a name for
+this: The [Dumb-Down
+Principle](https://www.dublincore.org/resources/glossary/dumb-down_principle/)
+
+## The developer problems
+
+From the developers point of view, metadata dumb-down can take place,
+either (i) when indexing or (ii) when searching. In either case, we 
+would dumb-down _Composer_ (`cmp`), Conductor (`cnd`), Director
+(`drt`) and Choregrapher (`chr`) to one single repeatable field,
+[creator](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/). It
+would contain Igor Stravinsky (the transcribed, but perhaps his name
+in Cyrillic), and obviously all other creatives. All the dancers would most likely go
+to the 
+[contributor](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/)
+field.
+
+Doing dumb-down at indexing would mean to create fields `creator` and
+`contributor` in the index, to do it when searching would imply to do
+it using the horrendous search syntax presented above. Then you have
+to do the same for title and other relevant fields.
+
+Doing it when indexing makes creates an index where we cannot tell the
+difference between _Igor Stravinsky_ (`cmp`) and the _Conductor_
+(`cnd`). Both are creators. The dumbed-down index has lost most of the 
+information you need to decide whether you want to listen to an album
+or see a performance.
+
+1. At indexing: Your search syntax is nice and clean. You have to use
+  some other method to present the data in the detailed view.
+2. At search: Your search syntax is very complicated. On the other
+  hand, you have all the data needed for the detailed view.
