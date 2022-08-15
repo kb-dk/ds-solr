@@ -1,4 +1,4 @@
-# Nested data and the SOLR search engine
+# Dumb-down at Indexing or Nested Data in the Solr Search Engine
 
 > Are passions, then, the Pagans of the soul? <br>
 > Reason alone baptized? alone ordain'd <br>
