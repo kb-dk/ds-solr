@@ -140,9 +140,32 @@ and for information retrieval. They have perfectly reasonable use
 cases, and all of them are used in everyday library practice, so how
 do I get them into my Solr index?
 
+# The attempt
+
 We have tried to put such records into Solr. The attempt was
 successful. In the rest of this paper I will outline how we did that,
 learn you a bit on how to use such an index and finally why decided
 not to implement it.
+
+If you are familiar with the workings of Solr, you know that the
+datamodel (if I may label it as such) used is configured in a file
+call `schema.xml`. It basically contains list of fields that can be
+used in what is referred to as `Solr documents`. In such a schema you
+may add 
+
+```
+    <field     name="_nest_path_" type="_nest_path_" stored="true" indexed="true" />
+    <field     name="_nest_parent_" type="string" indexed="true" stored="true" />
+```
+
+the former of which is of the following type:
+
+```
+    <fieldType name="_nest_path_" class="solr.NestPathField" />
+```
+
+See the [Indexing Nested Child Documents](https://solr.apache.org/guide/8_1/indexing-nested-documents.html).
+
+
 
 
