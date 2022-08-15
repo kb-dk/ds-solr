@@ -242,7 +242,7 @@ AND
 ```
 
 The constructs `{!parent ... }` and `{!edismax ... }` are socalled
-local paraters in a Solr request. The former specifies that we want
+local parameters in a Solr request. The former specifies that we want
 Solr to return parent documents such the described:true, the latter
 tells Solr we want the author to be Søren and title to be Enten -
 eller. Now we can reasonably easy search and retrieve information on
@@ -288,13 +288,15 @@ Principle](https://www.dublincore.org/resources/glossary/dumb-down_principle/)
 ## The developer problems
 
 From the developers point of view, metadata dumb-down can take place,
-either (i) when indexing or (ii) when searching. In either case, we 
-would dumb-down _Composer_ (`cmp`), Conductor (`cnd`), Director
-(`drt`) and Choregrapher (`chr`) to one single repeatable field,
+either (i) when indexing or (ii) when searching.
+
+In either case, for a ballet performace we would dumb-down _Composer_ (`cmp`), Conductor
+(`cnd`), Director (`drt`) and Choregrapher (`chr`) to one single
+repeatable field
 [creator](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/). It
-would contain Igor Stravinsky (the transcribed, but perhaps his name
-in Cyrillic), and obviously all other creatives. All the dancers would most likely go
-to the 
+would contain Igor Stravinsky (the transcribed, but perhaps also his name
+in Cyrillic), and obviously all other creatives. Most of the dancers would
+most likely go to the
 [contributor](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/)
 field.
 
@@ -313,3 +315,37 @@ or see a performance.
   some other method to present the data in the detailed view.
 2. At search: Your search syntax is very complicated. On the other
   hand, you have all the data needed for the detailed view.
+3. At a practical level, the nested Solr seems more or less
+   experimental, and the documentation is less than excellent. Only
+   the [lucene
+   queryparser](https://solr.apache.org/guide/6_6/the-standard-query-parser.html)
+   supports it, and when searching with (for example) edismax query
+   parser you run into the syntactic problem with local parameters
+   demonstrated above.
+
+If we are to describe the situation in Model-View-Controller (MVC)
+terms, the second (i.e., the at search implementation) looks nice. One
+model, one controller but (perhaps) two views. When doing it at
+indexing, we need two models and an architecture diagram might look
+much more messy. Semantic exercise to make the dumb-down scheme might
+seem complicated. The code, however, is much simplified.
+
+The fact that each substructure in the nested Solr document
+must follow the same schema is an annoying feature. It isn't
+important, but persons, subjects and whatever all have the same
+content model (in the sense of an XML DTD or Schema), makes the setup
+much less attractive.
+
+Finally, it is my experience that it easier to accomodate multiple
+metadata models and standards in the same index with dumb-down at
+indexing.
+
+The only advantage I can see with at search time dumb-down is that we
+would have only a single model in our search application.
+
+## Conclusion
+
+In the end, after some weeks work, we threw out our nested indexing
+stuff and most likely we a threw out the baby with the bathwater. Be
+that as it may, we opted easy format interoperability and for ease of
+development.
