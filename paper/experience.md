@@ -202,7 +202,7 @@ such as the record below, which is transformed from my fake record above.
 ```
 
 If you are familiar with the workings of Solr, you know that the
-datamodel (if I may label it as such) used is configured in a file
+data-model (if I may label it as such) used is configured in a file
 call `schema.xml`. It basically contains list of fields that can be
 used in what is referred to as `Solr documents`. In such a schema you
 may add 
@@ -241,7 +241,7 @@ AND
 {!parent which="described:true"}{!edismax v="title:(Enten - eller) AND entity_type:tit"}
 ```
 
-The constructs `{!parent ... }` and `{!edismax ... }` are socalled
+The constructs `{!parent ... }` and `{!edismax ... }` are so called
 local parameters in a Solr request. The former specifies that we want
 Solr to return parent documents such the described:true, the latter
 tells Solr we want the author to be Søren and title to be Enten -
@@ -273,14 +273,14 @@ However:
   
 * People do search for word in a title, but they do not search for _A
   life fragment_ separate from _Either/or_. Likewise they not
-  particulary interested in making a difference between _Enten -
+  particularly interested in making a difference between _Enten -
   eller_ and _Either/or_. If they search for the latter they
   presumably want an English translation, but when studying a detailed
   presentation they are almost certainly interested to know that
   Either/or is actually a translation.
   
 You know, each performance of _Весна священная_ (AKA The Rite of
-Spring) has a conductor, director and choregrapher and a lot of
+Spring) has a conductor, director and choreographer and a lot of
 dancers, obviously in addition to _Стравинский, Игорь Фёдорович_ (AKA
 Igor Stravinsky, the composer). I could go on here. You could add from your own
 experience.
@@ -296,8 +296,8 @@ Principle](https://www.dublincore.org/resources/glossary/dumb-down_principle/)
 From the developers point of view, metadata dumb-down can take place,
 either (i) when indexing or (ii) when searching.
 
-In either case, for a ballet performace we would dumb-down _Composer_ (`cmp`), Conductor
-(`cnd`), Director (`drt`) and Choregrapher (`chr`) to one single
+In either case, for a ballet performance we would dumb-down _Composer_ (`cmp`), Conductor
+(`cnd`), Director (`drt`) and Choreographer (`chr`) to one single
 repeatable field
 [creator](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/). It
 would contain Igor Stravinsky (the transcribed, but perhaps also his name
@@ -372,7 +372,7 @@ important, but persons, subjects and whatever all have the same
 content model (in the sense of an XML DTD or Schema), makes the setup
 much less attractive.
 
-Finally, it is my experience that it easier to accomodate multiple
+Finally, it is my experience that it easier to accommodate multiple
 metadata models and standards in the same index with dumb-down at
 indexing. In our case we opted for transforming our MODS records to
 [schema.org](https://schema.org) for the detailed presentation. That
@@ -387,5 +387,5 @@ would have only a single model in our search application.
 
 In the end, after some weeks work, we threw out our nested indexing
 stuff and most likely we a threw out some baby we were not aware of
-with the bathwater. Be that as it may, we opted easy format for
+with the bathwater. Be that as it may, we opted for an easy format for
 search, while retaining interoperability for other uses.
