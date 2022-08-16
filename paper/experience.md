@@ -218,7 +218,9 @@ the former of which is of the following type:
     <fieldType name="_nest_path_" class="solr.NestPathField" />
 ```
 
-See the [Indexing Nested Child Documents](https://solr.apache.org/guide/8_1/indexing-nested-documents.html).
+See the Solr [Indexing Nested Child
+Documents](https://solr.apache.org/guide/8_1/indexing-nested-documents.html)
+documentation.
 
 The nested indexing works since the indexer stores an xpath like
 entity for each record, making it possible track which Solr document
