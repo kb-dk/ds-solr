@@ -311,7 +311,37 @@ Doing dumb-down at indexing would mean to create fields `creator` and
 it using the horrendous search syntax presented above. Then you have
 to do the same for title and other relevant fields.
 
-Doing it when indexing makes creates an index where we cannot tell the
+In the case of Either/or, Enten - eller the dumb-down solr record
+would look somewhat as the record below:
+
+```
+[
+  {
+    "id": "https:!!example.org!record",
+    "title": [
+      "Enten - eller"
+    ],
+    "creator": [
+      "Kierkegaard, Søren 1813/1855"
+    ],
+    "record_created": "2022-08-12",
+    "visible_date": [
+      "1843"
+    ],
+    "original_object_identifier": [],
+    "pages": []
+  }
+]
+```
+
+Hence when indexing we only create one record, and no joins are
+needed. A query could be
+
+```
+creator:kierkegaard AND title:(enten eller)
+```
+
+The drawback being that the in the index we cannot tell the
 difference between _Igor Stravinsky_ (`cmp`) and the _Conductor_
 (`cnd`). Both are creators. The dumbed-down index has lost most of the 
 information you need to decide whether you want to listen to an album
@@ -344,7 +374,11 @@ much less attractive.
 
 Finally, it is my experience that it easier to accomodate multiple
 metadata models and standards in the same index with dumb-down at
-indexing.
+indexing. In our case we opted for transforming our MODS records to
+[schema.org](https://schema.org) for the detailed presentation. That
+ontology is rich enough for our landing pages and detailed result sets
+and it provides an extra bonus, we hope, in that Google would actually
+be able to index our collection.
 
 The only advantage I can see with at search time dumb-down is that we
 would have only a single model in our search application.
@@ -352,6 +386,6 @@ would have only a single model in our search application.
 ## Conclusion
 
 In the end, after some weeks work, we threw out our nested indexing
-stuff and most likely we a threw out the baby with the bathwater. Be
-that as it may, we opted easy format interoperability and for ease of
-development.
+stuff and most likely we a threw out some baby we were not aware of
+with the bathwater. Be that as it may, we opted easy format for
+search, while retaining interoperability for other uses.
