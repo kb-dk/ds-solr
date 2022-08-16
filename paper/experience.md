@@ -31,16 +31,17 @@ you expect from data in [database normal
 form](https://en.wikipedia.org/wiki/Database_normalization). Bibliographical
 data may *for instance* describe texts that
 
-* have one or more titles, each having different type (main title, subtitle, transcribed title, uniform title to iterate some of the frequently used ones)
+* have one or more titles, each having different type (main title, subtitle, translated title, transcribed title, uniform title to iterate some of the frequently used ones)
 * may have one or more authors that may be persons or organizations
 * each of which may have dates of birth and death 
 * and an affiliation 
 
 If we were using a RDBMS, the data on persons could be stored in one
 database table, the titles in another and there could be a third table
-keeping track (through foreign keys) of each persons relations to the
-works to which they've contributed. Someone made the illustrations,
-someone else wrote the texts. A third one made the graphical design.
+keeping track (through joins and foreign keys) of each person's
+relations to the works to which they've contributed. Someone made the
+illustrations, someone else wrote the texts. A third one made the
+graphical design.
 
 For a portrait photograph we have one person being the photographer,
 and another being the subject. The data on the subject can be as
@@ -378,10 +379,11 @@ much less attractive.
 Finally, it is my experience that it easier to accommodate multiple
 metadata models and standards in the same index with dumb-down at
 indexing. In our case we opted for transforming our MODS records to
-[schema.org](https://schema.org) for the detailed presentation. That
-ontology is rich enough for our landing pages and detailed result sets
-and it provides an extra bonus, we hope, in that Google would actually
-be able to index our collection.
+[schema.org](https://schema.org) for the detailed presentation. Hence,
+retrieval will be from a separate datastore. The schema.org ontology
+is rich enough for our landing pages and detailed result sets. It
+provides an extra bonus, we hope, in that Google would actually be
+able to index our collection.
 
 The only advantage I can see with at search time dumb-down is that we
 would have only a single model in our search application.
