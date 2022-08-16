@@ -59,10 +59,11 @@ collections with very different provenance. For historical objects we
 may even have a manuscript in the manuscript and rare books collections
 and a modern pocket book in the open stocks.
 
-The role of the data are to enable library patrons and service users
-to search and retrieve. Typically users type a single word in the
-search form, while ignoring the handful of fields that we provide
-through the effort of catalogers, software developers etc.
+The role of the primary purpose of these data are to enable library
+patrons and service users to search and retrieve. Typically users type
+a single word in the search form, while ignoring the handful of fields
+that we provide through the effort of catalogers, software developers
+etc.
 
 The user gets a far too long list of results which contains author,
 title and perhaps some subjects or keywords. Again typically, the user
@@ -391,3 +392,10 @@ In the end, after some weeks work, we threw out our nested indexing
 stuff and most likely we a threw out some baby we were not aware of
 with the bathwater. Be that as it may, we opted for an easy format for
 search, while retaining interoperability for other uses.
+
+Library patrons have more needs than resource discovery. Some use APIs
+for study, research or for services of their own. The search index,
+schema.org, the original mods will eventually be available for such
+purposes. It could be that a nested index could actually be useful for
+such users.
+
