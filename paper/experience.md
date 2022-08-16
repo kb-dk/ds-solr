@@ -5,9 +5,7 @@ _Royal Danish Library_<br>
 _Copenhagen_<br>
 _Denmark_<br>
 
-https://twitter.com/sigfridlundberg<br>
-https://github.com/siglun<br>
-https://sigfrid-lundberg.se
+[twitter](https://twitter.com/sigfridlundberg) -- [github](https://github.com/siglun) -- [web site](https://sigfrid-lundberg.se)
 
 > Are passions, then, the Pagans of the soul? <br>
 > Reason alone baptized? alone ordain'd <br>
