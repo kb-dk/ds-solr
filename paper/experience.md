@@ -248,9 +248,15 @@ tells Solr we want the author to be Søren and title to be Enten -
 eller. Now we can reasonably easy search and retrieve information on
 the _Etcher_ (`etr`) and _Dancer_ (`dnc`), when applicable.
 
+This is a special case of `join` as implemented in Solr. Recall that
+joins are at very very core of `SQL`, and one of the features making
+the RDBMS such a powerful tool.
+
+Also recall that I mentioned that my first Solr instructor dissuaded
+us from using search engines as data stores. Does that generalize to
+other features coming from the database world?
 
 ## The user problems
-
 
 I hope I've been able to convince you that the fairly complicated
 metadata structures used in libraries are useful for patrons and
