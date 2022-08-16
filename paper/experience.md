@@ -1,5 +1,14 @@
 # Dumb-down at Indexing or Nested Data in the Solr Search Engine
 
+_Sigfrid Lundberg, Ph. D., Software Developer_<br>
+_Royal Danish Library_<br>
+_Copenhagen_<br>
+_Denmark_<br>
+
+https://twitter.com/sigfridlundberg<br>
+https://github.com/siglun<br>
+https://sigfrid-lundberg.se
+
 > Are passions, then, the Pagans of the soul? <br>
 > Reason alone baptized? alone ordain'd <br>
 > To touch things sacred? <br>
