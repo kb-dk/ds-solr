@@ -1,0 +1,208 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DataFeed",
+  "dataFeedElement": [
+    {
+      "@context": [
+        "http://schema.org/",
+        {
+          "kb": "http://kb.dk/vocabs/",
+          "relator": "https://id.loc.gov/vocabulary/relators/"
+        }
+      ],
+      "@type": "Message",
+      "id": "letters/judsam/2011/mar/dsa/object5654",
+      "url": "http://www5.kb.dk/letters/judsam/2011/mar/dsa/object5654/en/",
+      "kb:admin_data": {
+        "kb:last_modified_by": [
+          {
+            "@type": "Person",
+            "name": {
+              "@language": "en",
+              "@value": "cumulus:oam"
+            }
+          }
+        ],
+        "kb:record_created": "2011-05-09",
+        "kb:record_revised": "2011-05-26",
+        "kb:cataloging_language": "en"
+      },
+      "headline": [
+        {
+          "@value": "Letter from Dansk Medicinsk-Historisk Selskab to Simonsen, David",
+          "@language": "en"
+        }
+      ],
+      "author": [
+        {
+          "@type": "Organization",
+          "sameAs": "http://viaf.org/viaf/136661698",
+          "name": {
+            "@language": "en",
+            "@value": "Dansk Medicinsk-Historisk Selskab"
+          },
+          "location": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "recipient": [
+        {
+          "@type": "Person",
+          "name": {
+            "@language": "en",
+            "@value": "Simonsen, David"
+          },
+          "homeLocation": [
+            "dk",
+            "København"
+          ]
+        }
+      ],
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject3808",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "D"
+            },
+            {
+              "@language": "en",
+              "@value": "D"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject3832",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Da"
+            },
+            {
+              "@language": "en",
+              "@value": "Da"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject3955",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Dansk Medicinsk-Historisk Selskab"
+            },
+            {
+              "@language": "en",
+              "@value": "Dansk Medicinsk-Historisk Selskab"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject3956",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "0003"
+            },
+            {
+              "@language": "en",
+              "@value": "0003"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject4",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "David Simonsen Archives"
+            },
+            {
+              "@language": "en",
+              "@value": "David Simonsen Archives"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject5",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Letters to/from David Simonsen"
+            },
+            {
+              "@language": "en",
+              "@value": "Letters to/from David Simonsen"
+            }
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "id": "letters/judsam/2011/mar/dsa/subject6",
+          "name": [
+            {
+              "@language": "da",
+              "@value": "Correspondents"
+            },
+            {
+              "@language": "en",
+              "@value": "Correspondents"
+            }
+          ]
+        }
+      ],
+      "publication": {
+        "@type": "PublicationEvent",
+        "endDate": "1923-09-05",
+        "startDate": "1923-09-05",
+        "description": [
+          "1923-09-05"
+        ]
+      },
+      "materialExtent": {
+        "@type": "QuantitativeValue",
+        "unitText": "pages",
+        "@value": "2 pp."
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "additionalType": "local_identifier",
+          "@value": "dsa_daa-deb_0278.tif"
+        },
+        {
+          "@type": "PropertyValue",
+          "additionalType": "domsGuid",
+          "@value": "Uid:dk:kb:doms:2007-01/6e97b8a0-861f-11e0-8f27-0016357f605f"
+        }
+      ],
+      "inLanguage": [
+        "da"
+      ],
+      "kb:read_direction": "LTR",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0278/info.json"
+          ]
+        },
+        {
+          "@type": "MediaObject",
+          "url": [
+            "https://kb-images.kb.dk/online_master_arkiv_6/non-archival/Letters/judsam/2010/jan/dsa/daa-deb/dsa_daa-deb_0279/info.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

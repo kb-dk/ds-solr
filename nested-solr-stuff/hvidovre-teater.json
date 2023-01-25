@@ -1,0 +1,144 @@
+[
+  {
+    "id": "images!billed!2010!okt!billeder!object356751",
+    "described": true,
+    "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "images!billed!2010!okt!billeder!object356751!summary",
+      "describing": "images!billed!2010!okt!billeder!object356751",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Hvidovre Teater",
+        "Hvidovre Teater"
+      ],
+      "creator": [
+        "Seidel, Claus 1946-05-24"
+      ],
+      "subject_person": [
+        "Lind, Lane 1945-",
+        "Sandø, Waage 1943-"
+      ],
+      "subject": [],
+      "description": [
+        "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
+        "Sprittusch og raster",
+        "Klassiker",
+        "Tegning"
+      ]
+    },
+    "cataloging_language": "da",
+    "last_modified_by": [
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e74",
+        "described": false,
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "language": "da",
+        "entity_type": "last-modified-by",
+        "agent_name": "cumulus:blo"
+      }
+    ],
+    "tit": [
+      {
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "described": false,
+        "language": "da",
+        "entity_type": "title main",
+        "title": [
+          "Hvidovre Teater"
+        ],
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e51"
+      }
+    ],
+    "art": [
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e57",
+        "authority": "http://viaf.org/viaf/25276097",
+        "described": false,
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "language": "da",
+        "entity_type": "art",
+        "agent_name": "Seidel, Claus (1946-05-24)"
+      }
+    ],
+    "note": [
+      "Sprittusch og raster",
+      "Klassiker"
+    ],
+    "specific_notes": {
+      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e92",
+      "describing": "images!billed!2010!okt!billeder!object356751",
+      "described": false,
+      "situation": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind."
+    },
+    "subject": [
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e180",
+        "authority": "http://viaf.org/viaf/312847028",
+        "described": false,
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "entity_type": "act",
+        "agent_name": "Lind, Lane (1945-)"
+      },
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d1e198",
+        "authority": "http://viaf.org/viaf/316745351",
+        "described": false,
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "entity_type": "act",
+        "agent_name": "Sandø, Waage (1943-)"
+      }
+    ],
+    "category_struct": [
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e128",
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "described": false,
+        "entity_id": "images!billed!2010!okt!billeder!subject2108",
+        "subject_name_da": "Billeder",
+        "subject_name_en": "Billeder"
+      },
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e139",
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "described": false,
+        "entity_id": "images!billed!2010!okt!billeder!subject2135",
+        "subject_name_da": "Særudgivelser",
+        "subject_name_en": "Særudgivelser"
+      },
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e150",
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "described": false,
+        "entity_id": "images!billed!2010!okt!billeder!subject4277",
+        "subject_name_da": "Seidel, Claus",
+        "subject_name_en": "Seidel, Claus"
+      },
+      {
+        "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e161",
+        "describing": "images!billed!2010!okt!billeder!object356751",
+        "described": false,
+        "entity_id": "images!billed!2010!okt!billeder!subject6229",
+        "subject_name_da": "Bladtegninger",
+        "subject_name_en": "Bladtegninger"
+      }
+    ],
+    "not_after_date": "1987-01-31",
+    "not_before_date": "1987-01-31",
+    "visible_date": [
+      "1987-01-31"
+    ],
+    "physical_description": {
+      "id": "images!billed!2010!okt!billeder!object356751!disposable!subrecord!d3e179",
+      "describing": "images!billed!2010!okt!billeder!object356751",
+      "described": false,
+      "technique": "Tegning"
+    },
+    "shelf_mark": "Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5.",
+    "local_identifier": "db_claus_seidel_00459.tif",
+    "doms_guid": "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f",
+    "pages": [
+      "http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json"
+    ]
+  }
+]

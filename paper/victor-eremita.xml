@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<md:mods xmlns:md="http://www.loc.gov/mods/v3"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <md:identifier type="uri">http://www.kb.dk/letters/judsam/2011/mar/dsa/object7871/da/</md:identifier>
+
+  <md:recordInfo>
+    <md:languageOfCataloging>
+      <md:languageTerm authority="rfc4646">en</md:languageTerm>
+    </md:languageOfCataloging>
+    <md:recordIdentifier>https://example.org/record</md:recordIdentifier>
+    <md:recordCreationDate encoding="w3cdtf">2022-08-12</md:recordCreationDate>
+  </md:recordInfo>
+  
+  <md:titleInfo xmlns:m="http://www.loc.gov/mods/v3" xmlns:mix="http://www.loc.gov/mix/v10">
+    <md:title>Enten - eller</md:title>
+    <md:subTitle>Et livsfragment</md:subTitle>
+  </md:titleInfo>
+
+  <md:name displayLabel="Author"
+           type="personal"
+           authorityURI="https://viaf.org/viaf/7392250/"
+           xml:lang="en">
+    <md:namePart type="family">Kierkegaard</md:namePart>
+    <md:namePart type="given">Søren</md:namePart>
+    <md:namePart type="date">1813/1855</md:namePart>
+    <md:alternativeName altType="pseudonym">
+      <md:namePart>Victor Eremita</md:namePart>
+      <md:description>“Victorious hermit,” general editor of
+      Either/Or, who also appears in the first part of its sequel,
+      Stages on Life’s Way. Also the author of the satirical article
+      “A Word of Thanks to Professor Heiberg.”</md:description>
+    </md:alternativeName>
+    <md:role>
+      <md:roleTerm type="code">aut</md:roleTerm>
+    </md:role>
+  </md:name>
+
+  <md:originInfo>
+    <md:dateCreated>1843</md:dateCreated>
+    <md:publisher>Universitetsboghandler C. A. Reitzel</md:publisher>
+  </md:originInfo>
+  
+</md:mods>

@@ -1,0 +1,73 @@
+{
+    "@context": "https://schema.org",
+    "@type": "DataFeed",
+    "dataFeedElement": [
+	{
+	    "@context": "https://schema.org",
+	    "@type": "Drawing",
+	    "id": "images!billed!2010!okt!billeder!object356751",
+	    "url": "http://www5.kb.dk/images/billed/2010/okt/billeder/object356751/da/",
+	    "inLanguage": "da",
+	    "name":"Hvidovre Teater@da",
+	    "headline":"Hvidovre Teater@da",
+	    "image":{
+		"headline": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
+		"@type":"ImageObject",
+		"url":"https://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/full/!300,/0/native.jpg",
+		"width":300,
+		"height":300
+	    },
+	    "creator": [
+		{
+		    "@type":"Person",
+		    "sameAs": "http://viaf.org/viaf/25276097",
+		    "birthDate":"1946-05-24",
+		    "name": "Seidel, Claus"
+		}
+	    ],
+	    "description": [
+		"Sprittusch og raster",
+		"Klassiker"
+	    ],
+	    "about": {
+		"@type": "TheaterEvent",
+		"name": "Waage Sandø som Christian 2. gør kur til Dyveke, spillet af Lane Lind.",
+		"description":"Revykomedie af Abell, Kjeld (1901-1961) dramatiker",
+		"location": "Hvidovre Teater, Hvidovre",
+		"startDate":"1987",
+		"endDate":"1987",
+		"actor": [
+		    {
+			"@type": "Person",
+			"sameAs": "http://viaf.org/viaf/312847028",
+			"birthDate":"1945",
+			"name": "Lind, Lane"
+		    },
+		    {
+			"@type": "Person",
+			"sameAs": "http://viaf.org/viaf/316745351",
+			"birthDate":"1943",
+			"name": "Sandø, Waage"
+		    }
+		]
+	    },
+	    "keywords": [
+		"Billeder",
+		"Særudgivelser",
+		"Seidel, Claus",
+		"Bladtegninger"
+	    ],
+	    "datePublished": "1987-01-31",
+	    "identifier": ["Museet for Dansk Bladtegning. Seidel, Claus. Mellem Æske, 5.",
+			   "db_claus_seidel_00459.tif",
+			   "Uid:dk:kb:doms:2007-01/98f37a10-f09a-11e3-a557-0016357f605f"]
+	    "encoding" :  [
+		{
+		    "@type": "MediaObject",
+		    "contentUrl":"http://kb-images.kb.dk/DAMJP2/online_master_arkiv_3/non-archival/Images/BLADTE/claus_seidel/db_claus_seidel_00459/info.json"
+		}
+	    ]
+
+	}
+    ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "https://example.org/record",
+    "described": true,
+    "entity_type": "the_object",
+    "solr_summary_record": {
+      "id": "https://example.org/record!summary",
+      "describing": "https://example.org/record",
+      "described": false,
+      "entity_type": "solr_summary_record",
+      "title": [
+        "Enten - eller"
+      ],
+      "creator": [
+        "Kierkegaard Søren 1813/1855"
+      ]
+    },
+    "cataloging_language": "en",
+    "record_created": "2022-08-12",
+    "tit": [
+      {
+        "describing": "https://example.org/record",
+        "described": false,
+        "entity_type": "title main",
+        "title": [
+          "Enten - eller"
+        ],
+        "id": "https://example.org/record!disposable!subrecord!d1e21"
+      }
+    ],
+    "aut": [
+      {
+        "id": "https://example.org/record!disposable!subrecord!d1e30",
+        "authority": "https://viaf.org/viaf/7392250/",
+        "described": false,
+        "describing": "https://example.org/record",
+        "language": "en",
+        "entity_type": "aut",
+        "agent_name": "KierkegaardSøren (1813/1855)"
+      }
+    ],
+    "visible_date": [
+      "1843"
+    ],
+    "pages": []
+  }
+]

@@ -1,0 +1,533 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Search by example</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  </head>
+  <body>
+    <div>
+
+      <h1>Search by example</h1>
+      
+      <div style="width:30%; float:left;">
+        <h3>Form</h3>
+        
+        <!-- form id="search_form" target="_null_"  action="http://devel11.statsbiblioteket.dk:10007/solr/ds/select" -->
+	<form id="search_form" target="_null_"  action="http://localhost:10007/solr/ds-structured/select">
+          <dl>
+            <dt>Query (q)</dt><dd  style="margin-bottom:+0.5em;"><textarea id="solr_q" name="q"  cols="30" rows="10">agent_name:albert</textarea></dd>
+            <dt>Filter Query (fq)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <textarea id="solr_fq" name="fq"  cols="30" rows="2">
+
+              </textarea>
+            </dd>
+
+	    <dt>Default boolean (q.op)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <select id="boolean" name="q.op">
+                <option value="AND">AND</option>
+                <option value="OR">OR</option>
+              </select>
+            </dd>
+	    
+            <dt>Field list (comma separated, fl)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <textarea id="solr_fl" name="fl"  cols="30" rows="2">*</textarea>
+            </dd>
+            <dt>Format (wt)</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <select id="format" name="wt">
+                <option value="json">json</option>
+                <option value="xml">xml</option>
+              </select>
+            </dd>
+
+            <dt>Query type</dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <select id="querytype" name="defType">
+                <option value="edismax">edismax</option>
+                <option value="dismax">dismax</option>
+                <option selected="selected" value="lucene">lucene</option>
+              </select>
+            </dd>
+
+	    <dt>Sort by</dt>
+            <dd style="margin-bottom:+0.5em;">
+              <textarea id="sort_by" name="sort"  cols="30" rows="5">
+score desc                
+              </textarea>
+            </dd>
+
+            <dt>Retrieve number</dt>
+            <dd style="margin-bottom:+0.5em;">
+              <input id="num_hits" size="10" name="rows" value="300"/>
+            </dd>
+            <dt></dt>
+            <dd  style="margin-bottom:+0.5em;">
+              <input type="submit" value="search" />
+              <a href="#form"
+                 onclick="var content = document.getElementById('albert').innerHTML;
+                          document.getElementById('solr_q').value = content;
+                          console.log(content);
+                          document.getElementById('solr_fq').value = '';
+                          document.getElementById('solr_fl').value = '*';
+                          document.getElementById('querytype').value= 'lucene';
+                          document.getElementById('num_hits').value = '300';">
+                <strong>Reset form!</strong>
+              </a>
+
+            </dd>
+          </dl>
+        </form>
+      </div>
+      <div style="width:60%; float:left;">
+        <h3>Information sources on nested searching</h3>
+
+        <p>Documentation on these kinds of indexing and searching:</p>
+
+        <ul>
+          <li>Please refer to SOLR's documentation of <a
+          href="https://solr.apache.org/guide/8_10/other-parsers.html">Other
+          Parsers</a> for an overview.</li>
+          
+          <li>There is a special document on <a href="https://solr.apache.org/guide/8_10/searching-nested-documents.html#searching-nested-documents">Searching
+          Nested Child Documents</a> for information on what is going on
+          in these searches.</li>
+
+          <li>That document has a sister on indexing
+          which is a good read <a
+          href="https://solr.apache.org/guide/8_10/indexing-nested-documents.html">Indexing
+          Nested Child Documents</a>.</li>
+
+          <li>See also <a
+          href="https://solr.apache.org/guide/8_10/local-parameters-in-queries.html">Local
+          Parameters in Queries</a> for an overview of these '{!'
+          ... '}' syntaxes.</li>
+
+          <li>It turns out that  <a href="https://solr.apache.org/guide/7_5/solr-upgrade-notes.html#solr-7-2">since SOLR 7.2 are nested documents</a> problematic to combine with popular important featurs of SOLR.</li>
+          
+        </ul>
+
+        <h3>Simple searches</h3>
+        
+        <p>Here we search for solr documents, regardless of whether
+        they are corresponding to a Digital Library Object (DLO) or a
+        descriptor of such an object.</p>
+        
+        <p><strong>1.</strong>
+        Find Albert Einstein, i.e., find the descriptor of a letter authored by Albert.
+        <kbd id="albert">agent_name:albert</kbd>
+
+        <a href="#form"
+           onclick="var content = document.getElementById('albert').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">
+          <strong>(1 hit)</strong>
+        </a>
+        </p>
+        <p><strong>2.</strong>
+        Find descriptors of homiliae-super-psalmos
+        <kbd id="object71279">describing:manus-vmanus-2011-dec-ha-object71279</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('object71279').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">(11 hits)</a>
+
+        You can also, obviously, find the DLO homiliae-super-psalmos
+        <kbd id="object71279_itself">id:manus-vmanus-2011-dec-ha-object71279</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('object71279_itself').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">(1 hits)</a>
+        Here we add a fieldlist '*,[child]' in order to be able to retrieve the whole object.
+        </p>
+        <p><strong>3. </strong>
+        Select nodes that are descriptors (describing other nodes) <kbd id="descriptive_nodes">described:false</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('descriptive_nodes').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">(208 hits)</a>
+        </p>
+
+        <p><strong>4.</strong>
+        Select nodes that are DLOs (i.e., described by other nodes) <kbd
+        id="described_nodes">described:true</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('described_nodes').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+          (15 hits)
+        </a>
+        </p>
+        <p><strong>5.</strong>
+        Both first and last name of a name descriptor
+        <kbd id="waage_sandoe_name">agent_name:(Waage Sandø)</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('waage_sandoe_name').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">
+          (1 hits)
+        </a>
+        </p>
+
+        <p>
+          <strong>6.</strong>
+          <kbd id="waage_sandoe_note">note:"Waage Sandø"</kbd> in
+          a note (which belongs to a DLO, i.e., a described
+          node). This search include a field list, *,[child], such
+          that all child nodes (descriptors) appear as well.
+          <a href="#form"
+             onclick="var content =
+                      document.getElementById('waage_sandoe_note').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';"> (1 hits)
+          </a>
+          The [child] is called a <a
+          href="https://solr.apache.org/guide/8_10/searching-nested-documents.html#child-doc-transformer">Child
+          Doc Transformer</a>.
+        </p>
+
+        <p>
+          <strong>7.</strong>
+
+          Search for instance of Georg Brandes where he is in the
+          recieving end of a correspondence <kbd
+          id="recieved_by_brandes">agent_name:(georg brandes) AND entity_type:rcp</kbd>
+
+          <a href="#form"
+             onclick="var content = document.getElementById('recieved_by_brandes').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*';
+                      document.getElementById('num_hits').value = '300';">
+            (8 hits)
+          </a>
+          
+        </p>
+
+        <p><strong>8.</strong>
+
+        Search for instance of Georg Brandes where he is the author of a message 
+        <kbd id="authored_by_brandes">agent_name:(georg brandes) AND entity_type:aut</kbd>
+        <a href="#form"
+           onclick="var content = document.getElementById('authored_by_brandes').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*';
+                    document.getElementById('num_hits').value = '300';">
+          (1 hits)
+        </a>
+
+        </p>
+
+        <p>
+          <strong>9.</strong>
+          The should ideally only be one manuscript having
+          <kbd id="shelfmark">shelf_mark_verbatim:"Cod. Sim. Heb. 35"</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('shelfmark').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (1 hits)
+          </a>
+          That assertion turned out to be correct, at least in this
+          corpus (there are only one three manuscripts).
+        </p>
+
+
+	<p>
+          <strong>10.</strong>
+          Here we are searching for nodes that contain subject
+          descriptors, being for instance persons.
+          <kbd id="nest_path">_nest_path_:"/subject"</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('nest_path').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (2 hits)
+          </a>.
+
+	  The two actors depicted in the corpus both of which happen
+          to be named actors in the same
+          drawing. See <a href="https://solr.apache.org/guide/8_10/indexing-nested-documents.html#schema-configuration">Schema
+          Configuration</a> on how to enable and use _nest_path_.
+        </p>
+	
+        <p><strong>11.</strong>
+        In the corpus we have an aerial photograph of a building situated at 55.35,11.53. A search for 
+        <kbd id="location_coordinates">location_coordinates:[54.0,9.0 TO 59.0,12.0]</kbd>
+
+        <a href="#form"
+           onclick="var content = document.getElementById('location_coordinates').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (1 hits)
+          </a>.
+        
+        </p>
+
+        <p><strong>12.</strong> In the test corpus we have a lot of
+        more or less well dated objects. Like a manuscript completed
+        sometime between 1542 and 1544 (which is a detailed dating for
+        a 16th century manuscript). Assume we want to find mss from
+        the first half of the 16th century, i.e., 1500 - 1550:
+        
+        <kbd id="date_searches">not_before_date:[1500 TO *] AND not_after_date:[* TO 1550]</kbd>
+
+        <a href="#form"
+           onclick="var content = document.getElementById('date_searches').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (1 hits)
+          </a>.
+        
+        </p>
+
+	
+        <h3>Searches with joins</h3>
+
+        <p>Here we search using joins in order to return a DLO given a
+        hit in a descriptor solr document.</p>
+
+        <p>The snags are:</p>
+        <ul>
+          <li>default query type must be <strong>lucene</strong></li>
+          <li>we want <strong>eDismax</strong> for ranking, boost, and a lot of other stuff</li>
+        </ul>
+
+
+          <h4>Join Query Parser</h4>
+
+          <p><strong>1.</strong> Here we try to apply the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
+          <kbd id="joined_recieved_by_brandes">{!join from=describing to=id}{!edismax v="agent_name:(georg brandes) AND entity_type:rcp"}</kbd>
+          <a href="#form"
+             onclick="var content = document.getElementById('joined_recieved_by_brandes').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('querytype').value = 'lucene';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+            (8 hits) 
+          </a> <strong style="color:green;">Success!</strong>
+          </p>
+
+          <p><strong>2.</strong> Here we try a variation of this method, but still applying the <a href="https://solr.apache.org/guide/8_10/other-parsers.html#join-query-parser">Join Query Parser</a>.
+          We use the original <kbd id="recieved_by_brandes_edismax">{!edismax v="agent_name:(georg brandes) AND entity_type:rcp"}</kbd> query, but add
+          a filter query <kbd>{!join from=describing to=id}</kbd>
+
+          
+          <a href="#form"
+             onclick="var content = document.getElementById('recieved_by_brandes_edismax').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('solr_fq').value = '{!join from=describing to=id}described:false';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('querytype').value = 'lucene';
+                      document.getElementById('num_hits').value = '300';">
+            (0 hits)
+          </a>  <strong style="color:red;">Failure!</strong>
+          </p>
+
+          <h4>Block Join Parent Query Parser</h4>
+          
+          <p>
+            <strong>1.</strong> This was the way I had planned to search. Using
+            the <a
+            href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
+            Join Parent Query Parser</a> to find how many letters there are to or from Georg <kbd id="brandes_parent_query">{!parent which="described:true"}{!edismax v="agent_name:(georg brandes)"}</kbd>
+
+            <a href="#form"
+             onclick="var content = document.getElementById('brandes_parent_query').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('querytype').value = 'lucene';
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+              (9 hits) <strong style="color:green;">Success!</strong>
+            </a>
+          
+          </p>
+
+            <p>
+            <strong>2.</strong> What letters are there from Georg to David
+            (I.e., using a
+             <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
+             Join Parent Query Parser</a>) but this time we want brandes to be sender and simonsen recipient
+             <kbd id="brandes_parent_and_simonsen_query">{!parent which="described:true"}{!edismax v="agent_name:georg AND entity_type:aut"} AND {!parent which="described:true"}{!edisimax v="agent_name:(david simonsen) AND entity_type:rcp"}</kbd>
+            <a href="#form"
+             onclick="var content = document.getElementById('brandes_parent_and_simonsen_query').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('querytype').value = 'lucene';
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+              (1 hits) <strong style="color:green;">Success!</strong>
+            </a>
+          
+          </p>
+
+          <p>
+            <strong>3.</strong> Basically the same thing but Georg and David change roles (letters from David to Georg)
+            (I.e., using a
+             <a href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-parent-query-parser">Block
+             Join Parent Query Parser</a>) but this time we want brandes to be recipient and simonsen sender
+             <kbd id="brandes_parent_and_simonsen_query_opposite">{!parent which="described:true"}{!edismax v="agent_name:georg AND entity_type:rcp"} AND {!parent which="described:true"}{!edismax v="agent_name:(david simonsen) AND entity_type:aut"}</kbd>
+            <a href="#form"
+             onclick="var content = document.getElementById('brandes_parent_and_simonsen_query_opposite').innerHTML;
+                      document.getElementById('solr_q').value = content;
+                      console.log(content);
+                      document.getElementById('querytype').value = 'lucene';
+                      document.getElementById('solr_fq').value = '';
+                      document.getElementById('solr_fl').value = '*,[child]';
+                      document.getElementById('num_hits').value = '300';">
+              (8 hits) <strong style="color:green;">Success!</strong>
+            </a>
+          
+          </p>
+
+          <p><strong>4.</strong> In the test corpus we have a lot of
+          more or less well dated objects. Like a early 16th century
+          manuscript). Assume we want to find a 12th (i.e, 1100-1199)
+          century manuscript
+        
+        <kbd id="medieval_date_searches">not_before_date:[1100 TO *] AND not_after_date:[* TO 1199] AND {!parent which="described:true"}{!edismax v="agent_name:(Basilius Magnus) AND entity_type:aut"}</kbd>
+
+        <a href="#form"
+           onclick="var content = document.getElementById('medieval_date_searches').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('querytype').value = 'lucene';
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (1 hits) <strong style="color:green;">Success!</strong>
+          </a>.
+        
+        </p>
+
+
+	<p>
+	  <strong>5.</strong> Phrase boosted fields, pf. This is a
+	  special feature of eDismax. The title field seems to be
+	  reasonable for that.
+        <kbd id="phrase_boosted_search">{!parent which="described:true"}{!edismax pf=title,agent_name v="title:from albert  to david"}</kbd>
+
+        <a href="#form"
+           onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('boolean').value = 'OR';
+                    document.getElementById('querytype').value = 'lucene';
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (1 hits) <strong style="color:red;">Failure!</strong>
+          </a>. (A long dirty exception).
+
+          Not sure the sorting is reasonable.
+          
+        </p>
+
+	<p>
+	  <strong>6.</strong>Sort test. We repeat the  phrase boosted fields fields above.
+          Now we try to sort by something else
+        <kbd id="phrase_boosted_search_childfunction">{!parent which="described:true"  v="+described:false +{!func}title_sort" } desc</kbd>
+
+        <a href="#form"
+           onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
+                    var sort_function = document.getElementById('phrase_boosted_search_childfunction').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('querytype').value = 'lucene';
+                    document.getElementById('boolean').value = 'OR';
+                    document.getElementById('sort_by').value = sort_function;
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+            (12 but sort no effect on result set whatsoever) <strong style="color:red;">Failure!</strong>
+            </a>.
+        </p>
+
+        <p><strong>7.</strong> childfield() function seems OK!!!! No, it's broken here
+        <a href="#form"
+           onclick="var content = document.getElementById('phrase_boosted_search').innerHTML;
+                    var sort_function = document.getElementById('childfield_search_childfunction').innerHTML;
+                    document.getElementById('solr_q').value = content;
+                    console.log(content);
+                    document.getElementById('querytype').value = 'lucene';
+                    document.getElementById('boolean').value = 'OR';
+                    document.getElementById('sort_by').value = sort_function;
+                    document.getElementById('solr_fq').value = '';
+                    document.getElementById('solr_fl').value = '*,[child]';
+                    document.getElementById('num_hits').value = '300';">
+ 	<kbd>sort=<span id="childfield_search_childfunction">childfield(title_sort) asc</span></kbd> Might actually work  <strong style="color:red;">Failure</strong>.
+            </a>. Changing asc to desc yields another order.
+            
+
+            <a href="https://blog.griddynamics.com/how-to-sort-parent-documents-by-child-attributes-in-solr/">This is a solution by Andrey Kudryavstev</a> 
+
+	
+        </p>
+        
+
+        
+        <h4>Block Join Children Query Parser</h4>
+
+        <p>Here I could have discussed the <a
+        href="https://solr.apache.org/guide/8_10/other-parsers.html#block-join-children-query-parser">Block
+        Join Children Query Parser</a>, but I don't do that.</p>
+          
+
+
+
+
+    <div>
+      <h2>Conclusion</h2>
+      <p>It doesn't work as I had hoped. Turns out that there is a
+      simple reason for that <a
+      href="https://solr.apache.org/guide/7_5/solr-upgrade-notes.html#solr-7-2">local
+      parameters are not permitted under the eDisMax parser</a>. A better part of
+      this text is about work-arounds for that.</p>
+    </div>
+  </div>
+        </div>
+  </body>
+</html>
