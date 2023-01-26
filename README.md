@@ -1,3 +1,6 @@
+# DS-solr has been deprecated
+All relevant code is now in DS-Present.
+
 # Digitale Samlinger Solr
 Solr configuration files and setup instructions for the Digitale Samlinger project
 
